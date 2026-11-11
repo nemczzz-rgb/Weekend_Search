@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Weekend Search — проверка интеграций</title>
+  <link rel="stylesheet" href="/probe.css">
+  <script src="/probe.js" defer></script>
+</head>
+<body>
+  <main>
+    <p class="eyebrow">Weekend Search / TASK-003</p>
+    <h1>Проверим дорогу<br>до разработки.</h1>
+    <p class="intro">Диагностическая страница бесплатного ключа Яндекс Карт. Это проверка интеграции, а не готовое приложение.</p>
+    <section aria-labelledby="setup-heading">
+      <h2 id="setup-heading">Настройка проверки</h2>
+      <form id="probe-form">
+        <label for="device">Устройство</label>
+        <select id="device" name="device"><option value="computer">Компьютер</option><option value="phone">Физический телефон</option></select>
+        <label for="maps-key">Ключ JavaScript API Яндекс Карт 2.1</label>
+        <input id="maps-key" name="maps-key" type="password" autocomplete="off" spellcheck="false" required placeholder="Введите ключ только здесь">
+        <p class="hint">Ключ передаётся SDK Яндекса в браузере. Страница не отправляет его локальному серверу и не сохраняет. Для смены ключа перезагрузите страницу.</p>
+        <label class="check"><input id="free-tariff" type="checkbox" required>Я проверил, что использую бесплатный тариф без автосписаний</label>
+        <label class="check"><input id="physical-phone" type="checkbox">Эта проверка действительно выполняется на физическом телефоне</label>
+        <button id="run" type="submit">Проверить карту и проезд <span aria-hidden="true">→</span></button>
+      </form>
+    </section>
+    <section aria-labelledby="result-heading">
+      <div class="section-title"><h2 id="result-heading">Результат</h2><span class="badge">Живая проверка</span></div>
+      <p id="status" role="status" aria-live="polite">Проверка ещё не запускалась. Без ключа успешный результат не выставляется.</p>
+      <ul id="checks" aria-label="Пункты проверки">
+        <li>Карта: <strong id="map-state">не проверена</strong></li>
+        <li>Пешеходный маршрут: <strong id="walk-state">не проверен</strong></li>
+        <li>Общественный транспорт: <strong id="transit-state">не проверен</strong></li>
+      </ul>
+      <div id="map" aria-label="Карта реальных проверочных маршрутов"></div>
+      <label class="check"><input id="confirm-map" type="checkbox" disabled>Я вижу загруженную картографическую подложку с названиями улиц и реальными маршрутами</label>
+      <button id="record" type="button" class="secondary" disabled>Зафиксировать результат этого устройства</button>
+      <button id="download" type="button" class="secondary" disabled>Скачать безопасный отчёт</button>
+      <p class="hint">В отчёте только статусы проверок. Ключ, геометрия и ответы провайдера в него не входят. Эмуляция телефона не подтверждает проверку физического устройства.</p>
+      <pre id="receipt" tabindex="0" aria-label="Отчёт проверки">Отчёт пока не сформирован.</pre>
+    </section>
+    <footer>Для полного прохождения TASK-003 также нужны живые данные KudaGo и изолированный поиск Codex. <a href="https://yandex.ru/dev/commercial/doc/ru/" target="_blank" rel="noreferrer">Условия бесплатного использования карт</a></footer>
+  </main>
+</body>
+</html>

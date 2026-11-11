@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Проверка карты OpenStreetMap — Weekend Search</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <style>
+    :root { font-family: system-ui, sans-serif; color: #1d2b22; background: #f4efe6; }
+    body { margin: 0; padding: 16px; }
+    main { max-width: 900px; margin: auto; }
+    h1 { font-size: clamp(1.35rem, 4vw, 2rem); margin: 0 0 8px; }
+    p { line-height: 1.5; }
+    #map { height: min(65vh, 600px); min-height: 300px; border-radius: 16px; border: 1px solid #c7bca8; overflow: hidden; }
+    #status { padding: 8px 0; font-weight: 650; }
+    .controls { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0; }
+    button { border: 1px solid #173b30; border-radius: 20px; padding: 10px 16px; background: #fffaf0; color: #173b30; font: inherit; cursor: pointer; }
+    button[aria-pressed="true"] { background: #173b30; color: white; }
+    #journey { min-height: 24px; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Проверка карты Москвы</h1>
+  <p>Диагностическая страница TASK-003. Пробные пути от района Театральной до Парка Горького рассчитывает локальный OpenTripPlanner по OSM и выгрузке наземного транспорта. Это пока не приложение.</p>
+  <div id="status" role="status">Загружаю карту…</div>
+  <div class="controls" aria-label="Режим пробного маршрута">
+    <button id="walk" type="button" aria-pressed="false">Пешком</button>
+    <button id="transit" type="button" aria-pressed="false">Автобус + пешком</button>
+  </div>
+  <p id="journey" role="status">Маршрутизатор пока не проверен в этом браузере.</p>
+  <div id="map" aria-label="Интерактивная карта центра Москвы"></div>
+  <p>Проверка не означает завершения TASK-003: данные наземного транспорта неполны, метро отсутствует. Тайлы загружаются из OpenStreetMap только для видимой области.</p>
+</main>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script>
+  const status = document.getElementById('status');
+  const journey = document.getElementById('journey');
+  let routeData;
+  let routeLayer;
+  let map;
+  function decodePolyline(encoded) {
+    let index = 0, lat = 0, lon = 0;
+    const points = [];
+    while (index < encoded.length) {
+      const coords = [];
+      for (let axis = 0; axis < 2; axis += 1) {
+        let shift = 0, result = 0, byte;
+        do {
+          byte = encoded.charCodeAt(index++) - 63;
+          result |= (byte & 0x1f) << shift;
+          shift += 5;
+        } while (byte >= 0x20);
+        coords.push(result & 1 ? ~(result >> 1) : result >> 1);
+      }
+      lat += coords[0]; lon += coords[1];
+      points.push([lat / 1e5, lon / 1e5]);
+    }
+    return points;
+  }
+  function showRoute(mode) {
+    if (!routeData || !map) return;
+    if (routeLayer) routeLayer.remove();
+    routeLayer = L.featureGroup();
+    const result = routeData.routes[mode === 'walk' ? 0 : 1].itineraries[0];
+    if (!result || !result.geometry_present) {
+      journey.textContent = 'В этом режиме путь не найден.';
+      return;
+    }
+    for (const leg of result.legs) {
+      const color = leg.mode === 'WALK' ? '#aa7048' : '#163e72';
+      L.polyline(decodePolyline(leg.points), {color, weight: leg.mode === 'WALK' ? 5 : 7,
+        dashArray: leg.mode === 'WALK' ? null : '10 9', opacity: 0.92}).addTo(routeLayer);
+    }
+    routeLayer.addTo(map);
+    map.fitBounds(routeLayer.getBounds().pad(0.16));
+    for (const id of ['walk', 'transit']) document.getElementById(id).setAttribute('aria-pressed', String(id === mode));
+    const minutes = Math.round((Date.parse(result.end) - Date.parse(result.start)) / 60000);
+    journey.textContent = `${mode === 'walk' ? 'Пешком' : 'Наземный транспорт'}: ${result.distance_m / 1000} км, около ${minutes} мин. ${result.routes.length ? 'Маршрут ' + result.routes.join(', ') + '. ' : ''}Коричневый — пешком. Синий пунктир соединяет остановки условно, точной траектории автобуса в источнике нет.`;
+  }
+  for (const id of ['walk', 'transit']) document.getElementById(id).addEventListener('click', () => showRoute(id));
+  if (!window.L) {
+    status.textContent = 'Библиотека карты не загрузилась.';
+  } else {
+    map = L.map('map').setView([55.7522, 37.6156], 12);
+    const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'
+    });
+    let loaded = 0;
+    let failed = 0;
+    tiles.on('tileload', () => { loaded += 1; status.textContent = `Загружено тайлов: ${loaded}; ошибок: ${failed}. Проверьте карту визуально.`; });
+    tiles.on('tileerror', () => { failed += 1; status.textContent = `Загружено тайлов: ${loaded}; ошибок: ${failed}.`; });
+    tiles.addTo(map);
+    fetch('/api/osm-routes').then(async response => {
+      if (!response.ok) throw new Error('local router unavailable');
+      routeData = await response.json();
+      showRoute('walk');
+    }).catch(() => { journey.textContent = 'Локальный маршрутизатор не запущен. Подложку карты можно проверить отдельно.'; });
+  }
+</script>
+</body>
+</html>

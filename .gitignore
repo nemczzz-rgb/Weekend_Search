@@ -1,0 +1,47 @@
+# Секреты и локальная конфигурация
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+
+# Зависимости и виртуальные окружения
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Сборка и результаты проверок
+dist/
+*.tsbuildinfo
+build/
+.next/
+.nuxt/
+.cache/
+.turbo/
+coverage/
+playwright-report/
+test-results/
+
+# Локальные файлы инструментов и ОС
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+*.tmp
+
+# Локальные данные; отслеживаемые примеры хранить отдельно
+tmp/
+.local/
+
+# Приватные данные и ключи
+*.pfx
+*.p12
+*.sqlite
+*.sqlite3
+*.db
+passphrase.txt
