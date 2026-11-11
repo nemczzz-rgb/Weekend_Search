@@ -40,4 +40,5 @@
 | TASK-028 | Публикация вращающегося фона для друга | Готово | codex/publish-scroll | .local/sites-weekend-share/, docs/project/public-sharing.md, memory/ | Обновить существующий публичный сайт |
 
 
-| TASK-029 | Резервная копия проекта на GitHub | В работе | codex/github-backup | исходники, .gitignore, memory/ | Приватный репозиторий пользователя |
+| TASK-029 | Резервная копия проекта на GitHub | Готово | codex/github-backup | исходники, .gitignore, memory/ | Приватный репозиторий пользователя |
+
