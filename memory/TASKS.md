@@ -36,7 +36,8 @@
 | TASK-028 | Публикация вращающегося фона для друга | Готово | codex/publish-scroll | .local/sites-weekend-share/, docs/project/public-sharing.md, memory/ | Обновить существующий публичный сайт |
 | TASK-029 | Резервная копия проекта на GitHub | Готово | codex/github-backup | исходники, .gitignore, memory/ | Публичный репозиторий nemczzz-rgb/Weekend_Search, ветка main |
 | TASK-030 | Порядок в репозитории и CI | Готово | Alex071004/claude-repo | окончания строк во всех файлах, .github/, tests/, assets/references/, README.md, AGENTS.md, memory/, docs/project/public-sharing.md | PR #1 смержен 12.11.2026. Защиту main включает владелица репозитория |
-| TASK-031 | Автопубликация сайта из main на GitHub Pages | На проверке | Alex071004/claude-repo | .github/workflows/ci.yml, apps/web/vite.config.ts, docs/decisions/, docs/project/public-sharing.md, AGENTS.md, CONTEXT.md, memory/ | [ADR-004](../docs/decisions/ADR-004-github-pages-autodeploy.md). Нужно включить Pages (Source: GitHub Actions) у владелицы |
+| TASK-031 | Автопубликация сайта из main на GitHub Pages | Готово | Alex071004/claude-repo | .github/workflows/ci.yml, apps/web/vite.config.ts, docs/decisions/, docs/project/public-sharing.md, AGENTS.md, CONTEXT.md, memory/ | [ADR-004](../docs/decisions/ADR-004-github-pages-autodeploy.md). Pages включён 12.11.2026, deploy зелёный, сайт отвечает 200 |
+| TASK-032 | Инструкция подключения агента к репозиторию | На проверке | Alex071004/claude-repo | docs/project/codex-onboarding.md, docs/project/README.md, AGENTS.md, memory/ | [Инструкция](../docs/project/codex-onboarding.md) для Codex владелицы: синхронизация локальной папки, ветки, PR, публикация |
 
 Контрольная точка TASK-003 остаётся обязательной для живых интеграций и приёмки. TASK-014 — новое ограниченное поручение пользователя от 2026-11-08 на локальный интерфейс до её прохождения; оно не закрывает TASK-003 и не меняет статус TASK-004–013.
 
