@@ -31,14 +31,11 @@
 | TASK-023 | Векторная решётка и стеклянные карточки | Готово | codex/frontend | apps/web/, memory/, .local/ | Геометрический фон, стекло, кнопки |
 | TASK-024 | Расширить решётку и усилить поворот | Готово | codex/frontend | apps/web/, memory/, .local/ | Правое кадрирование, высокие ярусы и объём балок |
 | TASK-025 | Карточки посещения и единый дизайн | Готово | codex/frontend | apps/web/, memory/, .local/ | Внешние ссылки на карту, расписание, стоимость, локальное демо |
+| TASK-026 | Обновить публичное демо | Готово | codex/publish | .local/sites-weekend-share/, docs/project/public-sharing.md, memory/ | Публикация последнего дизайна |
+| TASK-027 | Фон башни из HTML-референса с поворотом от прокрутки | Готово | codex/scroll-design | apps/web/src/, tests/web/, memory/ | Перенос геометрии референса, проверка обоих направлений; локально |
+| TASK-028 | Публикация вращающегося фона для друга | Готово | codex/publish-scroll | .local/sites-weekend-share/, docs/project/public-sharing.md, memory/ | Обновить существующий публичный сайт |
+| TASK-029 | Резервная копия проекта на GitHub | Готово | codex/github-backup | исходники, .gitignore, memory/ | Публичный репозиторий nemczzz-rgb/Weekend_Search, ветка main |
+| TASK-030 | Порядок в репозитории и CI | На проверке | Alex071004/claude-repo | окончания строк во всех файлах, .github/, tests/, assets/references/, README.md, AGENTS.md, memory/, docs/project/public-sharing.md | Ветка chore/repo-hygiene, Pull Request в main. Защиту main включает владелец репозитория |
 
 Контрольная точка TASK-003 остаётся обязательной для живых интеграций и приёмки. TASK-014 — новое ограниченное поручение пользователя от 2026-11-08 на локальный интерфейс до её прохождения; оно не закрывает TASK-003 и не меняет статус TASK-004–013.
-| TASK-026 | Обновить публичное демо | Готово | codex/publish | .local/sites-weekend-share/, docs/project/public-sharing.md, memory/ | Публикация последнего дизайна |
-
-| TASK-027 | Фон башни из HTML-референса с поворотом от прокрутки | Готово | codex/scroll-design | apps/web/src/, tests/web/, memory/ | Перенос геометрии референса, проверка обоих направлений; локально |
-
-| TASK-028 | Публикация вращающегося фона для друга | Готово | codex/publish-scroll | .local/sites-weekend-share/, docs/project/public-sharing.md, memory/ | Обновить существующий публичный сайт |
-
-
-| TASK-029 | Резервная копия проекта на GitHub | Готово | codex/github-backup | исходники, .gitignore, memory/ | Приватный репозиторий пользователя |
 

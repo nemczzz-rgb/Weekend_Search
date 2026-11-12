@@ -14,7 +14,7 @@ concurrency:
 
 jobs:
   web:
-    name: Сборка и тесты интерфейса
+    name: web
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -31,7 +31,7 @@ jobs:
       - run: node tests/web/tower-background.test.mjs
 
   probes:
-    name: Проверки диагностических скриптов
+    name: probes
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
