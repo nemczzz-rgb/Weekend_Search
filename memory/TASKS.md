@@ -60,7 +60,7 @@
 | TASK-052 | QA фичи и редизайна | Запланировано | Alex071004/claude-repo | docs/testing/day-ideas-report.md | Ворота G4 · [#24](https://github.com/nemczzz-rgb/Weekend_Search/issues/24) |
 | TASK-053 | Выпуск redesign → main | Запланировано | Alex071004/claude-repo | PR, docs/project/public-sharing.md, memory/ | Ворота G5 · [#25](https://github.com/nemczzz-rgb/Weekend_Search/issues/25) |
 | TASK-054 | База знаний: маршруты прогулок | Запланировано | chatgpt + Alex071004/codex | apps/web/src/content/routes.json | После 035 и 046 · [#18](https://github.com/nemczzz-rgb/Weekend_Search/issues/18) |
-| TASK-055 | Настройки репозитория владелицы | Запланировано | nemczzz-rgb | Настройки GitHub | Защита main, скрытие почты, уведомления · [#26](https://github.com/nemczzz-rgb/Weekend_Search/issues/26) |
+| TASK-055 | Настройки репозитория владелицы | На проверке | nemczzz-rgb | Настройки GitHub | Защита main, скрытие почты, уведомления · [#26](https://github.com/nemczzz-rgb/Weekend_Search/issues/26) |
 | TASK-056 | Экспорт и импорт плана | Запланировано | Alex071004/claude-repo | apps/web/src/plan/ | Ветка redesign, после 047; перенос планов между браузерами и адресами · [#28](https://github.com/nemczzz-rgb/Weekend_Search/issues/28) |
 | TASK-057 | Инструкция переезда на свой сервер | Запланировано | Alex071004/claude-repo | docs/deployment/self-hosting.md | После 053; раздел 12 плана · [#29](https://github.com/nemczzz-rgb/Weekend_Search/issues/29) |
 
