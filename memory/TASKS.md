@@ -41,7 +41,7 @@
 | TASK-033 | План «Идеи для дня» и редизайна | Готово | Alex071004/claude-repo | docs/project/day-ideas-plan.md, memory/ | [План](../docs/project/day-ideas-plan.md): цель, AC-DI, решения D1–D15, спринты, контракты. Утверждён 12.11.2026; [сводка задач #27](https://github.com/nemczzz-rgb/Weekend_Search/issues/27) |
 | TASK-034 | Решения и ADR-005 | Запланировано | Alex071004/claude-repo | docs/decisions/, CONTEXT.md, docs/design-system/README.md | После утверждения D1–D15 обоими · [#5](https://github.com/nemczzz-rgb/Weekend_Search/issues/5) |
 | TASK-035 | Схема базы знаний и валидатор | Запланировано | Alex071004/claude-repo | apps/web/src/content/, scripts/content/, tests/content/, .github/workflows/ | Раздел 9 плана; перенос мест без изменения сайта · [#6](https://github.com/nemczzz-rgb/Weekend_Search/issues/6) |
-| TASK-036 | Рецепт и список фильмов владелицы | Запланировано | nemczzz-rgb | docs/knowledge-base/owner/ | Нужен к G0 · [#7](https://github.com/nemczzz-rgb/Weekend_Search/issues/7) |
+| TASK-036 | Рецепт и список фильмов владелицы | Готово | nemczzz-rgb | docs/knowledge-base/owner/ | Нужен к G0 · [#7](https://github.com/nemczzz-rgb/Weekend_Search/issues/7) |
 | TASK-037 | Аудит текущего UX | Запланировано | Alex071004/claude-repo | docs/ux/audit* | После G0 · [#8](https://github.com/nemczzz-rgb/Weekend_Search/issues/8) |
 | TASK-038 | UX-концепты | Запланировано | Alex071004/fable | docs/ux/concepts.md | После 037; выбор концепта обоими · [#9](https://github.com/nemczzz-rgb/Weekend_Search/issues/9) |
 | TASK-039 | UX-спецификация | Запланировано | Alex071004/claude-repo | docs/ux/ | Ворота G1 · [#10](https://github.com/nemczzz-rgb/Weekend_Search/issues/10) |
@@ -60,9 +60,8 @@
 | TASK-052 | QA фичи и редизайна | Запланировано | Alex071004/claude-repo | docs/testing/day-ideas-report.md | Ворота G4 · [#24](https://github.com/nemczzz-rgb/Weekend_Search/issues/24) |
 | TASK-053 | Выпуск redesign → main | Запланировано | Alex071004/claude-repo | PR, docs/project/public-sharing.md, memory/ | Ворота G5 · [#25](https://github.com/nemczzz-rgb/Weekend_Search/issues/25) |
 | TASK-054 | База знаний: маршруты прогулок | Запланировано | chatgpt + Alex071004/codex | apps/web/src/content/routes.json | После 035 и 046 · [#18](https://github.com/nemczzz-rgb/Weekend_Search/issues/18) |
-| TASK-055 | Настройки репозитория владелицы | На проверке | nemczzz-rgb | Настройки GitHub | Защита main, скрытие почты, уведомления · [#26](https://github.com/nemczzz-rgb/Weekend_Search/issues/26) |
+| TASK-055 | Настройки репозитория владелицы | Готово | nemczzz-rgb | Настройки GitHub | Защита main, скрытие почты, уведомления · [#26](https://github.com/nemczzz-rgb/Weekend_Search/issues/26) |
 | TASK-056 | Экспорт и импорт плана | Запланировано | Alex071004/claude-repo | apps/web/src/plan/ | Ветка redesign, после 047; перенос планов между браузерами и адресами · [#28](https://github.com/nemczzz-rgb/Weekend_Search/issues/28) |
 | TASK-057 | Инструкция переезда на свой сервер | Запланировано | Alex071004/claude-repo | docs/deployment/self-hosting.md | После 053; раздел 12 плана · [#29](https://github.com/nemczzz-rgb/Weekend_Search/issues/29) |
 
 Контрольная точка TASK-003 остаётся обязательной для живых интеграций и приёмки. TASK-014 — новое ограниченное поручение пользователя от 2026-11-08 на локальный интерфейс до её прохождения; оно не закрывает TASK-003 и не меняет статус TASK-004–013.
-
