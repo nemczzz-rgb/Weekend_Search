@@ -19,6 +19,8 @@ export default defineConfig(({ mode }) => {
     : undefined
 
   return {
+    // GitHub Pages serves the site from /Weekend_Search/; local dev and Sites use the root.
+    base: process.env.PAGES_BASE ?? '/',
     plugins: [react()],
     server: { https, strictPort: true },
     preview: { https, strictPort: true },

@@ -4,13 +4,19 @@ on:
   push:
     branches: [main]
   pull_request:
+  workflow_dispatch:
 
 permissions:
   contents: read
 
 concurrency:
   group: ci-${{ github.ref }}
-  cancel-in-progress: true
+  # PR runs can be cancelled by a newer push; main runs always finish so a deploy is never cut off.
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+env:
+  # The site is served from https://nemczzz-rgb.github.io/Weekend_Search/
+  PAGES_BASE: /Weekend_Search/
 
 jobs:
   web:
@@ -29,6 +35,10 @@ jobs:
       - run: pnpm --dir apps/web install --frozen-lockfile
       - run: pnpm --dir apps/web build
       - run: node tests/web/tower-background.test.mjs
+      - if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: apps/web/dist
 
   probes:
     name: probes
@@ -39,3 +49,19 @@ jobs:
         with:
           python-version: "3.14"
       - run: python -I -m unittest discover -s tests -v
+
+  deploy:
+    name: deploy
+    # Publish only main, and only after every check above has passed.
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: [web, probes]
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
