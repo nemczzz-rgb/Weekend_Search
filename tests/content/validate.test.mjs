@@ -76,6 +76,9 @@ function expectError(name, mutate, pattern, options = {}) {
 {
   const data = base()
   data.films[0].poster = { ...poster }
+  data.films[0].note = 'Своя краткая завязка.'
+  data.films[0].noteSource = 'https://example.org/film/synopsis'
+  data.films[0].noteCheckedAt = '2026-11-12'
   assert.deepEqual(run(data).errors, [])
 }
 
@@ -125,6 +128,16 @@ expectError('poster empty file', d => { d.films[0].poster = { ...poster } }, /po
 expectError('poster excessive bytes', d => { d.films[0].poster = { ...poster } }, /poster must be 1–300000 bytes/, { posterBytes: Buffer.alloc(300001) })
 expectError('unknown genre', d => { d.films[0].genres = ['horror'] }, /unknown genre "horror"/)
 expectError('long film note', d => { d.films[0].note = 'я'.repeat(101) }, /longer than 100/)
+expectError('empty film note', d => { d.films[0].note = '' }, /"note" must be a non-empty string/)
+expectError('note missing source', d => { d.films[0].note = 'Завязка.'; d.films[0].noteCheckedAt = '2026-11-12' }, /"noteSource"/)
+expectError('note owner source', d => { d.films[0].note = 'Завязка.'; d.films[0].noteSource = 'owner' }, /"noteSource"/)
+expectError('note http source', d => { d.films[0].note = 'Завязка.'; d.films[0].noteSource = 'http://example.org' }, /"noteSource"/)
+expectError('note source credentials', d => { d.films[0].note = 'Завязка.'; d.films[0].noteSource = 'https://user:pass@example.org' }, /"noteSource"/)
+expectError('note missing date', d => { d.films[0].note = 'Завязка.'; d.films[0].noteSource = 'https://example.org' }, /"noteCheckedAt"/)
+expectError('note invalid date', d => { d.films[0].note = 'Завязка.'; d.films[0].noteCheckedAt = '2026-02-30' }, /"noteCheckedAt" must be a date/)
+expectError('note future date', d => { d.films[0].note = 'Завязка.'; d.films[0].noteCheckedAt = '2027-01-01' }, /"noteCheckedAt" is in the future/)
+expectError('source without note', d => { d.films[0].noteSource = 'https://example.org' }, /note metadata requires "note"/)
+expectError('date without note', d => { d.films[0].noteCheckedAt = '2026-11-12' }, /note metadata requires "note"/)
 expectError('duplicate film', d => { d.films.push({ ...d.films[0], id: 'film-b' }) }, /duplicate film/)
 expectError('film without source', d => { delete d.films[0].source }, /"source" must be/)
 expectError('pizza section missing', d => { d.recipes[0].sections = d.recipes[0].sections.filter(s => s.id !== 'bake-2') }, /section "bake-2" is required/)

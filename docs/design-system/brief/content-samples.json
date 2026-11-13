@@ -786,7 +786,10 @@
         "source": "https://www.themoviedb.org/movie/1581?language=ru-RU",
         "credit": "TMDB",
         "checkedAt": "2026-11-13"
-      }
+      },
+      "note": "Две незнакомки меняются домами на Рождество, чтобы отдохнуть от любовных неудач.",
+      "noteSource": "https://www.sonypictures.com/movies/theholiday",
+      "noteCheckedAt": "2026-11-13"
     },
     {
       "id": "home-alone-1990",
@@ -799,7 +802,7 @@
         "family"
       ],
       "origin": "research",
-      "note": "Рождественская классика для домашнего киновечера.",
+      "note": "Забытый дома на Рождество Кевин готовит хитрые ловушки для незваных грабителей.",
       "source": "https://www.wikidata.org/w/index.php?title=Q105031&oldid=2568295076&uselang=ru",
       "checkedAt": "2026-11-13",
       "poster": {
@@ -810,7 +813,9 @@
         "source": "https://www.themoviedb.org/movie/771?language=ru-RU",
         "credit": "TMDB",
         "checkedAt": "2026-11-13"
-      }
+      },
+      "noteSource": "https://family.20thcenturystudios.com/movies/home-alone",
+      "noteCheckedAt": "2026-11-13"
     },
     {
       "id": "klaus-2019",
@@ -823,7 +828,7 @@
         "cozy"
       ],
       "origin": "research",
-      "note": "Анимационная история для зимней подборки.",
+      "note": "Эгоистичный почтальон и замкнутый игрушечник находят общее дело в холодном мрачном городке.",
       "source": "https://www.wikidata.org/w/index.php?title=Q67208596&oldid=2568649758&uselang=ru",
       "checkedAt": "2026-11-13",
       "poster": {
@@ -834,7 +839,9 @@
         "source": "https://www.themoviedb.org/movie/508965?language=ru-RU",
         "credit": "TMDB",
         "checkedAt": "2026-11-13"
-      }
+      },
+      "noteSource": "https://www.themoviedb.org/movie/508965?language=ru-RU",
+      "noteCheckedAt": "2026-11-13"
     },
     {
       "id": "the-holdovers-2023",
@@ -847,7 +854,7 @@
         "comedy"
       ],
       "origin": "research",
-      "note": "Рождественская трагикомедия для взрослого киновечера.",
+      "note": "Строгий учитель, ученик и школьная повариха остаются вместе на рождественские каникулы.",
       "source": "https://www.wikidata.org/w/index.php?title=Q112114745&oldid=2568022035&uselang=ru",
       "checkedAt": "2026-11-13",
       "poster": {
@@ -858,7 +865,9 @@
         "source": "https://www.themoviedb.org/movie/840430?language=ru-RU",
         "credit": "TMDB",
         "checkedAt": "2026-11-13"
-      }
+      },
+      "noteSource": "https://www.focusfeatures.com/the-holdovers",
+      "noteCheckedAt": "2026-11-13"
     },
     {
       "id": "its-a-wonderful-life-1946",
@@ -870,7 +879,7 @@
         "drama"
       ],
       "origin": "research",
-      "note": "Чёрно-белая классика для тихого зимнего вечера.",
+      "note": "В канун Рождества отчаявшийся Джордж получает неожиданную помощь от ангела.",
       "source": "https://www.wikidata.org/w/index.php?title=Q204191&oldid=2567483407&uselang=ru",
       "checkedAt": "2026-11-13",
       "poster": {
@@ -881,7 +890,9 @@
         "source": "https://www.themoviedb.org/movie/1585?language=ru-RU",
         "credit": "TMDB",
         "checkedAt": "2026-11-13"
-      }
+      },
+      "noteSource": "https://www.themoviedb.org/movie/1585?language=ru-RU",
+      "noteCheckedAt": "2026-11-13"
     },
     {
       "id": "paddington-2014",
@@ -903,7 +914,10 @@
         "source": "https://www.themoviedb.org/movie/116149?language=ru-RU",
         "credit": "TMDB",
         "checkedAt": "2026-11-13"
-      }
+      },
+      "note": "Вежливый медвежонок приезжает из Перу в Лондон и ищет семью, которая примет его дома.",
+      "noteSource": "https://www.themoviedb.org/movie/116149?language=ru-RU",
+      "noteCheckedAt": "2026-11-13"
     }
   ]
 }

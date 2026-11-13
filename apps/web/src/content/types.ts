@@ -118,8 +118,12 @@ export type Film = {
   genres: GenreId[]
   /** "owner" — from the owner's list (shown first); "research" — added during research. */
   origin: 'owner' | 'research'
-  /** Own short note, up to 100 characters. No plot copied from other sites. */
+  /** Own short synopsis, up to 100 characters. No spoilers or copied plot text. */
   note?: string
+  /** HTTPS page confirming the synopsis; required with note. */
+  noteSource?: string
+  /** YYYY-MM-DD, required with note. */
+  noteCheckedAt?: string
   poster?: FilmPoster
   source: Source
   checkedAt: string

@@ -178,7 +178,7 @@ export function validateContent(dir, { release = false, today = new Date() } = {
   const filmsPerGenre = Object.fromEntries(GENRES.map(g => [g, 0]))
   const currentYear = today.getUTCFullYear()
   for (const [f, where] of objects('films')) {
-    allowed(where, f, ['id', 'title', 'originalTitle', 'year', 'genres', 'origin', 'note', 'poster', 'source', 'checkedAt'])
+    allowed(where, f, ['id', 'title', 'originalTitle', 'year', 'genres', 'origin', 'note', 'noteSource', 'noteCheckedAt', 'poster', 'source', 'checkedAt'])
     str(where, f.title, 'title')
     if (f.originalTitle !== undefined) str(where, f.originalTitle, 'originalTitle')
     if (!Number.isInteger(f.year) || f.year < 1888 || f.year > currentYear + 1) errors.push(`${where}: "year" must be a release year`)
@@ -191,7 +191,11 @@ export function validateContent(dir, { release = false, today = new Date() } = {
       }
     }
     if (f.origin !== 'owner' && f.origin !== 'research') errors.push(`${where}: "origin" must be "owner" or "research"`)
-    if (f.note !== undefined) str(where, f.note, 'note', { max: 100 })
+    if (f.note !== undefined) {
+      str(where, f.note, 'note', { max: 100 })
+      if (!(typeof f.noteSource === 'string' && https(f.noteSource))) errors.push(`${where}: "noteSource" must be an https URL`)
+      checkedAt(where, f.noteCheckedAt, 'noteCheckedAt')
+    } else if (f.noteSource !== undefined || f.noteCheckedAt !== undefined) errors.push(`${where}: note metadata requires "note"`)
     if (f.poster !== undefined) {
       const pw = `${where}.poster`
       const p = f.poster
