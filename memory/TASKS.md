@@ -45,7 +45,7 @@
 | TASK-037 | Аудит текущего UX | Готово | Alex071004/claude-repo | docs/ux/audit* | После G0 · [#8](https://github.com/nemczzz-rgb/Weekend_Search/issues/8) |
 | TASK-038 | Варианты развития UX | Готово | Alex071004/fable | docs/ux/concepts.md | После 037; выбор варианта обоими, стиль по D1 сохраняется · [#9](https://github.com/nemczzz-rgb/Weekend_Search/issues/9) |
 | TASK-039 | UX-спецификация | На проверке | Alex071004/claude-repo | docs/ux/ | Ворота G1 · [#10](https://github.com/nemczzz-rgb/Weekend_Search/issues/10) |
-| TASK-040 | Пакет для Claude Design | Запланировано | Alex071004/claude-repo | docs/design-system/brief/ | Ворота G2 · [#11](https://github.com/nemczzz-rgb/Weekend_Search/issues/11) |
+| TASK-040 | Пакет для Claude Design | На проверке | Alex071004/claude-repo | docs/design-system/brief/ | Ворота G2 · [#11](https://github.com/nemczzz-rgb/Weekend_Search/issues/11) |
 | TASK-041 | Макеты в Claude Design | Запланировано | Alex071004/claude-design | артефакт Claude Design | После G2 · [#12](https://github.com/nemczzz-rgb/Weekend_Search/issues/12) |
 | TASK-042 | Приёмка макетов и дизайн-система в репозитории | Запланировано | Alex071004/claude-repo | docs/design-system/, apps/web/src/styles/tokens.css | Ворота G3 · [#13](https://github.com/nemczzz-rgb/Weekend_Search/issues/13) |
 | TASK-043 | База знаний: рецепты | На проверке | chatgpt + Alex071004/codex | apps/web/src/content/recipes.json | После 035 и 036 · [#14](https://github.com/nemczzz-rgb/Weekend_Search/issues/14) |
