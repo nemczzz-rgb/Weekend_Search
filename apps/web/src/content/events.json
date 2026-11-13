@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "id": "standup-patriki-known-comedians-2026-11-14",
+    "title": "Самые известные комики · Stand Up Патрики · 18+",
+    "dateStart": "2026-11-14",
+    "time": "21:30; сбор гостей с 21:00",
+    "placeId": "standup-patriki",
+    "price": "2 000 ₽ за билет",
+    "source": "https://standuppatriki.com/1411si",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "darwin-mushrooms-2026-11-21",
+    "title": "«Царство грибов» · Дарвиновский музей",
+    "dateStart": "2026-11-21",
+    "time": "13:00",
+    "address": "Москва, ул. Вавилова, 57 · выставочный комплекс Дарвиновского музея",
+    "source": "https://www.darwinmuseum.ru/projects/celebration/kanikuly-17-22-noyabrya-2026",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "darwin-insects-development-2026-11-22",
+    "title": "«PROнасекомых: развитие» · Дарвиновский музей",
+    "dateStart": "2026-11-22",
+    "time": "15:00",
+    "address": "Москва, ул. Вавилова, 57 · выставочный комплекс Дарвиновского музея",
+    "source": "https://www.darwinmuseum.ru/projects/celebration/kanikuly-17-22-noyabrya-2026",
+    "checkedAt": "2026-11-13"
+  }
+]
