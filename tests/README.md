@@ -10,6 +10,8 @@
 
 ```bash
 pnpm --dir apps/web install --frozen-lockfile
+node scripts/content/validate.mjs
+node tests/content/validate.test.mjs
 pnpm --dir apps/web build
 node tests/web/tower-background.test.mjs
 python -I -m unittest discover -s tests -v
