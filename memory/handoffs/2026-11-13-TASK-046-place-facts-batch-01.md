@@ -4,6 +4,7 @@
 - От: Alex071004/codex
 - Кому: участники для вычитки; дальнейшая работа — Alex071004/codex
 - Статус задачи: На проверке (первая пачка, не весь объём)
+- PR: https://github.com/nemczzz-rgb/Weekend_Search/pull/43; коммит реализации c1fe1d4
 - Ветка: task-046-place-facts-batch-01 от origin/main 06138c9; отдельный worktree D:/Weekend_Search_codex
 
 ## Цель и границы
