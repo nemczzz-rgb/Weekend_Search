@@ -157,6 +157,8 @@ export type Activity = {
   needs: string[]
   detail: ActivityDetail
   leadTimeHours?: { min: number; max: number }
+  /** Why preparation starts in advance, up to 60 characters, e.g. "тесто 48–72 ч в холодильнике". Requires leadTimeHours. */
+  leadTimeNote?: string
   image?: string
   imageAlt?: string
 }

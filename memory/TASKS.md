@@ -42,9 +42,9 @@
 | TASK-034 | Решения и ADR-005 | Готово | nemczzz-rgb/codex | docs/project/day-ideas-plan.md, docs/decisions/, CONTEXT.md, docs/design-system/README.md, memory/ | Владелица выбрала доработку утверждённого дизайна и подтвердила общую основу D2–D15; ADR предложена, нужно согласие Alex071004 · [#5](https://github.com/nemczzz-rgb/Weekend_Search/issues/5) ADR-005 согласован 13.11.2026 после подтверждения Alex071004 |
 | TASK-035 | Схема базы знаний и валидатор | Готово | Alex071004/claude-repo | apps/web/src/content/, scripts/content/, tests/content/, .github/workflows/ | Раздел 9 плана; перенос мест без изменения сайта · [#6](https://github.com/nemczzz-rgb/Weekend_Search/issues/6) |
 | TASK-036 | Рецепт и список фильмов владелицы | Готово | nemczzz-rgb | docs/knowledge-base/owner/ | Нужен к G0 · [#7](https://github.com/nemczzz-rgb/Weekend_Search/issues/7) |
-| TASK-037 | Аудит текущего UX | На проверке | Alex071004/claude-repo | docs/ux/audit* | После G0 · [#8](https://github.com/nemczzz-rgb/Weekend_Search/issues/8) |
-| TASK-038 | Варианты развития UX | На проверке | Alex071004/fable | docs/ux/concepts.md | После 037; выбор варианта обоими, стиль по D1 сохраняется · [#9](https://github.com/nemczzz-rgb/Weekend_Search/issues/9) |
-| TASK-039 | UX-спецификация | Запланировано | Alex071004/claude-repo | docs/ux/ | Ворота G1 · [#10](https://github.com/nemczzz-rgb/Weekend_Search/issues/10) |
+| TASK-037 | Аудит текущего UX | Готово | Alex071004/claude-repo | docs/ux/audit* | После G0 · [#8](https://github.com/nemczzz-rgb/Weekend_Search/issues/8) |
+| TASK-038 | Варианты развития UX | Готово | Alex071004/fable | docs/ux/concepts.md | После 037; выбор варианта обоими, стиль по D1 сохраняется · [#9](https://github.com/nemczzz-rgb/Weekend_Search/issues/9) |
+| TASK-039 | UX-спецификация | На проверке | Alex071004/claude-repo | docs/ux/ | Ворота G1 · [#10](https://github.com/nemczzz-rgb/Weekend_Search/issues/10) |
 | TASK-040 | Пакет для Claude Design | Запланировано | Alex071004/claude-repo | docs/design-system/brief/ | Ворота G2 · [#11](https://github.com/nemczzz-rgb/Weekend_Search/issues/11) |
 | TASK-041 | Макеты в Claude Design | Запланировано | Alex071004/claude-design | артефакт Claude Design | После G2 · [#12](https://github.com/nemczzz-rgb/Weekend_Search/issues/12) |
 | TASK-042 | Приёмка макетов и дизайн-система в репозитории | Запланировано | Alex071004/claude-repo | docs/design-system/, apps/web/src/styles/tokens.css | Ворота G3 · [#13](https://github.com/nemczzz-rgb/Weekend_Search/issues/13) |
