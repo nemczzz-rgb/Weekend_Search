@@ -97,6 +97,18 @@ export const GENRES: Record<GenreId, string> = {
   cozy: 'Уютное кино',
 }
 
+/** A verified local film poster; source and credit must remain available in the film UI. */
+export type FilmPoster = {
+  /** Base-relative public asset path; prepend import.meta.env.BASE_URL in the UI. */
+  src: string
+  alt: string
+  width: number
+  height: number
+  source: string
+  credit: string
+  checkedAt: string
+}
+
 export type Film = {
   id: Id
   title: string
@@ -108,6 +120,7 @@ export type Film = {
   origin: 'owner' | 'research'
   /** Own short note, up to 100 characters. No plot copied from other sites. */
   note?: string
+  poster?: FilmPoster
   source: Source
   checkedAt: string
 }
