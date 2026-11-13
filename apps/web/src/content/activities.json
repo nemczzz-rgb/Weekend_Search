@@ -1,1 +1,1360 @@
-[]
+[
+  {
+    "id": "roman-pizza-cooking",
+    "title": "Римская пицца: тесто 48–72 ч в холодильнике",
+    "location": "home",
+    "durationMinutes": 180,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Мука",
+      "Вода комнатной температуры",
+      "Оливковое масло extra virgin",
+      "Соль",
+      "Дрожжи сухие быстродействующие",
+      "Духовка",
+      "Контейнеры для теста",
+      "Начинка на выбор"
+    ],
+    "detail": {
+      "type": "recipe",
+      "recipeId": "roman-pizza"
+    },
+    "leadTimeHours": {
+      "min": 48,
+      "max": 72
+    }
+  },
+  {
+    "id": "film-night",
+    "title": "Киновечер дома",
+    "location": "home",
+    "durationMinutes": 120,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Экран",
+      "Фильм по вашему выбору, подходящий по длительности"
+    ],
+    "detail": {
+      "type": "films"
+    }
+  },
+  {
+    "id": "clay-miniature",
+    "title": "Небольшая фигурка из глины",
+    "location": "home",
+    "durationMinutes": 60,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Самозатвердевающая масса для лепки",
+      "Подложка",
+      "Инструкция производителя"
+    ],
+    "detail": {
+      "type": "steps",
+      "steps": [
+        "Выберите простой предмет: фигурку, лист или подставку для украшений. Наметьте форму на бумаге.",
+        "Слепите основу и добавьте детали. Работайте с материалом по инструкции на упаковке.",
+        "Оставьте изделие сохнуть на срок из инструкции. Пока оно сохнет, переходите к следующему занятию."
+      ]
+    }
+  },
+  {
+    "id": "quiet-reading",
+    "title": "Чтение без спешки",
+    "location": "home",
+    "durationMinutes": 45,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Своя книга или рассказ",
+      "Удобное место"
+    ],
+    "detail": {
+      "type": "steps",
+      "steps": [
+        "Выберите главу или короткий рассказ и отведите на чтение этот отрезок дня.",
+        "Уберите уведомления. Читайте в своём темпе, без цели закончить книгу.",
+        "В конце отметьте одну мысль или цитату, к которой хочется вернуться."
+      ]
+    }
+  },
+  {
+    "id": "watercolor-postcards",
+    "title": "Акварельные открытки",
+    "location": "home",
+    "durationMinutes": 60,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Бумага для акварели",
+      "Краски и кисть",
+      "Вода и салфетки"
+    ],
+    "detail": {
+      "type": "steps",
+      "steps": [
+        "Выберите сюжет: окно, кружку, растение или вид из памяти. Сделайте лёгкий набросок.",
+        "Попробуйте цвета на отдельном листе и раскрасьте открытку.",
+        "Подпишите работу и оставьте высыхать, пока готовите чай или отдыхаете."
+      ]
+    }
+  },
+  {
+    "id": "tea-journal",
+    "title": "Чай и несколько строк о дне",
+    "location": "home",
+    "durationMinutes": 30,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Любимый чай",
+      "Кружка",
+      "Блокнот и ручка"
+    ],
+    "detail": {
+      "type": "steps",
+      "steps": [
+        "Приготовьте привычный чай по инструкции на упаковке.",
+        "Запишите, что запомнилось за день и что хочется попробовать в следующие выходные.",
+        "Выберите одну запись, которую хотите оставить себе или обсудить вместе."
+      ]
+    }
+  },
+  {
+    "id": "pancakes-brunch",
+    "title": "Готовим панкейки к позднему завтраку",
+    "location": "home",
+    "durationMinutes": 75,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Самоподнимающаяся мука",
+      "Разрыхлитель",
+      "Мелкий золотистый сахар",
+      "Крупные яйца",
+      "Растопленное сливочное масло",
+      "Молоко",
+      "Соль",
+      "Сковорода",
+      "Венчик"
+    ],
+    "detail": {
+      "type": "recipe",
+      "recipeId": "american-pancakes"
+    }
+  },
+  {
+    "id": "board-game",
+    "title": "Настольная игра за общим столом",
+    "location": "home",
+    "durationMinutes": 90,
+    "audience": [
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Игра с партией подходящей длины",
+      "Свободный стол"
+    ],
+    "detail": {
+      "type": "steps",
+      "steps": [
+        "Выберите игру под число участников и отведённое время. Сначала прочитайте правила.",
+        "Подготовьте стол и сыграйте пробный круг, если игра новая.",
+        "После партии обсудите любимый момент; начинать ещё одну не обязательно."
+      ]
+    }
+  },
+  {
+    "id": "brownies-bake",
+    "title": "Печём шоколадные брауни",
+    "location": "home",
+    "durationMinutes": 90,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Несолёное сливочное масло",
+      "Тёмный шоколад",
+      "Пшеничная мука",
+      "Какао-порошок",
+      "Белый шоколад",
+      "Молочный шоколад",
+      "Крупные яйца",
+      "Мелкий золотистый сахар",
+      "Духовка",
+      "Форма 20 см",
+      "Миксер",
+      "Время на полное остывание"
+    ],
+    "detail": {
+      "type": "recipe",
+      "recipeId": "triple-chocolate-brownies"
+    }
+  },
+  {
+    "id": "tomato-soup-dinner",
+    "title": "Готовим томатный суп",
+    "location": "home",
+    "durationMinutes": 120,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Спелые помидоры",
+      "Репчатый лук среднего размера",
+      "Небольшая морковь",
+      "Стебель сельдерея",
+      "Оливковое масло",
+      "Томатная паста",
+      "Сахар",
+      "Лавровый лист",
+      "Горячий овощной бульон",
+      "Чёрный перец",
+      "Соль",
+      "Кастрюля",
+      "Блендер"
+    ],
+    "detail": {
+      "type": "recipe",
+      "recipeId": "tomato-soup"
+    }
+  },
+  {
+    "id": "guacamole-snack",
+    "title": "Готовим гуакамоле к настольной игре",
+    "location": "home",
+    "durationMinutes": 25,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Крупный спелый помидор",
+      "Очень спелые авокадо",
+      "Крупный лайм",
+      "Кинза",
+      "Небольшой красный лук",
+      "Красный или зелёный чили",
+      "Соль и перец",
+      "Миска",
+      "Нож",
+      "Кукурузные чипсы для подачи"
+    ],
+    "detail": {
+      "type": "recipe",
+      "recipeId": "chunky-guacamole"
+    }
+  },
+  {
+    "id": "hummus-snack",
+    "title": "Домашний хумус для общего стола",
+    "location": "home",
+    "durationMinutes": 20,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Консервированный нут",
+      "Тахини",
+      "Крупный зубчик чеснока",
+      "Греческий йогурт 0% жирности",
+      "Лимонный сок",
+      "Соль и перец",
+      "Блендер",
+      "Миска"
+    ],
+    "detail": {
+      "type": "recipe",
+      "recipeId": "hummus-with-yogurt"
+    }
+  },
+  {
+    "id": "conversation-cards",
+    "title": "Разговор по собственным карточкам",
+    "location": "home",
+    "durationMinutes": 45,
+    "audience": [
+      "pair",
+      "friends"
+    ],
+    "needs": [
+      "Бумага",
+      "Ручки",
+      "Место за столом"
+    ],
+    "detail": {
+      "type": "steps",
+      "steps": [
+        "Напишите по нескольку вопросов о любимых местах, музыке и впечатлениях.",
+        "Перемешайте карточки и отвечайте по очереди. Любой вопрос можно пропустить.",
+        "В конце выберите одну общую идею для будущего выходного."
+      ]
+    }
+  },
+  {
+    "id": "banana-loaf-bake",
+    "title": "Банановый кекс к домашнему чаепитию",
+    "location": "home",
+    "durationMinutes": 90,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Размягчённое сливочное масло",
+      "Мелкий сахар",
+      "Крупные яйца",
+      "Самоподнимающаяся мука",
+      "Разрыхлитель",
+      "Очень спелые бананы",
+      "Духовка",
+      "Форма для кекса",
+      "Решётка для остывания"
+    ],
+    "detail": {
+      "type": "recipe",
+      "recipeId": "banana-loaf"
+    }
+  },
+  {
+    "id": "music-listening",
+    "title": "Послушать альбом целиком",
+    "location": "home",
+    "durationMinutes": 50,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Своя музыка",
+      "Колонка или наушники"
+    ],
+    "detail": {
+      "type": "steps",
+      "steps": [
+        "Выберите один альбом или плейлист под отведённое время.",
+        "Послушайте без параллельной прокрутки ленты; при желании отмечайте любимые треки.",
+        "После прослушивания обменяйтесь впечатлениями или сохраните одну песню себе."
+      ]
+    }
+  },
+  {
+    "id": "shortbread-bake",
+    "title": "Песочное печенье к книжному разговору",
+    "location": "home",
+    "durationMinutes": 75,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Пшеничная мука",
+      "Холодное сливочное масло",
+      "Мелкий сахар",
+      "Духовка",
+      "Противень",
+      "Скалка",
+      "Место в холодильнике"
+    ],
+    "detail": {
+      "type": "recipe",
+      "recipeId": "shortbread"
+    }
+  },
+  {
+    "id": "book-club",
+    "title": "Домашний книжный клуб",
+    "location": "home",
+    "durationMinutes": 60,
+    "audience": [
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Прочитанная книга или общий рассказ",
+      "Бумага для заметок"
+    ],
+    "detail": {
+      "type": "steps",
+      "steps": [
+        "Выберите общий текст заранее или прочитайте короткий отрывок в начале встречи.",
+        "Каждый называет одну понравившуюся сцену и один вопрос к тексту.",
+        "Сравните впечатления без поиска правильного ответа и договоритесь, что читать дальше."
+      ]
+    }
+  },
+  {
+    "id": "apple-crumble-bake",
+    "title": "Яблочный крамбл для семейного вечера",
+    "location": "home",
+    "durationMinutes": 75,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Яблоки Bramley",
+      "Мелкий золотистый сахар",
+      "Духовка",
+      "Форма для выпечки"
+    ],
+    "detail": {
+      "type": "recipe",
+      "recipeId": "apple-crumble"
+    }
+  },
+  {
+    "id": "family-photos",
+    "title": "Вечер с семейными фотографиями",
+    "location": "home",
+    "durationMinutes": 60,
+    "audience": [
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Свои фотографии",
+      "Экран или фотоальбом"
+    ],
+    "detail": {
+      "type": "steps",
+      "steps": [
+        "Выберите фотографии одного периода или поездки, которыми готовы поделиться.",
+        "Вспомните истории за кадром и подпишите имена, места или даты, если точно их знаете.",
+        "Соберите небольшой альбом. Личные снимки не нужно никуда публиковать."
+      ]
+    }
+  },
+  {
+    "id": "french-toast-brunch",
+    "title": "Французские тосты с корицей",
+    "location": "home",
+    "durationMinutes": 40,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Крупные яйца",
+      "Цельное молоко",
+      "Густые сливки double cream",
+      "Ванильный экстракт",
+      "Корица",
+      "Бриошь",
+      "Растительное масло",
+      "Сливочное масло",
+      "Сковорода",
+      "Неглубокое блюдо"
+    ],
+    "detail": {
+      "type": "recipe",
+      "recipeId": "french-toast"
+    }
+  },
+  {
+    "id": "handwritten-letters",
+    "title": "Открытки и письма от руки",
+    "location": "home",
+    "durationMinutes": 45,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Бумага или открытки",
+      "Ручка",
+      "Идея адресата"
+    ],
+    "detail": {
+      "type": "steps",
+      "steps": [
+        "Выберите, кому хочется написать: близкому человеку или себе в будущее.",
+        "Расскажите об одном конкретном воспоминании и добавьте небольшой рисунок.",
+        "Подпишите письмо. Отправить его или оставить у себя можно решить позже."
+      ]
+    }
+  },
+  {
+    "id": "selfcare-evening",
+    "title": "Тихий домашний спа-вечер",
+    "location": "home",
+    "durationMinutes": 45,
+    "audience": [
+      "solo",
+      "pair"
+    ],
+    "needs": [
+      "Привычные средства ухода",
+      "Полотенце",
+      "Спокойная музыка"
+    ],
+    "detail": {
+      "type": "steps",
+      "steps": [
+        "Освободите время от дел и выберите привычный душ, ванну или обычный уход.",
+        "Используйте только знакомые средства по их инструкции; новые процедуры не нужны.",
+        "Завершите вечер спокойным отдыхом и чтением, если хочется."
+      ]
+    }
+  },
+  {
+    "id": "fruit-salad-prep",
+    "title": "Фруктовый салат для творческого вечера",
+    "location": "home",
+    "durationMinutes": 30,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Киви",
+      "Манго",
+      "Ананас",
+      "Виноград",
+      "Смесь ягод",
+      "Крупный апельсин",
+      "Мёд",
+      "Нож",
+      "Миска"
+    ],
+    "detail": {
+      "type": "recipe",
+      "recipeId": "fruit-salad"
+    }
+  },
+  {
+    "id": "draw-story",
+    "title": "История в нескольких картинках",
+    "location": "home",
+    "durationMinutes": 45,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Бумага",
+      "Карандаши или фломастеры"
+    ],
+    "detail": {
+      "type": "steps",
+      "steps": [
+        "Придумайте героя и одно небольшое происшествие.",
+        "Разделите лист на несколько кадров и нарисуйте начало, поворот и финал.",
+        "Если вы не один, покажите друг другу истории или продолжите рисунок по очереди."
+      ]
+    }
+  },
+  {
+    "id": "shakshuka-brunch",
+    "title": "Шакшука для позднего завтрака",
+    "location": "home",
+    "durationMinutes": 40,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Оливковое масло",
+      "Красный лук",
+      "Красный перец чили",
+      "Чеснок",
+      "Кинза",
+      "Консервированные помидоры черри",
+      "Мелкий сахар",
+      "Яйца",
+      "Сковорода с крышкой",
+      "Хлеб для подачи"
+    ],
+    "detail": {
+      "type": "recipe",
+      "recipeId": "shakshuka"
+    }
+  },
+  {
+    "id": "playlist-swap",
+    "title": "Обмен любимыми песнями",
+    "location": "home",
+    "durationMinutes": 45,
+    "audience": [
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Своя музыка",
+      "Колонка или наушники"
+    ],
+    "detail": {
+      "type": "steps",
+      "steps": [
+        "Выберите песни под одну тему: дорога, лето или воспоминание о выходном.",
+        "По очереди включайте треки и рассказывайте, почему выбрали именно их.",
+        "Сохраните общий плейлист или запишите названия понравившихся песен."
+      ]
+    }
+  },
+  {
+    "id": "visit-tretyakov",
+    "title": "Выбрать любимую картину в Третьяковке",
+    "location": "city",
+    "durationMinutes": 100,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Билет на выбранную дату, если требуется",
+      "Проверьте режим работы и доступность экспозиции"
+    ],
+    "detail": {
+      "type": "places",
+      "placeIds": [
+        "tretyakov"
+      ]
+    }
+  },
+  {
+    "id": "visit-muzeon",
+    "title": "Погулять по Музеону",
+    "location": "city",
+    "durationMinutes": 60,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Одежда по погоде",
+      "Проверьте условия доступа перед выходом"
+    ],
+    "detail": {
+      "type": "places",
+      "placeIds": [
+        "muzeon"
+      ]
+    }
+  },
+  {
+    "id": "visit-pushkin",
+    "title": "Посмотреть искусство в Пушкинском музее",
+    "location": "city",
+    "durationMinutes": 90,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Билет на выбранную дату, если требуется",
+      "Проверьте режим работы и доступность экспозиции"
+    ],
+    "detail": {
+      "type": "places",
+      "placeIds": [
+        "pushkin"
+      ]
+    }
+  },
+  {
+    "id": "visit-preo",
+    "title": "Рассмотреть фасады Пречистенки",
+    "location": "city",
+    "durationMinutes": 45,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Одежда по погоде",
+      "Проверьте условия доступа перед выходом"
+    ],
+    "detail": {
+      "type": "places",
+      "placeIds": [
+        "preo"
+      ]
+    }
+  },
+  {
+    "id": "visit-kitay",
+    "title": "Прогулка по Китай-городу",
+    "location": "city",
+    "durationMinutes": 55,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Одежда по погоде",
+      "Проверьте условия доступа перед выходом"
+    ],
+    "detail": {
+      "type": "places",
+      "placeIds": [
+        "kitay"
+      ]
+    }
+  },
+  {
+    "id": "visit-khitrovka",
+    "title": "Пауза на Хитровской площади",
+    "location": "city",
+    "durationMinutes": 40,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Одежда по погоде",
+      "Проверьте условия доступа перед выходом"
+    ],
+    "detail": {
+      "type": "places",
+      "placeIds": [
+        "khitrovka"
+      ]
+    }
+  },
+  {
+    "id": "visit-pokrovka",
+    "title": "Пройти по Покровке",
+    "location": "city",
+    "durationMinutes": 45,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Одежда по погоде",
+      "Проверьте условия доступа перед выходом"
+    ],
+    "detail": {
+      "type": "places",
+      "placeIds": [
+        "pokrovka"
+      ]
+    }
+  },
+  {
+    "id": "visit-hermitage",
+    "title": "Отдохнуть в саду «Эрмитаж»",
+    "location": "city",
+    "durationMinutes": 45,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Одежда по погоде",
+      "Проверьте условия доступа перед выходом"
+    ],
+    "detail": {
+      "type": "places",
+      "placeIds": [
+        "hermitage"
+      ]
+    }
+  },
+  {
+    "id": "visit-ermolova",
+    "title": "Прогулка по Тверскому бульвару",
+    "location": "city",
+    "durationMinutes": 35,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Одежда по погоде",
+      "Проверьте условия доступа перед выходом"
+    ],
+    "detail": {
+      "type": "places",
+      "placeIds": [
+        "ermolova"
+      ]
+    }
+  },
+  {
+    "id": "visit-patriarch",
+    "title": "Обойти Патриаршие пруды",
+    "location": "city",
+    "durationMinutes": 45,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Одежда по погоде",
+      "Проверьте условия доступа перед выходом"
+    ],
+    "detail": {
+      "type": "places",
+      "placeIds": [
+        "patriarch"
+      ]
+    }
+  },
+  {
+    "id": "visit-cosmos",
+    "title": "Посетить Музей космонавтики",
+    "location": "city",
+    "durationMinutes": 85,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Билет на выбранную дату, если требуется",
+      "Проверьте режим работы и доступность экспозиции"
+    ],
+    "detail": {
+      "type": "places",
+      "placeIds": [
+        "cosmos"
+      ]
+    }
+  },
+  {
+    "id": "visit-vdnh",
+    "title": "Рассмотреть архитектуру ВДНХ",
+    "location": "city",
+    "durationMinutes": 95,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Одежда по погоде",
+      "Проверьте условия доступа перед выходом"
+    ],
+    "detail": {
+      "type": "places",
+      "placeIds": [
+        "vdnh"
+      ]
+    }
+  },
+  {
+    "id": "visit-apothecary",
+    "title": "Растения в Аптекарском огороде",
+    "location": "city",
+    "durationMinutes": 70,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Билет на выбранную дату, если требуется",
+      "Проверьте режим работы и доступность экспозиции"
+    ],
+    "detail": {
+      "type": "places",
+      "placeIds": [
+        "apothecary"
+      ]
+    }
+  },
+  {
+    "id": "visit-mira",
+    "title": "Пройти по проспекту Мира",
+    "location": "city",
+    "durationMinutes": 35,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Одежда по погоде",
+      "Проверьте условия доступа перед выходом"
+    ],
+    "detail": {
+      "type": "places",
+      "placeIds": [
+        "mira"
+      ]
+    }
+  },
+  {
+    "id": "visit-flacon",
+    "title": "Посмотреть дизайн-завод «Флакон»",
+    "location": "city",
+    "durationMinutes": 65,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Одежда по погоде",
+      "Проверьте условия доступа перед выходом",
+      "Заведения и события — по собственному графику"
+    ],
+    "detail": {
+      "type": "places",
+      "placeIds": [
+        "flacon"
+      ]
+    }
+  },
+  {
+    "id": "visit-hleb",
+    "title": "Прогулка по Хлебозаводу № 9",
+    "location": "city",
+    "durationMinutes": 65,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Одежда по погоде",
+      "Проверьте условия доступа перед выходом",
+      "Заведения и события — по собственному графику"
+    ],
+    "detail": {
+      "type": "places",
+      "placeIds": [
+        "hleb"
+      ]
+    }
+  },
+  {
+    "id": "visit-krymsky",
+    "title": "Прогулка по Крымской набережной",
+    "location": "city",
+    "durationMinutes": 55,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Одежда по погоде",
+      "Проверьте условия доступа перед выходом"
+    ],
+    "detail": {
+      "type": "places",
+      "placeIds": [
+        "krymsky"
+      ]
+    }
+  },
+  {
+    "id": "visit-gorky",
+    "title": "Парк Горького: прогулка по доступной части",
+    "location": "city",
+    "durationMinutes": 80,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Одежда по погоде",
+      "Проверьте условия доступа перед выходом",
+      "Перед выходом проверьте текущие перекрытия на сайте парка"
+    ],
+    "detail": {
+      "type": "places",
+      "placeIds": [
+        "gorky"
+      ]
+    }
+  },
+  {
+    "id": "visit-neskuchny",
+    "title": "Прогулка по Нескучному саду",
+    "location": "city",
+    "durationMinutes": 65,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Одежда по погоде",
+      "Проверьте условия доступа перед выходом"
+    ],
+    "detail": {
+      "type": "places",
+      "placeIds": [
+        "neskuchny"
+      ]
+    }
+  },
+  {
+    "id": "visit-red-square",
+    "title": "Посмотреть ансамбль Красной площади",
+    "location": "city",
+    "durationMinutes": 45,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Одежда по погоде",
+      "Проверьте условия доступа перед выходом"
+    ],
+    "detail": {
+      "type": "places",
+      "placeIds": [
+        "red-square"
+      ]
+    }
+  },
+  {
+    "id": "visit-nikolskaya",
+    "title": "Прогулка по Никольской улице",
+    "location": "city",
+    "durationMinutes": 35,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Одежда по погоде",
+      "Проверьте условия доступа перед выходом"
+    ],
+    "detail": {
+      "type": "places",
+      "placeIds": [
+        "nikolskaya"
+      ]
+    }
+  },
+  {
+    "id": "visit-zaryadye",
+    "title": "Погулять по парку «Зарядье»",
+    "location": "city",
+    "durationMinutes": 55,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Одежда по погоде",
+      "Проверьте условия доступа перед выходом"
+    ],
+    "detail": {
+      "type": "places",
+      "placeIds": [
+        "zaryadye"
+      ]
+    }
+  },
+  {
+    "id": "visit-arbat",
+    "title": "Рассмотреть детали Старого Арбата",
+    "location": "city",
+    "durationMinutes": 45,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Одежда по погоде",
+      "Проверьте условия доступа перед выходом"
+    ],
+    "detail": {
+      "type": "places",
+      "placeIds": [
+        "arbat"
+      ]
+    }
+  },
+  {
+    "id": "visit-chistye",
+    "title": "Прогулка у Чистых прудов",
+    "location": "city",
+    "durationMinutes": 50,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Одежда по погоде",
+      "Проверьте условия доступа перед выходом"
+    ],
+    "detail": {
+      "type": "places",
+      "placeIds": [
+        "chistye"
+      ]
+    }
+  },
+  {
+    "id": "visit-novodevichy-ponds",
+    "title": "Прогулка у Новодевичьих прудов",
+    "location": "city",
+    "durationMinutes": 60,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Одежда по погоде",
+      "Проверьте условия доступа перед выходом"
+    ],
+    "detail": {
+      "type": "places",
+      "placeIds": [
+        "novodevichy-ponds"
+      ]
+    }
+  },
+  {
+    "id": "visit-impression",
+    "title": "Посетить Музей русского импрессионизма",
+    "location": "city",
+    "durationMinutes": 85,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Билет на выбранную дату, если требуется",
+      "Проверьте режим работы и доступность экспозиции"
+    ],
+    "detail": {
+      "type": "places",
+      "placeIds": [
+        "impression"
+      ]
+    }
+  },
+  {
+    "id": "botanical-sketch",
+    "title": "Зарисовки растений по впечатлениям",
+    "location": "home",
+    "durationMinutes": 60,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Бумага",
+      "Карандаш или краски",
+      "Свои фотографии или воспоминания о саде"
+    ],
+    "detail": {
+      "type": "steps",
+      "steps": [
+        "Выберите растение, которое запомнилось на прогулке. Используйте свои фотографии или рисуйте по памяти.",
+        "Наметьте форму листьев и попробуйте передать цвет; точность иллюстрации не обязательна.",
+        "Подпишите рисунок. Название растения добавляйте только если точно его знаете."
+      ]
+    }
+  },
+  {
+    "id": "lemonade-prep",
+    "title": "Готовим домашний лимонад",
+    "location": "home",
+    "durationMinutes": 20,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Лимоны без воскового покрытия",
+      "Мелкий сахар",
+      "Холодная вода",
+      "Кухонный комбайн",
+      "Сито",
+      "Кувшин"
+    ],
+    "detail": {
+      "type": "recipe",
+      "recipeId": "lemonade"
+    }
+  },
+  {
+    "id": "photo-album",
+    "title": "Маленький фотоальбом прогулки",
+    "location": "home",
+    "durationMinutes": 60,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Свои фотографии",
+      "Телефон, компьютер или бумажный альбом"
+    ],
+    "detail": {
+      "type": "steps",
+      "steps": [
+        "Выберите снимки одной прогулки: общий план, несколько деталей и любимый кадр.",
+        "Расположите их в порядке своего дня и добавьте короткие подписи. Неизвестные даты и названия не придумывайте.",
+        "Сохраните альбом для себя или покажите спутникам, не публикуя без их желания."
+      ]
+    }
+  },
+  {
+    "id": "hot-chocolate-prep",
+    "title": "Горячий шоколад после прогулки",
+    "location": "home",
+    "durationMinutes": 20,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Молоко",
+      "Какао-порошок",
+      "Мягкий светло-коричневый сахар",
+      "Тёмный шоколад",
+      "Взбитые сливки",
+      "Небольшая кастрюля",
+      "Венчик",
+      "Кружки"
+    ],
+    "detail": {
+      "type": "recipe",
+      "recipeId": "homemade-hot-chocolate"
+    }
+  },
+  {
+    "id": "arrabbiata-dinner",
+    "title": "Томатная аррабьята к домашнему ужину",
+    "location": "home",
+    "durationMinutes": 45,
+    "audience": [
+      "solo",
+      "pair",
+      "friends",
+      "family"
+    ],
+    "needs": [
+      "Небольшие зубчики чеснока",
+      "Оливковое масло extra virgin",
+      "Красный перец чили",
+      "Консервированные нарезанные томаты",
+      "Соль",
+      "Сахар",
+      "Кастрюля",
+      "Паста для подачи"
+    ],
+    "detail": {
+      "type": "recipe",
+      "recipeId": "arrabbiata-sauce"
+    }
+  }
+]
