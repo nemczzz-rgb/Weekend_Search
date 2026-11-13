@@ -3,7 +3,7 @@
 - Дата: 2026-11-13
 - От: Alex071004/codex
 - Кому: участники для вычитки; дальнейший исполнитель не назначен
-- Статус задачи: На проверке
+- Статус задачи: Основной набор слит; уточнение 8 исходных названий остаётся
 - Ветка: task-044-film-library; отдельный worktree D:/Weekend_Search_codex, исходная база main 52a481c
 - PR: https://github.com/nemczzz-rgb/Weekend_Search/pull/42; коммит данных d3574e9, включение main 1eaf03a
 
@@ -44,3 +44,7 @@ Production preview с PAGES_BASE=/Weekend_Search/ подтвердил все 15
 - [План «Идеи для дня»](../../docs/project/day-ideas-plan.md), D14 и TASK-044.
 - [Контракт контента](../../apps/web/src/content/README.md) и [типы](../../apps/web/src/content/types.ts).
 - [ADR-005](../../docs/decisions/ADR-005-day-ideas-redesign.md). Интеграционный TASK-003 этим набором не закрывается.
+
+## Факт merge, 2026-11-13
+
+Пользователь явно разрешил merge. PR #42 слит в main 06138c96207fb54a8883dfa75865f94ff7ca93e3, CI/deploy 43486540308 успешен. Сайт и контрольные постеры проверены HTTP 200; worktree TASK-044 удалён. Прежние пункты ожидания CI/merge выше описывают этап до слияния и выполнены. Не завершены только уточнения списка и отдельная реализация экранов TASK-049.
