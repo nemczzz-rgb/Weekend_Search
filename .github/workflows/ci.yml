@@ -45,6 +45,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Line endings match .gitattributes
+        run: |
+          bad=$(git ls-files --eol | grep -E '^i/(crlf|mixed)' || true)
+          if [ -n "$bad" ]; then
+            echo "$bad"
+            echo "::error::Files committed with CRLF or mixed line endings. Fix: git add --renormalize . && git commit"
+            exit 1
+          fi
       - uses: actions/setup-python@v5
         with:
           python-version: "3.14"
