@@ -266,7 +266,11 @@ export function validateContent(dir, { release = false, today = new Date() } = {
   // ---------- activities ----------
   const activityLocation = new Map()
   for (const [a, where] of objects('activities')) {
-    allowed(where, a, ['id', 'title', 'location', 'durationMinutes', 'audience', 'needs', 'detail', 'leadTimeHours', 'image', 'imageAlt'])
+    allowed(where, a, ['id', 'title', 'location', 'durationMinutes', 'audience', 'needs', 'detail', 'leadTimeHours', 'leadTimeNote', 'image', 'imageAlt'])
+    if (a.leadTimeNote !== undefined) {
+      str(where, a.leadTimeNote, 'leadTimeNote', { max: 60 })
+      if (a.leadTimeHours === undefined) errors.push(`${where}: "leadTimeNote" requires "leadTimeHours"`)
+    }
     str(where, a.title, 'title')
     if (a.location !== 'home' && a.location !== 'city') errors.push(`${where}: "location" must be "home" or "city"`)
     else activityLocation.set(a.id, a.location)
