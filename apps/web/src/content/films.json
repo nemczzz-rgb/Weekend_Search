@@ -1,1 +1,1905 @@
-[]
+[
+  {
+    "id": "the-holiday-2006",
+    "title": "Отпуск по обмену",
+    "originalTitle": "The Holiday",
+    "year": 2006,
+    "genres": [
+      "romance",
+      "cozy",
+      "comedy"
+    ],
+    "origin": "owner",
+    "source": "https://www.wikidata.org/w/index.php?title=Q478748&oldid=2567946865&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "me-before-you-2016",
+    "title": "До встречи с тобой",
+    "originalTitle": "Me Before You",
+    "year": 2016,
+    "genres": [
+      "romance"
+    ],
+    "origin": "owner",
+    "source": "https://www.wikidata.org/w/index.php?title=Q20735644&oldid=2568756996&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "crazy-rich-asians-2018",
+    "title": "Безумно богатые азиаты",
+    "originalTitle": "Crazy Rich Asians",
+    "year": 2018,
+    "genres": [
+      "romance",
+      "comedy"
+    ],
+    "origin": "owner",
+    "source": "https://www.wikidata.org/w/index.php?title=Q29588623&oldid=2567810064&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-intern-2015",
+    "title": "Стажер",
+    "originalTitle": "The Intern",
+    "year": 2015,
+    "genres": [
+      "comedy",
+      "cozy"
+    ],
+    "origin": "owner",
+    "source": "https://www.wikidata.org/w/index.php?title=Q18151084&oldid=2563034434&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "dumb-and-dumber-1994",
+    "title": "Тупой и еще тупее",
+    "originalTitle": "Dumb and Dumber",
+    "year": 1994,
+    "genres": [
+      "comedy"
+    ],
+    "origin": "owner",
+    "source": "https://www.wikidata.org/w/index.php?title=Q462418&oldid=2567133549&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-hangover-2009",
+    "title": "Мальчишник в Вегасе",
+    "originalTitle": "The Hangover",
+    "year": 2009,
+    "genres": [
+      "comedy"
+    ],
+    "origin": "owner",
+    "source": "https://www.wikidata.org/w/index.php?title=Q219315&oldid=2566906296&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "bridesmaids-2011",
+    "title": "Девичник в Вегасе",
+    "originalTitle": "Bridesmaids",
+    "year": 2011,
+    "genres": [
+      "comedy"
+    ],
+    "origin": "owner",
+    "source": "https://www.wikidata.org/w/index.php?title=Q837264&oldid=2562995799&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "a-beautiful-mind-2001",
+    "title": "Игры разума",
+    "originalTitle": "A Beautiful Mind",
+    "year": 2001,
+    "genres": [
+      "drama"
+    ],
+    "origin": "owner",
+    "source": "https://www.wikidata.org/w/index.php?title=Q164103&oldid=2567133582&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "requiem-for-a-dream-2000",
+    "title": "Реквием по мечте",
+    "originalTitle": "Requiem for a Dream",
+    "year": 2000,
+    "genres": [
+      "drama"
+    ],
+    "origin": "owner",
+    "source": "https://www.wikidata.org/w/index.php?title=Q487181&oldid=2566810935&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-green-mile-1999",
+    "title": "Зеленая миля",
+    "originalTitle": "The Green Mile",
+    "year": 1999,
+    "genres": [
+      "drama"
+    ],
+    "origin": "owner",
+    "source": "https://www.wikidata.org/w/index.php?title=Q208263&oldid=2568289139&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "shutter-island-2010",
+    "title": "Остров проклятых",
+    "originalTitle": "Shutter Island",
+    "year": 2010,
+    "genres": [
+      "thriller"
+    ],
+    "origin": "owner",
+    "source": "https://www.wikidata.org/w/index.php?title=Q210364&oldid=2568040882&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "zodiac-2007",
+    "title": "Зодиак",
+    "originalTitle": "Zodiac",
+    "year": 2007,
+    "genres": [
+      "thriller"
+    ],
+    "origin": "owner",
+    "source": "https://www.wikidata.org/w/index.php?title=Q218172&oldid=2566907060&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-silence-of-the-lambs-1991",
+    "title": "Молчание ягнят",
+    "originalTitle": "The Silence of the Lambs",
+    "year": 1991,
+    "genres": [
+      "thriller"
+    ],
+    "origin": "owner",
+    "source": "https://www.wikidata.org/w/index.php?title=Q133654&oldid=2568767457&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "coco-2017",
+    "title": "Тайна Коко",
+    "originalTitle": "Coco",
+    "year": 2017,
+    "genres": [
+      "animation",
+      "family"
+    ],
+    "origin": "owner",
+    "source": "https://www.wikidata.org/w/index.php?title=Q5815826&oldid=2563055934&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "paddington-2014",
+    "title": "Приключения Паддингтона",
+    "originalTitle": "Paddington",
+    "year": 2014,
+    "genres": [
+      "family",
+      "cozy"
+    ],
+    "origin": "owner",
+    "source": "https://www.wikidata.org/w/index.php?title=Q15055478&oldid=2568141540&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "how-to-train-your-dragon-2010",
+    "title": "Как приручить дракона",
+    "originalTitle": "How to Train Your Dragon",
+    "year": 2010,
+    "genres": [
+      "animation"
+    ],
+    "origin": "owner",
+    "source": "https://www.wikidata.org/w/index.php?title=Q373096&oldid=2568775174&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-incredibles-2004",
+    "title": "Суперсемейка",
+    "originalTitle": "The Incredibles",
+    "year": 2004,
+    "genres": [
+      "animation"
+    ],
+    "origin": "owner",
+    "source": "https://www.wikidata.org/w/index.php?title=Q213326&oldid=2565890245&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "madagascar-2005",
+    "title": "Мадагаскар",
+    "originalTitle": "Madagascar",
+    "year": 2005,
+    "genres": [
+      "animation"
+    ],
+    "origin": "owner",
+    "source": "https://www.wikidata.org/w/index.php?title=Q174555&oldid=2568131794&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-revenant-2015",
+    "title": "Выживший",
+    "originalTitle": "The Revenant",
+    "year": 2015,
+    "genres": [
+      "adventure"
+    ],
+    "origin": "owner",
+    "source": "https://www.wikidata.org/w/index.php?title=Q18002795&oldid=2568204651&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "eat-pray-love-2010",
+    "title": "Ешь,Молись,Люби",
+    "originalTitle": "Eat Pray Love",
+    "year": 2010,
+    "genres": [
+      "cozy",
+      "drama"
+    ],
+    "origin": "owner",
+    "source": "https://www.wikidata.org/w/index.php?title=Q304030&oldid=2563816165&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-hundred-foot-journey-2014",
+    "title": "Пряности и страсти",
+    "originalTitle": "The Hundred-Foot Journey",
+    "year": 2014,
+    "genres": [
+      "cozy",
+      "comedy"
+    ],
+    "origin": "owner",
+    "source": "https://www.wikidata.org/w/index.php?title=Q15220568&oldid=2567951384&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "while-you-were-sleeping-1995",
+    "title": "Пока ты спал",
+    "originalTitle": "While You Were Sleeping",
+    "year": 1995,
+    "genres": [
+      "romance",
+      "cozy",
+      "comedy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q492093&oldid=2567946892&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "youve-got-mail-1998",
+    "title": "Вам письмо",
+    "originalTitle": "You've Got Mail",
+    "year": 1998,
+    "genres": [
+      "romance",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q284229&oldid=2567143798&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "sleepless-in-seattle-1993",
+    "title": "Неспящие в Сиэтле",
+    "originalTitle": "Sleepless in Seattle",
+    "year": 1993,
+    "genres": [
+      "romance",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q107167&oldid=2568197506&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "when-harry-met-sally-1989",
+    "title": "Когда Гарри встретил Салли",
+    "originalTitle": "When Harry Met Sally",
+    "year": 1989,
+    "genres": [
+      "romance",
+      "comedy",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q471169&oldid=2563584254&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "notting-hill-1999",
+    "title": "Ноттинг-Хилл",
+    "originalTitle": "Notting Hill",
+    "year": 1999,
+    "genres": [
+      "romance",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q200672&oldid=2566435096&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "love-actually-2003",
+    "title": "Реальная любовь",
+    "originalTitle": "Love Actually",
+    "year": 2003,
+    "genres": [
+      "romance",
+      "cozy",
+      "comedy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q190588&oldid=2566758393&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "about-time-2013",
+    "title": "Бойфренд из будущего",
+    "originalTitle": "About Time",
+    "year": 2013,
+    "genres": [
+      "romance",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q4668586&oldid=2567951493&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "brooklyn-2015",
+    "title": "Бруклин",
+    "originalTitle": "Brooklyn",
+    "year": 2015,
+    "genres": [
+      "romance",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q16954098&oldid=2563010066&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "pride-prejudice-2005",
+    "title": "Гордость и предубеждение",
+    "originalTitle": "Pride & Prejudice",
+    "year": 2005,
+    "genres": [
+      "romance",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q270385&oldid=2568775001&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "sense-and-sensibility-1995",
+    "title": "Разум и чувства",
+    "originalTitle": "Sense and Sensibility",
+    "year": 1995,
+    "genres": [
+      "romance",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q643263&oldid=2567549946&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "serendipity-2001",
+    "title": "Интуиция",
+    "originalTitle": "Serendipity",
+    "year": 2001,
+    "genres": [
+      "romance",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q971468&oldid=2566879610&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "remember-the-night-1940",
+    "title": "Запомни ночь",
+    "originalTitle": "Remember the Night",
+    "year": 1940,
+    "genres": [
+      "romance",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q2404100&oldid=2561009457&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "groundhog-day-1993",
+    "title": "День сурка",
+    "originalTitle": "Groundhog Day",
+    "year": 1993,
+    "genres": [
+      "comedy",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q488655&oldid=2563604016&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "planes-trains-and-automobiles-1987",
+    "title": "Самолётом, поездом и автомобилем",
+    "originalTitle": "Planes, Trains and Automobiles",
+    "year": 1987,
+    "genres": [
+      "comedy",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q736788&oldid=2568775637&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-grand-budapest-hotel-2014",
+    "title": "Отель «Гранд Будапешт»",
+    "originalTitle": "The Grand Budapest Hotel",
+    "year": 2014,
+    "genres": [
+      "comedy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q3521099&oldid=2563016634&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "chef-2014",
+    "title": "Повар на колёсах",
+    "originalTitle": "Chef",
+    "year": 2014,
+    "genres": [
+      "comedy",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q15046490&oldid=2563039036&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-best-exotic-marigold-hotel-2011",
+    "title": "Отель «Мэриголд». Лучший из экзотических",
+    "originalTitle": "The Best Exotic Marigold Hotel",
+    "year": 2011,
+    "genres": [
+      "comedy",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q830295&oldid=2567951268&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "julie-julia-2009",
+    "title": "Джули и Джулия: Готовим счастье по рецепту",
+    "originalTitle": "Julie & Julia",
+    "year": 2009,
+    "genres": [
+      "comedy",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q380848&oldid=2566916249&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "mrs-doubtfire-1993",
+    "title": "Миссис Даутфайр",
+    "originalTitle": "Mrs. Doubtfire",
+    "year": 1993,
+    "genres": [
+      "comedy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q483852&oldid=2567946870&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-big-year-2011",
+    "title": "Большой год",
+    "originalTitle": "The Big Year",
+    "year": 2011,
+    "genres": [
+      "comedy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q1304692&oldid=2558461969&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "waking-ned-1998",
+    "title": "Сюрприз старины Неда",
+    "originalTitle": "Waking Ned",
+    "year": 1998,
+    "genres": [
+      "comedy",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q1804855&oldid=2564940681&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-full-monty-1997",
+    "title": "Мужской стриптиз",
+    "originalTitle": "The Full Monty",
+    "year": 1997,
+    "genres": [
+      "comedy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q775970&oldid=2567339845&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-ladykillers-1955",
+    "title": "Убийцы леди",
+    "originalTitle": "The Ladykillers",
+    "year": 1955,
+    "genres": [
+      "comedy"
+    ],
+    "origin": "research",
+    "source": "https://www.afisha.ru/movie/ubiycy-ledi-175399/",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "good-will-hunting-1997",
+    "title": "Умница Уилл Хантинг",
+    "originalTitle": "Good Will Hunting",
+    "year": 1997,
+    "genres": [
+      "drama"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q193835&oldid=2564977320&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "dead-poets-society-1989",
+    "title": "Общество мёртвых поэтов",
+    "originalTitle": "Dead Poets Society",
+    "year": 1989,
+    "genres": [
+      "drama"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q106316&oldid=2567163749&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "finding-forrester-2000",
+    "title": "Найти Форрестера",
+    "originalTitle": "Finding Forrester",
+    "year": 2000,
+    "genres": [
+      "drama"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q1140439&oldid=2566718139&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "october-sky-1999",
+    "title": "Октябрьское небо",
+    "originalTitle": "October Sky",
+    "year": 1999,
+    "genres": [
+      "drama"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q1141420&oldid=2568126199&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "cinema-paradiso-1988",
+    "title": "Новый кинотеатр «Парадизо»",
+    "originalTitle": "Nuovo Cinema Paradiso",
+    "year": 1988,
+    "genres": [
+      "drama",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q464032&oldid=2564885796&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-intouchables-2011",
+    "title": "1+1",
+    "originalTitle": "Intouchables",
+    "year": 2011,
+    "genres": [
+      "drama"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q595&oldid=2564702791&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "billy-elliot-2000",
+    "title": "Билли Эллиот",
+    "originalTitle": "Billy Elliot",
+    "year": 2000,
+    "genres": [
+      "drama"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q458629&oldid=2557091860&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-straight-story-1999",
+    "title": "Простая история",
+    "originalTitle": "The Straight Story",
+    "year": 1999,
+    "genres": [
+      "drama",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q1139454&oldid=2568126086&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-station-agent-2003",
+    "title": "Станционный смотритель",
+    "originalTitle": "The Station Agent",
+    "year": 2003,
+    "genres": [
+      "drama",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q1653448&oldid=2566750402&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-lunchbox-2013",
+    "title": "Ланчбокс",
+    "originalTitle": "द लंच बॉक्स",
+    "year": 2013,
+    "genres": [
+      "drama",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q13423399&oldid=2563008677&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "perfect-days-2023",
+    "title": "Идеальные дни",
+    "originalTitle": "Perfect Days",
+    "year": 2023,
+    "genres": [
+      "drama",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q117663112&oldid=2568134187&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-pursuit-of-happyness-2006",
+    "title": "В погоне за счастьем",
+    "originalTitle": "The Pursuit of Happyness",
+    "year": 2006,
+    "genres": [
+      "drama"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q220515&oldid=2566904418&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "rear-window-1954",
+    "title": "Окно во двор",
+    "originalTitle": "Rear Window",
+    "year": 1954,
+    "genres": [
+      "thriller"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q34414&oldid=2565056880&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "north-by-northwest-1959",
+    "title": "К северу через северо-запад",
+    "originalTitle": "North by Northwest",
+    "year": 1959,
+    "genres": [
+      "thriller"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q223139&oldid=2564849130&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "charade-1963",
+    "title": "Шарада",
+    "originalTitle": "Charade",
+    "year": 1963,
+    "genres": [
+      "thriller"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q496266&oldid=2564864737&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-third-man-1949",
+    "title": "Третий человек",
+    "originalTitle": "The Third Man",
+    "year": 1949,
+    "genres": [
+      "thriller"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q271830&oldid=2568775012&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "dial-m-for-murder-1954",
+    "title": "В случае убийства набирайте «М»",
+    "originalTitle": "Dial M for Murder",
+    "year": 1954,
+    "genres": [
+      "thriller"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q496255&oldid=2563498998&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-lady-vanishes-1938",
+    "title": "Леди исчезает",
+    "originalTitle": "The Lady Vanishes",
+    "year": 1938,
+    "genres": [
+      "thriller"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q500044&oldid=2564725027&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "wait-until-dark-1967",
+    "title": "Дождись темноты",
+    "originalTitle": "Wait Until Dark",
+    "year": 1967,
+    "genres": [
+      "thriller"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q5493376&oldid=2564875514&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-lives-of-others-2006",
+    "title": "Жизнь других",
+    "originalTitle": "Das Leben der Anderen",
+    "year": 2006,
+    "genres": [
+      "thriller"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q153882&oldid=2568767474&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "searching-2018",
+    "title": "Поиск",
+    "originalTitle": "Searching",
+    "year": 2018,
+    "genres": [
+      "thriller"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q48674419&oldid=2567835906&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "knives-out-2019",
+    "title": "Достать ножи",
+    "originalTitle": "Knives Out",
+    "year": 2019,
+    "genres": [
+      "thriller"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q57982486&oldid=2560552054&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "prisoners-2013",
+    "title": "Пленницы",
+    "originalTitle": "Prisoners",
+    "year": 2013,
+    "genres": [
+      "thriller"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q3404003&oldid=2561195837&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-prestige-2006",
+    "title": "Престиж",
+    "originalTitle": "The Prestige",
+    "year": 2006,
+    "genres": [
+      "thriller"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q46551&oldid=2568787084&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "arrival-2016",
+    "title": "Прибытие",
+    "originalTitle": "Arrival",
+    "year": 2016,
+    "genres": [
+      "sci-fi"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q20382729&oldid=2567788018&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "contact-1997",
+    "title": "Контакт",
+    "originalTitle": "Contact",
+    "year": 1997,
+    "genres": [
+      "sci-fi"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q270215&oldid=2568018834&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-truman-show-1998",
+    "title": "Шоу Трумана",
+    "originalTitle": "The Truman Show",
+    "year": 1998,
+    "genres": [
+      "sci-fi"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q214801&oldid=2568774970&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "eternal-sunshine-of-the-spotless-mind-2004",
+    "title": "Вечное сияние чистого разума",
+    "originalTitle": "Eternal Sunshine of the Spotless Mind",
+    "year": 2004,
+    "genres": [
+      "sci-fi"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q208269&oldid=2567964794&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "her-2013",
+    "title": "Она",
+    "originalTitle": "Her",
+    "year": 2013,
+    "genres": [
+      "sci-fi"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q788822&oldid=2567951247&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "moon-2009",
+    "title": "Луна 2112",
+    "originalTitle": "Moon",
+    "year": 2009,
+    "genres": [
+      "sci-fi"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q26751&oldid=2566957370&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "gattaca-1997",
+    "title": "Гаттака",
+    "originalTitle": "Gattaca",
+    "year": 1997,
+    "genres": [
+      "sci-fi"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q491800&oldid=2563620903&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "another-earth-2011",
+    "title": "Другая земля",
+    "originalTitle": "Another Earth",
+    "year": 2011,
+    "genres": [
+      "sci-fi"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q567996&oldid=2562993515&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-man-from-earth-2007",
+    "title": "Человек с Земли",
+    "originalTitle": "The Man from Earth",
+    "year": 2007,
+    "genres": [
+      "sci-fi"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q93701&oldid=2567206159&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "safety-not-guaranteed-2012",
+    "title": "Безопасность не гарантируется",
+    "originalTitle": "Safety Not Guaranteed",
+    "year": 2012,
+    "genres": [
+      "sci-fi"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q2110480&oldid=2540111560&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "robot-frank-2012",
+    "title": "Робот и Фрэнк",
+    "originalTitle": "Robot & Frank",
+    "year": 2012,
+    "genres": [
+      "sci-fi",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q1357820&oldid=2538817730&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "batteries-not-included-1987",
+    "title": "Батарейки не прилагаются",
+    "originalTitle": "Batteries Not Included",
+    "year": 1987,
+    "genres": [
+      "sci-fi",
+      "cozy",
+      "family"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q1170818&oldid=2565021864&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-martian-2015",
+    "title": "Марсианин",
+    "originalTitle": "The Martian",
+    "year": 2015,
+    "genres": [
+      "sci-fi"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q18547944&oldid=2568295830&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-day-the-earth-stood-still-1951",
+    "title": "День, когда остановилась Земля",
+    "originalTitle": "The Day the Earth Stood Still",
+    "year": 1951,
+    "genres": [
+      "sci-fi"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q425992&oldid=2564838460&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "fantastic-voyage-1966",
+    "title": "Фантастическое путешествие",
+    "originalTitle": "Fantastic Voyage",
+    "year": 1966,
+    "genres": [
+      "sci-fi"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q1219171&oldid=2564869954&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "stardust-2007",
+    "title": "Звёздная пыль",
+    "originalTitle": "Stardust",
+    "year": 2007,
+    "genres": [
+      "fantasy",
+      "romance"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q244398&oldid=2566910847&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-princess-bride-1987",
+    "title": "Принцесса-невеста",
+    "originalTitle": "The Princess Bride",
+    "year": 1987,
+    "genres": [
+      "fantasy",
+      "romance",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q506418&oldid=2563463997&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "big-fish-2003",
+    "title": "Крупная рыба",
+    "originalTitle": "Big Fish",
+    "year": 2003,
+    "genres": [
+      "fantasy",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q278997&oldid=2566787070&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "penelope-2006",
+    "title": "Пенелопа",
+    "originalTitle": "Penelope",
+    "year": 2006,
+    "genres": [
+      "fantasy",
+      "romance",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q1074032&oldid=2566883949&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-fall-2006",
+    "title": "Запределье",
+    "originalTitle": "The Fall",
+    "year": 2006,
+    "genres": [
+      "fantasy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q547120&oldid=2566932536&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-neverending-story-1984",
+    "title": "Бесконечная история",
+    "originalTitle": "Die unendliche Geschichte",
+    "year": 1984,
+    "genres": [
+      "fantasy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q316555&oldid=2538540497&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "labyrinth-1986",
+    "title": "Лабиринт",
+    "originalTitle": "Labyrinth",
+    "year": 1986,
+    "genres": [
+      "fantasy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q278053&oldid=2565055257&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-dark-crystal-1982",
+    "title": "Тёмный кристалл",
+    "originalTitle": "The Dark Crystal",
+    "year": 1982,
+    "genres": [
+      "fantasy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q1198483&oldid=2565055351&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "edward-scissorhands-1990",
+    "title": "Эдвард Руки-ножницы",
+    "originalTitle": "Edward Scissorhands",
+    "year": 1990,
+    "genres": [
+      "fantasy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q217182&oldid=2563692554&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-secret-of-roan-inish-1994",
+    "title": "Тайна острова Роан-Иниш",
+    "originalTitle": "The Secret of Roan Inish",
+    "year": 1994,
+    "genres": [
+      "fantasy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q2255971&oldid=2563597927&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "a-christmas-carol-2009",
+    "title": "Рождественская история",
+    "originalTitle": "A Christmas Carol",
+    "year": 2009,
+    "genres": [
+      "fantasy",
+      "cozy",
+      "animation"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q86791&oldid=2561195364&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "scrooged-1988",
+    "title": "Новая рождественская сказка",
+    "originalTitle": "Scrooged",
+    "year": 1988,
+    "genres": [
+      "fantasy",
+      "cozy",
+      "comedy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q535395&oldid=2563585420&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-bfg-2016",
+    "title": "Большой и добрый великан",
+    "originalTitle": "The BFG",
+    "year": 2016,
+    "genres": [
+      "fantasy",
+      "family"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q19689203&oldid=2568407301&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "a-monster-calls-2016",
+    "title": "Голос монстра",
+    "originalTitle": "A Monster Calls",
+    "year": 2016,
+    "genres": [
+      "fantasy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q18200409&oldid=2567823077&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-shape-of-water-2017",
+    "title": "Форма воды",
+    "originalTitle": "The Shape of Water",
+    "year": 2017,
+    "genres": [
+      "fantasy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q26698156&oldid=2567775676&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "paddington-2-2017",
+    "title": "Приключения Паддингтона 2",
+    "originalTitle": "Paddington 2",
+    "year": 2017,
+    "genres": [
+      "family",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q27590871&oldid=2568140243&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-secret-garden-1993",
+    "title": "Таинственный сад",
+    "originalTitle": "The Secret Garden",
+    "year": 1993,
+    "genres": [
+      "family"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q525421&oldid=2563604670&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "a-little-princess-1995",
+    "title": "Маленькая принцесса",
+    "originalTitle": "A Little Princess",
+    "year": 1995,
+    "genres": [
+      "family",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q1216898&oldid=2563592342&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-railway-children-1970",
+    "title": "Дети железной дороги",
+    "originalTitle": "The Railway Children",
+    "year": 1970,
+    "genres": [
+      "family",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q211525&oldid=2567553117&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "a-boy-called-christmas-2021",
+    "title": "Мальчик по имени Рождество",
+    "originalTitle": "A Boy Called Christmas",
+    "year": 2021,
+    "genres": [
+      "family",
+      "cozy",
+      "fantasy"
+    ],
+    "origin": "research",
+    "note": "Рождественское фэнтези в семейной подборке.",
+    "source": "https://www.wikidata.org/w/index.php?title=Q65057444&oldid=2568661104&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-parent-trap-1998",
+    "title": "Ловушка для родителей",
+    "originalTitle": "The Parent trap",
+    "year": 1998,
+    "genres": [
+      "family",
+      "comedy",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q729782&oldid=2568775629&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "matilda-1996",
+    "title": "Матильда",
+    "originalTitle": "Matilda",
+    "year": 1996,
+    "genres": [
+      "family"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q280400&oldid=2567576828&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "hugo-2011",
+    "title": "Хранитель времени",
+    "originalTitle": "Hugo",
+    "year": 2011,
+    "genres": [
+      "family"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q206576&oldid=2566436540&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-secret-life-of-walter-mitty-2013",
+    "title": "Невероятная жизнь Уолтера Митти",
+    "originalTitle": "The Secret Life of Walter Mitty",
+    "year": 2013,
+    "genres": [
+      "family"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q3522637&oldid=2567689195&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "christopher-robin-2018",
+    "title": "Кристофер Робин",
+    "originalTitle": "Christopher Robin",
+    "year": 2018,
+    "genres": [
+      "family",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q24301991&oldid=2567822005&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "babe-1995",
+    "title": "Бэйб: Четвероногий малыш",
+    "originalTitle": "Babe",
+    "year": 1995,
+    "genres": [
+      "family",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q720724&oldid=2566449312&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-black-stallion-1979",
+    "title": "Чёрный скакун",
+    "originalTitle": "The Black Stallion",
+    "year": 1979,
+    "genres": [
+      "family"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q2300266&oldid=2564903894&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "fly-away-home-1996",
+    "title": "Летите домой",
+    "originalTitle": "Fly Away Home",
+    "year": 1996,
+    "genres": [
+      "family"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q49018&oldid=2565351430&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-borrowers-1997",
+    "title": "Воришки",
+    "originalTitle": "The Borrowers",
+    "year": 1997,
+    "genres": [
+      "family"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q1304483&oldid=2564976731&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "klaus-2019",
+    "title": "Клаус",
+    "originalTitle": "Klaus",
+    "year": 2019,
+    "genres": [
+      "animation",
+      "family",
+      "cozy"
+    ],
+    "origin": "research",
+    "note": "Анимационная история для зимней подборки.",
+    "source": "https://www.wikidata.org/w/index.php?title=Q67208596&oldid=2568649758&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "arthur-christmas-2011",
+    "title": "Секретная служба Санта-Клауса",
+    "originalTitle": "Arthur Christmas",
+    "year": 2011,
+    "genres": [
+      "animation",
+      "family",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q711918&oldid=2563892424&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-polar-express-2004",
+    "title": "Полярный экспресс",
+    "originalTitle": "The Polar Express",
+    "year": 2004,
+    "genres": [
+      "animation",
+      "family",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q862197&oldid=2560734055&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-snowman-1982",
+    "title": "Снеговик",
+    "originalTitle": "The Snowman",
+    "year": 1982,
+    "genres": [
+      "animation",
+      "cozy"
+    ],
+    "origin": "research",
+    "note": "Короткий зимний мультфильм.",
+    "source": "https://www.wikidata.org/w/index.php?title=Q1196717&oldid=2563192932&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "winnie-the-pooh-2011",
+    "title": "Медвежонок Винни и его друзья",
+    "originalTitle": "Winnie the Pooh",
+    "year": 2011,
+    "genres": [
+      "animation",
+      "family",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q922193&oldid=2568775820&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "ernest-celestine-2012",
+    "title": "Эрнест и Селестина: Приключения мышки и медведя",
+    "originalTitle": "Ernest et Célestine",
+    "year": 2012,
+    "genres": [
+      "animation",
+      "family",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q3057240&oldid=2567951378&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "song-of-the-sea-2014",
+    "title": "Песнь моря",
+    "originalTitle": "Song of the Sea",
+    "year": 2014,
+    "genres": [
+      "animation"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q17125101&oldid=2564708366&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "wolfwalkers-2020",
+    "title": "Легенда о волках",
+    "originalTitle": "Wolfwalkers",
+    "year": 2020,
+    "genres": [
+      "animation"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q68681463&oldid=2568654369&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "my-neighbor-totoro-1988",
+    "title": "Мой сосед Тоторо",
+    "originalTitle": "となりのトトロ",
+    "year": 1988,
+    "genres": [
+      "animation",
+      "family",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q39571&oldid=2568009824&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "kikis-delivery-service-1989",
+    "title": "Ведьмина служба доставки",
+    "originalTitle": "魔女の宅急便",
+    "year": 1989,
+    "genres": [
+      "animation",
+      "family",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q196602&oldid=2568136659&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-iron-giant-1999",
+    "title": "Стальной гигант",
+    "originalTitle": "The Iron Giant",
+    "year": 1999,
+    "genres": [
+      "animation"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q867283&oldid=2568775767&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "hunt-for-the-wilderpeople-2016",
+    "title": "Охота на дикарей",
+    "originalTitle": "Hunt for the Wilderpeople",
+    "year": 2016,
+    "genres": [
+      "adventure"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q22236109&oldid=2566226172&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "captain-fantastic-2016",
+    "title": "Капитан Фантастик",
+    "originalTitle": "Captain Fantastic",
+    "year": 2016,
+    "genres": [
+      "adventure"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q18703094&oldid=2567782141&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-peanut-butter-falcon-2019",
+    "title": "Арахисовый сокол",
+    "originalTitle": "The Peanut Butter Falcon",
+    "year": 2019,
+    "genres": [
+      "adventure",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q39047194&oldid=2564718129&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "wild-2014",
+    "title": "Дикая",
+    "originalTitle": "Wild",
+    "year": 2014,
+    "genres": [
+      "adventure"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q17065888&oldid=2567951473&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "into-the-wild-2007",
+    "title": "В диких условиях",
+    "originalTitle": "Into the Wild",
+    "year": 2007,
+    "genres": [
+      "adventure"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q269912&oldid=2566912042&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-way-2010",
+    "title": "Путь",
+    "originalTitle": "The Way",
+    "year": 2010,
+    "genres": [
+      "adventure"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q1183257&oldid=2537905402&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "hector-and-the-search-for-happiness-2014",
+    "title": "Путешествие Гектора в поисках счастья",
+    "originalTitle": "Hector and the Search for Happiness",
+    "year": 2014,
+    "genres": [
+      "adventure",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q15922298&oldid=2567951442&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-way-back-2010",
+    "title": "Путь домой",
+    "originalTitle": "The Way Back",
+    "year": 2010,
+    "genres": [
+      "adventure"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q575778&oldid=2566081989&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "tracks-2013",
+    "title": "Тропы",
+    "originalTitle": "Tracks",
+    "year": 2013,
+    "genres": [
+      "adventure"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q7831579&oldid=2568183046&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-adventures-of-tintin-2011",
+    "title": "Приключения Тинтина: Тайна «Единорога»",
+    "originalTitle": "The Adventures of Tintin",
+    "year": 2011,
+    "genres": [
+      "adventure"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q980041&oldid=2568029941&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-worlds-fastest-indian-2005",
+    "title": "Самый быстрый «Индиан»",
+    "originalTitle": "The World's Fastest Indian",
+    "year": 2005,
+    "genres": [
+      "adventure",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q128924&oldid=2566743610&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-african-queen-1951",
+    "title": "Африканская королева",
+    "originalTitle": "The African Queen",
+    "year": 1951,
+    "genres": [
+      "adventure"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q384397&oldid=2564838433&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-darjeeling-limited-2007",
+    "title": "Поезд на Дарджилинг. Отчаянные путешественники",
+    "originalTitle": "The Darjeeling Limited",
+    "year": 2007,
+    "genres": [
+      "adventure",
+      "comedy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q658944&oldid=2566938100&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "life-of-pi-2012",
+    "title": "Жизнь Пи",
+    "originalTitle": "Life of Pi",
+    "year": 2012,
+    "genres": [
+      "adventure"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q152780&oldid=2568323691&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "home-alone-1990",
+    "title": "Один дома",
+    "originalTitle": "Home Alone",
+    "year": 1990,
+    "genres": [
+      "cozy",
+      "comedy",
+      "family"
+    ],
+    "origin": "research",
+    "note": "Рождественская классика для домашнего киновечера.",
+    "source": "https://www.wikidata.org/w/index.php?title=Q105031&oldid=2568295076&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "its-a-wonderful-life-1946",
+    "title": "Эта замечательная жизнь",
+    "originalTitle": "It's a Wonderful Life",
+    "year": 1946,
+    "genres": [
+      "cozy",
+      "drama"
+    ],
+    "origin": "research",
+    "note": "Чёрно-белая классика для тихого зимнего вечера.",
+    "source": "https://www.wikidata.org/w/index.php?title=Q204191&oldid=2567483407&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "miracle-on-34th-street-1947",
+    "title": "Чудо на 34-й улице",
+    "originalTitle": "Miracle on 34th Street",
+    "year": 1947,
+    "genres": [
+      "cozy",
+      "family"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q1467214&oldid=2561041350&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "miracle-on-34th-street-1994",
+    "title": "Чудо на 34-й улице",
+    "originalTitle": "Miracle on 34th Street",
+    "year": 1994,
+    "genres": [
+      "cozy",
+      "family"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q258204&oldid=2568767326&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-muppet-christmas-carol-1992",
+    "title": "Рождественская сказка Маппетов",
+    "originalTitle": "The Muppet Christmas Carol",
+    "year": 1992,
+    "genres": [
+      "cozy",
+      "family",
+      "fantasy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q714721&oldid=2563606577&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-shop-around-the-corner-1940",
+    "title": "Магазинчик за углом",
+    "originalTitle": "The Shop Around the Corner",
+    "year": 1940,
+    "genres": [
+      "cozy",
+      "romance",
+      "comedy"
+    ],
+    "origin": "research",
+    "note": "Камерная романтическая классика в уютной подборке.",
+    "source": "https://www.wikidata.org/w/index.php?title=Q782751&oldid=2561036411&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "christmas-in-connecticut-1945",
+    "title": "Рождество в Коннектикуте",
+    "originalTitle": "Christmas in Connecticut",
+    "year": 1945,
+    "genres": [
+      "cozy",
+      "comedy",
+      "romance"
+    ],
+    "origin": "research",
+    "note": "Праздничная комедия из классического Голливуда.",
+    "source": "https://www.wikidata.org/w/index.php?title=Q2966030&oldid=2563541362&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-bishops-wife-1947",
+    "title": "Жена епископа",
+    "originalTitle": "The Bishop's Wife",
+    "year": 1947,
+    "genres": [
+      "cozy",
+      "romance",
+      "fantasy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q1436798&oldid=2563544988&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-family-stone-2005",
+    "title": "Привет семье!",
+    "originalTitle": "The Family Stone",
+    "year": 2005,
+    "genres": [
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q1064838&oldid=2566699155&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "last-holiday-2006",
+    "title": "Последний отпуск",
+    "originalTitle": "Last Holiday",
+    "year": 2006,
+    "genres": [
+      "cozy",
+      "comedy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q1634476&oldid=2566894554&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-man-who-invented-christmas-2017",
+    "title": "Человек, который изобрёл Рождество",
+    "originalTitle": "The Man Who Invented Christmas",
+    "year": 2017,
+    "genres": [
+      "cozy",
+      "drama"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q27964411&oldid=2567962878&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-holdovers-2023",
+    "title": "Оставленные",
+    "originalTitle": "The Holdovers",
+    "year": 2023,
+    "genres": [
+      "cozy",
+      "drama",
+      "comedy"
+    ],
+    "origin": "research",
+    "note": "Рождественская трагикомедия для взрослого киновечера.",
+    "source": "https://www.wikidata.org/w/index.php?title=Q112114745&oldid=2568022035&uselang=ru",
+    "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "the-christmas-chronicles-2018",
+    "title": "Рождественские хроники",
+    "originalTitle": "The Christmas Chronicles",
+    "year": 2018,
+    "genres": [
+      "cozy",
+      "family",
+      "fantasy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q56615750&oldid=2567823355&uselang=ru",
+    "checkedAt": "2026-11-13"
+  }
+]
