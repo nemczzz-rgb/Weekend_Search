@@ -42,9 +42,9 @@
 | TASK-034 | Решения и ADR-005 | Готово | nemczzz-rgb/codex | docs/project/day-ideas-plan.md, docs/decisions/, CONTEXT.md, docs/design-system/README.md, memory/ | Владелица выбрала доработку утверждённого дизайна и подтвердила общую основу D2–D15; ADR предложена, нужно согласие Alex071004 · [#5](https://github.com/nemczzz-rgb/Weekend_Search/issues/5) ADR-005 согласован 13.11.2026 после подтверждения Alex071004 |
 | TASK-035 | Схема базы знаний и валидатор | Готово | Alex071004/claude-repo | apps/web/src/content/, scripts/content/, tests/content/, .github/workflows/ | Раздел 9 плана; перенос мест без изменения сайта · [#6](https://github.com/nemczzz-rgb/Weekend_Search/issues/6) |
 | TASK-036 | Рецепт и список фильмов владелицы | Готово | nemczzz-rgb | docs/knowledge-base/owner/ | Нужен к G0 · [#7](https://github.com/nemczzz-rgb/Weekend_Search/issues/7) |
-| TASK-037 | Аудит текущего UX | На проверке | Alex071004/claude-repo | docs/ux/audit* | После G0 · [#8](https://github.com/nemczzz-rgb/Weekend_Search/issues/8) |
-| TASK-038 | Варианты развития UX | На проверке | Alex071004/fable | docs/ux/concepts.md | После 037; выбор варианта обоими, стиль по D1 сохраняется · [#9](https://github.com/nemczzz-rgb/Weekend_Search/issues/9) |
-| TASK-039 | UX-спецификация | Запланировано | Alex071004/claude-repo | docs/ux/ | Ворота G1 · [#10](https://github.com/nemczzz-rgb/Weekend_Search/issues/10) |
+| TASK-037 | Аудит текущего UX | Готово | Alex071004/claude-repo | docs/ux/audit* | После G0 · [#8](https://github.com/nemczzz-rgb/Weekend_Search/issues/8) |
+| TASK-038 | Варианты развития UX | Готово | Alex071004/fable | docs/ux/concepts.md | После 037; выбор варианта обоими, стиль по D1 сохраняется · [#9](https://github.com/nemczzz-rgb/Weekend_Search/issues/9) |
+| TASK-039 | UX-спецификация | На проверке | Alex071004/claude-repo | docs/ux/ | Ворота G1 · [#10](https://github.com/nemczzz-rgb/Weekend_Search/issues/10) |
 | TASK-040 | Пакет для Claude Design | Запланировано | Alex071004/claude-repo | docs/design-system/brief/ | Ворота G2 · [#11](https://github.com/nemczzz-rgb/Weekend_Search/issues/11) |
 | TASK-041 | Макеты в Claude Design | Запланировано | Alex071004/claude-design | артефакт Claude Design | После G2 · [#12](https://github.com/nemczzz-rgb/Weekend_Search/issues/12) |
 | TASK-042 | Приёмка макетов и дизайн-система в репозитории | Запланировано | Alex071004/claude-repo | docs/design-system/, apps/web/src/styles/tokens.css | Ворота G3 · [#13](https://github.com/nemczzz-rgb/Weekend_Search/issues/13) |
@@ -105,3 +105,10 @@
 - Рецепты TASK-043 уже включены в main через PR #36; повторная реализация не требуется. По TASK-044 пока нет ответа о частях франшиз.
 - Проверки: все команды tests/README.md прошли; отдельно подтверждены 40 разных последовательностей, 57 используемых занятий, общая аудитория каждого сценария, порядок город → дом, выдержка пиццы и минимумы D14 для сценариев.
 - По TASK-044 получено пожелание Alex071004: тёплое новогоднее и рождественское кино, включая «Один дома»; подборка не должна состоять только из популярных блокбастеров. Этот PR фильмы не меняет. Части франшиз владелицы самостоятельно не выбирались.
+
+## TASK-045 — разрешение конфликта PR #40, 2026-11-13
+
+- Исполнитель: Alex071004/codex; пользователь явно поручил разрешить конфликт и выполнить merge.
+- В рабочую ветку включён main a6e1eef с UX-спецификацией TASK-039. Конфликтующие записи CURRENT.md и LOG.md объединены без потери непустых строк обеих версий.
+- Данные согласованы с новым контрактом: у пиццы leadTimeNote о 48–72 часах, needs не длиннее 40 знаков, у домашнего спа есть ключевое слово «вечер» (R-WISH-9). Состав 40 сценариев / 57 занятий и сроки не меняются.
+- После обязательных проверок и зелёного CI выполняются merge, проверка deploy и удаление своего worktree. Вычитку обоими участниками не считать выполненной без подтверждения.

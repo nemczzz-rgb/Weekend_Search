@@ -353,13 +353,14 @@
 type PlanItem =
   | { kind: 'place'; uid: string; placeId: string }
   | { kind: 'event'; uid: string; eventId: string }
-  | { kind: 'activity'; uid: string; activityId: string; ideaId?: string; filmGenre?: GenreId; filmId?: string }
-  | { kind: 'custom'; uid: string; title: string; address?: string }
+  | { kind: 'activity'; uid: string; activityId: string; ideaId: string; filmGenre?: GenreId; filmId?: string }
+  | { kind: 'custom'; uid: string; title: string; address?: string; durationMinutes: number }
 
 type PlanDay = { date: string /* YYYY-MM-DD */; items: PlanItem[] }
-type Plan = { version: 1; days: PlanDay[] /* 1 или 2 */ }
+type Plan = { version: 1; area: string; days: PlanDay[] /* 1 или 2 */; sourceTitle?: string }
 ```
 
+- Уточнения UX-спецификации (TASK-039): занятие попадает в план только в составе идеи, поэтому `ideaId` обязателен; текст пожелания и активный день не хранятся ([R-MODEL](../ux/interaction-rules.md#модель-и-что-хранится)); ключи дублей, лимиты и разбор пожелания — [interaction-rules.md](../ux/interaction-rules.md), они уточняют 8.1–8.4.
 - `uid` — уникален внутри плана, один и тот же объект можно добавить только один раз. Повторное добавление показывает, где объект уже стоит, как сейчас (TASK-020).
 - Добавление сценария кладёт его занятия подряд в выбранный день в порядке сценария.
 - Удаление с отменой в течение 5 секунд.

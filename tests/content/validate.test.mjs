@@ -25,7 +25,7 @@ function base() {
       tips: ['Совет'], toppings: [{ title: 'Маргарита', text: 'Соус, сыр' }], serving: ['Подать'], source: 'owner', checkedAt: '2026-11-12',
     }],
     activities: [
-      { id: 'cook', title: 'Испечь пиццу', location: 'home', durationMinutes: 60, audience: ['pair'], needs: ['духовка'], detail: { type: 'recipe', recipeId: 'roman-pizza' }, leadTimeHours: { min: 48, max: 72 } },
+      { id: 'cook', title: 'Испечь пиццу', location: 'home', durationMinutes: 60, audience: ['pair'], needs: ['духовка'], detail: { type: 'recipe', recipeId: 'roman-pizza' }, leadTimeHours: { min: 48, max: 72 }, leadTimeNote: 'тесто 48–72 ч в холодильнике' },
       { id: 'movie', title: 'Киновечер', location: 'home', durationMinutes: 120, audience: ['pair', 'friends'], needs: [], detail: { type: 'films' } },
       { id: 'walk-park', title: 'Прогулка', location: 'city', durationMinutes: 60, audience: ['solo'], needs: [], detail: { type: 'places', placeIds: ['park'] } },
     ],
@@ -96,6 +96,8 @@ expectError('pizza lead time', d => { d.recipes[0].leadTimeHours = { min: 0, max
 expectError('pizza source', d => { d.recipes[0].source = 'https://example.org/recipe' }, /must have source "owner"/)
 expectError('unit without amount', d => { d.recipes[0].ingredients[0].items[1].unit = 'г' }, /"unit" without "amount"/)
 expectError('lead time order', d => { d.activities[0].leadTimeHours = { min: 72, max: 48 } }, /0 ≤ min ≤ max/)
+expectError('lead note without hours', d => { d.activities[1].leadTimeNote = 'нужна подготовка' }, /"leadTimeNote" requires "leadTimeHours"/)
+expectError('long lead note', d => { d.activities[0].leadTimeNote = 'я'.repeat(61) }, /longer than 60/)
 expectError('unknown recipe', d => { d.activities[0].detail.recipeId = 'nope' }, /unknown recipe "nope"/)
 expectError('bad audience', d => { d.activities[0].audience = ['everyone'] }, /"audience" must be/)
 expectError('places activity at home', d => { d.activities[2].location = 'home' }, /must have location "city"/)
@@ -106,4 +108,4 @@ expectError('image without alt', d => { d['day-ideas'][0].image = 'pizza.webp' }
 expectError('not an array', d => { d.films = { id: 'x' } }, /must be a JSON array/)
 
 assert.equal(GENRES.length, 10)
-console.log('Валидатор базы знаний: корректные данные проходят, 33 вида ошибок ловятся — OK')
+console.log('Валидатор базы знаний: корректные данные проходят, 35 видов ошибок ловятся — OK')
