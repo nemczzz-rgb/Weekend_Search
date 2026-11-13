@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&family=Oswald:wght@500;600&display=swap');
+
+:root {
+  font-family: Manrope, Arial, sans-serif;
+  color: #193128;
+  background: #f3eddf;
+}
+
+body { background: #f3eddf; }
+button, input, select, textarea { font: inherit; }
+button { transition: background-color .18s ease, color .18s ease, transform .18s ease; }
+button:hover:not(:disabled) { transform: translateY(-1px); }
+:focus-visible { outline: 3px solid #b96f4d; outline-offset: 3px; }
+
+.site-shell {
+  background: radial-gradient(circle at 12% 35%, #fff9ed 0, transparent 40%), #f3eddf;
+}
+
+.topbar {
+  height: 86px;
+  background: #f4eedf;
+  border-bottom: 1px solid #d9d0bf;
+  padding: 0 max(4vw, 28px);
+  position: relative;
+  z-index: 5;
+}
+.brand { font-size: 21px; letter-spacing: -.075em; }
+.brand-mark {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: #1c3329;
+  color: #f3ead7;
+  font-size: 22px;
+}
+.topnav { background: #eee8d9; border: 1px solid #dfd7c6; }
+.topnav button { color: #42564a; font-size: 12px; }
+.topnav button.active { background: #193429; color: #fff8e9; }
+.header-note { color: #385044; }
+.header-note span { color: #9d5e41; }
+
+.home-layout { max-width: none; padding: 0 0 88px; display: block; }
+.hero {
+  min-height: min(780px, calc(100svh - 86px));
+  padding: clamp(85px, 10vh, 130px) max(5.5vw, 32px) 88px;
+  background-color: #f1e5d3;
+  background-image: linear-gradient(90deg, #f2e8d8f5 0%, #f2e8d8d4 26%, #f2e8d800 54%), url('/images/moscow-collage.png');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.hero::before { content: none; }
+.eyebrow, .section-kicker { color: #8a4f38; letter-spacing: .2em; font-size: 10px; }
+.eyebrow-dot { background: #9d5c3e; }
+.hero h1 {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  color: #152e24;
+  font-weight: 600;
+  font-size: clamp(76px, 7.5vw, 120px);
+  line-height: .83;
+  letter-spacing: -.075em;
+  margin: 30px 0 26px;
+  max-width: 740px;
+}
+.hero h1 em { color: #1c382b; font-weight: 500; letter-spacing: -.075em; }
+.hero-copy { max-width: 375px; color: #273a30; font-size: 15px; line-height: 1.7; font-weight: 600; }
+.hero-actions { margin-top: 31px; }
+.primary-button, .wide-button {
+  background: #1a3329;
+  border-radius: 999px;
+  box-shadow: none;
+  padding: 16px 25px;
+  min-height: 52px;
+}
+.primary-button:hover, .wide-button:hover { background: #9b5c40; }
+.text-button { color: #183429; background: #f6ecdbed; border-radius: 999px; padding: 13px 19px; }
+.hero-aside { display: none; }
+.hero-aside .line { background: #7e8d76; }
+
+.planner-panel {
+  max-width: 1020px;
+  margin: 72px auto 0;
+  background: #faf6eb;
+  border: 1px solid #dcd2c0;
+  border-radius: 16px;
+  box-shadow: 0 20px 60px #2e382a0b;
+  padding: 48px clamp(24px, 5vw, 70px);
+  scroll-margin-top: 24px;
+}
+.panel-heading { margin-bottom: 30px; }
+.panel-heading h2, .add-card h2 {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(36px, 4vw, 58px);
+  letter-spacing: -.06em;
+  line-height: 1;
+  font-weight: 600;
+  margin: 6px 0 8px;
+}
+.panel-heading p { color: #526456; margin: 0; font-size: 13px; }
+.sun-icon { background: #ead1ad; color: #9c583e; }
+.field-label, .field span, .add-form label span { color: #263b2d; font-size: 12px; }
+.prompt-box { background: #fffdf6; border-color: #d9d0bd; border-radius: 12px; }
+.prompt-box textarea { font-size: 13px; color: #1a3328; }
+.prompt-box textarea::placeholder { color: #67786b; }
+.prompt-box button { background: #1b382b; border-radius: 50%; }
+.field input, .field select, .add-form input { background: #fffdf6; border-color: #d9d0bd; border-radius: 9px; height: 46px; font-size: 13px; }
+.segmented button { background: #ede9dc; color: #32493a; border-radius: 999px; font-size: 12px; min-height: 42px; }
+.segmented button.selected { color: #fffaf0; background: #1c3a2c; border-color: #1c3a2c; }
+.chip { background: #fffaf0; border-color: #cfcfba; color: #314736; font-size: 11px; padding: 10px 15px; }
+.chip.selected { background: #d8e0cb; border-color: #758b6f; color: #183629; }
+.wide-button { font-size: 13px; }
+.panel-footnote { color: #536357; font-size: 11px; }
+.divider { color: #657364; }
+.divider::before, .divider::after { background: #d9d4c6; }
+.saved-wish { background: #e7e9da; border-color: #8e9f79; }
+
+.content-layout { max-width: 1320px; }
+.page-intro h1 {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(58px, 7vw, 100px);
+  font-weight: 600;
+  line-height: .9;
+  letter-spacing: -.07em;
+  margin: 15px 0 22px;
+}
+.page-intro p { color: #425447; font-size: 14px; }
+.title-star { color: #a96948; }
+.status-banner { background: #e7e6d5; border-color: #c8cebc; }
+.status-icon { background: #cad3be; color: #183528; }
+.status-banner p { color: #435548; }
+.notice { background: #dce9d6; color: #244432; }
+.plan-summary { color: #344b3a; }
+.plan-summary button { color: #1d5033; }
+.day-card, .add-card { background: #faf6eb; border-color: #d9d2c2; border-radius: 12px; }
+.day-heading h2, .stop h3, .catalog-card h2 {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-weight: 600;
+  letter-spacing: -.045em;
+}
+.day-heading h2 { font-size: 32px; }
+.day-number, .stop-index { color: #ad6d4e; }
+.day-heading p, .stop p, .add-card p, .catalog-card p { color: #4d5e51; }
+.stop h3 { font-size: 26px; margin: 4px 0; }
+.stop-tags, .duration { color: #536d55; }
+.stop-actions button { color: #213e2c; background: #e8ebdd; border-color: #cbd5c5; border-radius: 999px; font-size: 11px; padding: 8px 12px; }
+.stop-actions .remove-button { color: #7e3f2f; background: #f8e9df; border-color: #eac5b5; }
+.add-form button { background: #1b382b; border-radius: 999px; }
+.plan-aside { background: #e7e4d4; border: 1px solid #d7d2be; border-radius: 12px; padding: 28px; }
+.plan-aside h3 { font-family: 'Cormorant Garamond', Georgia, serif; font-size: 33px; color: #1d3b2c; margin-top: 18px; }
+.plan-aside p { color: #455548; }
+.aside-detail span { color: #556757; }
+
+.catalog-grid { gap: 22px; }
+.catalog-card { background: #faf6eb; border: 1px solid #ddd1be; border-radius: 8px; }
+.catalog-art { height: 250px; border-radius: 0; }
+.catalog-art.green { background: linear-gradient(150deg, #d7d9bb, #7e9373); }
+.catalog-art.orange { background: linear-gradient(145deg, #e6c7a4, #b37250); }
+.catalog-art.blue { background: linear-gradient(150deg, #ccd7cf, #819e94); }
+.catalog-art::after {
+  content: '';
+  position: absolute;
+  width: 62%;
+  height: 115%;
+  right: -8%;
+  bottom: -50%;
+  border-radius: 50%;
+  background: #f5ebd7a6;
+  filter: blur(1px);
+}
+.catalog-art-number { font-size: 120px; top: 5px; left: 20px; line-height: 1; color: #fff6e7c9; z-index: 1; }
+.catalog-art-label { color: #213e2d; z-index: 1; }
+.catalog-card-body { padding: 23px; }
+.catalog-meta span { color: #744735; }
+.catalog-card h2 { font-size: 31px; }
+.catalog-card p { font-size: 12px; }
+.catalog-bottom { color: #3d5844; border-color: #d9d2c2; }
+.catalog-bottom button { color: #fff6e6; background: #1b382b; }
+footer { background: #e9e1cf; border-color: #d3c8b4; color: #435448; }
+.footer-brand { color: #19392b; }
+
+.visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+.input-hint { margin: 9px 0 0; color: #586859; font-size: 11px; line-height: 1.5; }
+.form-notice { color: #874e38; font-size: 12px; background: #f4e6da; border-radius: 8px; padding: 10px 13px; }
+.home-ideas { max-width: 1320px; margin: 108px auto 0; padding: 0 32px; }
+.home-ideas-head { display: flex; align-items: end; justify-content: space-between; gap: 20px; margin-bottom: 27px; }
+.home-ideas-head h2 { font: 600 clamp(44px, 5vw, 70px)/.95 'Cormorant Garamond', Georgia, serif; letter-spacing: -.07em; margin: 10px 0 0; }
+.home-ideas-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+.mini-idea { min-height: 245px; position: relative; display: flex; flex-direction: column; align-items: start; text-align: left; border: 1px solid #c9bca9; padding: 22px; color: #193228; overflow: hidden; }
+.mini-idea::after { content: ''; position: absolute; width: 155px; height: 155px; right: -55px; bottom: -75px; background: #f6edda88; border-radius: 50%; }
+.mini-idea.rust { background: #c88e6a; }.mini-idea.olive { background: #acb491; }.mini-idea.sage { background: #c7d0b3; }.mini-idea.blue { background: #a8bdba; }
+.mini-idea span { text-transform: uppercase; letter-spacing: .16em; font-weight: 800; font-size: 10px; }
+.mini-idea strong { font: 600 33px/.98 'Cormorant Garamond', Georgia, serif; letter-spacing: -.04em; max-width: 190px; margin-top: 56px; }
+.mini-idea small { font-size: 10px; line-height: 1.55; margin-top: 8px; max-width: 190px; }
+.mini-idea b { position: absolute; right: 17px; top: 17px; font-size: 23px; font-weight: 400; }
+
+.route-page { max-width: 1420px; }
+.route-page .page-intro { max-width: 980px; }
+.request-quote { margin-top: 22px; display: inline-block; max-width: 680px; padding: 12px 18px; background: #ede8d9; border-left: 3px solid #a36545; }
+.request-quote span, .map-selection span { font-size: 9px; letter-spacing: .16em; font-weight: 800; color: #8a5139; }
+.request-quote p { margin: 4px 0 0; font-size: 13px; color: #2d4333; }
+.route-page .status-banner { max-width: none; }
+.route-page .notice { max-width: none; }
+.route-page .plan-summary { margin: 27px 0 18px; }
+.route-page .plan-layout { grid-template-columns: minmax(0, .88fr) minmax(0, 1.12fr); gap: 24px; margin-top: 0; }
+.route-page .stop.selected { background: #f3f1e4; margin: 0 -12px; padding-left: 12px; padding-right: 12px; border-radius: 8px; }
+.day-switch, .result-tabs { display: flex; gap: 8px; margin: 14px 0 20px; }
+.day-switch button, .result-tabs button { border: 1px solid #cbd0bb; background: #f9f4e8; color: #304936; border-radius: 999px; padding: 10px 16px; font-size: 11px; font-weight: 700; }
+.day-switch button.active, .result-tabs button.active { color: #fff9ec; background: #1c382b; border-color: #1c382b; }
+.result-tabs { display: none; }
+.replace-picker { display: block; margin-top: 16px; font-size: 11px; font-weight: 700; color: #34513b; }
+.replace-picker select { display: block; width: 100%; height: 42px; padding: 0 10px; margin-top: 5px; border: 1px solid #c9d3c0; border-radius: 7px; color: #1d3829; background: #fffef7; }
+.catalog-link { border: 0; background: none; color: #214d32; font-size: 12px; font-weight: 800; margin-top: 14px; padding: 8px 0; }
+
+.map-panel { min-width: 0; position: sticky; top: 18px; scroll-margin-top: 20px; }
+.route-map { background: #faf7ee; border: 1px solid #d9d0bf; border-radius: 12px; padding: 18px; box-shadow: 0 12px 40px #293b2110; }
+.map-heading { display: flex; align-items: end; justify-content: space-between; gap: 10px; margin: 0 3px 13px; }
+.map-heading h2 { font: 600 36px/.95 'Cormorant Garamond', Georgia, serif; letter-spacing: -.05em; margin: 5px 0 0; }
+.map-badge { color: #7d4c38; border: 1px solid #d9b7a6; padding: 5px 8px; border-radius: 3px; font-size: 8px; font-weight: 800; letter-spacing: .08em; white-space: nowrap; }
+.map-canvas { position: relative; width: 100%; aspect-ratio: 1.12; max-height: 590px; border: 8px solid #f5f0e5; overflow: hidden; background: #e8e7d8; }
+.map-drawing { display: block; width: 100%; height: 100%; }
+.map-district { fill: #7b897b; font: 700 15px Manrope, sans-serif; letter-spacing: 3px; opacity: .6; }
+.map-marker { position: absolute; z-index: 2; transform: translate(-50%, -50%); width: 34px; height: 34px; padding: 0; border: 3px solid #fff9ed; border-radius: 50%; background: #1c2f27; color: #fff9ed; box-shadow: 0 2px 8px #1731234d; font-size: 14px; font-weight: 800; }
+.map-marker.active, .map-marker:hover { background: #ac5d38; transform: translate(-50%, -50%) scale(1.12); }
+.map-note { font-size: 10px; color: #445647; line-height: 1.6; margin: 13px 4px 10px; }
+.map-legend { list-style: none; display: flex; flex-wrap: wrap; gap: 7px; padding: 0; margin: 0 4px 3px; }
+.map-legend button { display: flex; align-items: center; gap: 7px; background: #f0eddf; border: 1px solid #d7d8c9; border-radius: 999px; padding: 5px 10px 5px 5px; color: #294334; font-size: 10px; }
+.map-legend button.active { background: #dbe2d4; border-color: #9caa90; }
+.map-legend span { display: grid; place-items: center; width: 19px; height: 19px; border-radius: 50%; color: #fff9ec; background: #1c382b; font-size: 10px; }
+.map-selection { background: #e9e5d4; border: 1px solid #d8d1bd; border-radius: 10px; margin-top: 10px; padding: 13px 18px; display: flex; flex-direction: column; gap: 3px; }
+.map-selection strong { font: 600 24px/.95 'Cormorant Garamond', Georgia, serif; }
+.map-selection small { color: #465847; font-size: 10px; }
+
+.catalog-tools { display: flex; justify-content: space-between; align-items: center; gap: 15px; margin: 22px 0; }
+.catalog-tabs { display: flex; gap: 5px; background: #e6e1d3; border-radius: 999px; padding: 5px; }
+.catalog-tabs button { border: 0; border-radius: 999px; background: transparent; padding: 10px 16px; color: #324a38; font-size: 12px; font-weight: 700; }
+.catalog-tabs button.active { color: #fff9ec; background: #1b382b; }
+.catalog-tabs span { opacity: .7; margin-left: 4px; }
+.catalog-search { flex: 0 1 330px; }
+.catalog-search input { width: 100%; background: #faf6eb; color: #1c392b; border: 1px solid #d7d0be; border-radius: 999px; padding: 12px 18px; font-size: 12px; }
+.catalog-filters { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 25px; }
+.catalog-filters button { border: 1px solid #d0cbbb; background: #f7f2e6; color: #2b4936; border-radius: 999px; padding: 8px 13px; font-size: 11px; }
+.catalog-filters button.active { background: #a9b695; border-color: #7e9579; }
+.catalog-art.rust { background: linear-gradient(145deg, #debd9f, #a96546); }.catalog-art.olive { background: linear-gradient(145deg, #d6d7ba, #8d9b72); }.catalog-art.sage { background: linear-gradient(145deg, #d6e0cd, #8ca68b); }.catalog-art.sand { background: linear-gradient(145deg, #ebd7b3, #b89b70); }.catalog-art.ink { background: linear-gradient(145deg, #b9c8c0, #526d64); }
+.catalog-place-list { min-height: 46px; color: #576959; font-size: 11px; line-height: 1.55; border-top: 1px solid #e3d9c9; padding-top: 10px; }
+.catalog-empty { background: #faf6eb; border: 1px solid #d9d0bf; border-radius: 10px; padding: 25px; color: #425648; font-size: 13px; }
+.places-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+.place-card { display: grid; grid-template-columns: 34px 1fr 36px; gap: 14px; align-items: start; background: #faf6eb; border: 1px solid #d9d0bf; border-radius: 9px; padding: 21px; }
+.place-number { font: italic 24px Georgia, serif; color: #a66a4a; }
+.place-card h2 { font: 600 26px/.98 'Cormorant Garamond', Georgia, serif; letter-spacing: -.04em; margin: 8px 0; }
+.place-card p { color: #4d6050; font-size: 12px; margin: 0 0 12px; }
+.place-card small { color: #536555; font-size: 10px; }
+.place-card > button { border: 0; width: 34px; height: 34px; border-radius: 50%; background: #1c382b; color: #fff8e9; font-size: 22px; }
+
+@media (max-width: 800px) {
+  .hero {
+    min-height: 740px;
+    padding: 78px 35px 40px;
+    background-image: linear-gradient(to bottom, #f2e8d8 0%, #f2e8d8 48%, #f2e8d8d9 60%, #f2e8d800 77%), url('/images/moscow-collage.png');
+    background-position: 57% bottom;
+  }
+  .hero h1 { font-size: clamp(68px, 11vw, 96px); }
+  .hero-copy { max-width: 330px; }
+  .hero-aside { display: none; }
+  .planner-panel { margin: 42px 24px 0; }
+  .plan-aside { display: block; }
+}
+
+@media (max-width: 650px) {
+  .site-shell { padding-bottom: 64px; }
+  .topbar { height: 66px; min-height: 66px; padding: 12px 20px; }
+  .brand { font-size: 19px; }
+  .topnav {
+    position: fixed;
+    left: 14px;
+    right: 14px;
+    bottom: 12px;
+    width: auto;
+    order: 0;
+    border-radius: 999px;
+    padding: 7px;
+    background: #f6f1e4;
+    box-shadow: 0 10px 35px #182c2080;
+    z-index: 20;
+  }
+  .topnav button { font-size: 12px; min-height: 42px; }
+  .hero {
+    min-height: 740px;
+    padding: 55px 22px 24px;
+    background-image: linear-gradient(to bottom, #f2e8d8 0%, #f2e8d8 48%, #f2e8d8d9 60%, #f2e8d800 77%), url('/images/moscow-collage.png');
+    background-position: 58% bottom;
+  }
+  .hero h1 { font-size: clamp(62px, 15vw, 82px); margin: 24px 0 15px; }
+  .hero-copy { font-size: 13px; line-height: 1.55; max-width: 285px; }
+  .hero-actions { gap: 12px; margin-top: 22px; }
+  .primary-button { width: auto; min-height: 48px; padding: 12px 18px; font-size: 12px; }
+  .text-button { font-size: 12px; background: #f6ecdbed; border-radius: 999px; padding: 12px 17px; }
+  .hero-aside { display: none; }
+  .planner-panel { margin: 26px 14px 0; padding: 27px 21px 32px; }
+  .panel-heading h2 { font-size: 39px; }
+  .panel-heading p { font-size: 12px; }
+  .sun-icon { width: 32px; height: 32px; font-size: 22px; flex: 0 0 auto; }
+  .form-grid { grid-template-columns: 1fr 1fr; }
+  .field input, .field select { font-size: 12px; }
+  .segmented button { font-size: 11px; }
+  .content-layout { padding: 37px 17px 70px; }
+  .page-intro h1 { font-size: 62px; }
+  .page-intro p { font-size: 12px; }
+  .day-heading h2 { font-size: 26px; }
+  .plan-aside { margin-top: 6px; }
+  .catalog-grid { grid-template-columns: 1fr; gap: 16px; }
+  .catalog-art { height: 170px; }
+  .catalog-art-number { font-size: 100px; }
+  .catalog-card p { min-height: 0; }
+  footer { padding-bottom: 25px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; }
+}
+
+@media (max-width: 1000px) {
+  .home-ideas-grid { grid-template-columns: repeat(2, 1fr); }
+  .route-page .plan-layout { grid-template-columns: 1fr; }
+  .map-panel { position: static; }
+  .map-canvas { max-height: 520px; }
+}
+
+@media (max-width: 650px) {
+  .home-ideas { margin-top: 65px; padding: 0 17px; }
+  .home-ideas-head { align-items: start; flex-direction: column; }
+  .home-ideas-head h2 { font-size: 51px; }
+  .home-ideas-grid { grid-template-columns: 1fr 1fr; gap: 8px; }
+  .mini-idea { min-height: 205px; padding: 15px; }
+  .mini-idea strong { font-size: 27px; margin-top: 42px; }
+  .mini-idea small { font-size: 9px; }
+  .mini-idea b { font-size: 18px; right: 12px; top: 10px; }
+  .route-page .page-intro h1 { font-size: clamp(50px, 14vw, 66px); }
+  .route-page .plan-summary { flex-wrap: wrap; gap: 8px; }
+  .result-tabs { display: flex; }
+  .result-tabs button { flex: 1; }
+  .day-switch { overflow-x: auto; }
+  .day-switch button { white-space: nowrap; }
+  .route-page .plan-layout { display: block; }
+  .route-page .mobile-hidden { display: none; }
+  .route-map { padding: 10px; }
+  .map-heading { align-items: start; }
+  .map-heading h2 { font-size: 30px; }
+  .map-badge { font-size: 7px; white-space: normal; max-width: 110px; text-align: center; }
+  .map-canvas { aspect-ratio: .78; max-height: none; border-width: 5px; }
+  .map-marker { width: 31px; height: 31px; font-size: 12px; }
+  .catalog-tools { align-items: stretch; flex-direction: column; }
+  .catalog-tabs, .catalog-search { width: 100%; flex: none; }
+  .catalog-tabs button { flex: 1; }
+  .catalog-filters { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 7px; }
+  .catalog-filters button { white-space: nowrap; }
+  .places-grid { grid-template-columns: 1fr; }
+  .place-card { padding: 16px; gap: 9px; }
+  .request-quote { width: 100%; }
+}
+
+/* Московский плакат: одна фотографическая композиция, остальное — типографика и CSS. */
+.site-shell { color: #24241f; background: #f2e7d2; }
+.topbar { background: #f2e7d2; border-color: #d7c7ad; }
+.brand-mark, .topnav button.active, .primary-button, .wide-button, .segmented button.selected,
+.catalog-tabs button.active, .result-tabs button.active, .day-switch button.active,
+.map-legend span, .place-card > button, .catalog-bottom button, .add-form button { background: #252923; }
+.topnav { background: #e9dec9; border-color: #d8cbb4; }
+.eyebrow, .section-kicker, .catalog-meta span { color: #9f3f2b; }
+.eyebrow-dot { background: #ac412b; }
+.hero {
+  background-color: #ead7b8;
+  background-image: linear-gradient(90deg, #f0dfc4f0 0%, #f0dfc4ca 24%, #f0dfc400 50%), url('/images/moscow-collage.png');
+}
+.hero h1 {
+  font-family: Oswald, Impact, 'Arial Narrow', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: clamp(72px, 7vw, 116px);
+  line-height: 1.02;
+  letter-spacing: -.045em;
+  color: #20231e;
+  max-width: 580px;
+}
+.hero h1 em { font-family: inherit; font-style: normal; font-weight: 500; color: #a33d28; letter-spacing: inherit; }
+.hero-copy { color: #292e27; }
+.primary-button:hover, .wide-button:hover { background: #a4412b; }
+.title-star { color: #ad432c; }
+.map-marker { background: #20231e; }
+.map-marker.active, .map-marker:hover { background: #a33c28; }
+.catalog-filters button.active { background: #dfc7a8; border-color: #ab775c; }
+
+@media (max-width: 800px) {
+  .hero { background-image: linear-gradient(to bottom, #f0dfc4 0%, #f0dfc4f4 42%, #f0dfc4d1 58%, #f0dfc400 78%), url('/images/moscow-collage.png'); }
+  .hero h1 { font-size: clamp(64px, 10vw, 91px); }
+}
+@media (max-width: 650px) {
+  .hero { background-image: linear-gradient(to bottom, #f0dfc4 0%, #f0dfc4f4 42%, #f0dfc4d1 58%, #f0dfc400 78%), url('/images/moscow-collage.png'); }
+  .hero h1 { font-size: clamp(63px, 14vw, 79px); line-height: .99; }
+  .catalog-filters { scrollbar-width: none; }
+  .catalog-filters::-webkit-scrollbar { display: none; }
+}
+
+.idea-actions { display: flex; flex-wrap: wrap; gap: 10px; margin: 16px 0; }
+.place-address { font-weight: 700; }
+.place-source { display: grid; gap: 7px; margin: 12px 0; }
+.place-source a { color: #8a3c27; text-underline-offset: 3px; font-size: 12px; font-weight: 700; }
+.place-source small { color: #596251; font-size: 10px; line-height: 1.5; }
+.mini-idea.sand { background: #dfc7a8; }
+.mini-idea.ink { background: #bec2b8; }
