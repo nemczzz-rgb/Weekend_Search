@@ -2,7 +2,7 @@
 // Validator for the Weekend Search knowledge base (plan section 9). No dependencies.
 // Usage: node scripts/content/validate.mjs [--release] [contentDir]
 //   --release  volume minimums from decision D14 become errors instead of warnings.
-import { readFileSync, existsSync } from 'node:fs'
+import { readFileSync, existsSync, statSync } from 'node:fs'
 import { join, dirname, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
@@ -87,7 +87,7 @@ export function validateContent(dir, { release = false, today = new Date() } = {
   const allowed = (where, item, keys) => {
     for (const key of Object.keys(item)) {
       if (!keys.includes(key)) {
-        const hint = /url|link|platform|poster|stream|watch/i.test(key) ? ' (links to platforms, posters and unknown links are not allowed)' : ''
+        const hint = /url|link|platform|poster|stream|watch/i.test(key) ? ' (links to platforms and unknown links are not allowed)' : ''
         errors.push(`${where}: unknown field "${key}"${hint}`)
       }
     }
@@ -178,7 +178,7 @@ export function validateContent(dir, { release = false, today = new Date() } = {
   const filmsPerGenre = Object.fromEntries(GENRES.map(g => [g, 0]))
   const currentYear = today.getUTCFullYear()
   for (const [f, where] of objects('films')) {
-    allowed(where, f, ['id', 'title', 'originalTitle', 'year', 'genres', 'origin', 'note', 'source', 'checkedAt'])
+    allowed(where, f, ['id', 'title', 'originalTitle', 'year', 'genres', 'origin', 'note', 'noteSource', 'noteCheckedAt', 'poster', 'source', 'checkedAt'])
     str(where, f.title, 'title')
     if (f.originalTitle !== undefined) str(where, f.originalTitle, 'originalTitle')
     if (!Number.isInteger(f.year) || f.year < 1888 || f.year > currentYear + 1) errors.push(`${where}: "year" must be a release year`)
@@ -191,7 +191,38 @@ export function validateContent(dir, { release = false, today = new Date() } = {
       }
     }
     if (f.origin !== 'owner' && f.origin !== 'research') errors.push(`${where}: "origin" must be "owner" or "research"`)
-    if (f.note !== undefined) str(where, f.note, 'note', { max: 100 })
+    if (f.note !== undefined) {
+      str(where, f.note, 'note', { max: 100 })
+      if (!(typeof f.noteSource === 'string' && https(f.noteSource))) errors.push(`${where}: "noteSource" must be an https URL`)
+      checkedAt(where, f.noteCheckedAt, 'noteCheckedAt')
+    } else if (f.noteSource !== undefined || f.noteCheckedAt !== undefined) errors.push(`${where}: note metadata requires "note"`)
+    if (f.poster !== undefined) {
+      const pw = `${where}.poster`
+      const p = f.poster
+      if (!isObj(p)) errors.push(`${pw}: must be an object`)
+      else {
+        allowed(pw, p, ['src', 'alt', 'width', 'height', 'source', 'credit', 'checkedAt'])
+        str(pw, p.alt, 'alt'); str(pw, p.credit, 'credit')
+        posInt(pw, p.width, 'width'); posInt(pw, p.height, 'height')
+        if (p.width > 480 || p.height > 720) errors.push(`${pw}: dimensions exceed 480 × 720`)
+        if (!(typeof p.source === 'string' && https(p.source))) errors.push(`${pw}: "source" must be an https URL`)
+        checkedAt(pw, p.checkedAt)
+        if (typeof f.id !== 'string' || !ID.test(f.id) || p.src !== `images/films/${f.id}.webp`) {
+          errors.push(`${pw}: "src" must be the base-relative path images/films/<film-id>.webp`)
+        } else {
+          const file = resolve(dir, '../../public', p.src)
+          if (!existsSync(file) || !statSync(file).isFile()) errors.push(`${pw}: local poster file is missing`)
+          else {
+            const size = statSync(file).size
+            if (size === 0 || size > 300000) errors.push(`${pw}: poster must be 1–300000 bytes`)
+            else {
+              const bytes = readFileSync(file)
+              if (bytes.toString('ascii', 0, 4) !== 'RIFF' || bytes.toString('ascii', 8, 12) !== 'WEBP') errors.push(`${pw}: poster must be a WebP file`)
+            }
+          }
+        }
+      }
+    }
     source(where, f.source)
     checkedAt(where, f.checkedAt)
     const key = `${String(f.title).toLocaleLowerCase('ru-RU')}|${f.year}`

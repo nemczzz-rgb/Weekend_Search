@@ -1,1 +1,3697 @@
-[]
+[
+  {
+    "id": "the-holiday-2006",
+    "title": "Отпуск по обмену",
+    "originalTitle": "The Holiday",
+    "year": 2006,
+    "genres": [
+      "romance",
+      "cozy",
+      "comedy"
+    ],
+    "origin": "owner",
+    "source": "https://www.wikidata.org/w/index.php?title=Q478748&oldid=2567946865&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-holiday-2006.webp",
+      "alt": "Постер фильма «Отпуск по обмену» (2006)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/1581?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Две незнакомки меняются домами на Рождество, чтобы отдохнуть от любовных неудач.",
+    "noteSource": "https://www.sonypictures.com/movies/theholiday",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "me-before-you-2016",
+    "title": "До встречи с тобой",
+    "originalTitle": "Me Before You",
+    "year": 2016,
+    "genres": [
+      "romance"
+    ],
+    "origin": "owner",
+    "source": "https://www.wikidata.org/w/index.php?title=Q20735644&oldid=2568756996&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/me-before-you-2016.webp",
+      "alt": "Постер фильма «До встречи с тобой» (2016)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/296096?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Лу становится помощницей мужчины после тяжёлой травмы и меняет привычный уклад его жизни.",
+    "noteSource": "https://www.themoviedb.org/movie/296096?language=en-US",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "crazy-rich-asians-2018",
+    "title": "Безумно богатые азиаты",
+    "originalTitle": "Crazy Rich Asians",
+    "year": 2018,
+    "genres": [
+      "romance",
+      "comedy"
+    ],
+    "origin": "owner",
+    "source": "https://www.wikidata.org/w/index.php?title=Q29588623&oldid=2567810064&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/crazy-rich-asians-2018.webp",
+      "alt": "Постер фильма «Безумно богатые азиаты» (2018)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/455207?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Поездка на свадьбу в Сингапур открывает Рэйчел, насколько богата семья её парня.",
+    "noteSource": "https://www.themoviedb.org/movie/455207?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-intern-2015",
+    "title": "Стажер",
+    "originalTitle": "The Intern",
+    "year": 2015,
+    "genres": [
+      "comedy",
+      "cozy"
+    ],
+    "origin": "owner",
+    "source": "https://www.wikidata.org/w/index.php?title=Q18151084&oldid=2563034434&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-intern-2015.webp",
+      "alt": "Постер фильма «Стажер» (2015)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/257211?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Пенсионер устраивается стажёром в модный интернет-магазин и осваивает непривычную работу.",
+    "noteSource": "https://www.themoviedb.org/movie/257211?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "dumb-and-dumber-1994",
+    "title": "Тупой и еще тупее",
+    "originalTitle": "Dumb and Dumber",
+    "year": 1994,
+    "genres": [
+      "comedy"
+    ],
+    "origin": "owner",
+    "source": "https://www.wikidata.org/w/index.php?title=Q462418&oldid=2567133549&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/dumb-and-dumber-1994.webp",
+      "alt": "Постер фильма «Тупой и еще тупее» (1994)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/8467?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Двое недалёких приятелей едут через страну, чтобы вернуть незнакомке забытый чемодан.",
+    "noteSource": "https://www.themoviedb.org/movie/8467?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-hangover-2009",
+    "title": "Мальчишник в Вегасе",
+    "originalTitle": "The Hangover",
+    "year": 2009,
+    "genres": [
+      "comedy"
+    ],
+    "origin": "owner",
+    "source": "https://www.wikidata.org/w/index.php?title=Q219315&oldid=2566906296&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-hangover-2009.webp",
+      "alt": "Постер фильма «Мальчишник в Вегасе» (2009)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/18785?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "После бурной ночи друзья ищут пропавшего жениха и пытаются восстановить события.",
+    "noteSource": "https://www.themoviedb.org/movie/18785?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "bridesmaids-2011",
+    "title": "Девичник в Вегасе",
+    "originalTitle": "Bridesmaids",
+    "year": 2011,
+    "genres": [
+      "comedy"
+    ],
+    "origin": "owner",
+    "source": "https://www.wikidata.org/w/index.php?title=Q837264&oldid=2562995799&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/bridesmaids-2011.webp",
+      "alt": "Постер фильма «Девичник в Вегасе» (2011)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/55721?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Энни приходится отложить личные беды и погрузиться в свадебные хлопоты лучшей подруги.",
+    "noteSource": "https://www.themoviedb.org/movie/55721?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "a-beautiful-mind-2001",
+    "title": "Игры разума",
+    "originalTitle": "A Beautiful Mind",
+    "year": 2001,
+    "genres": [
+      "drama"
+    ],
+    "origin": "owner",
+    "source": "https://www.wikidata.org/w/index.php?title=Q164103&oldid=2567133582&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/a-beautiful-mind-2001.webp",
+      "alt": "Постер фильма «Игры разума» (2001)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/453?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Математик Джон Нэш проходит через тяжёлые испытания, опираясь на поддержку жены.",
+    "noteSource": "https://www.universalpicturesathome.com/movies/a-beautiful-mind",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "requiem-for-a-dream-2000",
+    "title": "Реквием по мечте",
+    "originalTitle": "Requiem for a Dream",
+    "year": 2000,
+    "genres": [
+      "drama"
+    ],
+    "origin": "owner",
+    "source": "https://www.wikidata.org/w/index.php?title=Q487181&oldid=2566810935&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/requiem-for-a-dream-2000.webp",
+      "alt": "Постер фильма «Реквием по мечте» (2000)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/641?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Четверо героев гонятся за мечтами, но всё глубже погружаются в наркотическую зависимость.",
+    "noteSource": "https://www.themoviedb.org/movie/641?language=en-US",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-green-mile-1999",
+    "title": "Зеленая миля",
+    "originalTitle": "The Green Mile",
+    "year": 1999,
+    "genres": [
+      "drama"
+    ],
+    "origin": "owner",
+    "source": "https://www.wikidata.org/w/index.php?title=Q208263&oldid=2568289139&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-green-mile-1999.webp",
+      "alt": "Постер фильма «Зеленая миля» (1999)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/497?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "В тюремном блоке смертников появляется необычный заключённый, меняющий жизнь надзирателя.",
+    "noteSource": "https://www.themoviedb.org/movie/497?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "shutter-island-2010",
+    "title": "Остров проклятых",
+    "originalTitle": "Shutter Island",
+    "year": 2010,
+    "genres": [
+      "thriller"
+    ],
+    "origin": "owner",
+    "source": "https://www.wikidata.org/w/index.php?title=Q210364&oldid=2568040882&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/shutter-island-2010.webp",
+      "alt": "Постер фильма «Остров проклятых» (2010)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/11324?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Маршал расследует исчезновение пациентки из лечебницы на острове, полном тревожных тайн.",
+    "noteSource": "https://www.themoviedb.org/movie/11324?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "zodiac-2007",
+    "title": "Зодиак",
+    "originalTitle": "Zodiac",
+    "year": 2007,
+    "genres": [
+      "thriller"
+    ],
+    "origin": "owner",
+    "source": "https://www.wikidata.org/w/index.php?title=Q218172&oldid=2566907060&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/zodiac-2007.webp",
+      "alt": "Постер фильма «Зодиак» (2007)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/1949?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Письма серийного убийцы втягивают журналистов и полицию в многолетний поиск Зодиака.",
+    "noteSource": "https://www.themoviedb.org/movie/1949?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-silence-of-the-lambs-1991",
+    "title": "Молчание ягнят",
+    "originalTitle": "The Silence of the Lambs",
+    "year": 1991,
+    "genres": [
+      "thriller"
+    ],
+    "origin": "owner",
+    "source": "https://www.wikidata.org/w/index.php?title=Q133654&oldid=2568767457&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-silence-of-the-lambs-1991.webp",
+      "alt": "Постер фильма «Молчание ягнят» (1991)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/274?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Агент ФБР ищет убийцу, обращаясь за помощью к опасному заключённому Ганнибалу Лектеру.",
+    "noteSource": "https://www.themoviedb.org/movie/274?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "coco-2017",
+    "title": "Тайна Коко",
+    "originalTitle": "Coco",
+    "year": 2017,
+    "genres": [
+      "animation",
+      "family"
+    ],
+    "origin": "owner",
+    "source": "https://www.wikidata.org/w/index.php?title=Q5815826&oldid=2563055934&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/coco-2017.webp",
+      "alt": "Постер фильма «Тайна Коко» (2017)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/354912?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Юный мечтатель-музыкант попадает в мир умерших и отправляется искать тайны своей семьи.",
+    "noteSource": "https://www.themoviedb.org/movie/354912?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "paddington-2014",
+    "title": "Приключения Паддингтона",
+    "originalTitle": "Paddington",
+    "year": 2014,
+    "genres": [
+      "family",
+      "cozy"
+    ],
+    "origin": "owner",
+    "source": "https://www.wikidata.org/w/index.php?title=Q15055478&oldid=2568141540&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/paddington-2014.webp",
+      "alt": "Постер фильма «Приключения Паддингтона» (2014)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/116149?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Вежливый медвежонок приезжает из Перу в Лондон и ищет семью, которая примет его дома.",
+    "noteSource": "https://www.themoviedb.org/movie/116149?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "how-to-train-your-dragon-2010",
+    "title": "Как приручить дракона",
+    "originalTitle": "How to Train Your Dragon",
+    "year": 2010,
+    "genres": [
+      "animation"
+    ],
+    "origin": "owner",
+    "source": "https://www.wikidata.org/w/index.php?title=Q373096&oldid=2568775174&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/how-to-train-your-dragon-2010.webp",
+      "alt": "Постер фильма «Как приручить дракона» (2010)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/10191?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Юный викинг дружит с драконом вопреки традициям племени, привыкшего воевать с ними.",
+    "noteSource": "https://www.themoviedb.org/movie/10191?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-incredibles-2004",
+    "title": "Суперсемейка",
+    "originalTitle": "The Incredibles",
+    "year": 2004,
+    "genres": [
+      "animation"
+    ],
+    "origin": "owner",
+    "source": "https://www.wikidata.org/w/index.php?title=Q213326&oldid=2565890245&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-incredibles-2004.webp",
+      "alt": "Постер фильма «Суперсемейка» (2004)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/9806?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Семье супергероев приходится оставить тихую жизнь и вновь воспользоваться своими силами.",
+    "noteSource": "https://www.themoviedb.org/movie/9806?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "madagascar-2005",
+    "title": "Мадагаскар",
+    "originalTitle": "Madagascar",
+    "year": 2005,
+    "genres": [
+      "animation"
+    ],
+    "origin": "owner",
+    "source": "https://www.wikidata.org/w/index.php?title=Q174555&oldid=2568131794&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/madagascar-2005.webp",
+      "alt": "Постер фильма «Мадагаскар» (2005)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/953?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Звери из нью-йоркского зоопарка оказываются на острове и учатся жить без привычных удобств.",
+    "noteSource": "https://www.themoviedb.org/movie/953?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-revenant-2015",
+    "title": "Выживший",
+    "originalTitle": "The Revenant",
+    "year": 2015,
+    "genres": [
+      "adventure"
+    ],
+    "origin": "owner",
+    "source": "https://www.wikidata.org/w/index.php?title=Q18002795&oldid=2568204651&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-revenant-2015.webp",
+      "alt": "Постер фильма «Выживший» (2015)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/281957?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Брошенный спутниками раненый охотник пытается выжить среди суровой дикой природы.",
+    "noteSource": "https://www.themoviedb.org/movie/281957?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "eat-pray-love-2010",
+    "title": "Ешь,Молись,Люби",
+    "originalTitle": "Eat Pray Love",
+    "year": 2010,
+    "genres": [
+      "cozy",
+      "drama"
+    ],
+    "origin": "owner",
+    "source": "https://www.wikidata.org/w/index.php?title=Q304030&oldid=2563816165&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/eat-pray-love-2010.webp",
+      "alt": "Постер фильма «Ешь,Молись,Люби» (2010)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/38167?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "После развода Элизабет отправляется в путешествие, чтобы заново понять себя и свои желания.",
+    "noteSource": "https://www.themoviedb.org/movie/38167?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-hundred-foot-journey-2014",
+    "title": "Пряности и страсти",
+    "originalTitle": "The Hundred-Foot Journey",
+    "year": 2014,
+    "genres": [
+      "cozy",
+      "comedy"
+    ],
+    "origin": "owner",
+    "source": "https://www.wikidata.org/w/index.php?title=Q15220568&oldid=2567951384&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-hundred-foot-journey-2014.webp",
+      "alt": "Постер фильма «Пряности и страсти» (2014)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/228194?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Индийская семья открывает кафе напротив французского ресторана и бросает вызов его хозяйке.",
+    "noteSource": "https://www.themoviedb.org/movie/228194?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "while-you-were-sleeping-1995",
+    "title": "Пока ты спал",
+    "originalTitle": "While You Were Sleeping",
+    "year": 1995,
+    "genres": [
+      "romance",
+      "cozy",
+      "comedy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q492093&oldid=2567946892&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/while-you-were-sleeping-1995.webp",
+      "alt": "Постер фильма «Пока ты спал» (1995)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/2064?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Люси спасает незнакомца, а его семья по ошибке принимает её за невесту.",
+    "noteSource": "https://www.themoviedb.org/movie/2064?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "youve-got-mail-1998",
+    "title": "Вам письмо",
+    "originalTitle": "You've Got Mail",
+    "year": 1998,
+    "genres": [
+      "romance",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q284229&oldid=2567143798&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/youve-got-mail-1998.webp",
+      "alt": "Постер фильма «Вам письмо» (1998)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/9489?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Владельцы конкурирующих книжных магазинов не знают, что переписываются друг с другом.",
+    "noteSource": "https://www.themoviedb.org/movie/9489?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "sleepless-in-seattle-1993",
+    "title": "Неспящие в Сиэтле",
+    "originalTitle": "Sleepless in Seattle",
+    "year": 1993,
+    "genres": [
+      "romance",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q107167&oldid=2568197506&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/sleepless-in-seattle-1993.webp",
+      "alt": "Постер фильма «Неспящие в Сиэтле» (1993)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/858?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Услышав по радио историю вдовца, незнакомая женщина решает разыскать его.",
+    "noteSource": "https://www.themoviedb.org/movie/858?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "when-harry-met-sally-1989",
+    "title": "Когда Гарри встретил Салли",
+    "originalTitle": "When Harry Met Sally",
+    "year": 1989,
+    "genres": [
+      "romance",
+      "comedy",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q471169&oldid=2563584254&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/when-harry-met-sally-1989.webp",
+      "alt": "Постер фильма «Когда Гарри встретил Салли» (1989)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/639?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Гарри и Салли годами выясняют, где проходит граница между дружбой и влюблённостью.",
+    "noteSource": "https://www.themoviedb.org/movie/639?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "notting-hill-1999",
+    "title": "Ноттинг-Хилл",
+    "originalTitle": "Notting Hill",
+    "year": 1999,
+    "genres": [
+      "romance",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q200672&oldid=2566435096&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/notting-hill-1999.webp",
+      "alt": "Постер фильма «Ноттинг-Хилл» (1999)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/509?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "В лондонскую книжную лавку заходит кинозвезда, нарушая спокойную жизнь её владельца.",
+    "noteSource": "https://www.themoviedb.org/movie/509?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "love-actually-2003",
+    "title": "Реальная любовь",
+    "originalTitle": "Love Actually",
+    "year": 2003,
+    "genres": [
+      "romance",
+      "cozy",
+      "comedy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q190588&oldid=2566758393&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/love-actually-2003.webp",
+      "alt": "Постер фильма «Реальная любовь» (2003)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/508?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Перед Рождеством несколько лондонских историй любви переплетаются самым неожиданным образом.",
+    "noteSource": "https://www.themoviedb.org/movie/508?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "about-time-2013",
+    "title": "Бойфренд из будущего",
+    "originalTitle": "About Time",
+    "year": 2013,
+    "genres": [
+      "romance",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q4668586&oldid=2567951493&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/about-time-2013.webp",
+      "alt": "Постер фильма «Бойфренд из будущего» (2013)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/122906?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Тим узнаёт, что умеет возвращаться в собственное прошлое, и пробует изменить свою жизнь.",
+    "noteSource": "https://www.themoviedb.org/movie/122906?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "brooklyn-2015",
+    "title": "Бруклин",
+    "originalTitle": "Brooklyn",
+    "year": 2015,
+    "genres": [
+      "romance",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q16954098&oldid=2563010066&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/brooklyn-2015.webp",
+      "alt": "Постер фильма «Бруклин» (2015)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/167073?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Молодая ирландка начинает новую жизнь в Нью-Йорке, разрываясь между любовью и тоской по дому.",
+    "noteSource": "https://www.themoviedb.org/movie/167073?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "pride-prejudice-2005",
+    "title": "Гордость и предубеждение",
+    "originalTitle": "Pride & Prejudice",
+    "year": 2005,
+    "genres": [
+      "romance",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q270385&oldid=2568775001&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/pride-prejudice-2005.webp",
+      "alt": "Постер фильма «Гордость и предубеждение» (2005)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/4348?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Знакомство Элизабет Беннет с надменным мистером Дарси начинается с взаимных предубеждений.",
+    "noteSource": "https://www.themoviedb.org/movie/4348?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "sense-and-sensibility-1995",
+    "title": "Разум и чувства",
+    "originalTitle": "Sense and Sensibility",
+    "year": 1995,
+    "genres": [
+      "romance",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q643263&oldid=2567549946&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/sense-and-sensibility-1995.webp",
+      "alt": "Постер фильма «Разум и чувства» (1995)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/4584?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Потеряв отца и достаток, две разные по характеру сестры пытаются устроить своё будущее.",
+    "noteSource": "https://www.themoviedb.org/movie/4584?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "serendipity-2001",
+    "title": "Интуиция",
+    "originalTitle": "Serendipity",
+    "year": 2001,
+    "genres": [
+      "romance",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q971468&oldid=2566879610&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/serendipity-2001.webp",
+      "alt": "Постер фильма «Интуиция» (2001)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/9778?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "После случайной встречи влюблённые решают доверить судьбе возможность увидеться снова.",
+    "noteSource": "https://www.themoviedb.org/movie/9778?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "remember-the-night-1940",
+    "title": "Запомни ночь",
+    "originalTitle": "Remember the Night",
+    "year": 1940,
+    "genres": [
+      "romance",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q2404100&oldid=2561009457&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/remember-the-night-1940.webp",
+      "alt": "Постер фильма «Запомни ночь» (1940)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/29617?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Прокурор берёт обвиняемую в краже к своей семье на Рождество перед отложенным судом.",
+    "noteSource": "https://www.themoviedb.org/movie/29617?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "groundhog-day-1993",
+    "title": "День сурка",
+    "originalTitle": "Groundhog Day",
+    "year": 1993,
+    "genres": [
+      "comedy",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q488655&oldid=2563604016&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/groundhog-day-1993.webp",
+      "alt": "Постер фильма «День сурка» (1993)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/137?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Самоуверенный телеведущий застревает в одном зимнем дне, который начинается снова и снова.",
+    "noteSource": "https://www.themoviedb.org/movie/137?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "planes-trains-and-automobiles-1987",
+    "title": "Самолётом, поездом и автомобилем",
+    "originalTitle": "Planes, Trains and Automobiles",
+    "year": 1987,
+    "genres": [
+      "comedy",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q736788&oldid=2568775637&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/planes-trains-and-automobiles-1987.webp",
+      "alt": "Постер фильма «Самолётом, поездом и автомобилем» (1987)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/2609?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Поездка домой к Дню благодарения превращается для рекламщика в череду дорожных неурядиц.",
+    "noteSource": "https://www.themoviedb.org/movie/2609?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-grand-budapest-hotel-2014",
+    "title": "Отель «Гранд Будапешт»",
+    "originalTitle": "The Grand Budapest Hotel",
+    "year": 2014,
+    "genres": [
+      "comedy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q3521099&oldid=2563016634&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-grand-budapest-hotel-2014.webp",
+      "alt": "Постер фильма «Отель «Гранд Будапешт»» (2014)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/120467?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Консьерж европейского отеля и его юный помощник оказываются в центре истории с наследством.",
+    "noteSource": "https://www.themoviedb.org/movie/120467?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "chef-2014",
+    "title": "Повар на колёсах",
+    "originalTitle": "Chef",
+    "year": 2014,
+    "genres": [
+      "comedy",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q15046490&oldid=2563039036&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/chef-2014.webp",
+      "alt": "Постер фильма «Повар на колёсах» (2014)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/212778?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Потеряв работу в ресторане, шеф ищет новое вдохновение в собственной кухне на колёсах.",
+    "noteSource": "https://www.themoviedb.org/movie/212778?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-best-exotic-marigold-hotel-2011",
+    "title": "Отель «Мэриголд». Лучший из экзотических",
+    "originalTitle": "The Best Exotic Marigold Hotel",
+    "year": 2011,
+    "genres": [
+      "comedy",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q830295&oldid=2567951268&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-best-exotic-marigold-hotel-2011.webp",
+      "alt": "Постер фильма «Отель «Мэриголд». Лучший из экзотических» (2011)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/74534?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Британские пенсионеры приезжают в индийский отель, который совсем не похож на рекламу.",
+    "noteSource": "https://www.themoviedb.org/movie/74534?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "julie-julia-2009",
+    "title": "Джули и Джулия: Готовим счастье по рецепту",
+    "originalTitle": "Julie & Julia",
+    "year": 2009,
+    "genres": [
+      "comedy",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q380848&oldid=2566916249&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/julie-julia-2009.webp",
+      "alt": "Постер фильма «Джули и Джулия: Готовим счастье по рецепту» (2009)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/24803?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Джули решает за год приготовить все блюда из книги Джулии Чайлд и пишет об этом в блоге.",
+    "noteSource": "https://www.themoviedb.org/movie/24803?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "mrs-doubtfire-1993",
+    "title": "Миссис Даутфайр",
+    "originalTitle": "Mrs. Doubtfire",
+    "year": 1993,
+    "genres": [
+      "comedy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q483852&oldid=2567946870&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/mrs-doubtfire-1993.webp",
+      "alt": "Постер фильма «Миссис Даутфайр» (1993)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/788?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "После развода отец переодевается пожилой домработницей, чтобы чаще видеть своих детей.",
+    "noteSource": "https://www.themoviedb.org/movie/788?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-big-year-2011",
+    "title": "Большой год",
+    "originalTitle": "The Big Year",
+    "year": 2011,
+    "genres": [
+      "comedy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q1304692&oldid=2558461969&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-big-year-2011.webp",
+      "alt": "Постер фильма «Большой год» (2011)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/73937?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Трое любителей наблюдать за птицами превращают своё увлечение в азартное соревнование.",
+    "noteSource": "https://www.themoviedb.org/movie/73937?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "waking-ned-1998",
+    "title": "Сюрприз старины Неда",
+    "originalTitle": "Waking Ned",
+    "year": 1998,
+    "genres": [
+      "comedy",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q1804855&oldid=2564940681&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/waking-ned-1998.webp",
+      "alt": "Постер фильма «Сюрприз старины Неда» (1998)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/10162?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Смерть выигравшего в лотерею соседа подталкивает жителей ирландской деревни к авантюре.",
+    "noteSource": "https://www.themoviedb.org/movie/10162?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-full-monty-1997",
+    "title": "Мужской стриптиз",
+    "originalTitle": "The Full Monty",
+    "year": 1997,
+    "genres": [
+      "comedy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q775970&oldid=2567339845&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-full-monty-1997.webp",
+      "alt": "Постер фильма «Мужской стриптиз» (1997)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/9427?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Оставшиеся без работы сталевары решают заработать, устроив собственное стриптиз-шоу.",
+    "noteSource": "https://www.themoviedb.org/movie/9427?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-ladykillers-1955",
+    "title": "Убийцы леди",
+    "originalTitle": "The Ladykillers",
+    "year": 1955,
+    "genres": [
+      "comedy"
+    ],
+    "origin": "research",
+    "source": "https://www.afisha.ru/movie/ubiycy-ledi-175399/",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-ladykillers-1955.webp",
+      "alt": "Постер фильма «Убийцы леди» (1955)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/5506?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Старушка сдаёт комнату мнимому профессору музыки, чьи планы сулят ей неприятности.",
+    "noteSource": "https://www.themoviedb.org/movie/5506?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "good-will-hunting-1997",
+    "title": "Умница Уилл Хантинг",
+    "originalTitle": "Good Will Hunting",
+    "year": 1997,
+    "genres": [
+      "drama"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q193835&oldid=2564977320&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/good-will-hunting-1997.webp",
+      "alt": "Постер фильма «Умница Уилл Хантинг» (1997)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/489?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Одарённому юноше предлагают шанс в математике при условии, что он начнёт психотерапию.",
+    "noteSource": "https://www.themoviedb.org/movie/489?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "dead-poets-society-1989",
+    "title": "Общество мёртвых поэтов",
+    "originalTitle": "Dead Poets Society",
+    "year": 1989,
+    "genres": [
+      "drama"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q106316&oldid=2567163749&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/dead-poets-society-1989.webp",
+      "alt": "Постер фильма «Общество мёртвых поэтов» (1989)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/207?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Новый учитель литературы побуждает учеников строгой школы искать собственный голос.",
+    "noteSource": "https://www.themoviedb.org/movie/207?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "finding-forrester-2000",
+    "title": "Найти Форрестера",
+    "originalTitle": "Finding Forrester",
+    "year": 2000,
+    "genres": [
+      "drama"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q1140439&oldid=2566718139&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/finding-forrester-2000.webp",
+      "alt": "Постер фильма «Найти Форрестера» (2000)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/711?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Встреча с писателем-затворником помогает юному баскетболисту открыть литературный талант.",
+    "noteSource": "https://www.themoviedb.org/movie/711?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "october-sky-1999",
+    "title": "Октябрьское небо",
+    "originalTitle": "October Sky",
+    "year": 1999,
+    "genres": [
+      "drama"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q1141420&oldid=2568126199&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/october-sky-1999.webp",
+      "alt": "Постер фильма «Октябрьское небо» (1999)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/13466?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Сын шахтёра мечтает построить ракету, хотя отец видит для него совсем другое будущее.",
+    "noteSource": "https://www.themoviedb.org/movie/13466?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "cinema-paradiso-1988",
+    "title": "Новый кинотеатр «Парадизо»",
+    "originalTitle": "Nuovo Cinema Paradiso",
+    "year": 1988,
+    "genres": [
+      "drama",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q464032&oldid=2564885796&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/cinema-paradiso-1988.webp",
+      "alt": "Постер фильма «Новый кинотеатр «Парадизо»» (1988)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/11216?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Мальчик из итальянской деревни влюбляется в кино и дружит с местным киномехаником.",
+    "noteSource": "https://www.miramax.com/movie/cinema-paradiso/",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-intouchables-2011",
+    "title": "1+1",
+    "originalTitle": "Intouchables",
+    "year": 2011,
+    "genres": [
+      "drama"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q595&oldid=2564702791&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-intouchables-2011.webp",
+      "alt": "Постер фильма «1+1» (2011)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/77338?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Богатый аристократ нанимает непривычного помощника, который нарушает все его привычки.",
+    "noteSource": "https://www.themoviedb.org/movie/77338?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "billy-elliot-2000",
+    "title": "Билли Эллиот",
+    "originalTitle": "Billy Elliot",
+    "year": 2000,
+    "genres": [
+      "drama"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q458629&oldid=2557091860&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/billy-elliot-2000.webp",
+      "alt": "Постер фильма «Билли Эллиот» (2000)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/71?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Сын шахтёра увлекается балетом и пытается отстоять свой выбор перед семьёй.",
+    "noteSource": "https://www.themoviedb.org/movie/71?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-straight-story-1999",
+    "title": "Простая история",
+    "originalTitle": "The Straight Story",
+    "year": 1999,
+    "genres": [
+      "drama",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q1139454&oldid=2568126086&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-straight-story-1999.webp",
+      "alt": "Постер фильма «Простая история» (1999)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/404?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Пожилой мужчина едет мириться с братом, выбрав для долгой дороги газонокосилку.",
+    "noteSource": "https://www.themoviedb.org/movie/404?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-station-agent-2003",
+    "title": "Станционный смотритель",
+    "originalTitle": "The Station Agent",
+    "year": 2003,
+    "genres": [
+      "drama",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q1653448&oldid=2566750402&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-station-agent-2003.webp",
+      "alt": "Постер фильма «Станционный смотритель» (2003)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/2056?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Любитель одиночества переезжает на заброшенную железнодорожную станцию в Нью-Джерси.",
+    "noteSource": "https://www.themoviedb.org/movie/2056?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-lunchbox-2013",
+    "title": "Ланчбокс",
+    "originalTitle": "द लंच बॉक्स",
+    "year": 2013,
+    "genres": [
+      "drama",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q13423399&oldid=2563008677&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-lunchbox-2013.webp",
+      "alt": "Постер фильма «Ланчбокс» (2013)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/191714?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Ошибка в доставке обеда знакомит двух незнакомцев, которые начинают обмениваться записками.",
+    "noteSource": "https://www.themoviedb.org/movie/191714?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "perfect-days-2023",
+    "title": "Идеальные дни",
+    "originalTitle": "Perfect Days",
+    "year": 2023,
+    "genres": [
+      "drama",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q117663112&oldid=2568134187&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/perfect-days-2023.webp",
+      "alt": "Постер фильма «Идеальные дни» (2023)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/976893?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Токийский уборщик находит радость в музыке, книгах и деревьях среди размеренных будней.",
+    "noteSource": "https://www.themoviedb.org/movie/976893?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-pursuit-of-happyness-2006",
+    "title": "В погоне за счастьем",
+    "originalTitle": "The Pursuit of Happyness",
+    "year": 2006,
+    "genres": [
+      "drama"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q220515&oldid=2566904418&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-pursuit-of-happyness-2006.webp",
+      "alt": "Постер фильма «В погоне за счастьем» (2006)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/1402?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Отец с маленьким сыном остаётся без жилья, но продолжает бороться за работу и будущее.",
+    "noteSource": "https://www.themoviedb.org/movie/1402?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "rear-window-1954",
+    "title": "Окно во двор",
+    "originalTitle": "Rear Window",
+    "year": 1954,
+    "genres": [
+      "thriller"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q34414&oldid=2565056880&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/rear-window-1954.webp",
+      "alt": "Постер фильма «Окно во двор» (1954)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/567?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Фотограф со сломанной ногой наблюдает за соседями и начинает подозревать преступление.",
+    "noteSource": "https://www.themoviedb.org/movie/567?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "north-by-northwest-1959",
+    "title": "К северу через северо-запад",
+    "originalTitle": "North by Northwest",
+    "year": 1959,
+    "genres": [
+      "thriller"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q223139&oldid=2564849130&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/north-by-northwest-1959.webp",
+      "alt": "Постер фильма «К северу через северо-запад» (1959)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/213?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Рекламщика принимают за секретного агента, и он оказывается в смертельно опасной погоне.",
+    "noteSource": "https://www.themoviedb.org/movie/213?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "charade-1963",
+    "title": "Шарада",
+    "originalTitle": "Charade",
+    "year": 1963,
+    "genres": [
+      "thriller"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q496266&oldid=2564864737&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/charade-1963.webp",
+      "alt": "Постер фильма «Шарада» (1963)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/4808?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "После гибели мужа женщина узнаёт о пропавших деньгах и не понимает, кому можно доверять.",
+    "noteSource": "https://www.themoviedb.org/movie/4808?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-third-man-1949",
+    "title": "Третий человек",
+    "originalTitle": "The Third Man",
+    "year": 1949,
+    "genres": [
+      "thriller"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q271830&oldid=2568775012&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-third-man-1949.webp",
+      "alt": "Постер фильма «Третий человек» (1949)",
+      "width": 480,
+      "height": 717,
+      "source": "https://www.themoviedb.org/movie/1092?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Писатель приезжает в послевоенную Вену и берётся разбираться в загадочной гибели друга.",
+    "noteSource": "https://www.themoviedb.org/movie/1092?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "dial-m-for-murder-1954",
+    "title": "В случае убийства набирайте «М»",
+    "originalTitle": "Dial M for Murder",
+    "year": 1954,
+    "genres": [
+      "thriller"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q496255&oldid=2563498998&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/dial-m-for-murder-1954.webp",
+      "alt": "Постер фильма «В случае убийства набирайте «М»» (1954)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/521?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Бывший теннисист готовит убийство богатой жены, стараясь предусмотреть каждую мелочь.",
+    "noteSource": "https://www.themoviedb.org/movie/521?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-lady-vanishes-1938",
+    "title": "Леди исчезает",
+    "originalTitle": "The Lady Vanishes",
+    "year": 1938,
+    "genres": [
+      "thriller"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q500044&oldid=2564725027&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-lady-vanishes-1938.webp",
+      "alt": "Постер фильма «Леди исчезает» (1938)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/940?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Из поезда исчезает пожилая попутчица, и девушка пытается выяснить, что с ней произошло.",
+    "noteSource": "https://www.themoviedb.org/movie/940?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "wait-until-dark-1967",
+    "title": "Дождись темноты",
+    "originalTitle": "Wait Until Dark",
+    "year": 1967,
+    "genres": [
+      "thriller"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q5493376&oldid=2564875514&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/wait-until-dark-1967.webp",
+      "alt": "Постер фильма «Дождись темноты» (1967)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/11206?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Незрячая женщина оказывается в опасности, когда бандиты начинают искать спрятанную куклу.",
+    "noteSource": "https://www.themoviedb.org/movie/11206?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-lives-of-others-2006",
+    "title": "Жизнь других",
+    "originalTitle": "Das Leben der Anderen",
+    "year": 2006,
+    "genres": [
+      "thriller"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q153882&oldid=2568767474&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-lives-of-others-2006.webp",
+      "alt": "Постер фильма «Жизнь других» (2006)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/582?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Сотрудник спецслужб ГДР следит за драматургом и всё глубже погружается в чужую жизнь.",
+    "noteSource": "https://www.themoviedb.org/movie/582?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "searching-2018",
+    "title": "Поиск",
+    "originalTitle": "Searching",
+    "year": 2018,
+    "genres": [
+      "thriller"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q48674419&oldid=2567835906&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/searching-2018.webp",
+      "alt": "Постер фильма «Поиск» (2018)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/489999?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Отец ищет исчезнувшую дочь, восстанавливая её жизнь по следам в компьютере и интернете.",
+    "noteSource": "https://www.themoviedb.org/movie/489999?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "knives-out-2019",
+    "title": "Достать ножи",
+    "originalTitle": "Knives Out",
+    "year": 2019,
+    "genres": [
+      "thriller"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q57982486&oldid=2560552054&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/knives-out-2019.webp",
+      "alt": "Постер фильма «Достать ножи» (2019)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/546554?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Детектив Бенуа Блан расследует смерть писателя в семье, где у каждого есть свои секреты.",
+    "noteSource": "https://www.themoviedb.org/movie/546554?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "prisoners-2013",
+    "title": "Пленницы",
+    "originalTitle": "Prisoners",
+    "year": 2013,
+    "genres": [
+      "thriller"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q3404003&oldid=2561195837&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/prisoners-2013.webp",
+      "alt": "Постер фильма «Пленницы» (2013)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/146233?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "После исчезновения двух девочек отчаявшийся отец решает вести поиск своими методами.",
+    "noteSource": "https://www.themoviedb.org/movie/146233?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-prestige-2006",
+    "title": "Престиж",
+    "originalTitle": "The Prestige",
+    "year": 2006,
+    "genres": [
+      "thriller"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q46551&oldid=2568787084&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-prestige-2006.webp",
+      "alt": "Постер фильма «Престиж» (2006)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/1124?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Соперничество двух иллюзионистов превращает сценические секреты в опасную одержимость.",
+    "noteSource": "https://www.themoviedb.org/movie/1124?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "arrival-2016",
+    "title": "Прибытие",
+    "originalTitle": "Arrival",
+    "year": 2016,
+    "genres": [
+      "sci-fi"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q20382729&oldid=2567788018&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/arrival-2016.webp",
+      "alt": "Постер фильма «Прибытие» (2016)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/329865?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Лингвист пытается понять язык прибывших на Землю существ, пока мир готовится к худшему.",
+    "noteSource": "https://www.themoviedb.org/movie/329865?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "contact-1997",
+    "title": "Контакт",
+    "originalTitle": "Contact",
+    "year": 1997,
+    "genres": [
+      "sci-fi"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q270215&oldid=2568018834&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/contact-1997.webp",
+      "alt": "Постер фильма «Контакт» (1997)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/686?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Радиоастроном получает сигнал внеземного происхождения, меняющий её жизнь и весь мир.",
+    "noteSource": "https://www.themoviedb.org/movie/686?language=en-US",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-truman-show-1998",
+    "title": "Шоу Трумана",
+    "originalTitle": "The Truman Show",
+    "year": 1998,
+    "genres": [
+      "sci-fi"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q214801&oldid=2568774970&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-truman-show-1998.webp",
+      "alt": "Постер фильма «Шоу Трумана» (1998)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/37165?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Труман начинает замечать странности в привычном мире, устроенном как огромное телешоу.",
+    "noteSource": "https://www.themoviedb.org/movie/37165?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "eternal-sunshine-of-the-spotless-mind-2004",
+    "title": "Вечное сияние чистого разума",
+    "originalTitle": "Eternal Sunshine of the Spotless Mind",
+    "year": 2004,
+    "genres": [
+      "sci-fi"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q208269&oldid=2567964794&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/eternal-sunshine-of-the-spotless-mind-2004.webp",
+      "alt": "Постер фильма «Вечное сияние чистого разума» (2004)",
+      "width": 480,
+      "height": 677,
+      "source": "https://www.themoviedb.org/movie/38?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "После разрыва Джоэл решает стереть воспоминания о любимой с помощью необычной процедуры.",
+    "noteSource": "https://www.focusfeatures.com/eternal_sunshine_of_the_spotless_mind",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "her-2013",
+    "title": "Она",
+    "originalTitle": "Her",
+    "year": 2013,
+    "genres": [
+      "sci-fi"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q788822&oldid=2567951247&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/her-2013.webp",
+      "alt": "Постер фильма «Она» (2013)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/152601?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Одинокий писатель неожиданно влюбляется в голос своей новой операционной системы.",
+    "noteSource": "https://www.themoviedb.org/movie/152601?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "moon-2009",
+    "title": "Луна 2112",
+    "originalTitle": "Moon",
+    "year": 2009,
+    "genres": [
+      "sci-fi"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q26751&oldid=2566957370&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/moon-2009.webp",
+      "alt": "Постер фильма «Луна 2112» (2009)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/17431?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Под конец одинокой вахты на Луне работник станции начинает сомневаться в происходящем.",
+    "noteSource": "https://www.themoviedb.org/movie/17431?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "gattaca-1997",
+    "title": "Гаттака",
+    "originalTitle": "Gattaca",
+    "year": 1997,
+    "genres": [
+      "sci-fi"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q491800&oldid=2563620903&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/gattaca-1997.webp",
+      "alt": "Постер фильма «Гаттака» (1997)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/782?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "В мире генетического отбора Винсент принимает чужую личность ради своей мечты.",
+    "noteSource": "https://www.themoviedb.org/movie/782?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "another-earth-2011",
+    "title": "Другая земля",
+    "originalTitle": "Another Earth",
+    "year": 2011,
+    "genres": [
+      "sci-fi"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q567996&oldid=2562993515&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/another-earth-2011.webp",
+      "alt": "Постер фильма «Другая земля» (2011)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/55420?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Открытие планеты-двойника Земли совпадает с трагическим пересечением двух судеб.",
+    "noteSource": "https://www.themoviedb.org/movie/55420?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-man-from-earth-2007",
+    "title": "Человек с Земли",
+    "originalTitle": "The Man from Earth",
+    "year": 2007,
+    "genres": [
+      "sci-fi"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q93701&oldid=2567206159&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-man-from-earth-2007.webp",
+      "alt": "Постер фильма «Человек с Земли» (2007)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/13363?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "На прощальном вечере профессор заявляет коллегам, что прожил уже четырнадцать тысяч лет.",
+    "noteSource": "https://www.themoviedb.org/movie/13363?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "safety-not-guaranteed-2012",
+    "title": "Безопасность не гарантируется",
+    "originalTitle": "Safety Not Guaranteed",
+    "year": 2012,
+    "genres": [
+      "sci-fi"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q2110480&oldid=2540111560&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/safety-not-guaranteed-2012.webp",
+      "alt": "Постер фильма «Безопасность не гарантируется» (2012)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/84332?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Журналисты ищут автора объявления, который подбирает напарника для путешествия во времени.",
+    "noteSource": "https://www.themoviedb.org/movie/84332?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "robot-frank-2012",
+    "title": "Робот и Фрэнк",
+    "originalTitle": "Robot & Frank",
+    "year": 2012,
+    "genres": [
+      "sci-fi",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q1357820&oldid=2538817730&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/robot-frank-2012.webp",
+      "alt": "Постер фильма «Робот и Фрэнк» (2012)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/84329?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Пожилой взломщик получает робота-помощника и с недоверием привыкает к необычному соседу.",
+    "noteSource": "https://www.themoviedb.org/movie/84329?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "batteries-not-included-1987",
+    "title": "Батарейки не прилагаются",
+    "originalTitle": "Batteries Not Included",
+    "year": 1987,
+    "genres": [
+      "sci-fi",
+      "cozy",
+      "family"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q1170818&oldid=2565021864&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/batteries-not-included-1987.webp",
+      "alt": "Постер фильма «Батарейки не прилагаются» (1987)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/11548?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Жильцам дома под снос неожиданно приходят на помощь крошечные летающие пришельцы.",
+    "noteSource": "https://www.themoviedb.org/movie/11548?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-martian-2015",
+    "title": "Марсианин",
+    "originalTitle": "The Martian",
+    "year": 2015,
+    "genres": [
+      "sci-fi"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q18547944&oldid=2568295830&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-martian-2015.webp",
+      "alt": "Постер фильма «Марсианин» (2015)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/286217?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Астронавт, которого сочли погибшим, остаётся на Марсе и ищет способ дождаться спасения.",
+    "noteSource": "https://www.themoviedb.org/movie/286217?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-day-the-earth-stood-still-1951",
+    "title": "День, когда остановилась Земля",
+    "originalTitle": "The Day the Earth Stood Still",
+    "year": 1951,
+    "genres": [
+      "sci-fi"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q425992&oldid=2564838460&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-day-the-earth-stood-still-1951.webp",
+      "alt": "Постер фильма «День, когда остановилась Земля» (1951)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/828?language=en-US",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Пришелец с роботом прибывают на Землю с предупреждением об опасности человеческой вражды.",
+    "noteSource": "https://www.themoviedb.org/movie/828?language=en-US",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "fantastic-voyage-1966",
+    "title": "Фантастическое путешествие",
+    "originalTitle": "Fantastic Voyage",
+    "year": 1966,
+    "genres": [
+      "sci-fi"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q1219171&oldid=2564869954&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/fantastic-voyage-1966.webp",
+      "alt": "Постер фильма «Фантастическое путешествие» (1966)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/2161?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Уменьшенный экипаж отправляется внутрь тела учёного, чтобы провести спасительную операцию.",
+    "noteSource": "https://www.themoviedb.org/movie/2161?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "stardust-2007",
+    "title": "Звёздная пыль",
+    "originalTitle": "Stardust",
+    "year": 2007,
+    "genres": [
+      "fantasy",
+      "romance"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q244398&oldid=2566910847&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/stardust-2007.webp",
+      "alt": "Постер фильма «Звёздная пыль» (2007)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/2270?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Юноша идёт за упавшей звездой по ту сторону стены, отделяющей деревню от мира волшебства.",
+    "noteSource": "https://www.themoviedb.org/movie/2270?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-princess-bride-1987",
+    "title": "Принцесса-невеста",
+    "originalTitle": "The Princess Bride",
+    "year": 1987,
+    "genres": [
+      "fantasy",
+      "romance",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q506418&oldid=2563463997&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-princess-bride-1987.webp",
+      "alt": "Постер фильма «Принцесса-невеста» (1987)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/2493?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Отважный герой преодолевает ловушки и опасности сказочного мира ради спасения возлюбленной.",
+    "noteSource": "https://www.themoviedb.org/movie/2493?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "big-fish-2003",
+    "title": "Крупная рыба",
+    "originalTitle": "Big Fish",
+    "year": 2003,
+    "genres": [
+      "fantasy",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q278997&oldid=2566787070&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/big-fish-2003.webp",
+      "alt": "Постер фильма «Крупная рыба» (2003)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/587?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Сын пытается понять отца, собирая правду по крупицам среди его невероятных историй.",
+    "noteSource": "https://www.themoviedb.org/movie/587?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "penelope-2006",
+    "title": "Пенелопа",
+    "originalTitle": "Penelope",
+    "year": 2006,
+    "genres": [
+      "fantasy",
+      "romance",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q1074032&oldid=2566883949&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/penelope-2006.webp",
+      "alt": "Постер фильма «Пенелопа» (2006)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/7985?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Девушка с семейным проклятием прячет лицо, пока родные ищут способ устроить её замужество.",
+    "noteSource": "https://www.themoviedb.org/movie/7985?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-fall-2006",
+    "title": "Запределье",
+    "originalTitle": "The Fall",
+    "year": 2006,
+    "genres": [
+      "fantasy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q547120&oldid=2566932536&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-fall-2006.webp",
+      "alt": "Постер фильма «Запределье» (2006)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/14784?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Раненый каскадёр рассказывает маленькой пациентке больницы яркую сказку о необычных героях.",
+    "noteSource": "https://www.themoviedb.org/movie/14784?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-neverending-story-1984",
+    "title": "Бесконечная история",
+    "originalTitle": "Die unendliche Geschichte",
+    "year": 1984,
+    "genres": [
+      "fantasy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q316555&oldid=2538540497&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-neverending-story-1984.webp",
+      "alt": "Постер фильма «Бесконечная история» (1984)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/34584?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Таинственная книга связывает мальчика Бастиана с волшебной страной, которой грозит Ничто.",
+    "noteSource": "https://www.themoviedb.org/movie/34584?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "labyrinth-1986",
+    "title": "Лабиринт",
+    "originalTitle": "Labyrinth",
+    "year": 1986,
+    "genres": [
+      "fantasy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q278053&oldid=2565055257&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/labyrinth-1986.webp",
+      "alt": "Постер фильма «Лабиринт» (1986)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/13597?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Сара отправляется в зачарованный лабиринт, чтобы вернуть брата, похищенного королём гоблинов.",
+    "noteSource": "https://www.themoviedb.org/movie/13597?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-dark-crystal-1982",
+    "title": "Тёмный кристалл",
+    "originalTitle": "The Dark Crystal",
+    "year": 1982,
+    "genres": [
+      "fantasy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q1198483&oldid=2565055351&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-dark-crystal-1982.webp",
+      "alt": "Постер фильма «Тёмный кристалл» (1982)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/11639?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Два гелфлинга ищут недостающий осколок кристалла, чтобы вернуть равновесие своему миру.",
+    "noteSource": "https://www.themoviedb.org/movie/11639?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "edward-scissorhands-1990",
+    "title": "Эдвард Руки-ножницы",
+    "originalTitle": "Edward Scissorhands",
+    "year": 1990,
+    "genres": [
+      "fantasy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q217182&oldid=2563692554&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/edward-scissorhands-1990.webp",
+      "alt": "Постер фильма «Эдвард Руки-ножницы» (1990)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/162?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Юноша с ножницами вместо рук покидает одиночество и пытается освоиться в обычной семье.",
+    "noteSource": "https://www.themoviedb.org/movie/162?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-secret-of-roan-inish-1994",
+    "title": "Тайна острова Роан-Иниш",
+    "originalTitle": "The Secret of Roan Inish",
+    "year": 1994,
+    "genres": [
+      "fantasy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q2255971&oldid=2563597927&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-secret-of-roan-inish-1994.webp",
+      "alt": "Постер фильма «Тайна острова Роан-Иниш» (1994)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/14334?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "На ирландском побережье девочка ищет разгадку семейной тайны среди легенд о людях-тюленях.",
+    "noteSource": "https://www.themoviedb.org/movie/14334?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "a-christmas-carol-2009",
+    "title": "Рождественская история",
+    "originalTitle": "A Christmas Carol",
+    "year": 2009,
+    "genres": [
+      "fantasy",
+      "cozy",
+      "animation"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q86791&oldid=2561195364&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/a-christmas-carol-2009.webp",
+      "alt": "Постер фильма «Рождественская история» (2009)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/17979?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Три рождественских духа ведут скупого Скруджа через его прошлое, настоящее и будущее.",
+    "noteSource": "https://movies.disney.com/a-christmas-carol",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "scrooged-1988",
+    "title": "Новая рождественская сказка",
+    "originalTitle": "Scrooged",
+    "year": 1988,
+    "genres": [
+      "fantasy",
+      "cozy",
+      "comedy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q535395&oldid=2563585420&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/scrooged-1988.webp",
+      "alt": "Постер фильма «Новая рождественская сказка» (1988)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/9647?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Безжалостного телемагната в рождественскую ночь берутся перевоспитывать необычные духи.",
+    "noteSource": "https://www.themoviedb.org/movie/9647?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-bfg-2016",
+    "title": "Большой и добрый великан",
+    "originalTitle": "The BFG",
+    "year": 2016,
+    "genres": [
+      "fantasy",
+      "family"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q19689203&oldid=2568407301&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-bfg-2016.webp",
+      "alt": "Постер фильма «Большой и добрый великан» (2016)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/267935?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Девочка Софи знакомится с добрым великаном, который собирает сны для спящих детей.",
+    "noteSource": "https://www.themoviedb.org/movie/267935?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "a-monster-calls-2016",
+    "title": "Голос монстра",
+    "originalTitle": "A Monster Calls",
+    "year": 2016,
+    "genres": [
+      "fantasy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q18200409&oldid=2567823077&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/a-monster-calls-2016.webp",
+      "alt": "Постер фильма «Голос монстра» (2016)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/258230?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Мальчик, чья мама тяжело больна, встречает оживающее дерево, помогающее пережить страх.",
+    "noteSource": "https://www.themoviedb.org/movie/258230?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-shape-of-water-2017",
+    "title": "Форма воды",
+    "originalTitle": "The Shape of Water",
+    "year": 2017,
+    "genres": [
+      "fantasy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q26698156&oldid=2567775676&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-shape-of-water-2017.webp",
+      "alt": "Постер фильма «Форма воды» (2017)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/399055?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "В эпоху холодной войны одинокая Элайза сближается с существом-амфибией из эксперимента.",
+    "noteSource": "https://www.themoviedb.org/movie/399055?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "paddington-2-2017",
+    "title": "Приключения Паддингтона 2",
+    "originalTitle": "Paddington 2",
+    "year": 2017,
+    "genres": [
+      "family",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q27590871&oldid=2568140243&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/paddington-2-2017.webp",
+      "alt": "Постер фильма «Приключения Паддингтона 2» (2017)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/346648?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Паддингтон копит на старинную книгу, но её похищение втягивает медвежонка в большую аферу.",
+    "noteSource": "https://www.themoviedb.org/movie/346648?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-secret-garden-1993",
+    "title": "Таинственный сад",
+    "originalTitle": "The Secret Garden",
+    "year": 1993,
+    "genres": [
+      "family"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q525421&oldid=2563604670&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-secret-garden-1993.webp",
+      "alt": "Постер фильма «Таинственный сад» (1993)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/11236?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Осиротевшая Мэри переезжает в английский особняк и находит там скрытый заброшенный сад.",
+    "noteSource": "https://www.themoviedb.org/movie/11236?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "a-little-princess-1995",
+    "title": "Маленькая принцесса",
+    "originalTitle": "A Little Princess",
+    "year": 1995,
+    "genres": [
+      "family",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q1216898&oldid=2563592342&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/a-little-princess-1995.webp",
+      "alt": "Постер фильма «Маленькая принцесса» (1995)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/19101?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Дочь военного попадает в суровый интернат, где ей помогают доброта и богатое воображение.",
+    "noteSource": "https://www.themoviedb.org/movie/19101?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-railway-children-1970",
+    "title": "Дети железной дороги",
+    "originalTitle": "The Railway Children",
+    "year": 1970,
+    "genres": [
+      "family",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q211525&oldid=2567553117&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-railway-children-1970.webp",
+      "alt": "Постер фильма «Дети железной дороги» (1970)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/37662?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "После ареста отца трое детей переезжают в Йоркшир и знакомятся с жизнью у железной дороги.",
+    "noteSource": "https://www.themoviedb.org/movie/37662?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "a-boy-called-christmas-2021",
+    "title": "Мальчик по имени Рождество",
+    "originalTitle": "A Boy Called Christmas",
+    "year": 2021,
+    "genres": [
+      "family",
+      "cozy",
+      "fantasy"
+    ],
+    "origin": "research",
+    "note": "Николас отправляется на север искать отца и попадает в мир эльфов и зимнего волшебства.",
+    "source": "https://www.wikidata.org/w/index.php?title=Q65057444&oldid=2568661104&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/a-boy-called-christmas-2021.webp",
+      "alt": "Постер фильма «Мальчик по имени Рождество» (2021)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/615666?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "noteSource": "https://www.themoviedb.org/movie/615666?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-parent-trap-1998",
+    "title": "Ловушка для родителей",
+    "originalTitle": "The Parent trap",
+    "year": 1998,
+    "genres": [
+      "family",
+      "comedy",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q729782&oldid=2568775629&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-parent-trap-1998.webp",
+      "alt": "Постер фильма «Ловушка для родителей» (1998)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/9820?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Разлучённые близнецы встречаются в лагере и меняются местами, задумав помирить родителей.",
+    "noteSource": "https://www.themoviedb.org/movie/9820?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "matilda-1996",
+    "title": "Матильда",
+    "originalTitle": "Matilda",
+    "year": 1996,
+    "genres": [
+      "family"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q280400&oldid=2567576828&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/matilda-1996.webp",
+      "alt": "Постер фильма «Матильда» (1996)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/10830?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Необыкновенно способная девочка растёт в семье, где взрослые совсем не замечают её таланта.",
+    "noteSource": "https://www.themoviedb.org/movie/10830?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "hugo-2011",
+    "title": "Хранитель времени",
+    "originalTitle": "Hugo",
+    "year": 2011,
+    "genres": [
+      "family"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q206576&oldid=2566436540&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/hugo-2011.webp",
+      "alt": "Постер фильма «Хранитель времени» (2011)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/44826?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Мальчик пытается разгадать оставленную отцом тайну и найти место, которое станет его домом.",
+    "noteSource": "https://www.themoviedb.org/movie/44826?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-secret-life-of-walter-mitty-2013",
+    "title": "Невероятная жизнь Уолтера Митти",
+    "originalTitle": "The Secret Life of Walter Mitty",
+    "year": 2013,
+    "genres": [
+      "family"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q3522637&oldid=2567689195&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-secret-life-of-walter-mitty-2013.webp",
+      "alt": "Постер фильма «Невероятная жизнь Уолтера Митти» (2013)",
+      "width": 444,
+      "height": 666,
+      "source": "https://www.themoviedb.org/movie/116745?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Мечтательный служащий ради работы решается на путешествие, полное настоящих приключений.",
+    "noteSource": "https://www.20thcenturystudios.com/movies/the-secret-life-of-walter-mitty",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "christopher-robin-2018",
+    "title": "Кристофер Робин",
+    "originalTitle": "Christopher Robin",
+    "year": 2018,
+    "genres": [
+      "family",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q24301991&oldid=2567822005&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/christopher-robin-2018.webp",
+      "alt": "Постер фильма «Кристофер Робин» (2018)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/420814?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Повзрослевшего Кристофера Робина навещает Винни-Пух и зовёт вернуться к друзьям детства.",
+    "noteSource": "https://www.themoviedb.org/movie/420814?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "babe-1995",
+    "title": "Бэйб: Четвероногий малыш",
+    "originalTitle": "Babe",
+    "year": 1995,
+    "genres": [
+      "family",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q720724&oldid=2566449312&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/babe-1995.webp",
+      "alt": "Постер фильма «Бэйб: Четвероногий малыш» (1995)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/9598?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Смелый поросёнок, выросший рядом с овчаркой, берётся доказать, что тоже умеет пасти овец.",
+    "noteSource": "https://www.themoviedb.org/movie/9598?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-black-stallion-1979",
+    "title": "Чёрный скакун",
+    "originalTitle": "The Black Stallion",
+    "year": 1979,
+    "genres": [
+      "family"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q2300266&oldid=2564903894&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-black-stallion-1979.webp",
+      "alt": "Постер фильма «Чёрный скакун» (1979)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/17264?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "После кораблекрушения мальчик и дикий жеребец учатся доверять друг другу на пустом острове.",
+    "noteSource": "https://www.themoviedb.org/movie/17264?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "fly-away-home-1996",
+    "title": "Летите домой",
+    "originalTitle": "Fly Away Home",
+    "year": 1996,
+    "genres": [
+      "family"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q49018&oldid=2565351430&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/fly-away-home-1996.webp",
+      "alt": "Постер фильма «Летите домой» (1996)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/11076?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Девочка и её отец строят самолёт, чтобы показать осиротевшим гусятам дорогу в тёплые края.",
+    "noteSource": "https://www.themoviedb.org/movie/11076?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-borrowers-1997",
+    "title": "Воришки",
+    "originalTitle": "The Borrowers",
+    "year": 1997,
+    "genres": [
+      "family"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q1304483&oldid=2564976731&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-borrowers-1997.webp",
+      "alt": "Постер фильма «Воришки» (1997)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/9449?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "За стенами обычного дома живёт крошечная семейка, для которой мир полон больших опасностей.",
+    "noteSource": "https://www.themoviedb.org/movie/9449?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "klaus-2019",
+    "title": "Клаус",
+    "originalTitle": "Klaus",
+    "year": 2019,
+    "genres": [
+      "animation",
+      "family",
+      "cozy"
+    ],
+    "origin": "research",
+    "note": "Эгоистичный почтальон и замкнутый игрушечник находят общее дело в холодном мрачном городке.",
+    "source": "https://www.wikidata.org/w/index.php?title=Q67208596&oldid=2568649758&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/klaus-2019.webp",
+      "alt": "Постер фильма «Клаус» (2019)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/508965?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "noteSource": "https://www.themoviedb.org/movie/508965?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "arthur-christmas-2011",
+    "title": "Секретная служба Санта-Клауса",
+    "originalTitle": "Arthur Christmas",
+    "year": 2011,
+    "genres": [
+      "animation",
+      "family",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q711918&oldid=2563892424&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/arthur-christmas-2011.webp",
+      "alt": "Постер фильма «Секретная служба Санта-Клауса» (2011)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/51052?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Младший сын Санты отправляется доставить подарок ребёнку, которого пропустила вся служба.",
+    "noteSource": "https://www.themoviedb.org/movie/51052?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-polar-express-2004",
+    "title": "Полярный экспресс",
+    "originalTitle": "The Polar Express",
+    "year": 2004,
+    "genres": [
+      "animation",
+      "family",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q862197&oldid=2560734055&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-polar-express-2004.webp",
+      "alt": "Постер фильма «Полярный экспресс» (2004)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/5255?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "В канун Рождества мальчик садится на волшебный поезд, следующий к Санте на Северный полюс.",
+    "noteSource": "https://www.themoviedb.org/movie/5255?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-snowman-1982",
+    "title": "Снеговик",
+    "originalTitle": "The Snowman",
+    "year": 1982,
+    "genres": [
+      "animation",
+      "cozy"
+    ],
+    "origin": "research",
+    "note": "Слепленный мальчиком снеговик оживает ночью и зовёт нового друга в сказочное путешествие.",
+    "source": "https://www.wikidata.org/w/index.php?title=Q1196717&oldid=2563192932&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-snowman-1982.webp",
+      "alt": "Постер фильма «Снеговик» (1982)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/13396?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "noteSource": "https://www.themoviedb.org/movie/13396?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "winnie-the-pooh-2011",
+    "title": "Медвежонок Винни и его друзья",
+    "originalTitle": "Winnie the Pooh",
+    "year": 2011,
+    "genres": [
+      "animation",
+      "family",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q922193&oldid=2568775820&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/winnie-the-pooh-2011.webp",
+      "alt": "Постер фильма «Медвежонок Винни и его друзья» (2011)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/51162?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Поиски мёда оборачиваются для Винни днём забот о потерянном хвосте и пропавшем друге.",
+    "noteSource": "https://www.themoviedb.org/movie/51162?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "ernest-celestine-2012",
+    "title": "Эрнест и Селестина: Приключения мышки и медведя",
+    "originalTitle": "Ernest et Célestine",
+    "year": 2012,
+    "genres": [
+      "animation",
+      "family",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q3057240&oldid=2567951378&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/ernest-celestine-2012.webp",
+      "alt": "Постер фильма «Эрнест и Селестина: Приключения мышки и медведя» (2012)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/126319?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Мышка-художница и медведь-музыкант дружат вопреки страхам и предрассудкам своих соседей.",
+    "noteSource": "https://www.themoviedb.org/movie/126319?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "song-of-the-sea-2014",
+    "title": "Песнь моря",
+    "originalTitle": "Song of the Sea",
+    "year": 2014,
+    "genres": [
+      "animation"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q17125101&oldid=2564708366&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/song-of-the-sea-2014.webp",
+      "alt": "Постер фильма «Песнь моря» (2014)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/110416?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Брат и сестра идут через мир древних сказаний, где магия постепенно исчезает.",
+    "noteSource": "https://www.themoviedb.org/movie/110416?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "wolfwalkers-2020",
+    "title": "Легенда о волках",
+    "originalTitle": "Wolfwalkers",
+    "year": 2020,
+    "genres": [
+      "animation"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q68681463&oldid=2568654369&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/wolfwalkers-2020.webp",
+      "alt": "Постер фильма «Легенда о волках» (2020)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/441130?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Дочь охотника знакомится с девочкой, чей народ умеет превращаться в волков.",
+    "noteSource": "https://www.themoviedb.org/movie/441130?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "my-neighbor-totoro-1988",
+    "title": "Мой сосед Тоторо",
+    "originalTitle": "となりのトトロ",
+    "year": 1988,
+    "genres": [
+      "animation",
+      "family",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q39571&oldid=2568009824&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/my-neighbor-totoro-1988.webp",
+      "alt": "Постер фильма «Мой сосед Тоторо» (1988)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/8392?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Две сестры переезжают за город и знакомятся с добрыми лесными духами во главе с Тоторо.",
+    "noteSource": "https://www.themoviedb.org/movie/8392?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "kikis-delivery-service-1989",
+    "title": "Ведьмина служба доставки",
+    "originalTitle": "魔女の宅急便",
+    "year": 1989,
+    "genres": [
+      "animation",
+      "family",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q196602&oldid=2568136659&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/kikis-delivery-service-1989.webp",
+      "alt": "Постер фильма «Ведьмина служба доставки» (1989)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/16859?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Юная ведьма уезжает в незнакомый город и начинает доставлять посылки на метле.",
+    "noteSource": "https://www.themoviedb.org/movie/16859?language=en-US",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-iron-giant-1999",
+    "title": "Стальной гигант",
+    "originalTitle": "The Iron Giant",
+    "year": 1999,
+    "genres": [
+      "animation"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q867283&oldid=2568775767&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-iron-giant-1999.webp",
+      "alt": "Постер фильма «Стальной гигант» (1999)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/10386?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Мальчик дружит с огромным роботом из космоса и пытается защитить его от военных.",
+    "noteSource": "https://www.themoviedb.org/movie/10386?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "hunt-for-the-wilderpeople-2016",
+    "title": "Охота на дикарей",
+    "originalTitle": "Hunt for the Wilderpeople",
+    "year": 2016,
+    "genres": [
+      "adventure"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q22236109&oldid=2566226172&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/hunt-for-the-wilderpeople-2016.webp",
+      "alt": "Постер фильма «Охота на дикарей» (2016)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/371645?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Подросток и его нелюдимый опекун оказываются в лесу, пока на них разворачивается охота.",
+    "noteSource": "https://www.themoviedb.org/movie/371645?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "captain-fantastic-2016",
+    "title": "Капитан Фантастик",
+    "originalTitle": "Captain Fantastic",
+    "year": 2016,
+    "genres": [
+      "adventure"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q18703094&oldid=2567782141&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/captain-fantastic-2016.webp",
+      "alt": "Постер фильма «Капитан Фантастик» (2016)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/334533?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Отец растит детей вдали от цивилизации, но семье приходится столкнуться с обычным миром.",
+    "noteSource": "https://www.themoviedb.org/movie/334533?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-peanut-butter-falcon-2019",
+    "title": "Арахисовый сокол",
+    "originalTitle": "The Peanut Butter Falcon",
+    "year": 2019,
+    "genres": [
+      "adventure",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q39047194&oldid=2564718129&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-peanut-butter-falcon-2019.webp",
+      "alt": "Постер фильма «Арахисовый сокол» (2019)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/463257?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Зак сбегает из учреждения опеки ради мечты стать рестлером и находит неожиданного друга.",
+    "noteSource": "https://www.themoviedb.org/movie/463257?language=en-US",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "wild-2014",
+    "title": "Дикая",
+    "originalTitle": "Wild",
+    "year": 2014,
+    "genres": [
+      "adventure"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q17065888&oldid=2567951473&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/wild-2014.webp",
+      "alt": "Постер фильма «Дикая» (2014)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/228970?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "После тяжёлых утрат Шерил в одиночку идёт по горной тропе, пытаясь обрести опору.",
+    "noteSource": "https://www.themoviedb.org/movie/228970?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "into-the-wild-2007",
+    "title": "В диких условиях",
+    "originalTitle": "Into the Wild",
+    "year": 2007,
+    "genres": [
+      "adventure"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q269912&oldid=2566912042&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/into-the-wild-2007.webp",
+      "alt": "Постер фильма «В диких условиях» (2007)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/5915?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Выпускник отказывается от привычной жизни и отправляется навстречу дикой природе Аляски.",
+    "noteSource": "https://www.themoviedb.org/movie/5915?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-way-2010",
+    "title": "Путь",
+    "originalTitle": "The Way",
+    "year": 2010,
+    "genres": [
+      "adventure"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q1183257&oldid=2537905402&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-way-2010.webp",
+      "alt": "Постер фильма «Путь» (2010)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/59468?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "После гибели сына отец решает пройти за него долгий паломнический путь.",
+    "noteSource": "https://www.themoviedb.org/movie/59468?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "hector-and-the-search-for-happiness-2014",
+    "title": "Путешествие Гектора в поисках счастья",
+    "originalTitle": "Hector and the Search for Happiness",
+    "year": 2014,
+    "genres": [
+      "adventure",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q15922298&oldid=2567951442&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/hector-and-the-search-for-happiness-2014.webp",
+      "alt": "Постер фильма «Путешествие Гектора в поисках счастья» (2014)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/254375?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Разочарованный психиатр едет по миру, чтобы понять, что на самом деле делает людей счастливыми.",
+    "noteSource": "https://www.themoviedb.org/movie/254375?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-way-back-2010",
+    "title": "Путь домой",
+    "originalTitle": "The Way Back",
+    "year": 2010,
+    "genres": [
+      "adventure"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q575778&oldid=2566081989&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-way-back-2010.webp",
+      "alt": "Постер фильма «Путь домой» (2010)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/49009?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Беглецы из сибирского лагеря идут через горы и пустыни, надеясь вернуться домой.",
+    "noteSource": "https://www.themoviedb.org/movie/49009?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "tracks-2013",
+    "title": "Тропы",
+    "originalTitle": "Tracks",
+    "year": 2013,
+    "genres": [
+      "adventure"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q7831579&oldid=2568183046&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/tracks-2013.webp",
+      "alt": "Постер фильма «Тропы» (2013)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/203819?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Робин пересекает Австралию пешком в компании верблюдов и собаки.",
+    "noteSource": "https://www.themoviedb.org/movie/203819?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-adventures-of-tintin-2011",
+    "title": "Приключения Тинтина: Тайна «Единорога»",
+    "originalTitle": "The Adventures of Tintin",
+    "year": 2011,
+    "genres": [
+      "adventure"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q980041&oldid=2568029941&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-adventures-of-tintin-2011.webp",
+      "alt": "Постер фильма «Приключения Тинтина: Тайна «Единорога»» (2011)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/17578?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Молодой репортёр Тинтин путешествует по миру, постоянно оказываясь в центре приключений.",
+    "noteSource": "https://www.themoviedb.org/movie/17578?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-worlds-fastest-indian-2005",
+    "title": "Самый быстрый «Индиан»",
+    "originalTitle": "The World's Fastest Indian",
+    "year": 2005,
+    "genres": [
+      "adventure",
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q128924&oldid=2566743610&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-worlds-fastest-indian-2005.webp",
+      "alt": "Постер фильма «Самый быстрый «Индиан»» (2005)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/9912?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Новозеландец десятилетиями переделывает старый мотоцикл, мечтая установить рекорд скорости.",
+    "noteSource": "https://www.themoviedb.org/movie/9912?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-african-queen-1951",
+    "title": "Африканская королева",
+    "originalTitle": "The African Queen",
+    "year": 1951,
+    "genres": [
+      "adventure"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q384397&oldid=2564838433&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-african-queen-1951.webp",
+      "alt": "Постер фильма «Африканская королева» (1951)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/488?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Миссионерка и капитан маленького парохода пытаются спастись от войны на африканской реке.",
+    "noteSource": "https://www.themoviedb.org/movie/488?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-darjeeling-limited-2007",
+    "title": "Поезд на Дарджилинг. Отчаянные путешественники",
+    "originalTitle": "The Darjeeling Limited",
+    "year": 2007,
+    "genres": [
+      "adventure",
+      "comedy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q658944&oldid=2566938100&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-darjeeling-limited-2007.webp",
+      "alt": "Постер фильма «Поезд на Дарджилинг. Отчаянные путешественники» (2007)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/4538?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Три отдалившихся брата едут поездом по Индии, пытаясь восстановить отношения.",
+    "noteSource": "https://www.themoviedb.org/movie/4538?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "life-of-pi-2012",
+    "title": "Жизнь Пи",
+    "originalTitle": "Life of Pi",
+    "year": 2012,
+    "genres": [
+      "adventure"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q152780&oldid=2568323691&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/life-of-pi-2012.webp",
+      "alt": "Постер фильма «Жизнь Пи» (2012)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/87827?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "После кораблекрушения юный Пи оказывается в океане в одной шлюпке с дикими зверями.",
+    "noteSource": "https://www.themoviedb.org/movie/87827?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "home-alone-1990",
+    "title": "Один дома",
+    "originalTitle": "Home Alone",
+    "year": 1990,
+    "genres": [
+      "cozy",
+      "comedy",
+      "family"
+    ],
+    "origin": "research",
+    "note": "Забытый дома на Рождество Кевин готовит хитрые ловушки для незваных грабителей.",
+    "source": "https://www.wikidata.org/w/index.php?title=Q105031&oldid=2568295076&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/home-alone-1990.webp",
+      "alt": "Постер фильма «Один дома» (1990)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/771?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "noteSource": "https://family.20thcenturystudios.com/movies/home-alone",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "its-a-wonderful-life-1946",
+    "title": "Эта замечательная жизнь",
+    "originalTitle": "It's a Wonderful Life",
+    "year": 1946,
+    "genres": [
+      "cozy",
+      "drama"
+    ],
+    "origin": "research",
+    "note": "В канун Рождества отчаявшийся Джордж получает неожиданную помощь от ангела.",
+    "source": "https://www.wikidata.org/w/index.php?title=Q204191&oldid=2567483407&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/its-a-wonderful-life-1946.webp",
+      "alt": "Постер фильма «Эта замечательная жизнь» (1946)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/1585?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "noteSource": "https://www.themoviedb.org/movie/1585?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "miracle-on-34th-street-1947",
+    "title": "Чудо на 34-й улице",
+    "originalTitle": "Miracle on 34th Street",
+    "year": 1947,
+    "genres": [
+      "cozy",
+      "family"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q1467214&oldid=2561041350&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/miracle-on-34th-street-1947.webp",
+      "alt": "Постер фильма «Чудо на 34-й улице» (1947)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/11881?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Новый Санта в универмаге уверяет всех, что он настоящий, и ставит взрослых в тупик.",
+    "noteSource": "https://www.themoviedb.org/movie/11881?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "miracle-on-34th-street-1994",
+    "title": "Чудо на 34-й улице",
+    "originalTitle": "Miracle on 34th Street",
+    "year": 1994,
+    "genres": [
+      "cozy",
+      "family"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q258204&oldid=2568767326&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/miracle-on-34th-street-1994.webp",
+      "alt": "Постер фильма «Чудо на 34-й улице» (1994)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/10510?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Скептичная девочка встречает Санту из универмага и начинает иначе смотреть на чудеса.",
+    "noteSource": "https://www.themoviedb.org/movie/10510?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-muppet-christmas-carol-1992",
+    "title": "Рождественская сказка Маппетов",
+    "originalTitle": "The Muppet Christmas Carol",
+    "year": 1992,
+    "genres": [
+      "cozy",
+      "family",
+      "fantasy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q714721&oldid=2563606577&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-muppet-christmas-carol-1992.webp",
+      "alt": "Постер фильма «Рождественская сказка Маппетов» (1992)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/10437?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Маппеты разыгрывают историю Скруджа и его встреч с рождественскими духами.",
+    "noteSource": "https://www.themoviedb.org/movie/10437?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-shop-around-the-corner-1940",
+    "title": "Магазинчик за углом",
+    "originalTitle": "The Shop Around the Corner",
+    "year": 1940,
+    "genres": [
+      "cozy",
+      "romance",
+      "comedy"
+    ],
+    "origin": "research",
+    "note": "Служащий магазина влюблён в незнакомку, с которой общается только письмами.",
+    "source": "https://www.wikidata.org/w/index.php?title=Q782751&oldid=2561036411&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-shop-around-the-corner-1940.webp",
+      "alt": "Постер фильма «Магазинчик за углом» (1940)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/20334?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "noteSource": "https://www.themoviedb.org/movie/20334?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "christmas-in-connecticut-1945",
+    "title": "Рождество в Коннектикуте",
+    "originalTitle": "Christmas in Connecticut",
+    "year": 1945,
+    "genres": [
+      "cozy",
+      "comedy",
+      "romance"
+    ],
+    "origin": "research",
+    "note": "Автор кулинарной колонки вынуждена принять гостей, скрывая, что совсем не умеет готовить.",
+    "source": "https://www.wikidata.org/w/index.php?title=Q2966030&oldid=2563541362&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/christmas-in-connecticut-1945.webp",
+      "alt": "Постер фильма «Рождество в Коннектикуте» (1945)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/13669?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "noteSource": "https://www.themoviedb.org/movie/13669?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-bishops-wife-1947",
+    "title": "Жена епископа",
+    "originalTitle": "The Bishop's Wife",
+    "year": 1947,
+    "genres": [
+      "cozy",
+      "romance",
+      "fantasy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q1436798&oldid=2563544988&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-bishops-wife-1947.webp",
+      "alt": "Постер фильма «Жена епископа» (1947)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/19490?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Вечно занятому епископу является ангел, который быстро сближается с его семьёй.",
+    "noteSource": "https://www.themoviedb.org/movie/19490?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-family-stone-2005",
+    "title": "Привет семье!",
+    "originalTitle": "The Family Stone",
+    "year": 2005,
+    "genres": [
+      "cozy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q1064838&oldid=2566699155&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-family-stone-2005.webp",
+      "alt": "Постер фильма «Привет семье!» (2005)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/9043?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Приезд невесты любимого сына заставляет эксцентричную семью забыть о взаимопонимании.",
+    "noteSource": "https://www.themoviedb.org/movie/9043?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "last-holiday-2006",
+    "title": "Последний отпуск",
+    "originalTitle": "Last Holiday",
+    "year": 2006,
+    "genres": [
+      "cozy",
+      "comedy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q1634476&oldid=2566894554&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/last-holiday-2006.webp",
+      "alt": "Постер фильма «Последний отпуск» (2006)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/17379?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Узнав о страшном диагнозе, скромная продавщица решает исполнить мечту о роскошном отпуске.",
+    "noteSource": "https://www.themoviedb.org/movie/17379?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-man-who-invented-christmas-2017",
+    "title": "Человек, который изобрёл Рождество",
+    "originalTitle": "The Man Who Invented Christmas",
+    "year": 2017,
+    "genres": [
+      "cozy",
+      "drama"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q27964411&oldid=2567962878&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-man-who-invented-christmas-2017.webp",
+      "alt": "Постер фильма «Человек, который изобрёл Рождество» (2017)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/450322?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "После неудач молодой Диккенс берётся за историю, которой суждено стать рождественской классикой.",
+    "noteSource": "https://www.themoviedb.org/movie/450322?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-holdovers-2023",
+    "title": "Оставленные",
+    "originalTitle": "The Holdovers",
+    "year": 2023,
+    "genres": [
+      "cozy",
+      "drama",
+      "comedy"
+    ],
+    "origin": "research",
+    "note": "Строгий учитель, ученик и школьная повариха остаются вместе на рождественские каникулы.",
+    "source": "https://www.wikidata.org/w/index.php?title=Q112114745&oldid=2568022035&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-holdovers-2023.webp",
+      "alt": "Постер фильма «Оставленные» (2023)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/840430?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "noteSource": "https://www.focusfeatures.com/the-holdovers",
+    "noteCheckedAt": "2026-11-13"
+  },
+  {
+    "id": "the-christmas-chronicles-2018",
+    "title": "Рождественские хроники",
+    "originalTitle": "The Christmas Chronicles",
+    "year": 2018,
+    "genres": [
+      "cozy",
+      "family",
+      "fantasy"
+    ],
+    "origin": "research",
+    "source": "https://www.wikidata.org/w/index.php?title=Q56615750&oldid=2567823355&uselang=ru",
+    "checkedAt": "2026-11-13",
+    "poster": {
+      "src": "images/films/the-christmas-chronicles-2018.webp",
+      "alt": "Постер фильма «Рождественские хроники» (2018)",
+      "width": 480,
+      "height": 720,
+      "source": "https://www.themoviedb.org/movie/527435?language=ru-RU",
+      "credit": "TMDB",
+      "checkedAt": "2026-11-13"
+    },
+    "note": "Брат и сестра случайно разбивают сани Санты и отправляются с ним спасать Рождество.",
+    "noteSource": "https://www.themoviedb.org/movie/527435?language=ru-RU",
+    "noteCheckedAt": "2026-11-13"
+  }
+]

@@ -1,12 +1,15 @@
 // Tests for scripts/content/validate.mjs. Fixtures below are synthetic test data, not site content.
 import assert from 'node:assert/strict'
-import { mkdtempSync, writeFileSync, rmSync } from 'node:fs'
+import { mkdtempSync, mkdirSync, writeFileSync, rmSync } from 'node:fs'
 import { tmpdir } from 'node:os'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { validateContent, COLLECTIONS, GENRES } from '../../scripts/content/validate.mjs'
 
 const today = new Date('2026-11-13T12:00:00Z')
+const poster = { src: 'images/films/film-a.webp', alt: 'Постер фильма', width: 2, height: 3, source: 'https://example.org/film/posters', credit: 'Test source', checkedAt: '2026-11-12' }
+// A real 2 × 3 WebP fixture, not a renamed non-image file.
+const posterBytes = Buffer.from('UklGRjQAAABXRUJQVlA4ICgAAACQAQCdASoCAAMAAUAmJYgCdLoAA5gA/vmo7+1Niqnnd+hRsol8wAAA', 'base64')
 const fact = value => ({ value, source: 'https://example.org/page', checkedAt: '2026-11-10' })
 
 function base() {
@@ -37,19 +40,25 @@ function base() {
 }
 
 function run(data, options = {}) {
-  const dir = mkdtempSync(join(tmpdir(), 'ws-content-'))
+  const root = mkdtempSync(join(tmpdir(), 'ws-content-'))
+  const dir = join(root, 'src/content')
+  mkdirSync(dir, { recursive: true })
+  mkdirSync(join(root, 'public/images/films'), { recursive: true })
+  writeFileSync(join(root, 'public/images/films/film-a.webp'), options.posterBytes ?? posterBytes)
   try {
     for (const name of COLLECTIONS) if (data[name] !== undefined) writeFileSync(join(dir, `${name}.json`), JSON.stringify(data[name]))
     return validateContent(dir, { today, ...options })
   } finally {
-    rmSync(dir, { recursive: true, force: true })
+    rmSync(root, { recursive: true, force: true })
   }
 }
 
-function expectError(name, mutate, pattern) {
+let rejectedCases = 0
+function expectError(name, mutate, pattern, options = {}) {
   const data = base()
   mutate(data)
-  const { errors } = run(data)
+  const { errors } = run(data, options)
+  rejectedCases++
   assert.ok(errors.some(e => pattern.test(e)), `${name}: expected ${pattern}, got:\n${errors.join('\n') || '(no errors)'}`)
 }
 
@@ -61,6 +70,16 @@ function expectError(name, mutate, pattern) {
   assert.equal(counts.filmsPerGenre.comedy, 1)
   assert.deepEqual(counts.dayIdeasByMode, { home: 1, city: 0, mixed: 1 })
   assert.ok(run(base(), { release: true }).errors.some(e => e.includes('below release minimums')))
+}
+
+// Existing films without posters and new films with verified local posters both pass.
+{
+  const data = base()
+  data.films[0].poster = { ...poster }
+  data.films[0].note = 'Своя краткая завязка.'
+  data.films[0].noteSource = 'https://example.org/film/synopsis'
+  data.films[0].noteCheckedAt = '2026-11-12'
+  assert.deepEqual(run(data).errors, [])
 }
 
 // 2. Real site content is valid.
@@ -86,9 +105,39 @@ expectError('bad tone', d => { d.routes[0].tone = 'pink' }, /"tone" must be one 
 expectError('event ends before start', d => { d.events[0].dateEnd = '2026-11-14' }, /before "dateStart"/)
 expectError('event owner source', d => { d.events[0].source = 'owner' }, /need an https source/)
 expectError('film platform link', d => { d.films[0].watchUrl = 'https://example.org' }, /unknown field "watchUrl".*not allowed/)
-expectError('film poster', d => { d.films[0].poster = 'x.jpg' }, /unknown field "poster"/)
+expectError('poster is not an object', d => { d.films[0].poster = 'x.jpg' }, /poster: must be an object/)
+expectError('poster without alt', d => { d.films[0].poster = { ...poster, alt: '' } }, /poster: "alt"/)
+expectError('poster without credit', d => { d.films[0].poster = { ...poster, credit: '' } }, /poster: "credit"/)
+expectError('poster without source', d => { d.films[0].poster = { ...poster, source: undefined } }, /poster: "source"/)
+expectError('poster owner source', d => { d.films[0].poster = { ...poster, source: 'owner' } }, /poster: "source"/)
+expectError('poster http source', d => { d.films[0].poster = { ...poster, source: 'http://example.org' } }, /poster: "source"/)
+expectError('poster credentials', d => { d.films[0].poster = { ...poster, source: 'https://user:pass@example.org' } }, /poster: "source"/)
+expectError('poster missing checkedAt', d => { d.films[0].poster = { ...poster, checkedAt: undefined } }, /poster: "checkedAt"/)
+expectError('poster future checkedAt', d => { d.films[0].poster = { ...poster, checkedAt: '2027-01-01' } }, /poster: "checkedAt" is in the future/)
+expectError('poster invalid date', d => { d.films[0].poster = { ...poster, checkedAt: '2026-02-30' } }, /poster: "checkedAt" must be a date/)
+expectError('poster traversal', d => { d.films[0].poster = { ...poster, src: '../outside.webp' } }, /base-relative path/)
+expectError('poster domain root', d => { d.films[0].poster = { ...poster, src: '/images/films/film-a.webp' } }, /base-relative path/)
+expectError('poster remote image', d => { d.films[0].poster = { ...poster, src: 'https://example.org/x.webp' } }, /base-relative path/)
+expectError('poster wrong film', d => { d.films[0].poster = { ...poster, src: 'images/films/other-film.webp' } }, /base-relative path/)
+expectError('poster zero dimension', d => { d.films[0].poster = { ...poster, width: 0 } }, /"width" must be a positive integer/)
+expectError('poster excessive dimensions', d => { d.films[0].poster = { ...poster, width: 481 } }, /dimensions exceed/)
+expectError('poster unknown field', d => { d.films[0].poster = { ...poster, watchUrl: 'https://example.org' } }, /unknown field "watchUrl"/)
+expectError('poster missing file', d => { d.films[0].id = 'missing'; d.films[0].poster = { ...poster, src: 'images/films/missing.webp' } }, /local poster file is missing/)
+expectError('poster corrupt file', d => { d.films[0].poster = { ...poster } }, /must be a WebP file/, { posterBytes: Buffer.from('not an image') })
+expectError('poster empty file', d => { d.films[0].poster = { ...poster } }, /poster must be 1–300000 bytes/, { posterBytes: Buffer.alloc(0) })
+expectError('poster excessive bytes', d => { d.films[0].poster = { ...poster } }, /poster must be 1–300000 bytes/, { posterBytes: Buffer.alloc(300001) })
 expectError('unknown genre', d => { d.films[0].genres = ['horror'] }, /unknown genre "horror"/)
 expectError('long film note', d => { d.films[0].note = 'я'.repeat(101) }, /longer than 100/)
+expectError('empty film note', d => { d.films[0].note = '' }, /"note" must be a non-empty string/)
+expectError('note missing source', d => { d.films[0].note = 'Завязка.'; d.films[0].noteCheckedAt = '2026-11-12' }, /"noteSource"/)
+expectError('note owner source', d => { d.films[0].note = 'Завязка.'; d.films[0].noteSource = 'owner' }, /"noteSource"/)
+expectError('note http source', d => { d.films[0].note = 'Завязка.'; d.films[0].noteSource = 'http://example.org' }, /"noteSource"/)
+expectError('note source credentials', d => { d.films[0].note = 'Завязка.'; d.films[0].noteSource = 'https://user:pass@example.org' }, /"noteSource"/)
+expectError('note missing date', d => { d.films[0].note = 'Завязка.'; d.films[0].noteSource = 'https://example.org' }, /"noteCheckedAt"/)
+expectError('note invalid date', d => { d.films[0].note = 'Завязка.'; d.films[0].noteCheckedAt = '2026-02-30' }, /"noteCheckedAt" must be a date/)
+expectError('note future date', d => { d.films[0].note = 'Завязка.'; d.films[0].noteCheckedAt = '2027-01-01' }, /"noteCheckedAt" is in the future/)
+expectError('source without note', d => { d.films[0].noteSource = 'https://example.org' }, /note metadata requires "note"/)
+expectError('date without note', d => { d.films[0].noteCheckedAt = '2026-11-12' }, /note metadata requires "note"/)
 expectError('duplicate film', d => { d.films.push({ ...d.films[0], id: 'film-b' }) }, /duplicate film/)
 expectError('film without source', d => { delete d.films[0].source }, /"source" must be/)
 expectError('pizza section missing', d => { d.recipes[0].sections = d.recipes[0].sections.filter(s => s.id !== 'bake-2') }, /section "bake-2" is required/)
@@ -108,4 +157,4 @@ expectError('image without alt', d => { d['day-ideas'][0].image = 'pizza.webp' }
 expectError('not an array', d => { d.films = { id: 'x' } }, /must be a JSON array/)
 
 assert.equal(GENRES.length, 10)
-console.log('Валидатор базы знаний: корректные данные проходят, 35 видов ошибок ловятся — OK')
+console.log(`Валидатор базы знаний: корректные данные проходят, ${rejectedCases} видов ошибок ловятся — OK`)

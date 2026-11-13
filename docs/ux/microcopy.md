@@ -100,6 +100,10 @@
 | `film.chosen` | Выбран ✓ |
 | `film.more` | Показать ещё (‹N›) |
 | `film.empty` | В этом жанре пока нет фильмов |
+| `film.posterUnavailable` | Постер недоступен |
+| `film.posterCredit` | Постеры: TMDB |
+| `film.posterSource` | Источник постера ↗ |
+| `film.synopsisSource` | Источник описания ↗ |
 | `film.note` | Фильм можно не выбирать. Где смотреть — решаете вы. |
 
 ## Добавление в день (S03, S05, S06)
