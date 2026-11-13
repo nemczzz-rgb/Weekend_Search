@@ -33,6 +33,9 @@ jobs:
           cache: pnpm
           cache-dependency-path: apps/web/pnpm-lock.yaml
       - run: pnpm --dir apps/web install --frozen-lockfile
+      - name: Knowledge base
+        run: node scripts/content/validate.mjs
+      - run: node tests/content/validate.test.mjs
       - run: pnpm --dir apps/web build
       - run: node tests/web/tower-background.test.mjs
       - if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'

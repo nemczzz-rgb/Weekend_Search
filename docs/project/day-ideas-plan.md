@@ -410,7 +410,7 @@ type Plan = { version: 1; days: PlanDay[] /* 1 или 2 */ }
 
 ## 9. Схема базы знаний (контракт для TASK-035 и линии Б)
 
-Общие правила для всех коллекций:
+Точный формат — [types.ts](../../apps/web/src/content/types.ts), правила наполнения — [content/README.md](../../apps/web/src/content/README.md) (TASK-035). Общие правила для всех коллекций:
 - `id` — латиница, kebab-case, уникален в коллекции;
 - текст на русском;
 - любой факт (адрес, часы, цена, дата события, год фильма) — с `source` (https-URL или `"owner"`) и `checkedAt` (`YYYY-MM-DD`);
@@ -418,10 +418,10 @@ type Plan = { version: 1; days: PlanDay[] /* 1 или 2 */ }
 
 | Коллекция | Обязательные поля | Необязательные | Правила валидатора |
 | --- | --- | --- | --- |
-| `places.json` | id, title, kind, area, durationMinutes, note, tags[] | address, hours, price, source, checkedAt, mapQuery | hours/price/address только вместе с source и checkedAt |
+| `places.json` | id, title, kind, area, durationMinutes, note, tags[] | address, hours, price — каждый как факт `{value, source, checkedAt}`; publicSpace, extraSources, mapLink, hints, scheme | у каждого факта свой source и checkedAt; `hints` — только прежние формулировки без цифр и цен, новые не добавляются |
 | `events.json` | id, title, dateStart, source, checkedAt | dateEnd, time, placeId, address, price | dateEnd ≥ dateStart; placeId существует; прошедшие не удаляются, их скрывает UI |
-| `films.json` | id, title, year, genres[] (из 10 id), origin: owner/research | originalTitle, note (≤ 100 символов), source, checkedAt | для `research` обязательны source и checkedAt; счётчик по жанрам; нет полей url/platform/poster; нет дублей по title+year |
-| `routes.json` | id, title, subtitle, theme, area, placeIds[1..6], durationMinutes, keywords[] | tone, image, imageAlt | все placeIds существуют; это замена `RouteIdea` из `data.ts`. Идея из одного места допустима: в текущих данных их 10 из 34, удалять их или дописывать вымышленные точки нельзя |
+| `films.json` | id, title, year, genres[] (из 10 id), origin: owner/research, source, checkedAt | originalTitle, note (≤ 100 символов) | source и checkedAt подтверждают год и название для любых фильмов; счётчик по жанрам; нет полей url/platform/poster; нет дублей по title+year |
+| `routes.json` | id, title, subtitle, theme, area, tone, days (1/2), placeIds[1..6], keywords[] | image, imageAlt | все placeIds существуют; замена `RouteIdea` из `data.ts`. Идея из одного места допустима: в текущих данных их 10 из 34, удалять их или дописывать вымышленные точки нельзя |
 | `recipes.json` | id, title, yield, leadTimeHours {min,max}, ingredients[{group, items[{name, amount, unit}]}], sections[{id, title, steps[{text}]}], source | tips[], toppings[], serving[], steps[].durationMinutes, steps[].temperatureC | для `roman-pizza` есть все 9 блоков из TASK-043 |
 | `activities.json` | id, title, location: home/city, durationMinutes, audience[] (solo/pair/friends/family), needs[], detail | leadTimeHours, image, imageAlt | detail — одно из: {type:"recipe", recipeId}, {type:"films"}, {type:"steps", steps[]}, {type:"places", placeIds[]}; ссылки существуют |
 | `day-ideas.json` | id, title, summary (≤ 140), mode: home/city/mixed, activityIds[2..3], keywords[] | image, imageAlt | mode совпадает с location занятий; счётчики по mode сравниваются с D14 (предупреждение до G5, ошибка в PR выпуска) |
