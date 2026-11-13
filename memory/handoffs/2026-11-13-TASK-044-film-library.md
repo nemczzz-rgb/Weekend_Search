@@ -5,6 +5,7 @@
 - Кому: участники для вычитки; дальнейший исполнитель не назначен
 - Статус задачи: На проверке
 - Ветка: task-044-film-library; отдельный worktree D:/Weekend_Search_codex, исходная база main 52a481c
+- PR: https://github.com/nemczzz-rgb/Weekend_Search/pull/42; коммит данных d3574e9, включение main 1eaf03a
 
 ## Цель и границы
 
