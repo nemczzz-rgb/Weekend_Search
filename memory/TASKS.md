@@ -40,10 +40,10 @@
 | TASK-032 | Инструкция подключения агента к репозиторию | На проверке | Alex071004/claude-repo | docs/project/codex-onboarding.md, docs/project/README.md, AGENTS.md, memory/ | [Инструкция](../docs/project/codex-onboarding.md) для Codex владелицы: синхронизация локальной папки, ветки, PR, публикация |
 | TASK-033 | План «Идеи для дня» и редизайна | Готово | Alex071004/claude-repo | docs/project/day-ideas-plan.md, memory/ | [План](../docs/project/day-ideas-plan.md): цель, AC-DI, решения D1–D15, спринты, контракты. Утверждён 12.11.2026; [сводка задач #27](https://github.com/nemczzz-rgb/Weekend_Search/issues/27) |
 | TASK-034 | Решения и ADR-005 | Готово | nemczzz-rgb/codex | docs/project/day-ideas-plan.md, docs/decisions/, CONTEXT.md, docs/design-system/README.md, memory/ | Владелица выбрала доработку утверждённого дизайна и подтвердила общую основу D2–D15; ADR предложена, нужно согласие Alex071004 · [#5](https://github.com/nemczzz-rgb/Weekend_Search/issues/5) ADR-005 согласован 13.11.2026 после подтверждения Alex071004 |
-| TASK-035 | Схема базы знаний и валидатор | На проверке | Alex071004/claude-repo | apps/web/src/content/, scripts/content/, tests/content/, .github/workflows/ | Раздел 9 плана; перенос мест без изменения сайта · [#6](https://github.com/nemczzz-rgb/Weekend_Search/issues/6) |
+| TASK-035 | Схема базы знаний и валидатор | Готово | Alex071004/claude-repo | apps/web/src/content/, scripts/content/, tests/content/, .github/workflows/ | Раздел 9 плана; перенос мест без изменения сайта · [#6](https://github.com/nemczzz-rgb/Weekend_Search/issues/6) |
 | TASK-036 | Рецепт и список фильмов владелицы | Готово | nemczzz-rgb | docs/knowledge-base/owner/ | Нужен к G0 · [#7](https://github.com/nemczzz-rgb/Weekend_Search/issues/7) |
-| TASK-037 | Аудит текущего UX | Запланировано | Alex071004/claude-repo | docs/ux/audit* | После G0 · [#8](https://github.com/nemczzz-rgb/Weekend_Search/issues/8) |
-| TASK-038 | Варианты развития UX | Запланировано | Alex071004/fable | docs/ux/concepts.md | После 037; выбор варианта обоими, стиль по D1 сохраняется · [#9](https://github.com/nemczzz-rgb/Weekend_Search/issues/9) |
+| TASK-037 | Аудит текущего UX | На проверке | Alex071004/claude-repo | docs/ux/audit* | После G0 · [#8](https://github.com/nemczzz-rgb/Weekend_Search/issues/8) |
+| TASK-038 | Варианты развития UX | На проверке | Alex071004/fable | docs/ux/concepts.md | После 037; выбор варианта обоими, стиль по D1 сохраняется · [#9](https://github.com/nemczzz-rgb/Weekend_Search/issues/9) |
 | TASK-039 | UX-спецификация | Запланировано | Alex071004/claude-repo | docs/ux/ | Ворота G1 · [#10](https://github.com/nemczzz-rgb/Weekend_Search/issues/10) |
 | TASK-040 | Пакет для Claude Design | Запланировано | Alex071004/claude-repo | docs/design-system/brief/ | Ворота G2 · [#11](https://github.com/nemczzz-rgb/Weekend_Search/issues/11) |
 | TASK-041 | Макеты в Claude Design | Запланировано | Alex071004/claude-design | артефакт Claude Design | После G2 · [#12](https://github.com/nemczzz-rgb/Weekend_Search/issues/12) |
@@ -86,3 +86,9 @@
 - Первая пятёрка сохраняется без изменений. Дополнительные 15 рецептов: исследование источников, пересказ шагов, проверка схемы и всех обязательных тестов.
 - Merge не разрешён этим поручением и остаётся отдельным действием после вычитки и явного согласия пользователя.
 - Проверки полного набора: все команды tests/README.md прошли; 20 уникальных id, 19 разных страниц-источников, даты проверки и неизменность первой пятёрки подтверждены; недобор рецептов D14 устранён. PR #36 расширен, номер задачи остаётся открытым до вычитки.
+
+## TASK-043 — разрешение конфликта PR #36, 2026-11-13
+
+- Исполнитель: Alex071004/codex; статус: На проверке до завершения CI.
+- Пользователь явно поручил разрешить конфликт и выполнить merge самостоятельно. Ветка main обновлена работой TASK-037/038; в CURRENT.md и LOG.md сохранены все строки обеих версий. Рецепты не изменены.
+- После зелёного CI выполняются merge PR #36, проверка deploy и удаление собственного worktree. Отдельная вычитка пиццы владелицей этим действием не подтверждается.
