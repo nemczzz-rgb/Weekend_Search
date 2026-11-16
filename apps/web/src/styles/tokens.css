@@ -19,6 +19,10 @@
   --ws-tint: color-mix(in srgb, var(--ws-accent) 10%, #ffffff);
   /* Цвет мелкого текста и ссылок: акцент, если он читается на бумаге не хуже 4,5 : 1, иначе чернила */
   --ws-accent-text: var(--ws-accent);
+  /* Крупные номера, «в Москве» и декоративные значки: цвет акцента; у зелёного — его тёмный тон, чтобы крупный текст держал 3 : 1. */
+  --ws-accent-display: var(--ws-accent);
+  /* Подчёркивание ссылок: у пяти светлых акцентов текст чернильный, цвет уходит в подчёркивание (правило мелкого текста). */
+  --ws-link-underline: transparent;
 
   /* Шрифты (оба свободные, OFL, с кириллицей) */
   --ws-font-display: 'Inter Tight', Arial, sans-serif;
@@ -70,16 +74,25 @@
   --ws-focus-offset: 2px;
 }
 
+/* Токены, вычисленные из акцента, пересчитываются там, где стоит data-accent:
+   на :root var() вычисляется один раз от фиолетового и дальше наследуется готовым значением. */
+[data-accent] {
+  --ws-tint: color-mix(in srgb, var(--ws-accent) 10%, #ffffff);
+  --ws-border-selected: 2px solid var(--ws-accent);
+  --ws-lift: 4px 4px 0 var(--ws-accent);
+  --ws-focus: 2px solid var(--ws-accent-text);
+}
+
 /* Девять цветов акцента. Белый или чернильный текст на заливке подобран по контрасту не ниже 4,5 : 1. */
-[data-accent='violet'] { --ws-accent: #3932bd; --ws-accent-pressed: #2a2496; --ws-on-accent: #ffffff; --ws-accent-text: #3932bd; }
-[data-accent='blue']   { --ws-accent: #0047bb; --ws-accent-pressed: #003a99; --ws-on-accent: #ffffff; --ws-accent-text: #0047bb; }
-[data-accent='sky']    { --ws-accent: #0072ce; --ws-accent-pressed: #005ba5; --ws-on-accent: #ffffff; --ws-accent-text: #191821; }
-[data-accent='green']  { --ws-accent: #00b140; --ws-accent-pressed: #008f33; --ws-on-accent: #191821; --ws-accent-text: #191821; }
-[data-accent='orange'] { --ws-accent: #fe5000; --ws-accent-pressed: #cc4000; --ws-on-accent: #191821; --ws-accent-text: #191821; }
-[data-accent='red']    { --ws-accent: #e4002b; --ws-accent-pressed: #b80022; --ws-on-accent: #ffffff; --ws-accent-text: #191821; }
-[data-accent='pink']   { --ws-accent: #da1884; --ws-accent-pressed: #b0136a; --ws-on-accent: #ffffff; --ws-accent-text: #191821; }
-[data-accent='purple'] { --ws-accent: #753bbd; --ws-accent-pressed: #5e2f98; --ws-on-accent: #ffffff; --ws-accent-text: #753bbd; }
-[data-accent='ink']    { --ws-accent: #191821; --ws-accent-pressed: #000000; --ws-on-accent: #ffffff; --ws-accent-text: #191821; }
+[data-accent='violet'] { --ws-accent: #3932bd; --ws-accent-pressed: #2a2496; --ws-on-accent: #ffffff; --ws-accent-text: #3932bd; --ws-accent-display: #3932bd; --ws-link-underline: transparent; }
+[data-accent='blue']   { --ws-accent: #0047bb; --ws-accent-pressed: #003a99; --ws-on-accent: #ffffff; --ws-accent-text: #0047bb; --ws-accent-display: #0047bb; --ws-link-underline: transparent; }
+[data-accent='sky']    { --ws-accent: #0072ce; --ws-accent-pressed: #005ba5; --ws-on-accent: #ffffff; --ws-accent-text: #191821; --ws-accent-display: #0072ce; --ws-link-underline: #0072ce; }
+[data-accent='green']  { --ws-accent: #00b140; --ws-accent-pressed: #008f33; --ws-on-accent: #191821; --ws-accent-text: #191821; --ws-accent-display: #008f33; --ws-link-underline: #00b140; }
+[data-accent='orange'] { --ws-accent: #fe5000; --ws-accent-pressed: #cc4000; --ws-on-accent: #191821; --ws-accent-text: #191821; --ws-accent-display: #fe5000; --ws-link-underline: #fe5000; }
+[data-accent='red']    { --ws-accent: #e4002b; --ws-accent-pressed: #b80022; --ws-on-accent: #ffffff; --ws-accent-text: #191821; --ws-accent-display: #e4002b; --ws-link-underline: #e4002b; }
+[data-accent='pink']   { --ws-accent: #da1884; --ws-accent-pressed: #b0136a; --ws-on-accent: #ffffff; --ws-accent-text: #191821; --ws-accent-display: #da1884; --ws-link-underline: #da1884; }
+[data-accent='purple'] { --ws-accent: #753bbd; --ws-accent-pressed: #5e2f98; --ws-on-accent: #ffffff; --ws-accent-text: #753bbd; --ws-accent-display: #753bbd; --ws-link-underline: transparent; }
+[data-accent='ink']    { --ws-accent: #191821; --ws-accent-pressed: #000000; --ws-on-accent: #ffffff; --ws-accent-text: #191821; --ws-accent-display: #191821; --ws-link-underline: transparent; }
 
 @media (prefers-reduced-motion: reduce) {
   :root { --ws-dur: 0ms; --ws-dur-hover: 0ms; }
