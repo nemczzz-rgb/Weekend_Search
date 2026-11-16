@@ -5,7 +5,9 @@ import './style.css'
 import './style-refresh.css'
 import './weekend-poster.css'
 
-if (import.meta.env.DEV && new URLSearchParams(location.search).get('ideas-preview') === '1') {
+if (import.meta.env.DEV && new URLSearchParams(location.search).get('app') === 'next') {
+  void import('./app/dev-entry.tsx')
+} else if (import.meta.env.DEV && new URLSearchParams(location.search).get('ideas-preview') === '1') {
   void import('./screens/day-ideas/dev-preview')
 } else if (import.meta.env.DEV && new URLSearchParams(location.search).get('ui') === '1') {
   void import('./ui/preview')
