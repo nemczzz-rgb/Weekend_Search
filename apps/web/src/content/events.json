@@ -26,5 +26,14 @@
     "address": "Москва, ул. Вавилова, 57 · выставочный комплекс Дарвиновского музея",
     "source": "https://www.darwinmuseum.ru/projects/celebration/kanikuly-17-22-noyabrya-2026",
     "checkedAt": "2026-11-13"
+  },
+  {
+    "id": "darwin-mothers-day-2026-11-28",
+    "title": "Всероссийский день матери 2026 · Дарвиновский музей",
+    "dateStart": "2026-11-28",
+    "time": "10:30–16:00",
+    "address": "Москва, ул. Вавилова, 57 · Дарвиновский музей",
+    "source": "https://www.darwinmuseum.ru/projects/celebration/vserossijskij-den-materi-2026",
+    "checkedAt": "2026-11-16"
   }
 ]
