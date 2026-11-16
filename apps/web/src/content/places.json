@@ -857,17 +857,12 @@
     "address": {
       "value": "ул. Арбат, 26",
       "source": "https://vakhtangov.ru/contacts/",
-      "checkedAt": "2026-11-10"
+      "checkedAt": "2026-11-16"
     },
     "hours": {
-      "value": "Касса в сезон 12:00–20:00; спектакли по афише",
+      "value": "Касса в театральный сезон ежедневно 12:00–20:00; это не время спектакля",
       "source": "https://vakhtangov.ru/contacts/",
-      "checkedAt": "2026-11-10"
-    },
-    "price": {
-      "value": "По спектаклю и месту в зале",
-      "source": "https://vakhtangov.ru/contacts/",
-      "checkedAt": "2026-11-10"
+      "checkedAt": "2026-11-16"
     },
     "extraSources": [
       "https://vakhtangov.ru/tickets/"
@@ -890,19 +885,19 @@
       "выставка"
     ],
     "address": {
-      "value": "ул. Волхонка, 12 · Главное здание",
+      "value": "ул. Волхонка, 12 — Главное здание",
       "source": "https://pushkinmuseum.art/museum/buildings/main/",
-      "checkedAt": "2026-11-10"
+      "checkedAt": "2026-11-16"
     },
     "hours": {
-      "value": "Вт–ср 11:00–20:00, чт–пт 11:00–21:00, сб 10:00–21:00, вс 10:00–20:00",
+      "value": "Вт–ср 11:00–20:00; чт–пт 11:00–21:00; сб 10:00–21:00; вс 10:00–20:00; пн выходной. Вход заканчивается за час",
       "source": "https://pushkinmuseum.art/museum/buildings/main/",
-      "checkedAt": "2026-11-10"
+      "checkedAt": "2026-11-16"
     },
     "price": {
-      "value": "Ориентир 700 ₽ за билет в Главное здание",
-      "source": "https://pushkinmuseum.art/museum/buildings/main/",
-      "checkedAt": "2026-11-10"
+      "value": "Главное здание: полный билет 700 ₽; специальные выставки могут требовать отдельного билета",
+      "source": "https://pushkinmuseum.art/visitors/tickets/index.php?lang=ru",
+      "checkedAt": "2026-11-16"
     },
     "extraSources": [
       "https://enfilade.guide/ru/moskva/pushkinskiy-muzey"
@@ -944,18 +939,8 @@
     ],
     "address": {
       "value": "Новодевичий проезд, 1",
-      "source": "https://azbyka.ru/palomnik/Богородице-Смоленский_Новодевичий_женский_монастырь_в_Москве",
-      "checkedAt": "2026-11-10"
-    },
-    "hours": {
-      "value": "08:00–18:00 по паломническому справочнику",
-      "source": "https://azbyka.ru/palomnik/Богородице-Смоленский_Новодевичий_женский_монастырь_в_Москве",
-      "checkedAt": "2026-11-10"
-    },
-    "price": {
-      "value": "Территория свободно; музей отдельно",
-      "source": "https://azbyka.ru/palomnik/Богородице-Смоленский_Новодевичий_женский_монастырь_в_Москве",
-      "checkedAt": "2026-11-10"
+      "source": "https://novodev.msk.ru/kontakty/",
+      "checkedAt": "2026-11-16"
     },
     "extraSources": [
       "https://novodev.msk.ru/"
@@ -978,13 +963,15 @@
       "прогулки"
     ],
     "hints": {
-      "address": "Воробьёвы горы · смотровая площадка",
-      "price": "Прогулка без билета"
+      "address": "Воробьёвы горы · смотровая площадка"
     },
     "scheme": {
       "x": 22,
       "y": 88
-    }
+    },
+    "extraSources": [
+      "https://www.park-gorkogo.ru/faq/"
+    ]
   },
   {
     "id": "vdnh",
@@ -1032,18 +1019,18 @@
     ],
     "address": {
       "value": "просп. Мира, 111",
-      "source": "https://kosmo-museum.ru/static_pages/stoimost-biletov",
-      "checkedAt": "2026-11-10"
+      "source": "https://kosmo-museum.ru/contacts",
+      "checkedAt": "2026-11-16"
     },
     "hours": {
-      "value": "Сб 10:00–21:00; вс 10:00–19:00. Будни на сайте",
+      "value": "Вт–ср, пт, вс 10:00–19:00; чт, сб 10:00–21:00. Понедельник уточнить: разделы сайта расходятся",
       "source": "https://kosmo-museum.ru/static_pages/stoimost-biletov",
-      "checkedAt": "2026-11-10"
+      "checkedAt": "2026-11-16"
     },
     "price": {
-      "value": "500 ₽ взрослый · 350 ₽ детский (7–18 лет)",
-      "source": "https://kosmo-museum.ru/static_pages/stoimost-biletov",
-      "checkedAt": "2026-11-10"
+      "value": "Экспозиция с выставками: взрослый 500 ₽; дети 7–18 лет включительно 350 ₽; дополнительные услуги отдельно",
+      "source": "https://kosmo-museum.ru/uploads/ckeditor/attachments/7647/Прейскурант_от_13_ноября_2026г..pdf",
+      "checkedAt": "2026-11-16"
     },
     "scheme": {
       "x": 79,
