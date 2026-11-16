@@ -56,5 +56,35 @@
     "price": "500 ₽; по карточке организатора билет приобретается в кассе",
     "source": "https://solyanka.vzmoscow.ru/rodnoe",
     "checkedAt": "2026-11-16"
+  },
+  {
+    "id": "muar-vitberg-2026",
+    "title": "«Александр Витберг. Прометей Воробьёвых гор» · Музей архитектуры",
+    "dateStart": "2026-10-29",
+    "dateEnd": "2027-02-14",
+    "time": "Вт, чт 13:00–21:00; ср, пт–вс 11:00–20:00; пн выходной; касса до закрытия за 30 минут. Самостоятельный осмотр выставки",
+    "placeId": "architecture-museum",
+    "source": "https://muar.ru/exhibitions/aleksandr-vitberg-prometey-vorobyevykh-gor/",
+    "checkedAt": "2026-11-17"
+  },
+  {
+    "id": "az-tarusa-2026",
+    "title": "«Территория свободы. Нонконформисты в Тарусе» · Музей AZ",
+    "dateStart": "2026-11-19",
+    "dateEnd": "2027-04-25",
+    "time": "12:00–21:00; касса и вход до 20:30; первый вт месяца технический день. Открытие объявлено на 19 ноября",
+    "placeId": "az-museum",
+    "source": "https://museum-az.com/event/territoriya-svobody-nonkonformisty-v-taruse/",
+    "checkedAt": "2026-11-16"
+  },
+  {
+    "id": "ges-after-genre-2026",
+    "title": "«Натюрморт. Портрет. Пейзаж. После жанра» · ГЭС-2 · 12+",
+    "dateStart": "2026-10-15",
+    "dateEnd": "2027-04-25",
+    "time": "Общий режим площадки 11:00–22:00; билеты на выставку проверять отдельно, бесплатная регистрация в здание их не заменяет",
+    "placeId": "ges-two",
+    "source": "https://ges-2.org/projects/still-life-portrait-landscape-after-genre",
+    "checkedAt": "2026-11-17"
   }
 ]

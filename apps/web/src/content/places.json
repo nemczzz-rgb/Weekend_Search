@@ -337,7 +337,15 @@
     "mapLink": {
       "url": "https://yandex.ru/maps/org/chetverg/145539923127",
       "address": "2-я Тверская-Ямская ул., 18"
-    }
+    },
+    "hours": {
+      "value": "Пн–пт 09:00–21:00; сб–вс 10:00–21:00 (филиал на 2-й Тверской-Ямской, 18)",
+      "source": "https://t.me/s/lovechetverg",
+      "checkedAt": "2026-11-16"
+    },
+    "extraSources": [
+      "https://t.me/s/lovechetverg"
+    ]
   },
   {
     "id": "masa-madre",
@@ -1364,13 +1372,18 @@
       "выставка"
     ],
     "address": {
-      "value": "2-я Тверская-Ямская ул., 20–22",
-      "source": "https://museum-az.com/",
+      "value": "2-я Тверская-Ямская ул., 20–22, стр. 2",
+      "source": "https://museum-az.com/visit/",
       "checkedAt": "2026-11-16"
     },
     "hours": {
       "value": "До 19.11.2026 закрыт на реэкспозицию; обычный режим 12:00–21:00, первый вт месяца технический день; касса до 20:30",
       "source": "https://museum-az.com/",
+      "checkedAt": "2026-11-16"
+    },
+    "price": {
+      "value": "Взрослый билет 400 ₽ по общему тарифу; по понедельникам вход бесплатный. До 19.11.2026 музей закрыт на реэкспозицию",
+      "source": "https://museum-az.com/visit/",
       "checkedAt": "2026-11-16"
     }
   },
@@ -1881,7 +1894,15 @@
       "value": "Вт, чт 13:00–21:00; ср, пт–вс 11:00–20:00; пн выходной; касса закрывается за 30 минут",
       "source": "https://muar.ru/",
       "checkedAt": "2026-11-16"
-    }
+    },
+    "price": {
+      "value": "Полный входной билет 550 ₽; включает открытые постоянные экспозиции и временные выставки. Экскурсии оплачиваются отдельно",
+      "source": "https://muar.ru/posetitelyam/bilety-rezhim-raboty/",
+      "checkedAt": "2026-11-16"
+    },
+    "extraSources": [
+      "https://muar.ru/posetitelyam/bilety-rezhim-raboty/"
+    ]
   },
   {
     "id": "tsvetaeva-museum",
