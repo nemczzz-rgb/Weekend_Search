@@ -1236,5 +1236,225 @@
       "x": 54,
       "y": 60
     }
+  },
+  {
+    "id": "tsaritsyno",
+    "title": "Парк «Царицыно»",
+    "kind": "Парк",
+    "area": "Царицыно",
+    "durationMinutes": 100,
+    "note": "Пруды и дворцовые фасады для неспешной прогулки",
+    "tags": [
+      "парки",
+      "архитектура",
+      "вода"
+    ],
+    "address": {
+      "value": "ул. Дольская, 1",
+      "source": "https://tsaritsyno-museum.ru/park/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Территория ежедневно 06:00–24:00; музеи и оранжереи по отдельному графику",
+      "source": "https://tsaritsyno-museum.ru/park/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "kolomenskoye",
+    "title": "Музей-заповедник «Коломенское»",
+    "kind": "Музей-заповедник",
+    "area": "Нагатинский Затон",
+    "durationMinutes": 100,
+    "note": "Старый государев двор и виды с высокого берега",
+    "tags": [
+      "история",
+      "парки",
+      "архитектура"
+    ],
+    "address": {
+      "value": "просп. Андропова, 39",
+      "source": "https://www.mgomz.ru/ru/pages/contacts_kolomenskoe",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Октябрь–апрель: территория ежедневно 05:30–23:00; экспозиции вт–вс 10:00–18:00",
+      "source": "https://www.mgomz.ru/ru/pages/contacts_kolomenskoe",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "izmailovo-estate",
+    "title": "Усадьба «Измайлово»",
+    "kind": "Усадьба",
+    "area": "Измайлово",
+    "durationMinutes": 75,
+    "note": "Остров и историческая усадьба; отдельное место от ПКиО",
+    "tags": [
+      "история",
+      "архитектура",
+      "прогулки"
+    ],
+    "address": {
+      "value": "Городок имени Баумана, 2, стр. 14",
+      "source": "https://www.mgomz.ru/ru/pages/contacts_izmailovo",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Октябрь–апрель: территория ежедневно 05:30–23:00; экспозиции вт–вс 10:00–18:00",
+      "source": "https://www.mgomz.ru/ru/pages/contacts_izmailovo",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "kuskovo",
+    "title": "Усадьба «Кусково»",
+    "kind": "Усадьба",
+    "area": "Вешняки",
+    "durationMinutes": 100,
+    "note": "Регулярный парк и павильоны старой усадьбы",
+    "tags": [
+      "архитектура",
+      "парки",
+      "музей"
+    ],
+    "address": {
+      "value": "ул. Юности, 2",
+      "source": "https://kuskovo.ru/muzej/kontakty/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Регулярный парк 10:00–18:00, вход до 17:30; пн и последний вт месяца закрыто. Павильоны по отдельному графику",
+      "source": "https://kuskovo.ru/posetitelyam/rezhim-raboty-muzeya/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "bauman-garden",
+    "title": "Сад имени Баумана",
+    "kind": "Сад",
+    "area": "Басманный",
+    "durationMinutes": 45,
+    "note": "Небольшой сад для паузы между городскими делами",
+    "tags": [
+      "сады",
+      "прогулки",
+      "тихо"
+    ],
+    "address": {
+      "value": "ул. Старая Басманная, 15А, стр. 4",
+      "source": "https://sadbaumana.ru/contacts/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Ежедневно 06:00–24:00",
+      "source": "https://sadbaumana.ru/contacts/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "krasnaya-presnya",
+    "title": "Парк «Красная Пресня»",
+    "kind": "Парк",
+    "area": "Пресненский",
+    "durationMinutes": 60,
+    "note": "Островки, мостики и тихие аллеи рядом с деловым городом",
+    "tags": [
+      "парки",
+      "вода",
+      "прогулки"
+    ],
+    "address": {
+      "value": "ул. Мантулинская, 5",
+      "source": "https://p-kp.ru/about/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "fili-park",
+    "title": "Парк «Фили»",
+    "kind": "Парк",
+    "area": "Филёвский Парк",
+    "durationMinutes": 90,
+    "note": "Лесные дорожки и прогулка в западной части города",
+    "tags": [
+      "парки",
+      "прогулки",
+      "природа"
+    ],
+    "address": {
+      "value": "ул. Большая Филёвская, 22",
+      "source": "https://parkfili.ru/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Круглосуточно; объекты внутри парка по своему графику",
+      "source": "https://parkfili.ru/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "olympic-village-park",
+    "title": "Парк Олимпийской деревни",
+    "kind": "Парк",
+    "area": "Тропарёво-Никулино",
+    "durationMinutes": 75,
+    "note": "Прогулка среди зелени и прудов на юго-западе",
+    "tags": [
+      "парки",
+      "вода",
+      "прогулки"
+    ],
+    "address": {
+      "value": "Пересечение Мичуринского проспекта и ул. Лобачевского",
+      "source": "https://parkfili.ru/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Круглосуточно; объекты внутри парка по своему графику",
+      "source": "https://parkfili.ru/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "fifty-october-park",
+    "title": "Парк 50-летия Октября",
+    "kind": "Парк",
+    "area": "Проспект Вернадского",
+    "durationMinutes": 75,
+    "note": "Зелёная пауза в жилом районе",
+    "tags": [
+      "парки",
+      "прогулки",
+      "семья"
+    ],
+    "address": {
+      "value": "ул. Удальцова, 22А",
+      "source": "https://parkfili.ru/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Круглосуточно; объекты внутри парка по своему графику",
+      "source": "https://parkfili.ru/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "sokolniki-park",
+    "title": "Парк «Сокольники»",
+    "kind": "Парк",
+    "area": "Сокольники",
+    "durationMinutes": 100,
+    "note": "Большие аллеи для прогулки в своём темпе",
+    "tags": [
+      "парки",
+      "прогулки",
+      "семья"
+    ],
+    "address": {
+      "value": "ул. Сокольнический Вал, 1",
+      "source": "https://www.culture.ru/institutes/95853/park-kultury-i-otdykha-sokolniki",
+      "checkedAt": "2026-11-16"
+    }
   }
 ]
