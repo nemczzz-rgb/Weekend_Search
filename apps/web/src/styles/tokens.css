@@ -66,7 +66,7 @@
   --ws-dur-hover: 120ms;
 
   /* Фокус */
-  --ws-focus: 2px solid var(--ws-accent);
+  --ws-focus: 2px solid var(--ws-accent-text); /* accent-text keeps 3:1 on paper for every accent (WCAG 1.4.11) */
   --ws-focus-offset: 2px;
 }
 

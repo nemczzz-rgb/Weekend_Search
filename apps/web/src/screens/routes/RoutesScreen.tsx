@@ -30,7 +30,7 @@ export function RoutesScreen({ source = getContentSource(), store = planStore, n
   if (routeId) {
     const route = resource.data.routes.find(r => r.id === routeId)
     return route ? <RouteDetail route={route} places={resource.data.places} store={store} now={now} />
-      : <EmptyState title="Такого маршрута нет" action={<TextLink href={viewHref('routes')}>Ко всем маршрутам</TextLink>} />
+      : <><PageHeading eyebrow="Маршруты">Такого маршрута нет</PageHeading><TextLink href={viewHref('routes')}>Ко всем маршрутам</TextLink></>
   }
   return <RouteCatalog data={resource.data} query={query} setQuery={setQuery} />
 }

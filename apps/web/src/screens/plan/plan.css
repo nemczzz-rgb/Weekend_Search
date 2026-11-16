@@ -17,3 +17,4 @@
 .ws-plan-day { margin-top:16px; }
 /* Storage row: file export, import and clear (S07 block 5). */
 .ws-plan-file { display:flex; flex-wrap:wrap; gap:4px 16px; }
+.ws-plan-custom .ws-button[aria-disabled='true'] { border:1.5px dashed var(--ws-ink); color:var(--ws-ink)!important; background:repeating-linear-gradient(135deg,var(--ws-white),var(--ws-white) 5px,var(--ws-tint) 5px,var(--ws-tint) 7px); box-shadow:none; transform:none; }
