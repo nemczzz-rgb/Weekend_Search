@@ -55,7 +55,7 @@
 | TASK-047 | Логика и хранилище плана | Готово | Alex071004/claude-repo | apps/web/src/plan/, apps/web/src/planner.ts, tests/web/plan-* | В main, после G3 и минимума KB · [#19](https://github.com/nemczzz-rgb/Weekend_Search/issues/19) |
 | TASK-048 | Токены и базовые компоненты | Готово | Alex071004/codex | apps/web/src/ui/, apps/web/src/styles/, apps/web/public/fonts/ | В main за dev-флагом · [#20](https://github.com/nemczzz-rgb/Weekend_Search/issues/20) |
 | TASK-049 | Экраны «Идеи для дня» | Готово | Alex071004/codex | apps/web/src/screens/day-ideas/ | В main за dev-флагом · [#21](https://github.com/nemczzz-rgb/Weekend_Search/issues/21) |
-| TASK-050 | Главная, места, маршруты, план, пожелание | В работе | Alex071004/claude-repo | apps/web/src/screens/, apps/web/src/App.tsx | В main за dev-флагом · [#22](https://github.com/nemczzz-rgb/Weekend_Search/issues/22) |
+| TASK-050 | Главная, места, маршруты, план, пожелание | На проверке | Alex071004/claude-repo | apps/web/src/screens/, apps/web/src/App.tsx | В main за dev-флагом · [#22](https://github.com/nemczzz-rgb/Weekend_Search/issues/22) |
 | TASK-051 | Иллюстрации | На проверке | Alex071004/codex | apps/web/public/images/ideas/ | После G3 · [#23](https://github.com/nemczzz-rgb/Weekend_Search/issues/23) |
 | TASK-052 | QA фичи и редизайна | Запланировано | Alex071004/claude-repo | docs/testing/day-ideas-report.md | Ворота G4 · [#24](https://github.com/nemczzz-rgb/Weekend_Search/issues/24) |
 | TASK-053 | Выпуск: включение новых экранов на сайте | Запланировано | Alex071004/claude-repo | PR, docs/project/public-sharing.md, memory/ | Ворота G5 · [#25](https://github.com/nemczzz-rgb/Weekend_Search/issues/25) |
