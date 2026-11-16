@@ -5,7 +5,12 @@
 .ws-app-links { display:flex; flex-wrap:wrap; gap:16px; margin:24px 0; }
 @media (max-width:767px) { .ws-app-screen { padding:32px 16px 140px; } }
 .ws-app-notice { position:fixed; z-index:100; left:50%; bottom:88px; transform:translateX(-50%); width:min(650px,calc(100% - 32px)); }
-/* Tower background (shukhov-background.js, as on the current site); the new tower rendering from tokens.md is a separate task. */
-.ws-app { background:transparent; position:relative; isolation:isolate; }
-.ws-app .tower-background { background:var(--ws-paper); }
-.ws-app:not([data-view='home']) .tower-background canvas { opacity:.45; }
+/* Tower scene (app/tower, tokens.md «Башня и фон»): fixed canvas behind the content. */
+.ws-app { background:var(--ws-paper); position:relative; isolation:isolate; }
+.ws-tower { position:fixed; inset:0; z-index:-1; pointer-events:none; overflow:hidden; }
+.ws-tower canvas { display:block; width:100%; height:100%; }
+.ws-app:not([data-view='home']) .ws-tower { opacity:.45; transition:opacity .45s; }
+/* Intro: the heading appears after the camera reaches the lamp. */
+[data-tower-intro='running'] .ws-home-poster { opacity:0; }
+[data-tower-intro='done'] .ws-home-poster { opacity:1; transition:opacity .45s; }
+@media (prefers-reduced-motion: reduce) { .ws-app .ws-tower, [data-tower-intro] .ws-home-poster { transition:none; opacity:1; } .ws-app:not([data-view='home']) .ws-tower { opacity:.45; } }

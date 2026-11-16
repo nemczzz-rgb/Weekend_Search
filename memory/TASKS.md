@@ -68,6 +68,7 @@
 
 | TASK-058 | Сохранить утверждённый дизайн | На проверке | nemczzz-rgb/codex | design/approved/, design/iterations/, memory/ | Снимок текущего фронтенда в отдельной папке, будущие варианты отдельно |
 | TASK-059 | Правило авторства коммитов | На проверке | Alex071004/claude-repo | AGENTS.md, docs/project/codex-onboarding.md, memory/ | Без строк соавторства агентов: правило main блокировало PR #36 |
+| TASK-061 | Новая башня: этажи разделов, заставка, Кремль и Сити | На проверке | Alex071004/claude-repo | apps/web/src/app/tower/, apps/web/src/app/AppShell.tsx, apps/web/src/app/app.css, tests/web/tower-scene.test.mjs | В main за `?app=next`, после #74; по tokens.md «Башня и фон» и TowerNext |
 
 ## TASK-043 — пачка 1, 2026-11-13
 
