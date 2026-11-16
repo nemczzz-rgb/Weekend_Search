@@ -1,0 +1,968 @@
+[
+  {
+    "id": "breakfast",
+    "title": "Начать день с завтрака",
+    "subtitle": "Завтрак в Nothing Fancy, затем прогулка в саду «Эрмитаж»",
+    "theme": "Еда",
+    "area": "Москва",
+    "tone": "sand",
+    "days": 1,
+    "placeIds": [
+      "nothing-fancy",
+      "hermitage"
+    ],
+    "keywords": [
+      "завтрак",
+      "боул",
+      "смузи"
+    ]
+  },
+  {
+    "id": "cinema",
+    "title": "Кино и день о природе",
+    "subtitle": "Сначала выбрать сеанс в «Колибри», затем отдельно спланировать переход к Дарвиновскому музею",
+    "theme": "Кино",
+    "area": "Москва",
+    "tone": "ink",
+    "days": 1,
+    "placeIds": [
+      "kolibri",
+      "darwin-museum"
+    ],
+    "keywords": [
+      "кино",
+      "фильм",
+      "кинотеатр"
+    ]
+  },
+  {
+    "id": "animals",
+    "title": "Альпаки и виды с гор",
+    "subtitle": "Посещение парка альпак и прогулка по Воробьёвым горам; проходы и часы уточнить",
+    "theme": "Животные",
+    "area": "Москва",
+    "tone": "sage",
+    "days": 1,
+    "placeIds": [
+      "alpaca",
+      "vorobyovy"
+    ],
+    "keywords": [
+      "альпаки",
+      "животные",
+      "козы",
+      "кролики"
+    ]
+  },
+  {
+    "id": "yoga",
+    "title": "Практика и прогулка",
+    "subtitle": "Выбрать занятие в «Ашраме», затем прогуляться у Патриарших",
+    "theme": "Спокойно",
+    "area": "Москва",
+    "tone": "olive",
+    "days": 1,
+    "placeIds": [
+      "ashram",
+      "patriarch"
+    ],
+    "keywords": [
+      "йога",
+      "цигун",
+      "медитация",
+      "практика"
+    ]
+  },
+  {
+    "id": "pizza-ponds",
+    "title": "Пицца и прогулка у прудов",
+    "subtitle": "Пообедать в Mátes и выбрать время для Новодевичьих прудов",
+    "theme": "С друзьями",
+    "area": "Москва",
+    "tone": "rust",
+    "days": 1,
+    "placeIds": [
+      "mates",
+      "novodevichy-ponds"
+    ],
+    "keywords": [
+      "пицца",
+      "пруды",
+      "друзья"
+    ]
+  },
+  {
+    "id": "height",
+    "title": "Канатная дорога и Воробьёвы горы",
+    "subtitle": "Сначала проверить работу дороги; прогулочную часть и переходы планировать отдельно",
+    "theme": "Виды",
+    "area": "Москва",
+    "tone": "blue",
+    "days": 1,
+    "placeIds": [
+      "cable-luzhniki",
+      "vorobyovy"
+    ],
+    "keywords": [
+      "высота",
+      "канатная",
+      "панорама"
+    ]
+  },
+  {
+    "id": "forest",
+    "title": "Измайлово: парк и усадьба",
+    "subtitle": "Длинная прогулка между двумя разными территориями; входы нужно проверить",
+    "theme": "Прогулки",
+    "area": "Москва",
+    "tone": "sage",
+    "days": 1,
+    "placeIds": [
+      "izmailovo",
+      "izmailovo-estate"
+    ],
+    "keywords": [
+      "измайлово",
+      "измайловский",
+      "лес",
+      "парк"
+    ]
+  },
+  {
+    "id": "standup",
+    "title": "Пруды и вечер со стендапом",
+    "subtitle": "Погулять у Патриарших, затем выбрать выступление и билеты",
+    "theme": "С друзьями",
+    "area": "Москва",
+    "tone": "rust",
+    "days": 1,
+    "placeIds": [
+      "patriarch",
+      "standup-patriki"
+    ],
+    "keywords": [
+      "стендап",
+      "юмор",
+      "смеяться"
+    ]
+  },
+  {
+    "id": "coffee",
+    "title": "Кофе и музей AZ",
+    "subtitle": "Уточнить работу «Четверга», затем заглянуть в музей после окончания реэкспозиции",
+    "theme": "Еда",
+    "area": "Москва",
+    "tone": "sand",
+    "days": 1,
+    "placeIds": [
+      "chetverg",
+      "az-museum"
+    ],
+    "keywords": [
+      "кофе",
+      "кофейня",
+      "выпечка",
+      "уют"
+    ]
+  },
+  {
+    "id": "bakery",
+    "title": "Выпечка и старые улицы",
+    "subtitle": "Masa Madre и прогулка по Китай-городу в своём темпе",
+    "theme": "Еда",
+    "area": "Москва",
+    "tone": "olive",
+    "days": 1,
+    "placeIds": [
+      "masa-madre",
+      "kitay"
+    ],
+    "keywords": [
+      "бриошь",
+      "хлеб",
+      "десерт",
+      "пекарня"
+    ]
+  },
+  {
+    "id": "bar-evening",
+    "title": "Китай-город и вечер в «Двойке» · 18+",
+    "subtitle": "Переулки перед встречей совершеннолетней компании на Солянке",
+    "theme": "Вечер · 18+",
+    "area": "Москва",
+    "tone": "ink",
+    "days": 1,
+    "placeIds": [
+      "kitay",
+      "dvoyka"
+    ],
+    "keywords": [
+      "бар",
+      "коктейли",
+      "шоты",
+      "18+"
+    ]
+  },
+  {
+    "id": "old-city",
+    "title": "Старая Москва",
+    "subtitle": "Переулки, площади и городские истории",
+    "theme": "История",
+    "area": "Центр",
+    "tone": "rust",
+    "days": 1,
+    "placeIds": [
+      "nikolskaya",
+      "kitay",
+      "khitrovka",
+      "pokrovka"
+    ],
+    "keywords": [
+      "история",
+      "старый",
+      "старинный",
+      "двор",
+      "переулок",
+      "архитектура"
+    ]
+  },
+  {
+    "id": "art",
+    "title": "День с искусством",
+    "subtitle": "Галереи и прогулка между ними",
+    "theme": "Искусство",
+    "area": "Центр",
+    "tone": "olive",
+    "days": 1,
+    "placeIds": [
+      "pushkin",
+      "krymsky",
+      "muzeon",
+      "tretyakov"
+    ],
+    "keywords": [
+      "искусство",
+      "музей",
+      "выставка",
+      "галерея",
+      "культура"
+    ]
+  },
+  {
+    "id": "parks",
+    "title": "Зелёный маршрут",
+    "subtitle": "Сады и парки без спешки",
+    "theme": "Прогулки",
+    "area": "Юг",
+    "tone": "sage",
+    "days": 1,
+    "placeIds": [
+      "muzeon",
+      "gorky",
+      "neskuchny",
+      "vorobyovy"
+    ],
+    "keywords": [
+      "парк",
+      "природа",
+      "зелень",
+      "сад",
+      "гулять",
+      "прогулка"
+    ]
+  },
+  {
+    "id": "water",
+    "title": "Город у воды",
+    "subtitle": "Набережные и открытые виды",
+    "theme": "Виды",
+    "area": "Центр",
+    "tone": "blue",
+    "days": 1,
+    "placeIds": [
+      "zaryadye",
+      "bolotnaya",
+      "krymsky",
+      "gorky"
+    ],
+    "keywords": [
+      "вода",
+      "река",
+      "набережная",
+      "вид",
+      "закат"
+    ]
+  },
+  {
+    "id": "arbat",
+    "title": "Арбат и окрестности",
+    "subtitle": "Улица, музей и тихая Пречистенка",
+    "theme": "Культура",
+    "area": "Арбат",
+    "tone": "sand",
+    "days": 1,
+    "placeIds": [
+      "arbat",
+      "vakhtangov",
+      "pushkin",
+      "preo"
+    ],
+    "keywords": [
+      "арбат",
+      "театр",
+      "центр",
+      "история",
+      "искусство"
+    ]
+  },
+  {
+    "id": "north",
+    "title": "Север города",
+    "subtitle": "Павильоны, космос и аллеи",
+    "theme": "Исследовать",
+    "area": "Останкинский",
+    "tone": "ink",
+    "days": 1,
+    "placeIds": [
+      "vdnh",
+      "cosmos",
+      "ostankino"
+    ],
+    "keywords": [
+      "вднх",
+      "космос",
+      "павильон",
+      "север",
+      "музей"
+    ]
+  },
+  {
+    "id": "creative",
+    "title": "Креативная Москва",
+    "subtitle": "Дизайн, пространства и кафе",
+    "theme": "Современное",
+    "area": "Бутырский",
+    "tone": "rust",
+    "days": 1,
+    "placeIds": [
+      "flacon",
+      "hleb",
+      "depot"
+    ],
+    "keywords": [
+      "дизайн",
+      "современный",
+      "кафе",
+      "еда",
+      "креатив"
+    ]
+  },
+  {
+    "id": "quiet",
+    "title": "Медленный день",
+    "subtitle": "Сад, бульвар и прогулка без плана",
+    "theme": "Спокойно",
+    "area": "Центр",
+    "tone": "sage",
+    "days": 1,
+    "placeIds": [
+      "patriarch",
+      "ermolova",
+      "hermitage",
+      "chistye"
+    ],
+    "keywords": [
+      "тихо",
+      "спокойно",
+      "неторопливо",
+      "отдохнуть",
+      "прогулка"
+    ]
+  },
+  {
+    "id": "classics",
+    "title": "Впервые в Москве",
+    "subtitle": "Главные места и виды города",
+    "theme": "Классика",
+    "area": "Центр",
+    "tone": "blue",
+    "days": 1,
+    "placeIds": [
+      "red-square",
+      "nikolskaya",
+      "zaryadye",
+      "bolotnaya"
+    ],
+    "keywords": [
+      "впервые",
+      "главное",
+      "классика",
+      "кремль",
+      "площадь"
+    ]
+  },
+  {
+    "id": "weekend",
+    "title": "Большие выходные",
+    "subtitle": "Два разных настроения за два дня",
+    "theme": "Два дня",
+    "area": "Разные районы",
+    "tone": "olive",
+    "days": 2,
+    "placeIds": [
+      "patriarch",
+      "impression",
+      "hermitage",
+      "tretyakov",
+      "muzeon",
+      "gorky"
+    ],
+    "keywords": [
+      "два дня",
+      "выходные",
+      "разное",
+      "всё"
+    ]
+  },
+  {
+    "id": "photo",
+    "title": "Фотопрогулка по центру",
+    "subtitle": "Выбери один цвет и найди его в вывесках, фасадах и отражениях",
+    "theme": "Фото",
+    "area": "Центр",
+    "tone": "rust",
+    "days": 1,
+    "placeIds": [
+      "nikolskaya",
+      "kitay",
+      "pokrovka"
+    ],
+    "keywords": [
+      "фото",
+      "камера",
+      "снимки"
+    ]
+  },
+  {
+    "id": "date",
+    "title": "Свидание без спешки",
+    "subtitle": "Прогулка у пруда, любимый напиток с собой и время поговорить",
+    "theme": "Вдвоём",
+    "area": "Пресненский",
+    "tone": "sand",
+    "days": 1,
+    "placeIds": [
+      "patriarch",
+      "ermolova"
+    ],
+    "keywords": [
+      "свидание",
+      "вдвоем",
+      "романтика"
+    ]
+  },
+  {
+    "id": "sketch",
+    "title": "Город в скетчбуке",
+    "subtitle": "Возьми блокнот и зарисуй три детали, которые обычно не замечаешь",
+    "theme": "Творчество",
+    "area": "Хамовники",
+    "tone": "olive",
+    "days": 1,
+    "placeIds": [
+      "preo",
+      "pushkin"
+    ],
+    "keywords": [
+      "рисовать",
+      "скетч",
+      "творчество"
+    ]
+  },
+  {
+    "id": "river-break",
+    "title": "Час у реки",
+    "subtitle": "Оставь наушники в кармане и устрой короткую прогулку у воды",
+    "theme": "Спокойно",
+    "area": "Якиманка",
+    "tone": "blue",
+    "days": 1,
+    "placeIds": [
+      "krymsky",
+      "muzeon"
+    ],
+    "keywords": [
+      "час",
+      "коротко",
+      "перерыв"
+    ]
+  },
+  {
+    "id": "friends",
+    "title": "Встретиться с друзьями",
+    "subtitle": "Посмотреть дизайн-пространства и выбрать место для долгого разговора",
+    "theme": "С друзьями",
+    "area": "Бутырский",
+    "tone": "rust",
+    "days": 1,
+    "placeIds": [
+      "flacon",
+      "hleb"
+    ],
+    "keywords": [
+      "друзья",
+      "компания",
+      "встреча"
+    ]
+  },
+  {
+    "id": "solo",
+    "title": "День для себя",
+    "subtitle": "Неспешная прогулка без списка обязательных впечатлений",
+    "theme": "Спокойно",
+    "area": "Тверской",
+    "tone": "sage",
+    "days": 1,
+    "placeIds": [
+      "hermitage",
+      "ermolova"
+    ],
+    "keywords": [
+      "одному",
+      "одной",
+      "соло",
+      "себя"
+    ]
+  },
+  {
+    "id": "architecture",
+    "title": "Охота за деталями",
+    "subtitle": "Найди необычную дверь, балкон и фасад; собери маленькую коллекцию",
+    "theme": "Архитектура",
+    "area": "Хамовники",
+    "tone": "sand",
+    "days": 1,
+    "placeIds": [
+      "preo",
+      "arbat"
+    ],
+    "keywords": [
+      "детали",
+      "фасады",
+      "особняки"
+    ]
+  },
+  {
+    "id": "cosmic",
+    "title": "Космическое настроение",
+    "subtitle": "Выбери музей или прогулку среди павильонов и узнай что-нибудь новое",
+    "theme": "Исследовать",
+    "area": "Останкинский",
+    "tone": "ink",
+    "days": 1,
+    "placeIds": [
+      "cosmos",
+      "vdnh"
+    ],
+    "keywords": [
+      "космос",
+      "узнать",
+      "наука"
+    ]
+  },
+  {
+    "id": "green-pause",
+    "title": "Пауза среди деревьев",
+    "subtitle": "Возьми термос, отложи телефон и прогуляйся в своём темпе",
+    "theme": "Прогулки",
+    "area": "Якиманка",
+    "tone": "sage",
+    "days": 1,
+    "placeIds": [
+      "gorky",
+      "neskuchny"
+    ],
+    "keywords": [
+      "деревья",
+      "термос",
+      "тишина"
+    ]
+  },
+  {
+    "id": "postcards",
+    "title": "Открытки из Москвы",
+    "subtitle": "Сними три городских вида и отправь друзьям свою открытку",
+    "theme": "Фото",
+    "area": "Центр",
+    "tone": "blue",
+    "days": 1,
+    "placeIds": [
+      "red-square",
+      "zaryadye",
+      "bolotnaya"
+    ],
+    "keywords": [
+      "открытки",
+      "фото",
+      "виды"
+    ]
+  },
+  {
+    "id": "art-slow",
+    "title": "Обед и один музей",
+    "subtitle": "Зайти в «Сок» и посмотреть выбранные залы Третьяковки без музейного марафона",
+    "theme": "Искусство",
+    "area": "Замоскворечье",
+    "tone": "olive",
+    "days": 1,
+    "placeIds": [
+      "sok-cafe",
+      "tretyakov"
+    ],
+    "keywords": [
+      "музей",
+      "картины",
+      "дождь"
+    ]
+  },
+  {
+    "id": "ponds",
+    "title": "Разговоры у пруда",
+    "subtitle": "Небольшая прогулка, разговор и поиск отражений в воде",
+    "theme": "Вдвоём",
+    "area": "Басманный",
+    "tone": "blue",
+    "days": 1,
+    "placeIds": [
+      "chistye",
+      "pokrovka"
+    ],
+    "keywords": [
+      "пруд",
+      "поговорить",
+      "вдвоем"
+    ]
+  },
+  {
+    "id": "hermitage-lunch-mmoma",
+    "title": "Сад, обед и современное искусство",
+    "subtitle": "Эрмитаж → Nothing Fancy → ММОМА на Петровке",
+    "theme": "Искусство",
+    "area": "Тверской",
+    "tone": "olive",
+    "days": 1,
+    "placeIds": [
+      "hermitage",
+      "nothing-fancy",
+      "mmoma-petrovka"
+    ],
+    "keywords": [
+      "искусство",
+      "прогулка",
+      "тверской"
+    ]
+  },
+  {
+    "id": "bolotnaya-sok-tretyakov",
+    "title": "У воды и русских картин",
+    "subtitle": "Набережная → кафе «Сок» → Третьяковская галерея",
+    "theme": "Искусство",
+    "area": "Якиманка",
+    "tone": "olive",
+    "days": 1,
+    "placeIds": [
+      "bolotnaya",
+      "sok-cafe",
+      "tretyakov"
+    ],
+    "keywords": [
+      "искусство",
+      "прогулка",
+      "якиманка"
+    ]
+  },
+  {
+    "id": "boulevard-severyane-architecture",
+    "title": "Бульвар, печь и архитектура",
+    "subtitle": "Тверской бульвар → «Северяне» → музей Щусева",
+    "theme": "Архитектура",
+    "area": "Центр",
+    "tone": "olive",
+    "days": 1,
+    "placeIds": [
+      "ermolova",
+      "severyane",
+      "architecture-museum"
+    ],
+    "keywords": [
+      "архитектура",
+      "прогулка",
+      "центр"
+    ]
+  },
+  {
+    "id": "river-strelka-ges",
+    "title": "Река и современная культура · 18+",
+    "subtitle": "Крымская набережная → «Стрелка» → ГЭС-2",
+    "theme": "Культура · 18+",
+    "area": "Якиманка",
+    "tone": "olive",
+    "days": 1,
+    "placeIds": [
+      "krymsky",
+      "strelka-bar",
+      "ges-two"
+    ],
+    "keywords": [
+      "культура · 18+",
+      "прогулка",
+      "якиманка"
+    ]
+  },
+  {
+    "id": "arbat-books-tsvetaeva",
+    "title": "Книги и поэтический Арбат",
+    "subtitle": "Арбат → Дом книги → музей Цветаевой",
+    "theme": "Литература",
+    "area": "Арбат",
+    "tone": "olive",
+    "days": 1,
+    "placeIds": [
+      "arbat",
+      "book-house-arbat",
+      "tsvetaeva-museum"
+    ],
+    "keywords": [
+      "литература",
+      "прогулка",
+      "арбат"
+    ]
+  },
+  {
+    "id": "prechistenka-writers",
+    "title": "Писательское предместье",
+    "subtitle": "Пречистенка → музей Пушкина → дом Тургенева",
+    "theme": "Литература",
+    "area": "Хамовники",
+    "tone": "olive",
+    "days": 1,
+    "placeIds": [
+      "preo",
+      "pushkin-literary",
+      "turgenev-house"
+    ],
+    "keywords": [
+      "литература",
+      "прогулка",
+      "хамовники"
+    ]
+  },
+  {
+    "id": "arbat-two-writers",
+    "title": "Два литературных дома",
+    "subtitle": "Арбат → квартира Пушкина → квартира Андрея Белого",
+    "theme": "Литература",
+    "area": "Арбат",
+    "tone": "olive",
+    "days": 1,
+    "placeIds": [
+      "arbat",
+      "pushkin-arbat",
+      "andrei-bely-house"
+    ],
+    "keywords": [
+      "литература",
+      "прогулка",
+      "арбат"
+    ]
+  },
+  {
+    "id": "basmannaya-art",
+    "title": "Сад и Басманная",
+    "subtitle": "Сад Баумана → дом Василия Пушкина → «Фабрика»",
+    "theme": "Культура",
+    "area": "Басманный",
+    "tone": "olive",
+    "days": 1,
+    "placeIds": [
+      "bauman-garden",
+      "vasily-pushkin-house",
+      "fabrika-art"
+    ],
+    "keywords": [
+      "культура",
+      "прогулка",
+      "басманный"
+    ]
+  },
+  {
+    "id": "mayakovskaya-art-music",
+    "title": "Искусство и гармоника",
+    "subtitle": "Музей AZ → музей Мирека → Тверской бульвар",
+    "theme": "Культура",
+    "area": "Тверской",
+    "tone": "olive",
+    "days": 1,
+    "placeIds": [
+      "az-museum",
+      "mirek-museum",
+      "ermolova"
+    ],
+    "keywords": [
+      "культура",
+      "прогулка",
+      "тверской"
+    ]
+  },
+  {
+    "id": "gogolevsky-art-architecture",
+    "title": "Дома и искусство у Гоголевского",
+    "subtitle": "ММОМА → музей архитектуры → Пушкинский музей",
+    "theme": "Искусство",
+    "area": "Хамовники",
+    "tone": "olive",
+    "days": 1,
+    "placeIds": [
+      "mmoma-gogolevsky",
+      "architecture-museum",
+      "pushkin"
+    ],
+    "keywords": [
+      "искусство",
+      "прогулка",
+      "хамовники"
+    ]
+  },
+  {
+    "id": "modern-art-krymsky",
+    "title": "Искусство на Крымском Валу",
+    "subtitle": "Музеон → Новая Третьяковка → «Гараж»",
+    "theme": "Искусство",
+    "area": "Якиманка",
+    "tone": "olive",
+    "days": 1,
+    "placeIds": [
+      "muzeon",
+      "new-tretyakov",
+      "garage"
+    ],
+    "keywords": [
+      "искусство",
+      "прогулка",
+      "якиманка"
+    ]
+  },
+  {
+    "id": "music-garden-tverskaya",
+    "title": "Музыка и сад",
+    "subtitle": "Музей музыки → Эрмитаж → квартира Гольденвейзера",
+    "theme": "Музыка",
+    "area": "Тверской",
+    "tone": "olive",
+    "days": 1,
+    "placeIds": [
+      "music-museum",
+      "hermitage",
+      "goldenweiser-flat"
+    ],
+    "keywords": [
+      "музыка",
+      "прогулка",
+      "тверской"
+    ]
+  },
+  {
+    "id": "gorky-garage-river",
+    "title": "Парк и открытое хранение",
+    "subtitle": "Парк Горького → «Гараж» → Крымская набережная",
+    "theme": "Искусство",
+    "area": "Якиманка",
+    "tone": "olive",
+    "days": 1,
+    "placeIds": [
+      "gorky",
+      "garage",
+      "krymsky"
+    ],
+    "keywords": [
+      "искусство",
+      "прогулка",
+      "якиманка"
+    ]
+  },
+  {
+    "id": "chistye-books-nikolskaya",
+    "title": "От прудов к книжным полкам",
+    "subtitle": "Чистые пруды → «Библио-Глобус» → Никольская",
+    "theme": "Книги",
+    "area": "Центр",
+    "tone": "olive",
+    "days": 1,
+    "placeIds": [
+      "chistye",
+      "biblio-globus",
+      "nikolskaya"
+    ],
+    "keywords": [
+      "книги",
+      "прогулка",
+      "центр"
+    ]
+  },
+  {
+    "id": "zotov-presnya",
+    "title": "Конструктивизм и парковая пауза",
+    "subtitle": "Центр «Зотов» → парк «Красная Пресня»",
+    "theme": "Архитектура",
+    "area": "Пресненский",
+    "tone": "olive",
+    "days": 1,
+    "placeIds": [
+      "zotov-centre",
+      "krasnaya-presnya"
+    ],
+    "keywords": [
+      "архитектура",
+      "прогулка",
+      "пресненский"
+    ]
+  },
+  {
+    "id": "planetarium-ponds-evening",
+    "title": "Звёзды и вечер у пруда · 18+",
+    "subtitle": "Планетарий → Патриаршие → выбранный стендап",
+    "theme": "Вечер · 18+",
+    "area": "Пресненский",
+    "tone": "olive",
+    "days": 1,
+    "placeIds": [
+      "moscow-planetarium",
+      "patriarch",
+      "standup-patriki"
+    ],
+    "keywords": [
+      "вечер · 18+",
+      "прогулка",
+      "пресненский"
+    ]
+  },
+  {
+    "id": "esenin-sok-art",
+    "title": "Стихи, обед и живопись",
+    "subtitle": "Дом Есенина → кафе «Сок» → Третьяковская галерея",
+    "theme": "Культура",
+    "area": "Замоскворечье",
+    "tone": "olive",
+    "days": 1,
+    "placeIds": [
+      "esenin-house",
+      "sok-cafe",
+      "tretyakov"
+    ],
+    "keywords": [
+      "культура",
+      "прогулка",
+      "замоскворечье"
+    ]
+  }
+]
