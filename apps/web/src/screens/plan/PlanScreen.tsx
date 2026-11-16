@@ -391,6 +391,7 @@ function AddCustom({ plan, dayIndex, save, notify }: { plan: Plan; dayIndex: num
     <Field label="Название" value={title} maxLength={60} placeholder="Куда хотите зайти?" onChange={e => setTitle(e.target.value)} error={touched && !title.trim() ? 'Напишите название' : undefined} />
     <Field label="Адрес" value={address} maxLength={100} placeholder="Улица и дом" onChange={e => setAddress(e.target.value)} />
     <Field label="Минут на месте" type="number" min={15} max={480} step={5} value={minutes} onChange={e => setMinutes(Number(e.target.value))} />
-    <Button type="submit">Добавить +</Button>
+    {/* S07: inactive while the title is empty; aria-disabled keeps it reachable by Tab, the hint appears on submit. */}
+    <Button type="submit" aria-disabled={!title.trim()}>Добавить +</Button>
   </form>
 }
