@@ -604,17 +604,12 @@
     "address": {
       "value": "Лаврушинский пер., 10",
       "source": "https://www.tretyakovgallery.ru/for-visitors/museums/istoricheskoe-zdanie/",
-      "checkedAt": "2026-11-10"
+      "checkedAt": "2026-11-16"
     },
     "hours": {
-      "value": "Вт–вс 10:00–21:00, вход до 20:00; пн закрыто",
+      "value": "Вт–вс 10:00–21:00; кассы и вход до 20:00; пн выходной",
       "source": "https://www.tretyakovgallery.ru/for-visitors/museums/istoricheskoe-zdanie/",
-      "checkedAt": "2026-11-10"
-    },
-    "price": {
-      "value": "Ориентир 700 ₽ за основную экспозицию",
-      "source": "https://www.tretyakovgallery.ru/for-visitors/museums/istoricheskoe-zdanie/",
-      "checkedAt": "2026-11-10"
+      "checkedAt": "2026-11-16"
     },
     "extraSources": [
       "https://tretyakovskaja.ru/cena-bileta/"
@@ -637,14 +632,9 @@
       "парки"
     ],
     "address": {
-      "value": "Крымская набережная · парк искусств «Музеон»",
-      "source": "https://www.park-gorkogo.ru/faq/",
-      "checkedAt": "2026-11-10"
-    },
-    "price": {
-      "value": "Прогулка без билета",
-      "source": "https://www.park-gorkogo.ru/faq/",
-      "checkedAt": "2026-11-10"
+      "value": "ул. Крымский Вал, 9 — ориентир оператора; схему входов уточнить перед визитом",
+      "source": "https://parkgorkogo.ru/areas/muzeon/",
+      "checkedAt": "2026-11-16"
     },
     "scheme": {
       "x": 45,
@@ -657,26 +647,21 @@
     "kind": "Парк",
     "area": "Якиманка",
     "durationMinutes": 80,
-    "note": "Длинная прогулка вдоль Москвы-реки",
+    "note": "Набережная и пруд; главный вход и часть Партера перекрыты",
     "tags": [
       "парки",
       "прогулки",
       "вода"
     ],
     "address": {
-      "value": "ул. Крымский Вал, 9 · главный вход",
-      "source": "https://www.park-gorkogo.ru/faq/",
-      "checkedAt": "2026-11-10"
+      "value": "ул. Крымский Вал, 9",
+      "source": "https://parkgorkogo.ru/contacts/",
+      "checkedAt": "2026-11-16"
     },
     "hours": {
-      "value": "Круглосуточно, возможны закрытия из-за погоды",
+      "value": "Круглосуточно; часть Партера и главный вход временно перекрыты",
       "source": "https://www.park-gorkogo.ru/faq/",
-      "checkedAt": "2026-11-10"
-    },
-    "price": {
-      "value": "Вход в парк свободный; услуги отдельно",
-      "source": "https://www.park-gorkogo.ru/faq/",
-      "checkedAt": "2026-11-10"
+      "checkedAt": "2026-11-16"
     },
     "scheme": {
       "x": 43,
@@ -695,25 +680,18 @@
       "парки",
       "тихо"
     ],
-    "address": {
-      "value": "Нескучный сад · вход со стороны Ленинского проспекта",
-      "source": "https://parkgorkogo.ru/areas/neskuchny-garden/",
-      "checkedAt": "2026-11-10"
-    },
     "hours": {
-      "value": "Круглосуточно",
-      "source": "https://parkgorkogo.ru/areas/neskuchny-garden/",
-      "checkedAt": "2026-11-10"
-    },
-    "price": {
-      "value": "Прогулка без билета",
-      "source": "https://parkgorkogo.ru/areas/neskuchny-garden/",
-      "checkedAt": "2026-11-10"
+      "value": "Круглосуточно; возможны временные ограничения территории парка",
+      "source": "https://www.park-gorkogo.ru/faq/",
+      "checkedAt": "2026-11-16"
     },
     "scheme": {
       "x": 35,
       "y": 84
-    }
+    },
+    "extraSources": [
+      "https://parkgorkogo.ru/areas/neskuchny-garden/"
+    ]
   },
   {
     "id": "zaryadye",
@@ -730,17 +708,7 @@
     "address": {
       "value": "ул. Варварка, 6, стр. 1",
       "source": "https://welcome.zaryadyepark.ru/",
-      "checkedAt": "2026-11-10"
-    },
-    "hours": {
-      "value": "Территория круглосуточно; павильоны по графику",
-      "source": "https://welcome.zaryadyepark.ru/",
-      "checkedAt": "2026-11-10"
-    },
-    "price": {
-      "value": "Вход в парк свободный; павильоны отдельно",
-      "source": "https://welcome.zaryadyepark.ru/",
-      "checkedAt": "2026-11-10"
+      "checkedAt": "2026-11-16"
     },
     "extraSources": [
       "https://moy-region.ru/objects/park-zaryadye"
