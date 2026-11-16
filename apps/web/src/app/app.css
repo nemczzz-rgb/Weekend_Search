@@ -4,3 +4,4 @@
 .ws-app-screen { max-width:1280px; margin:0 auto; padding:48px 32px 120px; }
 .ws-app-links { display:flex; flex-wrap:wrap; gap:16px; margin:24px 0; }
 @media (max-width:767px) { .ws-app-screen { padding:32px 16px 140px; } }
+.ws-app-notice { position:fixed; z-index:100; left:50%; bottom:88px; transform:translateX(-50%); width:min(650px,calc(100% - 32px)); }

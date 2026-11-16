@@ -2,9 +2,9 @@
 // Until the release switch (TASK-053) it is reachable only in development via ?app=next (D11).
 import { useEffect, useRef, useState, type ReactNode } from 'react'
 import { DayIdeasScreen } from '../screens/day-ideas/index.ts'
-import { BottomNav, EmptyState, Footer, Header, PageHeading, TextLink, type Accent } from '../ui/components.tsx'
-import { itemsWord } from './format.ts'
-import { planStore, usePlanState } from './plan-state.ts'
+import { PlanScreen } from '../screens/plan/PlanScreen.tsx'
+import { BottomNav, Footer, Header, PageHeading, TextLink, type Accent } from '../ui/components.tsx'
+import { planStore } from './plan-state.ts'
 import { interceptLinks, useShellRoute, viewHref, type View } from './routing.ts'
 import '../ui/ui.css'
 import './app.css'
@@ -49,7 +49,7 @@ function Screen({ view }: { view: View }): ReactNode {
     case 'home': return <HomeStub />
     case 'routes': return <Pending title="Маршруты по городу" eyebrow="Маршруты" />
     case 'places': return <Pending title="Места Москвы" eyebrow="Места" />
-    case 'plan': return <PlanStub />
+    case 'plan': return <PlanScreen />
     default: return null
   }
 }
@@ -62,17 +62,6 @@ function HomeStub() {
   </>
 }
 
-function PlanStub() {
-  const { plan, storageAvailable } = usePlanState()
-  const count = plan?.days.reduce((total, day) => total + day.items.length, 0) ?? 0
-  return <>
-    <PageHeading eyebrow="Мой план">{plan?.sourceTitle ?? 'Мой план'}</PageHeading>
-    {count === 0
-      ? <EmptyState title="Здесь пока пусто" action={<TextLink href={viewHref('day-ideas')}>Выбрать идею для дня</TextLink>}>Напишите, чего хочется, или выберите идею, маршрут или место.</EmptyState>
-      : <p>В плане {count} {itemsWord(count)}. Экран плана собирается в TASK-050.</p>}
-    {!storageAvailable && <p role="status">План сохранится только до закрытия страницы.</p>}
-  </>
-}
 
 function Pending({ title, eyebrow }: { title: string; eyebrow: string }) {
   return <>
