@@ -2328,5 +2328,120 @@
       "source": "https://www.biblio-globus.ru/",
       "checkedAt": "2026-11-16"
     }
+  },
+  {
+    "id": "chaikovsky-museum",
+    "title": "Музей Чайковского в Москве",
+    "kind": "Музей",
+    "area": "Пресненский",
+    "durationMinutes": 60,
+    "note": "Домашний мир музыки и история композитора",
+    "tags": [
+      "музыка",
+      "музей",
+      "история"
+    ],
+    "address": {
+      "value": "Кудринская площадь, 46/54",
+      "source": "https://music-museum.ru/about/contacts.html",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Ср 11:00–19:00; чт–пт 12:00–21:00; сб 11:00–19:00; вс 11:00–18:00. Вход заканчивается за час; пн–вт уточнить",
+      "source": "https://music-museum.ru/about/contacts.html",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "prokofiev-museum",
+    "title": "Музей Прокофьева",
+    "kind": "Музей",
+    "area": "Тверской",
+    "durationMinutes": 60,
+    "note": "Композитор и его музыка в Камергерском переулке",
+    "tags": [
+      "музыка",
+      "музей",
+      "история"
+    ],
+    "address": {
+      "value": "ул. Большая Дмитровка, 5/6, стр. 3; вход из Камергерского пер.",
+      "source": "https://music-museum.ru/about/contacts.html",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Ср 11:00–19:00; чт–пт 12:00–21:00; сб 11:00–19:00; вс 11:00–18:00. Вход заканчивается за час; пн–вт уточнить",
+      "source": "https://music-museum.ru/about/contacts.html",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "golovanov-flat",
+    "title": "Музей-квартира Голованова",
+    "kind": "Музей",
+    "area": "Пресненский",
+    "durationMinutes": 60,
+    "note": "Камерная встреча с историей дирижёрского искусства",
+    "tags": [
+      "музыка",
+      "музей",
+      "история"
+    ],
+    "address": {
+      "value": "Брюсов пер., 7, пом. 1/6, кв. 10",
+      "source": "https://music-museum.ru/about/contacts.html",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Вт–ср, сб 11:00–19:00; чт–пт 13:00–21:00. Вход заканчивается за час; вс–пн уточнить",
+      "source": "https://music-museum.ru/about/contacts.html",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "goldenweiser-flat",
+    "title": "Музей-квартира Гольденвейзера",
+    "kind": "Музей",
+    "area": "Тверской",
+    "durationMinutes": 60,
+    "note": "Квартира пианиста над шумной Тверской",
+    "tags": [
+      "музыка",
+      "музей",
+      "история"
+    ],
+    "address": {
+      "value": "ул. Тверская, 17, кв. 109–110, этаж 4",
+      "source": "https://music-museum.ru/about/contacts.html",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Вт–ср, сб 11:00–19:00; чт–пт 13:00–21:00. Вход заканчивается за час; вс–пн уточнить",
+      "source": "https://music-museum.ru/about/contacts.html",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "mirek-museum",
+    "title": "Музей русской гармоники Мирека",
+    "kind": "Музей",
+    "area": "Тверской",
+    "durationMinutes": 60,
+    "note": "История инструмента и его звучания",
+    "tags": [
+      "музыка",
+      "музей",
+      "история"
+    ],
+    "address": {
+      "value": "2-я Тверская-Ямская ул., 18, этаж 2",
+      "source": "https://mirekmuseum.ru/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Ср 10:00–18:00; чт 10:00–21:00; пт–вс 10:00–17:00; пн выходной; вт уточнить",
+      "source": "https://scriabinmuseum.ru/contacts/",
+      "checkedAt": "2026-11-16"
+    }
   }
 ]
