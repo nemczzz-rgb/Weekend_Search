@@ -1633,5 +1633,245 @@
       "source": "https://www.culture.ru/institutes/95853/park-kultury-i-otdykha-sokolniki",
       "checkedAt": "2026-11-16"
     }
+  },
+  {
+    "id": "darwin-museum",
+    "title": "Государственный Дарвиновский музей",
+    "kind": "Музей",
+    "area": "Академический",
+    "durationMinutes": 100,
+    "note": "Эволюция и разнообразие живой природы",
+    "tags": [
+      "музей",
+      "наука",
+      "семья"
+    ],
+    "address": {
+      "value": "ул. Вавилова, 57",
+      "source": "https://www.darwinmuseum.ru/projects/constant-exp/info",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Вт–вс 10:00–18:00; вход до 17:30. По чт выставочный комплекс 13:00–21:00, основное здание до 18:00",
+      "source": "https://www.darwinmuseum.ru/projects/constant-exp/info",
+      "checkedAt": "2026-11-16"
+    },
+    "price": {
+      "value": "Взрослый входной билет 600 ₽; интерактивные экспозиции и программы имеют отдельные тарифы",
+      "source": "https://www.darwinmuseum.ru/projects/constant-exp/info",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "music-museum",
+    "title": "Российский национальный музей музыки",
+    "kind": "Музей",
+    "area": "Тверской",
+    "durationMinutes": 75,
+    "note": "Музыкальные инструменты и истории звучащего мира",
+    "tags": [
+      "музей",
+      "музыка",
+      "культура"
+    ],
+    "address": {
+      "value": "ул. Фадеева, 4",
+      "source": "https://music-museum.ru/about/contacts.html",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Вт–ср 11:00–19:00; чт–пт 12:00–21:00; сб 11:00–20:00; вс 11:00–18:00; вход заканчивается за час; пн уточнить",
+      "source": "https://music-museum.ru/about/contacts.html",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "decorative-art-museum",
+    "title": "Музей декоративного искусства",
+    "kind": "Музей",
+    "area": "Тверской",
+    "durationMinutes": 75,
+    "note": "Предметы быта как искусство: материалы, формы и детали",
+    "tags": [
+      "музей",
+      "дизайн",
+      "искусство"
+    ],
+    "address": {
+      "value": "ул. Делегатская, 3, стр. 1",
+      "source": "https://damuseum.ru/contact/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Вт–ср 11:00–19:00; чт 11:00–21:00; пт 11:00–20:00; сб–вс 12:00–20:00; пн выходной. Касса закрывается за 45 минут",
+      "source": "https://damuseum.ru/contact/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "moscow-planetarium",
+    "title": "Московский планетарий",
+    "kind": "Музей",
+    "area": "Пресненский",
+    "durationMinutes": 75,
+    "note": "Звёздное небо в зале; «Парк неба» в 2026 году закрыт",
+    "tags": [
+      "наука",
+      "космос",
+      "семья"
+    ],
+    "address": {
+      "value": "ул. Садовая-Кудринская, 5, стр. 1",
+      "source": "https://planetarium-moscow.ru/contacts",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Ежедневно кроме вт 10:00–21:00; вход в залы по сеансам",
+      "source": "https://planetarium-moscow.ru/contacts",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "experimentanium",
+    "title": "Экспериментаниум",
+    "kind": "Музей",
+    "area": "Сокол",
+    "durationMinutes": 75,
+    "note": "Проверить физические явления своими руками",
+    "tags": [
+      "наука",
+      "музей",
+      "семья"
+    ],
+    "address": {
+      "value": "Ленинградский просп., 80, корп. 11",
+      "source": "https://experimentanium.ru/o-muzee/contacts/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "09:30–20:00 по странице контактов; касса закрывается за час, календарь конкретного дня уточнить",
+      "source": "https://experimentanium.ru/o-muzee/contacts/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "paleontology-museum",
+    "title": "Палеонтологический музей Орлова",
+    "kind": "Музей",
+    "area": "Ясенево",
+    "durationMinutes": 75,
+    "note": "Окаменелости и длинная история жизни на Земле",
+    "tags": [
+      "наука",
+      "музей",
+      "динозавры"
+    ],
+    "address": {
+      "value": "ул. Профсоюзная, 123",
+      "source": "https://www.paleo.ru/museum/contacts/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Ср–вс 10:00–18:00; вход до 17:15; пн–вт выходные",
+      "source": "https://www.paleo.ru/museum/visitors/",
+      "checkedAt": "2026-11-16"
+    },
+    "price": {
+      "value": "Полный входной билет 600 ₽; льготный 300 ₽ при подтверждении права",
+      "source": "https://www.paleo.ru/museum/visitors/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "bulgakov-sadovaya",
+    "title": "Музей Булгакова · Большая Садовая",
+    "kind": "Музей",
+    "area": "Пресненский",
+    "durationMinutes": 60,
+    "note": "Литературная Москва в «Нехорошей квартире»",
+    "tags": [
+      "литература",
+      "музей",
+      "история"
+    ],
+    "address": {
+      "value": "ул. Большая Садовая, 10, кв. 50; через арку, подъезд 6, этаж 4",
+      "source": "https://bulgakovmuseum.ru/contacts",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Вт–ср, пт–вс 12:00–19:00; чт 14:00–21:00; пн выходной",
+      "source": "https://bulgakovmuseum.ru/contacts",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "bulgakov-pirogovskaya",
+    "title": "Музей Булгакова · Пироговская",
+    "kind": "Музей",
+    "area": "Хамовники",
+    "durationMinutes": 60,
+    "note": "Писательский дом и жизнь автора в Москве",
+    "tags": [
+      "литература",
+      "музей",
+      "история"
+    ],
+    "address": {
+      "value": "ул. Большая Пироговская, 35А, этаж 1",
+      "source": "https://bulgakovmuseum.ru/contacts",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Вт–ср, пт–вс 12:00–19:00; чт 14:00–21:00; пн выходной",
+      "source": "https://bulgakovmuseum.ru/contacts",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "bulgakov-arbat",
+    "title": "Центр Булгакова на Арбате",
+    "kind": "Культурный центр",
+    "area": "Арбат",
+    "durationMinutes": 60,
+    "note": "Литературные выставки в арбатских переулках",
+    "tags": [
+      "литература",
+      "музей",
+      "культура"
+    ],
+    "address": {
+      "value": "Большой Афанасьевский пер., 35–37, стр. 4",
+      "source": "https://bulgakovmuseum.ru/contacts",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Вт–вс 12:00–20:00; пн выходной",
+      "source": "https://bulgakovmuseum.ru/contacts",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "architecture-museum",
+    "title": "Музей архитектуры Щусева",
+    "kind": "Музей",
+    "area": "Арбат",
+    "durationMinutes": 75,
+    "note": "Здания, чертежи и идеи о том, как устроен город",
+    "tags": [
+      "архитектура",
+      "музей",
+      "дизайн"
+    ],
+    "address": {
+      "value": "ул. Воздвиженка, 5/25",
+      "source": "https://muar.ru/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Вт, чт 13:00–21:00; ср, пт–вс 11:00–20:00; пн выходной; касса закрывается за 30 минут",
+      "source": "https://muar.ru/",
+      "checkedAt": "2026-11-16"
+    }
   }
 ]
