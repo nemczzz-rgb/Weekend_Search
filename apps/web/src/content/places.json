@@ -331,15 +331,12 @@
     ],
     "address": {
       "value": "2-я Тверская-Ямская ул., 18",
-      "source": "owner",
-      "checkedAt": "2026-11-10"
+      "source": "https://www.glazurmag.ru/mesta/item/chetverg-na-mayakovskoj",
+      "checkedAt": "2026-11-16"
     },
     "mapLink": {
       "url": "https://yandex.ru/maps/org/chetverg/145539923127",
       "address": "2-я Тверская-Ямская ул., 18"
-    },
-    "hints": {
-      "price": "Без входного билета, заказ по меню"
     }
   },
   {
@@ -356,19 +353,19 @@
       "еда"
     ],
     "hours": {
-      "value": "Ежедневно 08:00–00:00 по The Taste",
-      "source": "https://thetaste.io/moscow/places/masa-madre/",
-      "checkedAt": "2026-11-10"
+      "value": "Ежедневно 08:00–00:00",
+      "source": "https://masamadre.ru/contacts",
+      "checkedAt": "2026-11-16"
     },
     "price": {
-      "value": "Средний чек 1 500–2 000 ₽ по «Москва ресторанная»",
-      "source": "https://thetaste.io/moscow/places/masa-madre/",
-      "checkedAt": "2026-11-10"
+      "value": "Классический баскский чизкейк — 650 ₽ по меню",
+      "source": "https://masamadre.ru/solyanka",
+      "checkedAt": "2026-11-16"
     },
     "address": {
-      "value": "ул. Солянка, 1/2с1",
-      "source": "owner",
-      "checkedAt": "2026-11-10"
+      "value": "ул. Солянка, 1/2, стр. 1",
+      "source": "https://masamadre.ru/contacts",
+      "checkedAt": "2026-11-16"
     },
     "extraSources": [
       "https://moscowrestaurant.ru/restaurants/masa-madre"
@@ -393,18 +390,18 @@
     ],
     "hours": {
       "value": "Ежедневно 08:30–21:00",
-      "source": "https://nothingfancy.ru/",
-      "checkedAt": "2026-11-10"
+      "source": "https://nothingfancy.ru/about",
+      "checkedAt": "2026-11-16"
     },
     "price": {
       "value": "Средний чек 1 000–3 000 ₽ по «Афише»",
-      "source": "https://nothingfancy.ru/",
-      "checkedAt": "2026-11-10"
+      "source": "https://www.afisha.ru/msk/restaurant/nothing-fancy-518796/",
+      "checkedAt": "2026-11-16"
     },
     "address": {
       "value": "ул. Петровка, 30/7",
-      "source": "owner",
-      "checkedAt": "2026-11-10"
+      "source": "https://nothingfancy.ru/about",
+      "checkedAt": "2026-11-16"
     },
     "extraSources": [
       "https://www.afisha.ru/msk/restaurant/nothing-fancy-518796/"
@@ -464,17 +461,12 @@
     "address": {
       "value": "ул. Каретный Ряд, 3",
       "source": "https://www.mosgorsad.ru/garden/chasto-zadavaemy-voprosy/",
-      "checkedAt": "2026-11-10"
+      "checkedAt": "2026-11-16"
     },
     "hours": {
       "value": "Круглосуточно",
       "source": "https://www.mosgorsad.ru/garden/chasto-zadavaemy-voprosy/",
-      "checkedAt": "2026-11-10"
-    },
-    "price": {
-      "value": "Вход в сад свободный; события отдельно",
-      "source": "https://www.mosgorsad.ru/garden/chasto-zadavaemy-voprosy/",
-      "checkedAt": "2026-11-10"
+      "checkedAt": "2026-11-16"
     },
     "scheme": {
       "x": 55,
@@ -513,17 +505,17 @@
     "address": {
       "value": "просп. Мира, 26, стр. 1",
       "source": "https://hortus.msu.ru/ticketprice.html",
-      "checkedAt": "2026-11-10"
+      "checkedAt": "2026-11-16"
     },
     "hours": {
-      "value": "Последний вход в сад до 19:00 по правилам посещения",
-      "source": "https://hortus.msu.ru/ticketprice.html",
-      "checkedAt": "2026-11-10"
+      "value": "Последний вход в сад — не позднее 19:00",
+      "source": "https://hortus.msu.ru/rules.html",
+      "checkedAt": "2026-11-16"
     },
     "price": {
-      "value": "500 ₽ в будни · 600 ₽ в выходные и праздники",
+      "value": "Стандартный билет: 500 ₽ в будни; 600 ₽ в выходные и праздники",
       "source": "https://hortus.msu.ru/ticketprice.html",
-      "checkedAt": "2026-11-10"
+      "checkedAt": "2026-11-16"
     },
     "extraSources": [
       "https://hortus.msu.ru/rules.html"
@@ -547,21 +539,18 @@
     ],
     "address": {
       "value": "Ленинградский просп., 15, стр. 11",
-      "source": "https://www.rusimp.org/ru/tickets",
-      "checkedAt": "2026-11-10"
+      "source": "https://www.rusimp.su/about",
+      "checkedAt": "2026-11-16"
     },
     "hours": {
-      "value": "Ср–чт 12:00–21:00; остальные дни 11:00–20:00",
-      "source": "https://www.rusimp.org/ru/tickets",
-      "checkedAt": "2026-11-10"
-    },
-    "price": {
-      "value": "Стандартный билет от 700 ₽ по афише музея",
-      "source": "https://www.rusimp.org/ru/tickets",
-      "checkedAt": "2026-11-10"
+      "value": "Пн–вт, пт–вс 11:00–20:00; ср–чт 12:00–21:00; касса закрывается за 30 минут",
+      "source": "https://www.rusimp.su/about",
+      "checkedAt": "2026-11-16"
     },
     "extraSources": [
-      "https://www.rusimp.su/about"
+      "https://www.rusimp.su/about",
+      "https://www.rusimp.org/ru/tickets",
+      "https://www.rusimp.su/tickets"
     ],
     "scheme": {
       "x": 31,
@@ -614,17 +603,12 @@
     "address": {
       "value": "Лаврушинский пер., 10",
       "source": "https://www.tretyakovgallery.ru/for-visitors/museums/istoricheskoe-zdanie/",
-      "checkedAt": "2026-11-10"
+      "checkedAt": "2026-11-16"
     },
     "hours": {
-      "value": "Вт–вс 10:00–21:00, вход до 20:00; пн закрыто",
+      "value": "Вт–вс 10:00–21:00; кассы и вход до 20:00; пн выходной",
       "source": "https://www.tretyakovgallery.ru/for-visitors/museums/istoricheskoe-zdanie/",
-      "checkedAt": "2026-11-10"
-    },
-    "price": {
-      "value": "Ориентир 700 ₽ за основную экспозицию",
-      "source": "https://www.tretyakovgallery.ru/for-visitors/museums/istoricheskoe-zdanie/",
-      "checkedAt": "2026-11-10"
+      "checkedAt": "2026-11-16"
     },
     "extraSources": [
       "https://tretyakovskaja.ru/cena-bileta/"
@@ -647,14 +631,9 @@
       "парки"
     ],
     "address": {
-      "value": "Крымская набережная · парк искусств «Музеон»",
-      "source": "https://www.park-gorkogo.ru/faq/",
-      "checkedAt": "2026-11-10"
-    },
-    "price": {
-      "value": "Прогулка без билета",
-      "source": "https://www.park-gorkogo.ru/faq/",
-      "checkedAt": "2026-11-10"
+      "value": "ул. Крымский Вал, 9 — ориентир оператора; схему входов уточнить перед визитом",
+      "source": "https://parkgorkogo.ru/areas/muzeon/",
+      "checkedAt": "2026-11-16"
     },
     "scheme": {
       "x": 45,
@@ -667,26 +646,21 @@
     "kind": "Парк",
     "area": "Якиманка",
     "durationMinutes": 80,
-    "note": "Длинная прогулка вдоль Москвы-реки",
+    "note": "Набережная и пруд; главный вход и часть Партера перекрыты",
     "tags": [
       "парки",
       "прогулки",
       "вода"
     ],
     "address": {
-      "value": "ул. Крымский Вал, 9 · главный вход",
-      "source": "https://www.park-gorkogo.ru/faq/",
-      "checkedAt": "2026-11-10"
+      "value": "ул. Крымский Вал, 9",
+      "source": "https://parkgorkogo.ru/contacts/",
+      "checkedAt": "2026-11-16"
     },
     "hours": {
-      "value": "Круглосуточно, возможны закрытия из-за погоды",
+      "value": "Круглосуточно; часть Партера и главный вход временно перекрыты",
       "source": "https://www.park-gorkogo.ru/faq/",
-      "checkedAt": "2026-11-10"
-    },
-    "price": {
-      "value": "Вход в парк свободный; услуги отдельно",
-      "source": "https://www.park-gorkogo.ru/faq/",
-      "checkedAt": "2026-11-10"
+      "checkedAt": "2026-11-16"
     },
     "scheme": {
       "x": 43,
@@ -705,25 +679,18 @@
       "парки",
       "тихо"
     ],
-    "address": {
-      "value": "Нескучный сад · вход со стороны Ленинского проспекта",
-      "source": "https://parkgorkogo.ru/areas/neskuchny-garden/",
-      "checkedAt": "2026-11-10"
-    },
     "hours": {
-      "value": "Круглосуточно",
-      "source": "https://parkgorkogo.ru/areas/neskuchny-garden/",
-      "checkedAt": "2026-11-10"
-    },
-    "price": {
-      "value": "Прогулка без билета",
-      "source": "https://parkgorkogo.ru/areas/neskuchny-garden/",
-      "checkedAt": "2026-11-10"
+      "value": "Круглосуточно; возможны временные ограничения территории парка",
+      "source": "https://www.park-gorkogo.ru/faq/",
+      "checkedAt": "2026-11-16"
     },
     "scheme": {
       "x": 35,
       "y": 84
-    }
+    },
+    "extraSources": [
+      "https://parkgorkogo.ru/areas/neskuchny-garden/"
+    ]
   },
   {
     "id": "zaryadye",
@@ -740,17 +707,7 @@
     "address": {
       "value": "ул. Варварка, 6, стр. 1",
       "source": "https://welcome.zaryadyepark.ru/",
-      "checkedAt": "2026-11-10"
-    },
-    "hours": {
-      "value": "Территория круглосуточно; павильоны по графику",
-      "source": "https://welcome.zaryadyepark.ru/",
-      "checkedAt": "2026-11-10"
-    },
-    "price": {
-      "value": "Вход в парк свободный; павильоны отдельно",
-      "source": "https://welcome.zaryadyepark.ru/",
-      "checkedAt": "2026-11-10"
+      "checkedAt": "2026-11-16"
     },
     "extraSources": [
       "https://moy-region.ru/objects/park-zaryadye"
@@ -899,17 +856,12 @@
     "address": {
       "value": "ул. Арбат, 26",
       "source": "https://vakhtangov.ru/contacts/",
-      "checkedAt": "2026-11-10"
+      "checkedAt": "2026-11-16"
     },
     "hours": {
-      "value": "Касса в сезон 12:00–20:00; спектакли по афише",
+      "value": "Касса в театральный сезон ежедневно 12:00–20:00; это не время спектакля",
       "source": "https://vakhtangov.ru/contacts/",
-      "checkedAt": "2026-11-10"
-    },
-    "price": {
-      "value": "По спектаклю и месту в зале",
-      "source": "https://vakhtangov.ru/contacts/",
-      "checkedAt": "2026-11-10"
+      "checkedAt": "2026-11-16"
     },
     "extraSources": [
       "https://vakhtangov.ru/tickets/"
@@ -932,19 +884,19 @@
       "выставка"
     ],
     "address": {
-      "value": "ул. Волхонка, 12 · Главное здание",
+      "value": "ул. Волхонка, 12 — Главное здание",
       "source": "https://pushkinmuseum.art/museum/buildings/main/",
-      "checkedAt": "2026-11-10"
+      "checkedAt": "2026-11-16"
     },
     "hours": {
-      "value": "Вт–ср 11:00–20:00, чт–пт 11:00–21:00, сб 10:00–21:00, вс 10:00–20:00",
+      "value": "Вт–ср 11:00–20:00; чт–пт 11:00–21:00; сб 10:00–21:00; вс 10:00–20:00; пн выходной. Вход заканчивается за час",
       "source": "https://pushkinmuseum.art/museum/buildings/main/",
-      "checkedAt": "2026-11-10"
+      "checkedAt": "2026-11-16"
     },
     "price": {
-      "value": "Ориентир 700 ₽ за билет в Главное здание",
-      "source": "https://pushkinmuseum.art/museum/buildings/main/",
-      "checkedAt": "2026-11-10"
+      "value": "Главное здание: полный билет 700 ₽; специальные выставки могут требовать отдельного билета",
+      "source": "https://pushkinmuseum.art/visitors/tickets/index.php?lang=ru",
+      "checkedAt": "2026-11-16"
     },
     "extraSources": [
       "https://enfilade.guide/ru/moskva/pushkinskiy-muzey"
@@ -986,18 +938,8 @@
     ],
     "address": {
       "value": "Новодевичий проезд, 1",
-      "source": "https://azbyka.ru/palomnik/Богородице-Смоленский_Новодевичий_женский_монастырь_в_Москве",
-      "checkedAt": "2026-11-10"
-    },
-    "hours": {
-      "value": "08:00–18:00 по паломническому справочнику",
-      "source": "https://azbyka.ru/palomnik/Богородице-Смоленский_Новодевичий_женский_монастырь_в_Москве",
-      "checkedAt": "2026-11-10"
-    },
-    "price": {
-      "value": "Территория свободно; музей отдельно",
-      "source": "https://azbyka.ru/palomnik/Богородице-Смоленский_Новодевичий_женский_монастырь_в_Москве",
-      "checkedAt": "2026-11-10"
+      "source": "https://novodev.msk.ru/kontakty/",
+      "checkedAt": "2026-11-16"
     },
     "extraSources": [
       "https://novodev.msk.ru/"
@@ -1020,13 +962,15 @@
       "прогулки"
     ],
     "hints": {
-      "address": "Воробьёвы горы · смотровая площадка",
-      "price": "Прогулка без билета"
+      "address": "Воробьёвы горы · смотровая площадка"
     },
     "scheme": {
       "x": 22,
       "y": 88
-    }
+    },
+    "extraSources": [
+      "https://www.park-gorkogo.ru/faq/"
+    ]
   },
   {
     "id": "vdnh",
@@ -1074,18 +1018,18 @@
     ],
     "address": {
       "value": "просп. Мира, 111",
-      "source": "https://kosmo-museum.ru/static_pages/stoimost-biletov",
-      "checkedAt": "2026-11-10"
+      "source": "https://kosmo-museum.ru/contacts",
+      "checkedAt": "2026-11-16"
     },
     "hours": {
-      "value": "Сб 10:00–21:00; вс 10:00–19:00. Будни на сайте",
+      "value": "Вт–ср, пт, вс 10:00–19:00; чт, сб 10:00–21:00. Понедельник уточнить: разделы сайта расходятся",
       "source": "https://kosmo-museum.ru/static_pages/stoimost-biletov",
-      "checkedAt": "2026-11-10"
+      "checkedAt": "2026-11-16"
     },
     "price": {
-      "value": "500 ₽ взрослый · 350 ₽ детский (7–18 лет)",
-      "source": "https://kosmo-museum.ru/static_pages/stoimost-biletov",
-      "checkedAt": "2026-11-10"
+      "value": "Экспозиция с выставками: взрослый 500 ₽; дети 7–18 лет включительно 350 ₽; дополнительные услуги отдельно",
+      "source": "https://kosmo-museum.ru/uploads/ckeditor/attachments/7647/Прейскурант_от_13_ноября_2026г..pdf",
+      "checkedAt": "2026-11-16"
     },
     "scheme": {
       "x": 79,
@@ -1134,17 +1078,12 @@
     "address": {
       "value": "Большая Новодмитровская ул., 36",
       "source": "https://design-zavod.ru/contacts",
-      "checkedAt": "2026-11-10"
+      "checkedAt": "2026-11-16"
     },
     "hours": {
-      "value": "Территория круглосуточно; магазины по графику",
+      "value": "Территория круглосуточно; магазины 10:00–22:00 по странице оператора",
       "source": "https://design-zavod.ru/contacts",
-      "checkedAt": "2026-11-10"
-    },
-    "price": {
-      "value": "Вход на территорию свободный; события отдельно",
-      "source": "https://design-zavod.ru/contacts",
-      "checkedAt": "2026-11-10"
+      "checkedAt": "2026-11-16"
     },
     "scheme": {
       "x": 54,
@@ -1166,17 +1105,17 @@
     "address": {
       "value": "Новодмитровская ул., 1",
       "source": "https://hlebozavod9.ru/contacts",
-      "checkedAt": "2026-11-10"
+      "checkedAt": "2026-11-16"
     },
     "hours": {
-      "value": "Заведения по своему графику",
-      "source": "https://hlebozavod9.ru/contacts",
-      "checkedAt": "2026-11-10"
+      "value": "Территория 24/7; возможны временные закрытия, заведения по своему графику",
+      "source": "https://hlebozavod9.ru/events/pravila-poseshchenija",
+      "checkedAt": "2026-11-16"
     },
     "price": {
-      "value": "Прогулка без билета; события отдельно",
-      "source": "https://hlebozavod9.ru/contacts",
-      "checkedAt": "2026-11-10"
+      "value": "Вход на территорию свободный; это не билет на мероприятия",
+      "source": "https://hlebozavod9.ru/events/pravila-poseshchenija",
+      "checkedAt": "2026-11-16"
     },
     "scheme": {
       "x": 58,
@@ -1234,6 +1173,1274 @@
     "scheme": {
       "x": 54,
       "y": 60
+    }
+  },
+  {
+    "id": "mmoma-petrovka",
+    "title": "ММОМА · Петровка",
+    "kind": "Музей",
+    "area": "Тверской",
+    "durationMinutes": 90,
+    "note": "Современное искусство в старом особняке",
+    "tags": [
+      "искусство",
+      "музей",
+      "выставка"
+    ],
+    "address": {
+      "value": "ул. Петровка, 25",
+      "source": "https://mmoma.ru/know/building/petrovka",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Вт–вс 12:00–21:00; пн выходной",
+      "source": "https://mmoma.ru/know/building/petrovka",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "ges-two",
+    "title": "Дом культуры «ГЭС-2»",
+    "kind": "Культурный центр",
+    "area": "Якиманка",
+    "durationMinutes": 90,
+    "note": "Выставки и пространство бывшей электростанции",
+    "tags": [
+      "искусство",
+      "архитектура",
+      "выставка"
+    ],
+    "address": {
+      "value": "Болотная набережная, 15",
+      "source": "https://ges-2.org/how-to-find-us",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Ежедневно 11:00–22:00",
+      "source": "https://ges-2.org/how-to-find-us",
+      "checkedAt": "2026-11-16"
+    },
+    "price": {
+      "value": "Вход бесплатный по предварительной регистрации; отдельные события платные",
+      "source": "https://ges-2.org/how-to-find-us",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "garage",
+    "title": "Музей «Гараж»",
+    "kind": "Музей",
+    "area": "Якиманка",
+    "durationMinutes": 90,
+    "note": "Знакомство с современным искусством в открытом хранении",
+    "tags": [
+      "искусство",
+      "музей",
+      "выставка"
+    ],
+    "address": {
+      "value": "ул. Крымский Вал, 9, стр. 32",
+      "source": "https://garagemca.org/visit",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Ежедневно 11:00–22:00; кассы до 21:30",
+      "source": "https://garagemca.org/visit",
+      "checkedAt": "2026-11-16"
+    },
+    "price": {
+      "value": "Полный билет в открытое хранение 600 ₽; льготы по документам",
+      "source": "https://garagemca.org/visit",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "moscow-museum",
+    "title": "Музей Москвы",
+    "kind": "Музей",
+    "area": "Хамовники",
+    "durationMinutes": 90,
+    "note": "История города в Провиантских складах; идёт ремонт",
+    "tags": [
+      "история",
+      "музей",
+      "Москва"
+    ],
+    "address": {
+      "value": "Зубовский бульвар, 2",
+      "source": "https://mosmuseum.ru/visitors/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "timiryazev-museum",
+    "title": "Биологический музей Тимирязева",
+    "kind": "Музей",
+    "area": "Пресненский",
+    "durationMinutes": 90,
+    "note": "Живая природа в усадьбе на Малой Грузинской",
+    "tags": [
+      "наука",
+      "музей",
+      "семья"
+    ],
+    "address": {
+      "value": "ул. Малая Грузинская, 15",
+      "source": "https://gbmt.ru/ru/contact/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Вт–ср, пт–сб 10:00–18:00; чт 12:00–21:00; вс 11:00–18:00; пн и последний вт месяца закрыто",
+      "source": "https://gbmt.ru/ru/contact/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "jewish-museum",
+    "title": "Еврейский музей и центр толерантности",
+    "kind": "Музей",
+    "area": "Марьина Роща",
+    "durationMinutes": 90,
+    "note": "История и культура в пространстве бывшего гаража",
+    "tags": [
+      "история",
+      "музей",
+      "культура"
+    ],
+    "address": {
+      "value": "ул. Образцова, 11, стр. 1А",
+      "source": "https://www.jewish-museum.ru/visitors/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Пн–чт, вс 12:00–22:00; сб 18:00–23:00; пт и еврейские праздники выходные",
+      "source": "https://www.jewish-museum.ru/visitors/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "winzavod",
+    "title": "ЦСИ «Винзавод»",
+    "kind": "Культурный центр",
+    "area": "Басманный",
+    "durationMinutes": 90,
+    "note": "Галереи и мастерские на промышленной территории",
+    "tags": [
+      "искусство",
+      "дизайн",
+      "культура"
+    ],
+    "address": {
+      "value": "4-й Сыромятнический пер., 1/8",
+      "source": "https://www.winzavod.ru/visitors/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Территория ежедневно; галереи вт–вс по своему графику, инфоцентр ежедневно 12:00–21:00",
+      "source": "https://www.winzavod.ru/visitors/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "az-museum",
+    "title": "Музей AZ",
+    "kind": "Музей",
+    "area": "Тверской",
+    "durationMinutes": 90,
+    "note": "Нонконформисты; до 19 ноября музей на реэкспозиции",
+    "tags": [
+      "искусство",
+      "музей",
+      "выставка"
+    ],
+    "address": {
+      "value": "2-я Тверская-Ямская ул., 20–22",
+      "source": "https://museum-az.com/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "До 19.11.2026 закрыт на реэкспозицию; обычный режим 12:00–21:00, первый вт месяца технический день; касса до 20:30",
+      "source": "https://museum-az.com/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "lefortovo-museum",
+    "title": "Музей истории Лефортово",
+    "kind": "Музей",
+    "area": "Лефортово",
+    "durationMinutes": 60,
+    "note": "Слобода и люди Петровской эпохи",
+    "tags": [
+      "история",
+      "музей",
+      "архитектура"
+    ],
+    "address": {
+      "value": "ул. Крюковская, 23",
+      "source": "https://mosmuseum.ru/exhibitions/p/lefortovo/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Ежедневно кроме понедельника; точные часы уточнить у музея",
+      "source": "https://mosmuseum.ru/exhibitions/p/lefortovo/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "mmoma-gogolevsky",
+    "title": "ММОМА · Гоголевский бульвар",
+    "kind": "Музей",
+    "area": "Хамовники",
+    "durationMinutes": 90,
+    "note": "Искусство в усадьбе; флигель 10с2 временно закрыт",
+    "tags": [
+      "искусство",
+      "музей",
+      "архитектура"
+    ],
+    "address": {
+      "value": "Гоголевский бульвар, 10, стр. 1",
+      "source": "https://mmoma.ru/know/building/gogolevsky",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Вт–вс 12:00–21:00; пн выходной",
+      "source": "https://mmoma.ru/know/building/gogolevsky",
+      "checkedAt": "2026-11-16"
+    },
+    "extraSources": [
+      "https://mmoma.ru/"
+    ]
+  },
+  {
+    "id": "tsaritsyno",
+    "title": "Парк «Царицыно»",
+    "kind": "Парк",
+    "area": "Царицыно",
+    "durationMinutes": 100,
+    "note": "Пруды и дворцовые фасады для неспешной прогулки",
+    "tags": [
+      "парки",
+      "архитектура",
+      "вода"
+    ],
+    "address": {
+      "value": "ул. Дольская, 1",
+      "source": "https://tsaritsyno-museum.ru/park/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Территория ежедневно 06:00–24:00; музеи и оранжереи по отдельному графику",
+      "source": "https://tsaritsyno-museum.ru/park/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "kolomenskoye",
+    "title": "Музей-заповедник «Коломенское»",
+    "kind": "Музей-заповедник",
+    "area": "Нагатинский Затон",
+    "durationMinutes": 100,
+    "note": "Старый государев двор и виды с высокого берега",
+    "tags": [
+      "история",
+      "парки",
+      "архитектура"
+    ],
+    "address": {
+      "value": "просп. Андропова, 39",
+      "source": "https://www.mgomz.ru/ru/pages/contacts_kolomenskoe",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Октябрь–апрель: территория ежедневно 05:30–23:00; экспозиции вт–вс 10:00–18:00",
+      "source": "https://www.mgomz.ru/ru/pages/contacts_kolomenskoe",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "izmailovo-estate",
+    "title": "Усадьба «Измайлово»",
+    "kind": "Усадьба",
+    "area": "Измайлово",
+    "durationMinutes": 75,
+    "note": "Остров и историческая усадьба; отдельное место от ПКиО",
+    "tags": [
+      "история",
+      "архитектура",
+      "прогулки"
+    ],
+    "address": {
+      "value": "Городок имени Баумана, 2, стр. 14",
+      "source": "https://www.mgomz.ru/ru/pages/contacts_izmailovo",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Октябрь–апрель: территория ежедневно 05:30–23:00; экспозиции вт–вс 10:00–18:00",
+      "source": "https://www.mgomz.ru/ru/pages/contacts_izmailovo",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "kuskovo",
+    "title": "Усадьба «Кусково»",
+    "kind": "Усадьба",
+    "area": "Вешняки",
+    "durationMinutes": 100,
+    "note": "Регулярный парк и павильоны старой усадьбы",
+    "tags": [
+      "архитектура",
+      "парки",
+      "музей"
+    ],
+    "address": {
+      "value": "ул. Юности, 2",
+      "source": "https://kuskovo.ru/muzej/kontakty/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Регулярный парк 10:00–18:00, вход до 17:30; пн и последний вт месяца закрыто. Павильоны по отдельному графику",
+      "source": "https://kuskovo.ru/posetitelyam/rezhim-raboty-muzeya/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "bauman-garden",
+    "title": "Сад имени Баумана",
+    "kind": "Сад",
+    "area": "Басманный",
+    "durationMinutes": 45,
+    "note": "Небольшой сад для паузы между городскими делами",
+    "tags": [
+      "сады",
+      "прогулки",
+      "тихо"
+    ],
+    "address": {
+      "value": "ул. Старая Басманная, 15А, стр. 4",
+      "source": "https://sadbaumana.ru/contacts/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Ежедневно 06:00–24:00",
+      "source": "https://sadbaumana.ru/contacts/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "krasnaya-presnya",
+    "title": "Парк «Красная Пресня»",
+    "kind": "Парк",
+    "area": "Пресненский",
+    "durationMinutes": 60,
+    "note": "Островки, мостики и тихие аллеи рядом с деловым городом",
+    "tags": [
+      "парки",
+      "вода",
+      "прогулки"
+    ],
+    "address": {
+      "value": "ул. Мантулинская, 5",
+      "source": "https://p-kp.ru/about/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "fili-park",
+    "title": "Парк «Фили»",
+    "kind": "Парк",
+    "area": "Филёвский Парк",
+    "durationMinutes": 90,
+    "note": "Лесные дорожки и прогулка в западной части города",
+    "tags": [
+      "парки",
+      "прогулки",
+      "природа"
+    ],
+    "address": {
+      "value": "ул. Большая Филёвская, 22",
+      "source": "https://parkfili.ru/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Круглосуточно; объекты внутри парка по своему графику",
+      "source": "https://parkfili.ru/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "olympic-village-park",
+    "title": "Парк Олимпийской деревни",
+    "kind": "Парк",
+    "area": "Тропарёво-Никулино",
+    "durationMinutes": 75,
+    "note": "Прогулка среди зелени и прудов на юго-западе",
+    "tags": [
+      "парки",
+      "вода",
+      "прогулки"
+    ],
+    "address": {
+      "value": "Пересечение Мичуринского проспекта и ул. Лобачевского",
+      "source": "https://parkfili.ru/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Круглосуточно; объекты внутри парка по своему графику",
+      "source": "https://parkfili.ru/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "fifty-october-park",
+    "title": "Парк 50-летия Октября",
+    "kind": "Парк",
+    "area": "Проспект Вернадского",
+    "durationMinutes": 75,
+    "note": "Зелёная пауза в жилом районе",
+    "tags": [
+      "парки",
+      "прогулки",
+      "семья"
+    ],
+    "address": {
+      "value": "ул. Удальцова, 22А",
+      "source": "https://parkfili.ru/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Круглосуточно; объекты внутри парка по своему графику",
+      "source": "https://parkfili.ru/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "sokolniki-park",
+    "title": "Парк «Сокольники»",
+    "kind": "Парк",
+    "area": "Сокольники",
+    "durationMinutes": 100,
+    "note": "Большие аллеи для прогулки в своём темпе",
+    "tags": [
+      "парки",
+      "прогулки",
+      "семья"
+    ],
+    "address": {
+      "value": "ул. Сокольнический Вал, 1",
+      "source": "https://www.culture.ru/institutes/95853/park-kultury-i-otdykha-sokolniki",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "darwin-museum",
+    "title": "Государственный Дарвиновский музей",
+    "kind": "Музей",
+    "area": "Академический",
+    "durationMinutes": 100,
+    "note": "Эволюция и разнообразие живой природы",
+    "tags": [
+      "музей",
+      "наука",
+      "семья"
+    ],
+    "address": {
+      "value": "ул. Вавилова, 57",
+      "source": "https://www.darwinmuseum.ru/projects/constant-exp/info",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Вт–вс 10:00–18:00; вход до 17:30. По чт выставочный комплекс 13:00–21:00, основное здание до 18:00",
+      "source": "https://www.darwinmuseum.ru/projects/constant-exp/info",
+      "checkedAt": "2026-11-16"
+    },
+    "price": {
+      "value": "Взрослый входной билет 600 ₽; интерактивные экспозиции и программы имеют отдельные тарифы",
+      "source": "https://www.darwinmuseum.ru/projects/constant-exp/info",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "music-museum",
+    "title": "Российский национальный музей музыки",
+    "kind": "Музей",
+    "area": "Тверской",
+    "durationMinutes": 75,
+    "note": "Музыкальные инструменты и истории звучащего мира",
+    "tags": [
+      "музей",
+      "музыка",
+      "культура"
+    ],
+    "address": {
+      "value": "ул. Фадеева, 4",
+      "source": "https://music-museum.ru/about/contacts.html",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Вт–ср 11:00–19:00; чт–пт 12:00–21:00; сб 11:00–20:00; вс 11:00–18:00; вход заканчивается за час; пн уточнить",
+      "source": "https://music-museum.ru/about/contacts.html",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "decorative-art-museum",
+    "title": "Музей декоративного искусства",
+    "kind": "Музей",
+    "area": "Тверской",
+    "durationMinutes": 75,
+    "note": "Предметы быта как искусство: материалы, формы и детали",
+    "tags": [
+      "музей",
+      "дизайн",
+      "искусство"
+    ],
+    "address": {
+      "value": "ул. Делегатская, 3, стр. 1",
+      "source": "https://damuseum.ru/contact/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Вт–ср 11:00–19:00; чт 11:00–21:00; пт 11:00–20:00; сб–вс 12:00–20:00; пн выходной. Касса закрывается за 45 минут",
+      "source": "https://damuseum.ru/contact/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "moscow-planetarium",
+    "title": "Московский планетарий",
+    "kind": "Музей",
+    "area": "Пресненский",
+    "durationMinutes": 75,
+    "note": "Звёздное небо в зале; «Парк неба» в 2026 году закрыт",
+    "tags": [
+      "наука",
+      "космос",
+      "семья"
+    ],
+    "address": {
+      "value": "ул. Садовая-Кудринская, 5, стр. 1",
+      "source": "https://planetarium-moscow.ru/contacts",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Ежедневно кроме вт 10:00–21:00; вход в залы по сеансам",
+      "source": "https://planetarium-moscow.ru/contacts",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "experimentanium",
+    "title": "Экспериментаниум",
+    "kind": "Музей",
+    "area": "Сокол",
+    "durationMinutes": 75,
+    "note": "Проверить физические явления своими руками",
+    "tags": [
+      "наука",
+      "музей",
+      "семья"
+    ],
+    "address": {
+      "value": "Ленинградский просп., 80, корп. 11",
+      "source": "https://experimentanium.ru/o-muzee/contacts/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "09:30–20:00 по странице контактов; касса закрывается за час, календарь конкретного дня уточнить",
+      "source": "https://experimentanium.ru/o-muzee/contacts/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "paleontology-museum",
+    "title": "Палеонтологический музей Орлова",
+    "kind": "Музей",
+    "area": "Ясенево",
+    "durationMinutes": 75,
+    "note": "Окаменелости и длинная история жизни на Земле",
+    "tags": [
+      "наука",
+      "музей",
+      "динозавры"
+    ],
+    "address": {
+      "value": "ул. Профсоюзная, 123",
+      "source": "https://www.paleo.ru/museum/contacts/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Ср–вс 10:00–18:00; вход до 17:15; пн–вт выходные",
+      "source": "https://www.paleo.ru/museum/visitors/",
+      "checkedAt": "2026-11-16"
+    },
+    "price": {
+      "value": "Полный входной билет 600 ₽; льготный 300 ₽ при подтверждении права",
+      "source": "https://www.paleo.ru/museum/visitors/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "bulgakov-sadovaya",
+    "title": "Музей Булгакова · Большая Садовая",
+    "kind": "Музей",
+    "area": "Пресненский",
+    "durationMinutes": 60,
+    "note": "Литературная Москва в «Нехорошей квартире»",
+    "tags": [
+      "литература",
+      "музей",
+      "история"
+    ],
+    "address": {
+      "value": "ул. Большая Садовая, 10, кв. 50; через арку, подъезд 6, этаж 4",
+      "source": "https://bulgakovmuseum.ru/contacts",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Вт–ср, пт–вс 12:00–19:00; чт 14:00–21:00; пн выходной",
+      "source": "https://bulgakovmuseum.ru/contacts",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "bulgakov-pirogovskaya",
+    "title": "Музей Булгакова · Пироговская",
+    "kind": "Музей",
+    "area": "Хамовники",
+    "durationMinutes": 60,
+    "note": "Писательский дом и жизнь автора в Москве",
+    "tags": [
+      "литература",
+      "музей",
+      "история"
+    ],
+    "address": {
+      "value": "ул. Большая Пироговская, 35А, этаж 1",
+      "source": "https://bulgakovmuseum.ru/contacts",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Вт–ср, пт–вс 12:00–19:00; чт 14:00–21:00; пн выходной",
+      "source": "https://bulgakovmuseum.ru/contacts",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "bulgakov-arbat",
+    "title": "Центр Булгакова на Арбате",
+    "kind": "Культурный центр",
+    "area": "Арбат",
+    "durationMinutes": 60,
+    "note": "Литературные выставки в арбатских переулках",
+    "tags": [
+      "литература",
+      "музей",
+      "культура"
+    ],
+    "address": {
+      "value": "Большой Афанасьевский пер., 35–37, стр. 4",
+      "source": "https://bulgakovmuseum.ru/contacts",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Вт–вс 12:00–20:00; пн выходной",
+      "source": "https://bulgakovmuseum.ru/contacts",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "architecture-museum",
+    "title": "Музей архитектуры Щусева",
+    "kind": "Музей",
+    "area": "Арбат",
+    "durationMinutes": 75,
+    "note": "Здания, чертежи и идеи о том, как устроен город",
+    "tags": [
+      "архитектура",
+      "музей",
+      "дизайн"
+    ],
+    "address": {
+      "value": "ул. Воздвиженка, 5/25",
+      "source": "https://muar.ru/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Вт, чт 13:00–21:00; ср, пт–вс 11:00–20:00; пн выходной; касса закрывается за 30 минут",
+      "source": "https://muar.ru/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "tsvetaeva-museum",
+    "title": "Дом-музей Марины Цветаевой",
+    "kind": "Музей",
+    "area": "Арбат",
+    "durationMinutes": 75,
+    "note": "Поэзия и повседневная жизнь в арбатском переулке",
+    "tags": [
+      "литература",
+      "музей",
+      "история"
+    ],
+    "address": {
+      "value": "Борисоглебский пер., 6, стр. 1",
+      "source": "https://dommuseum.ru/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Вт–ср, пт–вс 12:00–19:00; чт 12:00–21:00; понедельник уточнить",
+      "source": "https://dommuseum.ru/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "scriabin-museum",
+    "title": "Мемориальный музей Скрябина",
+    "kind": "Музей",
+    "area": "Арбат",
+    "durationMinutes": 75,
+    "note": "Музыка и мир композитора в старом московском доме",
+    "tags": [
+      "музыка",
+      "музей",
+      "история"
+    ],
+    "address": {
+      "value": "Большой Николопесковский пер., 11",
+      "source": "https://scriabinmuseum.ru/contacts/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Ср, пт–вс 12:00–20:00; чт 13:00–21:00; пн выходной; вт уточнить. Последняя пт месяца санитарный день",
+      "source": "https://scriabinmuseum.ru/contacts/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "pushkin-literary",
+    "title": "Государственный музей Пушкина",
+    "kind": "Музей",
+    "area": "Хамовники",
+    "durationMinutes": 75,
+    "note": "Пушкинская эпоха в усадьбе на Пречистенке",
+    "tags": [
+      "литература",
+      "музей",
+      "история"
+    ],
+    "address": {
+      "value": "ул. Пречистенка, 12/2",
+      "source": "https://www.pushkinmuseum.ru/posetitelyam/rezhim-raboty-i-kontakty/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Вт–ср, пт–вс 10:00–18:00; чт 13:00–21:00; пн выходной",
+      "source": "https://www.pushkinmuseum.ru/posetitelyam/rezhim-raboty-i-kontakty/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "turgenev-house",
+    "title": "Дом-музей Тургенева",
+    "kind": "Музей",
+    "area": "Хамовники",
+    "durationMinutes": 60,
+    "note": "История писателя и его московского дома",
+    "tags": [
+      "литература",
+      "музей",
+      "история"
+    ],
+    "address": {
+      "value": "ул. Остоженка, 37/7, стр. 1",
+      "source": "https://www.pushkinmuseum.ru/posetitelyam/rezhim-raboty-i-kontakty/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Вт–ср, пт–вс 10:00–18:00; чт 13:00–21:00; пн выходной",
+      "source": "https://www.pushkinmuseum.ru/posetitelyam/rezhim-raboty-i-kontakty/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "pushkin-arbat",
+    "title": "Мемориальная квартира Пушкина",
+    "kind": "Музей",
+    "area": "Арбат",
+    "durationMinutes": 60,
+    "note": "Дом на Арбате и история молодой семьи поэта",
+    "tags": [
+      "литература",
+      "музей",
+      "Арбат"
+    ],
+    "address": {
+      "value": "ул. Арбат, 53, стр. 1",
+      "source": "https://www.pushkinmuseum.ru/posetitelyam/rezhim-raboty-i-kontakty/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Ср, пт–вс 10:00–18:00; чт 13:00–21:00; пн–вт выходные",
+      "source": "https://www.pushkinmuseum.ru/posetitelyam/rezhim-raboty-i-kontakty/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "andrei-bely-house",
+    "title": "Мемориальная квартира Андрея Белого",
+    "kind": "Музей",
+    "area": "Арбат",
+    "durationMinutes": 60,
+    "note": "Литературный Арбат глазами поэта Серебряного века",
+    "tags": [
+      "литература",
+      "музей",
+      "Арбат"
+    ],
+    "address": {
+      "value": "ул. Арбат, 55/32",
+      "source": "https://www.pushkinmuseum.ru/posetitelyam/rezhim-raboty-i-kontakty/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Ср, пт–вс 10:00–18:00; чт 13:00–21:00; пн–вт выходные",
+      "source": "https://www.pushkinmuseum.ru/posetitelyam/rezhim-raboty-i-kontakty/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "vasily-pushkin-house",
+    "title": "Дом-музей Василия Пушкина",
+    "kind": "Музей",
+    "area": "Басманный",
+    "durationMinutes": 60,
+    "note": "Литературный быт старой Басманной",
+    "tags": [
+      "литература",
+      "музей",
+      "история"
+    ],
+    "address": {
+      "value": "ул. Старая Басманная, 36",
+      "source": "https://www.pushkinmuseum.ru/posetitelyam/rezhim-raboty-i-kontakty/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Ср, пт–вс 10:00–18:00; чт 13:00–21:00; пн–вт выходные",
+      "source": "https://www.pushkinmuseum.ru/posetitelyam/rezhim-raboty-i-kontakty/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "esenin-house",
+    "title": "Дом-музей Есенина",
+    "kind": "Музей",
+    "area": "Замоскворечье",
+    "durationMinutes": 60,
+    "note": "Поэтическая Москва в небольшом доме-музее",
+    "tags": [
+      "литература",
+      "музей",
+      "история"
+    ],
+    "address": {
+      "value": "Большой Строченовский пер., 24, стр. 2",
+      "source": "https://esenin-museum.ru/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Вт–ср, пт 10:00–18:00; чт 13:00–21:00; сб–вс 12:00–20:00; пн выходной; касса закрывается за 30 минут",
+      "source": "https://esenin-museum.ru/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "zotov-centre",
+    "title": "Центр «Зотов»",
+    "kind": "Культурный центр",
+    "area": "Пресненский",
+    "durationMinutes": 90,
+    "note": "Конструктивизм и выставки в бывшем хлебозаводе",
+    "tags": [
+      "архитектура",
+      "искусство",
+      "дизайн"
+    ],
+    "address": {
+      "value": "ул. Ходынская, 2, стр. 1",
+      "source": "https://centrezotov.ru/visitors/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Вт–вс 11:00–22:00; пн выходной; кассы до 21:20, вход до 21:45",
+      "source": "https://centrezotov.ru/visitors/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "new-tretyakov",
+    "title": "Новая Третьяковка",
+    "kind": "Музей",
+    "area": "Якиманка",
+    "durationMinutes": 100,
+    "note": "Русское искусство нового времени на Крымском Валу",
+    "tags": [
+      "искусство",
+      "музей",
+      "выставка"
+    ],
+    "address": {
+      "value": "ул. Крымский Вал, 10",
+      "source": "https://www.tretyakovgallery.ru/for-visitors/museums/novaya-tretyakovka/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Вт–вс 10:00–21:00; пн выходной; кассы и вход до 20:00",
+      "source": "https://www.tretyakovgallery.ru/for-visitors/museums/novaya-tretyakovka/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "sok-cafe",
+    "title": "Кафе «Сок»",
+    "kind": "Кафе",
+    "area": "Якиманка",
+    "durationMinutes": 60,
+    "note": "Обед и разговор об искусстве рядом с галереей",
+    "tags": [
+      "еда",
+      "кафе",
+      "искусство"
+    ],
+    "address": {
+      "value": "Лаврушинский пер., 15",
+      "source": "https://sokcafe.ru/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Вт–вс 10:00–22:00 по таблице сайта; у пн нет времени",
+      "source": "https://sokcafe.ru/",
+      "checkedAt": "2026-11-16"
+    },
+    "price": {
+      "value": "Средний чек 1 200 ₽ по сайту на ТоМесто; сб–вс 13:00–19:00 депозит 1 000 ₽ на человека",
+      "source": "https://sokcafe.ru/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "severyane",
+    "title": "Ресторан «Северяне»",
+    "kind": "Ресторан",
+    "area": "Пресненский",
+    "durationMinutes": 75,
+    "note": "Печь, завтрак и пауза на Большой Никитской",
+    "tags": [
+      "еда",
+      "завтрак",
+      "ресторан"
+    ],
+    "address": {
+      "value": "ул. Большая Никитская, 12, стр. 1",
+      "source": "https://severyane.moscow/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "09:00–00:00; на пт–вс бронирование через сообщение или звонок",
+      "source": "https://severyane.moscow/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "dom-kultur",
+    "title": "Дом Культур",
+    "kind": "Ресторан",
+    "area": "Мещанский",
+    "durationMinutes": 75,
+    "note": "Еда и городская культура на Сретенке",
+    "tags": [
+      "еда",
+      "культура",
+      "ресторан"
+    ],
+    "address": {
+      "value": "ул. Сретенка, 25",
+      "source": "https://domkultur.ru/glavnaya",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Пт–сб 12:00–05:00; другие дни уточнить",
+      "source": "https://domkultur.ru/glavnaya",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "dr-zhivago",
+    "title": "Гранд-кафе «Dr. Живаго»",
+    "kind": "Ресторан",
+    "area": "Тверской",
+    "durationMinutes": 75,
+    "note": "Русская кухня рядом с центральными площадями",
+    "tags": [
+      "еда",
+      "ресторан",
+      "центр"
+    ],
+    "address": {
+      "value": "ул. Моховая, 15/1, гостиница «Националь», этаж 1",
+      "source": "https://drzhivago.ru/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Сб–пн технический перерыв 05:00–07:00; с вс на пн кухня до 03:00. Полный график уточнить",
+      "source": "https://drzhivago.ru/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "strelka-bar",
+    "title": "Бар «Стрелка» · 18+",
+    "kind": "Бар",
+    "area": "Якиманка",
+    "durationMinutes": 75,
+    "note": "Встреча совершеннолетней компании на Берсеневской",
+    "tags": [
+      "еда",
+      "бар",
+      "18+"
+    ],
+    "address": {
+      "value": "Берсеневская набережная, 14/5",
+      "source": "https://barstrelka.com/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "artplay",
+    "title": "Центр дизайна ARTPLAY",
+    "kind": "Культурный центр",
+    "area": "Басманный",
+    "durationMinutes": 75,
+    "note": "Дизайн и выставки в заводских корпусах",
+    "tags": [
+      "дизайн",
+      "выставка",
+      "архитектура"
+    ],
+    "address": {
+      "value": "ул. Нижняя Сыромятническая, 10",
+      "source": "https://artplay.ru/contacts",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Территория ежедневно 08:00–23:00; пространства внутри по отдельному графику",
+      "source": "https://artplay.ru/contacts",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "fabrika-art",
+    "title": "Центр творческих индустрий «Фабрика»",
+    "kind": "Культурный центр",
+    "area": "Басманный",
+    "durationMinutes": 75,
+    "note": "Современное искусство и независимые выставки",
+    "tags": [
+      "искусство",
+      "выставка",
+      "культура"
+    ],
+    "address": {
+      "value": "Переведеновский пер., 18",
+      "source": "https://fabrikacci.com/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Выставочные залы вт–вс 12:00–20:00",
+      "source": "https://fabrikacci.com/",
+      "checkedAt": "2026-11-16"
+    },
+    "price": {
+      "value": "Вход на выставки свободный по странице центра",
+      "source": "https://fabrikacci.com/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "zil-centre",
+    "title": "Культурный центр ЗИЛ",
+    "kind": "Культурный центр",
+    "area": "Даниловский",
+    "durationMinutes": 75,
+    "note": "Архитектура, занятия и афиша культурного центра",
+    "tags": [
+      "архитектура",
+      "культура",
+      "выставка"
+    ],
+    "address": {
+      "value": "ул. Восточная, 4, корп. 1",
+      "source": "https://zilcc.ru/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Центр 10:00–22:00; касса 10:00–21:30 с перерывом 14:00–14:30",
+      "source": "https://zilcc.ru/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "book-house-arbat",
+    "title": "Московский дом книги · Новый Арбат",
+    "kind": "Книжный магазин",
+    "area": "Арбат",
+    "durationMinutes": 45,
+    "note": "Выбрать книгу и посмотреть афишу литературных встреч",
+    "tags": [
+      "книги",
+      "литература",
+      "культура"
+    ],
+    "address": {
+      "value": "ул. Новый Арбат, 8",
+      "source": "https://mdk-arbat.ru/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "biblio-globus",
+    "title": "Книжный магазин «Библио-Глобус»",
+    "kind": "Книжный магазин",
+    "area": "Басманный",
+    "durationMinutes": 45,
+    "note": "Книжные полки и повод найти нового автора",
+    "tags": [
+      "книги",
+      "литература",
+      "культура"
+    ],
+    "address": {
+      "value": "ул. Мясницкая, 6/3, стр. 1",
+      "source": "https://www.biblio-globus.ru/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "chaikovsky-museum",
+    "title": "Музей Чайковского в Москве",
+    "kind": "Музей",
+    "area": "Пресненский",
+    "durationMinutes": 60,
+    "note": "Домашний мир музыки и история композитора",
+    "tags": [
+      "музыка",
+      "музей",
+      "история"
+    ],
+    "address": {
+      "value": "Кудринская площадь, 46/54",
+      "source": "https://music-museum.ru/about/contacts.html",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Ср 11:00–19:00; чт–пт 12:00–21:00; сб 11:00–19:00; вс 11:00–18:00. Вход заканчивается за час; пн–вт уточнить",
+      "source": "https://music-museum.ru/about/contacts.html",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "prokofiev-museum",
+    "title": "Музей Прокофьева",
+    "kind": "Музей",
+    "area": "Тверской",
+    "durationMinutes": 60,
+    "note": "Композитор и его музыка в Камергерском переулке",
+    "tags": [
+      "музыка",
+      "музей",
+      "история"
+    ],
+    "address": {
+      "value": "ул. Большая Дмитровка, 5/6, стр. 3; вход из Камергерского пер.",
+      "source": "https://music-museum.ru/about/contacts.html",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Ср 11:00–19:00; чт–пт 12:00–21:00; сб 11:00–19:00; вс 11:00–18:00. Вход заканчивается за час; пн–вт уточнить",
+      "source": "https://music-museum.ru/about/contacts.html",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "golovanov-flat",
+    "title": "Музей-квартира Голованова",
+    "kind": "Музей",
+    "area": "Пресненский",
+    "durationMinutes": 60,
+    "note": "Камерная встреча с историей дирижёрского искусства",
+    "tags": [
+      "музыка",
+      "музей",
+      "история"
+    ],
+    "address": {
+      "value": "Брюсов пер., 7, пом. 1/6, кв. 10",
+      "source": "https://music-museum.ru/about/contacts.html",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Вт–ср, сб 11:00–19:00; чт–пт 13:00–21:00. Вход заканчивается за час; вс–пн уточнить",
+      "source": "https://music-museum.ru/about/contacts.html",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "goldenweiser-flat",
+    "title": "Музей-квартира Гольденвейзера",
+    "kind": "Музей",
+    "area": "Тверской",
+    "durationMinutes": 60,
+    "note": "Квартира пианиста над шумной Тверской",
+    "tags": [
+      "музыка",
+      "музей",
+      "история"
+    ],
+    "address": {
+      "value": "ул. Тверская, 17, кв. 109–110, этаж 4",
+      "source": "https://music-museum.ru/about/contacts.html",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Вт–ср, сб 11:00–19:00; чт–пт 13:00–21:00. Вход заканчивается за час; вс–пн уточнить",
+      "source": "https://music-museum.ru/about/contacts.html",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "mirek-museum",
+    "title": "Музей русской гармоники Мирека",
+    "kind": "Музей",
+    "area": "Тверской",
+    "durationMinutes": 60,
+    "note": "История инструмента и его звучания",
+    "tags": [
+      "музыка",
+      "музей",
+      "история"
+    ],
+    "address": {
+      "value": "2-я Тверская-Ямская ул., 18, этаж 2",
+      "source": "https://mirekmuseum.ru/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Ср 10:00–18:00; чт 10:00–21:00; пт–вс 10:00–17:00; пн выходной; вт уточнить",
+      "source": "https://scriabinmuseum.ru/contacts/",
+      "checkedAt": "2026-11-16"
     }
   }
 ]

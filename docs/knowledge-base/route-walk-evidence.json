@@ -1,0 +1,53 @@
+{
+  "checkedAt": "2026-11-16",
+  "attribution": "© OpenStreetMap contributors, ODbL 1.0; routing: FOSSGIS OSRM foot",
+  "source": "https://routing.openstreetmap.de/about.html",
+  "policy": "https://operations.osmfoundation.org/policies/nominatim/",
+  "method": "Разовый последовательный поиск точек Nominatim, кэш, не чаще 1 запроса/с. Расчёт OSRM routed-foot; все шаги mode=walking. Это путь между точками карты, не осмотр входов и не обещание открытого прохода.",
+  "legs": [
+    {
+      "id": "hermitage-nothing",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.6090326,55.7707449;37.6143748,55.7680733?overview=false&steps=true",
+      "status": 200,
+      "distanceMetres": 563.3,
+      "durationSeconds": 450.7,
+      "waypointSnapMetres": [
+        28.02586645,
+        3.02960788
+      ]
+    },
+    {
+      "id": "nothing-mmoma",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.6143748,55.7680733;37.6142183,55.7670218?overview=false&steps=true",
+      "status": 200,
+      "distanceMetres": 172.4,
+      "durationSeconds": 138.1,
+      "waypointSnapMetres": [
+        3.02960788,
+        12.19216297
+      ]
+    },
+    {
+      "id": "bolotnaya-sok",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.6182362,55.7449293;37.62164613003296,55.741575930613855?overview=false&steps=true",
+      "status": 200,
+      "distanceMetres": 502.6,
+      "durationSeconds": 401.9,
+      "waypointSnapMetres": [
+        6.122366929,
+        12.07571461
+      ]
+    },
+    {
+      "id": "sok-tretyakov",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.62164613003296,55.741575930613855;37.6202196,55.7413613?overview=false&steps=true",
+      "status": 200,
+      "distanceMetres": 287.2,
+      "durationSeconds": 229.8,
+      "waypointSnapMetres": [
+        12.07571461,
+        31.97391642
+      ]
+    }
+  ]
+}
