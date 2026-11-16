@@ -332,15 +332,12 @@
     ],
     "address": {
       "value": "2-я Тверская-Ямская ул., 18",
-      "source": "owner",
-      "checkedAt": "2026-11-10"
+      "source": "https://www.glazurmag.ru/mesta/item/chetverg-na-mayakovskoj",
+      "checkedAt": "2026-11-16"
     },
     "mapLink": {
       "url": "https://yandex.ru/maps/org/chetverg/145539923127",
       "address": "2-я Тверская-Ямская ул., 18"
-    },
-    "hints": {
-      "price": "Без входного билета, заказ по меню"
     }
   },
   {
@@ -357,19 +354,19 @@
       "еда"
     ],
     "hours": {
-      "value": "Ежедневно 08:00–00:00 по The Taste",
-      "source": "https://thetaste.io/moscow/places/masa-madre/",
-      "checkedAt": "2026-11-10"
+      "value": "Ежедневно 08:00–00:00",
+      "source": "https://masamadre.ru/contacts",
+      "checkedAt": "2026-11-16"
     },
     "price": {
-      "value": "Средний чек 1 500–2 000 ₽ по «Москва ресторанная»",
-      "source": "https://thetaste.io/moscow/places/masa-madre/",
-      "checkedAt": "2026-11-10"
+      "value": "Классический баскский чизкейк — 650 ₽ по меню",
+      "source": "https://masamadre.ru/solyanka",
+      "checkedAt": "2026-11-16"
     },
     "address": {
-      "value": "ул. Солянка, 1/2с1",
-      "source": "owner",
-      "checkedAt": "2026-11-10"
+      "value": "ул. Солянка, 1/2, стр. 1",
+      "source": "https://masamadre.ru/contacts",
+      "checkedAt": "2026-11-16"
     },
     "extraSources": [
       "https://moscowrestaurant.ru/restaurants/masa-madre"
@@ -394,18 +391,18 @@
     ],
     "hours": {
       "value": "Ежедневно 08:30–21:00",
-      "source": "https://nothingfancy.ru/",
-      "checkedAt": "2026-11-10"
+      "source": "https://nothingfancy.ru/about",
+      "checkedAt": "2026-11-16"
     },
     "price": {
       "value": "Средний чек 1 000–3 000 ₽ по «Афише»",
-      "source": "https://nothingfancy.ru/",
-      "checkedAt": "2026-11-10"
+      "source": "https://www.afisha.ru/msk/restaurant/nothing-fancy-518796/",
+      "checkedAt": "2026-11-16"
     },
     "address": {
       "value": "ул. Петровка, 30/7",
-      "source": "owner",
-      "checkedAt": "2026-11-10"
+      "source": "https://nothingfancy.ru/about",
+      "checkedAt": "2026-11-16"
     },
     "extraSources": [
       "https://www.afisha.ru/msk/restaurant/nothing-fancy-518796/"
@@ -465,17 +462,12 @@
     "address": {
       "value": "ул. Каретный Ряд, 3",
       "source": "https://www.mosgorsad.ru/garden/chasto-zadavaemy-voprosy/",
-      "checkedAt": "2026-11-10"
+      "checkedAt": "2026-11-16"
     },
     "hours": {
       "value": "Круглосуточно",
       "source": "https://www.mosgorsad.ru/garden/chasto-zadavaemy-voprosy/",
-      "checkedAt": "2026-11-10"
-    },
-    "price": {
-      "value": "Вход в сад свободный; события отдельно",
-      "source": "https://www.mosgorsad.ru/garden/chasto-zadavaemy-voprosy/",
-      "checkedAt": "2026-11-10"
+      "checkedAt": "2026-11-16"
     },
     "scheme": {
       "x": 55,
@@ -514,17 +506,17 @@
     "address": {
       "value": "просп. Мира, 26, стр. 1",
       "source": "https://hortus.msu.ru/ticketprice.html",
-      "checkedAt": "2026-11-10"
+      "checkedAt": "2026-11-16"
     },
     "hours": {
-      "value": "Последний вход в сад до 19:00 по правилам посещения",
-      "source": "https://hortus.msu.ru/ticketprice.html",
-      "checkedAt": "2026-11-10"
+      "value": "Последний вход в сад — не позднее 19:00",
+      "source": "https://hortus.msu.ru/rules.html",
+      "checkedAt": "2026-11-16"
     },
     "price": {
-      "value": "500 ₽ в будни · 600 ₽ в выходные и праздники",
+      "value": "Стандартный билет: 500 ₽ в будни; 600 ₽ в выходные и праздники",
       "source": "https://hortus.msu.ru/ticketprice.html",
-      "checkedAt": "2026-11-10"
+      "checkedAt": "2026-11-16"
     },
     "extraSources": [
       "https://hortus.msu.ru/rules.html"
@@ -548,21 +540,18 @@
     ],
     "address": {
       "value": "Ленинградский просп., 15, стр. 11",
-      "source": "https://www.rusimp.org/ru/tickets",
-      "checkedAt": "2026-11-10"
+      "source": "https://www.rusimp.su/about",
+      "checkedAt": "2026-11-16"
     },
     "hours": {
-      "value": "Ср–чт 12:00–21:00; остальные дни 11:00–20:00",
-      "source": "https://www.rusimp.org/ru/tickets",
-      "checkedAt": "2026-11-10"
-    },
-    "price": {
-      "value": "Стандартный билет от 700 ₽ по афише музея",
-      "source": "https://www.rusimp.org/ru/tickets",
-      "checkedAt": "2026-11-10"
+      "value": "Пн–вт, пт–вс 11:00–20:00; ср–чт 12:00–21:00; касса закрывается за 30 минут",
+      "source": "https://www.rusimp.su/about",
+      "checkedAt": "2026-11-16"
     },
     "extraSources": [
-      "https://www.rusimp.su/about"
+      "https://www.rusimp.su/about",
+      "https://www.rusimp.org/ru/tickets",
+      "https://www.rusimp.su/tickets"
     ],
     "scheme": {
       "x": 31,
