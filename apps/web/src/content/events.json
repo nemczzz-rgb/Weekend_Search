@@ -35,5 +35,26 @@
     "address": "Москва, ул. Вавилова, 57 · Дарвиновский музей",
     "source": "https://www.darwinmuseum.ru/projects/celebration/vserossijskij-den-materi-2026",
     "checkedAt": "2026-11-16"
+  },
+  {
+    "id": "mmoma-nishatova-2026",
+    "title": "«Иногда вода двигается в сторону луны» · Мила Нишатова · ММОМА · 0+",
+    "dateStart": "2026-11-11",
+    "dateEnd": "2026-12-16",
+    "time": "Вт–вс 12:00–21:00; понедельник — выходной",
+    "placeId": "mmoma-petrovka",
+    "source": "https://mmoma.ru/visit/gallery/nishatova/description",
+    "checkedAt": "2026-11-16"
+  },
+  {
+    "id": "solyanka-rodnoe-2026",
+    "title": "«Родное» · выставка плаката · Галерея «Солянка»",
+    "dateStart": "2026-11-20",
+    "dateEnd": "2027-01-10",
+    "time": "20 ноября: вернисаж в 19:00; общий режим галереи — 12:00–22:00",
+    "placeId": "solyanka-gallery",
+    "price": "500 ₽; по карточке организатора билет приобретается в кассе",
+    "source": "https://solyanka.vzmoscow.ru/rodnoe",
+    "checkedAt": "2026-11-16"
   }
 ]

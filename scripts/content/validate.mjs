@@ -365,7 +365,13 @@ export function validateContent(dir, { release = false, today = new Date() } = {
   }
   const below = []
   const m = RELEASE_MINIMUMS
-  for (const key of ['places', 'routes', 'recipes', 'dayIdeas']) if (counts[key] < m[key]) below.push(`${key} ${counts[key]}/${m[key]}`)
+  // TASK-054: legacy single-place ideas stay readable, but do not meet the route minimum.
+  const multiStopRoutes = data.routes.filter(r => Array.isArray(r?.placeIds) && r.placeIds.length >= 2 && r.placeIds.length <= 6 && new Set(r.placeIds).size === r.placeIds.length && r.placeIds.every(id => ids.places.has(id))).length
+  for (const key of ['places', 'routes', 'recipes', 'dayIdeas']) {
+    const count = key === 'routes' ? multiStopRoutes : counts[key]
+    const label = key === 'routes' ? 'routes (2–6 places)' : key
+    if (count < m[key]) below.push(`${label} ${count}/${m[key]}`)
+  }
   for (const g of GENRES) if (filmsPerGenre[g] < m.filmsPerGenre) below.push(`films.${g} ${filmsPerGenre[g]}/${m.filmsPerGenre}`)
   for (const mode of Object.keys(m.dayIdeasByMode)) if (ideasByMode[mode] < m.dayIdeasByMode[mode]) below.push(`dayIdeas.${mode} ${ideasByMode[mode]}/${m.dayIdeasByMode[mode]}`)
   if (below.length) (release ? errors : warnings).push(`below release minimums (D14): ${below.join('; ')}`)

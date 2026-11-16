@@ -72,6 +72,21 @@ function expectError(name, mutate, pattern, options = {}) {
   assert.ok(run(base(), { release: true }).errors.some(e => e.includes('below release minimums')))
 }
 
+// TASK-054: a catalogue of 50 single-place ideas must not masquerade as 50 routes.
+{
+  const data = base()
+  data.routes = Array.from({ length: 50 }, (_, i) => ({ ...data.routes[0], id: 'single-' + i }))
+  const ordinary = run(data)
+  assert.deepEqual(ordinary.errors, []) // old single-place entries remain valid during migration
+  assert.equal(ordinary.counts.routes, 50) // preserve the existing counts interface
+  assert.ok(ordinary.warnings.some(w => w.includes('routes (2–6 places) 0/50')))
+  assert.ok(run(data, { release: true }).errors.some(e => e.includes('routes (2–6 places) 0/50')))
+  data.routes[0].placeIds = ['park', 'square']
+  assert.ok(run(data, { release: true }).errors.some(e => e.includes('routes (2–6 places) 1/50')))
+  data.routes = data.routes.map(r => ({ ...r, placeIds: ['park', 'square'] }))
+  assert.ok(!run(data, { release: true }).errors.some(e => e.includes('routes (2–6 places)')))
+}
+
 // Existing films without posters and new films with verified local posters both pass.
 {
   const data = base()
