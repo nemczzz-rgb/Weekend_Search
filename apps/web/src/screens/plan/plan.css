@@ -15,3 +15,5 @@
 .ws-plan-custom h2 { grid-column:1/-1; font-size:24px; }
 .ws-plan-replace { list-style:none; margin:12px 0 0; padding:0; display:grid; gap:8px; max-height:50vh; overflow:auto; }
 .ws-plan-day { margin-top:16px; }
+/* Storage row: file export, import and clear (S07 block 5). */
+.ws-plan-file { display:flex; flex-wrap:wrap; gap:4px 16px; }
