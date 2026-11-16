@@ -1175,5 +1175,243 @@
       "x": 54,
       "y": 60
     }
+  },
+  {
+    "id": "mmoma-petrovka",
+    "title": "ММОМА · Петровка",
+    "kind": "Музей",
+    "area": "Тверской",
+    "durationMinutes": 90,
+    "note": "Современное искусство в старом особняке",
+    "tags": [
+      "искусство",
+      "музей",
+      "выставка"
+    ],
+    "address": {
+      "value": "ул. Петровка, 25",
+      "source": "https://mmoma.ru/know/building/petrovka",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Вт–вс 12:00–21:00; пн выходной",
+      "source": "https://mmoma.ru/know/building/petrovka",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "ges-two",
+    "title": "Дом культуры «ГЭС-2»",
+    "kind": "Культурный центр",
+    "area": "Якиманка",
+    "durationMinutes": 90,
+    "note": "Выставки и пространство бывшей электростанции",
+    "tags": [
+      "искусство",
+      "архитектура",
+      "выставка"
+    ],
+    "address": {
+      "value": "Болотная набережная, 15",
+      "source": "https://ges-2.org/how-to-find-us",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Ежедневно 11:00–22:00",
+      "source": "https://ges-2.org/how-to-find-us",
+      "checkedAt": "2026-11-16"
+    },
+    "price": {
+      "value": "Вход бесплатный по предварительной регистрации; отдельные события платные",
+      "source": "https://ges-2.org/how-to-find-us",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "garage",
+    "title": "Музей «Гараж»",
+    "kind": "Музей",
+    "area": "Якиманка",
+    "durationMinutes": 90,
+    "note": "Знакомство с современным искусством в открытом хранении",
+    "tags": [
+      "искусство",
+      "музей",
+      "выставка"
+    ],
+    "address": {
+      "value": "ул. Крымский Вал, 9, стр. 32",
+      "source": "https://garagemca.org/visit",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Ежедневно 11:00–22:00; кассы до 21:30",
+      "source": "https://garagemca.org/visit",
+      "checkedAt": "2026-11-16"
+    },
+    "price": {
+      "value": "Полный билет в открытое хранение 600 ₽; льготы по документам",
+      "source": "https://garagemca.org/visit",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "moscow-museum",
+    "title": "Музей Москвы",
+    "kind": "Музей",
+    "area": "Хамовники",
+    "durationMinutes": 90,
+    "note": "История города в Провиантских складах; идёт ремонт",
+    "tags": [
+      "история",
+      "музей",
+      "Москва"
+    ],
+    "address": {
+      "value": "Зубовский бульвар, 2",
+      "source": "https://mosmuseum.ru/visitors/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "timiryazev-museum",
+    "title": "Биологический музей Тимирязева",
+    "kind": "Музей",
+    "area": "Пресненский",
+    "durationMinutes": 90,
+    "note": "Живая природа в усадьбе на Малой Грузинской",
+    "tags": [
+      "наука",
+      "музей",
+      "семья"
+    ],
+    "address": {
+      "value": "ул. Малая Грузинская, 15",
+      "source": "https://gbmt.ru/ru/contact/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Вт–ср, пт–сб 10:00–18:00; чт 12:00–21:00; вс 11:00–18:00; пн и последний вт месяца закрыто",
+      "source": "https://gbmt.ru/ru/contact/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "jewish-museum",
+    "title": "Еврейский музей и центр толерантности",
+    "kind": "Музей",
+    "area": "Марьина Роща",
+    "durationMinutes": 90,
+    "note": "История и культура в пространстве бывшего гаража",
+    "tags": [
+      "история",
+      "музей",
+      "культура"
+    ],
+    "address": {
+      "value": "ул. Образцова, 11, стр. 1А",
+      "source": "https://www.jewish-museum.ru/visitors/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Пн–чт, вс 12:00–22:00; сб 18:00–23:00; пт и еврейские праздники выходные",
+      "source": "https://www.jewish-museum.ru/visitors/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "winzavod",
+    "title": "ЦСИ «Винзавод»",
+    "kind": "Культурный центр",
+    "area": "Басманный",
+    "durationMinutes": 90,
+    "note": "Галереи и мастерские на промышленной территории",
+    "tags": [
+      "искусство",
+      "дизайн",
+      "культура"
+    ],
+    "address": {
+      "value": "4-й Сыромятнический пер., 1/8",
+      "source": "https://www.winzavod.ru/visitors/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Территория ежедневно; галереи вт–вс по своему графику, инфоцентр ежедневно 12:00–21:00",
+      "source": "https://www.winzavod.ru/visitors/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "az-museum",
+    "title": "Музей AZ",
+    "kind": "Музей",
+    "area": "Тверской",
+    "durationMinutes": 90,
+    "note": "Нонконформисты; до 19 ноября музей на реэкспозиции",
+    "tags": [
+      "искусство",
+      "музей",
+      "выставка"
+    ],
+    "address": {
+      "value": "2-я Тверская-Ямская ул., 20–22",
+      "source": "https://museum-az.com/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "До 19.11.2026 закрыт на реэкспозицию; обычный режим 12:00–21:00, первый вт месяца технический день; касса до 20:30",
+      "source": "https://museum-az.com/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "lefortovo-museum",
+    "title": "Музей истории Лефортово",
+    "kind": "Музей",
+    "area": "Лефортово",
+    "durationMinutes": 60,
+    "note": "Слобода и люди Петровской эпохи",
+    "tags": [
+      "история",
+      "музей",
+      "архитектура"
+    ],
+    "address": {
+      "value": "ул. Крюковская, 23",
+      "source": "https://mosmuseum.ru/exhibitions/p/lefortovo/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Ежедневно кроме понедельника; точные часы уточнить у музея",
+      "source": "https://mosmuseum.ru/exhibitions/p/lefortovo/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "mmoma-gogolevsky",
+    "title": "ММОМА · Гоголевский бульвар",
+    "kind": "Музей",
+    "area": "Хамовники",
+    "durationMinutes": 90,
+    "note": "Искусство в усадьбе; флигель 10с2 временно закрыт",
+    "tags": [
+      "искусство",
+      "музей",
+      "архитектура"
+    ],
+    "address": {
+      "value": "Гоголевский бульвар, 10, стр. 1",
+      "source": "https://mmoma.ru/know/building/gogolevsky",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Вт–вс 12:00–21:00; пн выходной",
+      "source": "https://mmoma.ru/know/building/gogolevsky",
+      "checkedAt": "2026-11-16"
+    },
+    "extraSources": [
+      "https://mmoma.ru/"
+    ]
   }
 ]
