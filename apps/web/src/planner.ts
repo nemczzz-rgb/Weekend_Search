@@ -1,4 +1,4 @@
-import { placeById, routeIdeas, type Place, type RouteIdea } from './data'
+import { placeById, routeIdeas, type Place, type RouteIdea } from './data.ts'
 
 const synonyms: Array<[RegExp, string]> = [
   [/погуля|гуля|пешком|прогул/iu, 'прогулка'],
@@ -12,23 +12,34 @@ const synonyms: Array<[RegExp, string]> = [
   [/тих|спокой|нетороп/iu, 'тихо'],
 ]
 
-function normalize(value: string) { return value.toLocaleLowerCase('ru-RU').replaceAll('ё', 'е') }
+export function normalize(value: string) { return value.toLocaleLowerCase('ru-RU').replaceAll('ё', 'е') }
 
-export function rankIdeas(query: string, interests: string[], area: string): RouteIdea[] {
+/** City topics found in the text (the synonym dictionary of section 8.2, «городские»). */
+export function cityTopics(text: string): string[] {
+  const raw = normalize(text)
+  return synonyms.filter(([pattern]) => pattern.test(raw)).map(([, tag]) => tag)
+}
+
+type RankedRoute = { title: string; subtitle: string; theme: string; area: string; keywords: string[] }
+
+/** Text score of a route: topic signals, keyword word starts and the start district. */
+export function routeTextScore(route: RankedRoute, query: string, interests: string[], area: string): number {
   const raw = normalize(`${query} ${interests.join(' ')}`)
   const wordStarts = ` ${raw.replace(/[^\p{L}\p{N}]+/gu, ' ')}`
-  const signals = synonyms.filter(([pattern]) => pattern.test(raw)).map(([, tag]) => tag)
+  const signals = cityTopics(raw)
+  const words = normalize(`${route.title} ${route.subtitle} ${route.theme} ${route.keywords.join(' ')}`)
+  let value = signals.reduce((total, signal) => total + (words.includes(signal) ? 4 : 0), 0)
+  value += route.keywords.reduce((total, keyword) => total + (wordStarts.includes(` ${normalize(keyword)}`) ? 2 : 0), 0)
+  if (area && normalize(route.area).includes(normalize(area))) value += 2
+  return value
+}
 
-  return [...routeIdeas].sort((a, b) => {
-    const score = (idea: RouteIdea) => {
-      const words = normalize(`${idea.title} ${idea.subtitle} ${idea.theme} ${idea.keywords.join(' ')}`)
-      let value = signals.reduce((total, signal) => total + (words.includes(signal) ? 4 : 0), 0)
-      value += idea.keywords.reduce((total, keyword) => total + (wordStarts.includes(` ${normalize(keyword)}`) ? 2 : 0), 0)
-      if (normalize(idea.area).includes(normalize(area))) value += 2
-      return value
-    }
-    return score(b) - score(a)
-  })
+export function rankRoutes<T extends RankedRoute>(routes: T[], query: string, interests: string[], area: string): T[] {
+  return [...routes].sort((a, b) => routeTextScore(b, query, interests, area) - routeTextScore(a, query, interests, area))
+}
+
+export function rankIdeas(query: string, interests: string[], area: string): RouteIdea[] {
+  return rankRoutes(routeIdeas, query, interests, area)
 }
 
 export function getIdeaPlaces(idea: RouteIdea): Place[] {

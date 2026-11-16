@@ -11,7 +11,7 @@ const exports = {}
 const source = readFileSync(new URL('../../apps/web/src/visit.ts', import.meta.url), 'utf8')
 const { outputText } = transpileModule(source, { compilerOptions: { module: ModuleKind.CommonJS } })
 runInNewContext(outputText, { exports, require: name => {
-  assert.equal(name, './data')
+  assert.equal(name, './data.ts')
   return { placeRecordById }
 } })
 const { getVisit, placeMapUrl } = exports
