@@ -15,6 +15,7 @@ node tests/content/validate.test.mjs
 pnpm --dir apps/web build
 node tests/web/tower-background.test.mjs
 node tests/web/visit-facts.test.mjs
+node tests/web/ui-components.test.mjs
 python -I -m unittest discover -s tests -v
 ```
 

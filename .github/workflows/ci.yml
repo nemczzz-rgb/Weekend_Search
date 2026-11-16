@@ -39,6 +39,7 @@ jobs:
       - run: pnpm --dir apps/web build
       - run: node tests/web/tower-background.test.mjs
       - run: node tests/web/visit-facts.test.mjs
+      - run: node tests/web/ui-components.test.mjs
       - if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3
         with:
