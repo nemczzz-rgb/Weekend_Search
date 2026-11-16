@@ -110,6 +110,19 @@ expectError('bad id', d => { d.places[0].id = 'Park 1' }, /kebab-case/)
 expectError('duplicate id', d => { d.films.push({ ...d.films[0], title: 'Другой' }) }, /duplicate id/)
 expectError('fact without source', d => { delete d.places[0].address.source }, /places\[park\]\.address: "source"/)
 expectError('http source', d => { d.places[0].hours.source = 'http://example.org' }, /https URL or "owner"/)
+// Moscow midnight arrives three hours before the UTC date changes on CI.
+{
+  const d = base()
+  d.places[0].hours.checkedAt = '2026-11-17'
+  d.events[0].checkedAt = '2026-11-17'
+  const before = run(d, { today: new Date('2026-11-16T20:59:59Z') })
+  assert.ok(before.errors.some(e => /places\[park\]\.hours.*in the future/.test(e)))
+  assert.ok(before.errors.some(e => /events\[concert\].*in the future/.test(e)))
+  assert.deepEqual(run(d, { today: new Date('2026-11-16T21:00:00Z') }).errors, [])
+  d.events[0].checkedAt = '2026-11-18'
+  assert.ok(run(d, { today: new Date('2026-11-16T21:00:00Z') }).errors.some(e => /events\[concert\].*in the future/.test(e)))
+}
+
 expectError('future checkedAt', d => { d.places[0].hours.checkedAt = '2027-01-01' }, /in the future/)
 expectError('invalid date', d => { d.places[0].hours.checkedAt = '2026-02-30' }, /YYYY-MM-DD/)
 expectError('hint with price', d => { d.places[1].hints.price = '500 ₽' }, /must not contain numbers or prices/)

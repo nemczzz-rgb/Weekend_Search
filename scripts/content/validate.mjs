@@ -29,7 +29,10 @@ export function validateContent(dir, { release = false, today = new Date() } = {
   const errors = []
   const warnings = []
   const data = {}
-  const todayIso = today.toISOString().slice(0, 10)
+  // Facts are dated in Moscow; UTC CI must also accept a check after Moscow midnight.
+  const todayIso = new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'Europe/Moscow', year: 'numeric', month: '2-digit', day: '2-digit',
+  }).format(today)
 
   for (const name of COLLECTIONS) {
     const file = join(dir, `${name}.json`)
