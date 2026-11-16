@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>S07 Мой план — Weekend Search</title>
+<script src="./support.js"></script>
+<link rel="stylesheet" href="./ws.css">
+<script src="./ws.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700&amp;family=Onest:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>body{margin:0}</style>
+</helmet>
+<div class="{{cls}}" style="width: {{w}}px">
+  <div class="tw" style="width: {{w}}px; height: {{vh}}px">
+    <sc-for list="{{layers}}" as="l" hint-placeholder-count="1"><svg width="{{w}}" height="{{vh}}" viewBox="0 0 {{w}} {{vh}}" fill="none" aria-hidden="true"><path d="{{l.d}}" stroke="{{l.c}}" stroke-width="{{l.w}}" stroke-linecap="{{l.cap}}"></path></svg></sc-for>
+  </div>
+
+  <header class="hdr">
+    <a class="logo" href="#" aria-label="Weekend Search — главная"><svg width="34" height="34" viewBox="-23 -23 46 46" fill="none" aria-hidden="true"><path d="{{logo.ink}}" stroke="#191821" stroke-width=".5"></path><path d="{{logo.acc}}" stroke="#3932bd" stroke-width=".55"></path><path d="{{logo.ring}}" stroke="#191821" stroke-width=".7"></path><circle r="2.4" fill="#ffcd00" stroke="#191821" stroke-width=".5"></circle></svg>weekend<span>search</span></a>
+    <nav class="nav" aria-label="Основная навигация"><a href="#">Идеи для дня</a><a href="#">Маршруты</a><a href="#">Места</a><a class="on" href="#" aria-current="page">Мой план</a></nav>
+    <div class="pal" role="group" aria-label="Цвет сайта"><sc-for list="{{pal}}" as="s" hint-placeholder-count="9"><button aria-label="Цвет сайта" aria-pressed="{{s.on}}"><i style="background: {{s.c}}; height: {{s.h}}"></i></button></sc-for></div>
+  </header>
+
+  <main class="z wrap">
+    <div class="pgh">
+      <span class="rub">Мой план</span>
+      <h1 class="h1">Мой план<span class="st"></span></h1>
+      <p class="lead">Добавляйте идеи, маршруты и места или записывайте свои пункты.</p>
+    </div>
+
+    <sc-if value="{{outdated}}" hint-placeholder-val="{{ false }}">
+      <div class="banner" style="margin-top: 28px; max-width: 760px"><b>Даты плана прошли</b><div><a class="b1" href="#" style="height: 44px; font-size: 14px; margin-top: 6px">Перенести на ближайшую субботу</a></div></div>
+    </sc-if>
+
+    <sc-if value="{{isEmpty}}" hint-placeholder-val="{{ false }}">
+      <div style="display: flex; flex-direction: column; gap: 22px; margin-top: 36px; max-width: 760px">
+        <div class="wish" style="max-width: 760px">
+          <label class="fld" for="wish" style="font-size: 18px">Что хочется?</label>
+          <div class="row"><input class="inp" id="wish" type="text" placeholder="Например: парк и спа-вечер"><a class="go off" href="#" aria-label="Подобрать по пожеланию">→</a></div>
+          <div class="chips"><a class="sm" href="#">музей, а вечером дома фильм</a><a class="sm" href="#">парк и спа-вечер</a><a class="sm" href="#">хочу весь день дома</a><a class="sm" href="#">пицца и кино</a></div>
+          <span class="small">Подбор работает по словам и темам.</span>
+        </div>
+        <div class="empty">
+          <span style="font-weight: 600; font-size: 18px; line-height: 1.4">Здесь пока пусто. Напишите, чего хочется, или выберите идею, маршрут или место</span>
+          <div style="display: flex; gap: 10px; flex-wrap: wrap"><a class="b1" href="#">Идеи для дня →</a><a class="b2" href="#">Маршруты →</a><a class="b2" href="#">Места →</a></div>
+        </div>
+        <div class="bar"><span>План хранится в этом браузере</span><button class="bt">Загрузить</button></div>
+      </div>
+    </sc-if>
+
+    <sc-if value="{{hasPlan}}" hint-placeholder-val="{{ true }}">
+      <div style="display: flex; flex-direction: column; gap: 14px; margin-top: 28px; max-width: 760px">
+        <div class="item" style="padding: 8px 14px; flex-direction: row; align-items: center; gap: 10px"><span style="font-weight: 600">Что хочется?</span><span>«пицца и кино»</span><button class="bt" style="margin-left: auto">Изменить</button></div>
+        <sc-if value="{{refineOpen}}" hint-placeholder-val="{{ false }}">
+          <div class="item"><span style="font-weight: 700">Уточнить</span>
+            <div class="g2" style="gap: 12px">
+              <label class="fld">Район начала<select class="inp"><option>Тверской</option></select></label>
+              <label class="fld">Первый день<input class="inp" type="text" value="суббота, 14 ноября"></label>
+            </div>
+            <div class="seg" role="radiogroup" aria-label="Дни"><button role="radio" aria-checked="false">Один день</button><button role="radio" aria-checked="true" class="on">Два дня</button></div>
+          </div>
+        </sc-if>
+        <sc-if value="{{refineShut}}" hint-placeholder-val="{{ true }}"><div class="tools"><button class="bt">Уточнить +</button></div></sc-if>
+        <div class="bar"><span>План хранится в этом браузере</span><button class="bt">Сохранить в файл</button><button class="bt">Загрузить</button><button class="bt" style="color: #b3261e">Очистить план</button></div>
+        <div class="tools" style="justify-content: space-between; gap: 12px 24px">
+          <span style="font-weight: 700; font-size: 18px">{{summary}}</span>
+          <div class="chips"><a class="sm" href="#">+ Место</a><a class="sm" href="#">+ Идея для дня</a><a class="sm" href="#">+ Свой пункт</a></div>
+        </div>
+        <sc-if value="{{twoDays}}" hint-placeholder-val="{{ false }}"><div class="seg" role="tablist" aria-label="День плана"><button role="tab" aria-selected="true" class="on">День 1 · суббота, 14 ноября</button><button role="tab" aria-selected="false">День 2 · воскресенье, 15 ноября</button></div></sc-if>
+      </div>
+
+      <div class="days" style="margin-top: 36px; gap: 44px">
+        <sc-for list="{{days}}" as="d" hint-placeholder-count="1">
+          <section style="display: flex; flex-direction: column; gap: 14px">
+            <div class="banner"><b>Черновик, ещё не готовый маршрут</b><span>{{d.bannerText}}</span></div>
+            <sc-if value="{{d.prep}}" hint-placeholder-val="{{ false }}"><div class="prep"><span>{{d.prep}}</span></div></sc-if>
+            <div class="dayc"><span class="num">{{d.n}}</span><div><span class="rub">День {{d.num}}</span><h2 class="h2" style="font-size: 30px">{{d.title}}</h2><sc-if value="{{d.start}}" hint-placeholder-val="{{ false }}"><small>Старт в районе Тверской</small></sc-if></div></div>
+            <div role="list" style="display: flex; flex-direction: column; gap: 14px">
+              <sc-for list="{{d.items}}" as="it" hint-placeholder-count="3">
+                <div style="display: flex; flex-direction: column; gap: 14px">
+                  <sc-if value="{{it.eve}}" hint-placeholder-val="{{ false }}"><div class="eve">Вечером дома</div></sc-if>
+                  <article class="{{it.cls}}" role="listitem">
+                    <div class="nh"><span class="num" style="font-size: 22px">{{it.n}}</span><span class="meta">{{it.kicker}}</span></div>
+                    <h3 class="ttl">{{it.title}}</h3>
+                    <sc-if value="{{it.desc}}" hint-placeholder-val="{{ true }}"><p class="dsc">{{it.desc}}</p></sc-if>
+                    <sc-if value="{{it.addr}}" hint-placeholder-val="{{ true }}"><a class="lk big" href="#">{{it.addr}} ↗</a></sc-if>
+                    <sc-if value="{{it.addrText}}" hint-placeholder-val="{{ false }}"><span class="fv">{{it.addrText}}</span></sc-if>
+                    <sc-if value="{{it.facts}}" hint-placeholder-val="{{ true }}"><div class="{{it.factsCls}}"><div class="fc"><span class="fl">Часы</span><span class="fv">{{it.hours}}</span></div><sc-if value="{{it.price}}" hint-placeholder-val="{{ true }}"><div class="fc"><span class="fl">Стоимость</span><span class="fv">{{it.price}}</span></div></sc-if></div></sc-if>
+                    <sc-if value="{{it.src}}" hint-placeholder-val="{{ true }}"><div class="links"><a class="lk" href="#">Источник ↗</a><span class="meta">{{it.checked}}</span></div></sc-if>
+                    <sc-if value="{{it.needs}}" hint-placeholder-val="{{ false }}"><span class="meta">Понадобится: {{it.needs}}</span></sc-if>
+                    <sc-if value="{{it.genre}}" hint-placeholder-val="{{ false }}"><span class="meta">Жанр: {{it.genre}}</span></sc-if>
+                    <span class="meta">{{it.dur}}</span>
+                    <div class="acts">
+                      <button class="sm" aria-label="Выше: {{it.title}}">↑ Выше</button><button class="sm" aria-label="Ниже: {{it.title}}">↓ Ниже</button><button class="sm">{{it.toDay}}</button>
+                      <sc-if value="{{it.replace}}" hint-placeholder-val="{{ true }}"><button class="sm">Заменить</button></sc-if>
+                      <sc-if value="{{it.idea}}" hint-placeholder-val="{{ false }}"><a class="sm" href="#">Открыть идею →</a></sc-if>
+                      <button class="sm stop" aria-label="Убрать: {{it.title}}">Убрать</button>
+                    </div>
+                  </article>
+                </div>
+              </sc-for>
+            </div>
+          </section>
+        </sc-for>
+        <sc-if value="{{showForm}}" hint-placeholder-val="{{ false }}">
+          <div class="item" style="margin-top: -20px"><span style="font-weight: 700">Свой пункт</span>
+            <label class="fld">Название<input class="inp err" type="text" placeholder="Куда хотите зайти?" aria-invalid="true"><span style="color: #b3261e; font-weight: 600">Напишите название</span></label>
+            <div class="g2" style="gap: 12px"><label class="fld">Адрес<input class="inp" type="text" placeholder="Улица и дом"></label><label class="fld">Минут на месте<input class="inp" type="text" value="60"></label></div>
+            <div><button class="b1 disabled" disabled style="height: 44px; font-size: 14px">Добавить +</button></div>
+          </div>
+        </sc-if>
+        <sc-if value="{{showToast}}" hint-placeholder-val="{{ false }}"><div class="toast" role="status"><span>В субботе не хватает места: в дне не больше 6 пунктов</span><a href="#">Добавить в воскресенье</a></div></sc-if>
+      </div>
+    </sc-if>
+  </main>
+
+  <footer class="foot"><span>Идеи, маршруты и места на выходные</span><div class="pal" role="group" aria-label="Цвет сайта"><sc-for list="{{pal}}" as="s" hint-placeholder-count="9"><button aria-label="Цвет сайта" aria-pressed="{{s.on}}"><i style="background: {{s.c}}; height: {{s.h}}"></i></button></sc-for></div></footer>
+
+  <sc-if value="{{mobile}}" hint-placeholder-val="{{ false }}"><nav class="bbar" aria-label="Основная навигация"><a href="#">Идеи для дня</a><a href="#">Маршруты</a><a href="#">Места</a><a class="on" href="#" aria-current="page">Мой план</a></nav></sc-if>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"mobile":{"editor":null,"default":""},"state":{"editor":null,"default":"mixed"},"$preview":{"width":1280,"height":2600}}'>
+class Component extends DCLogic {
+  placeItem(id, n, sel, toDay) {
+    var p = WS.places[id];
+    return { n: n, cls: sel ? 'item sel' : 'item', kicker: p.kind + ' · ' + p.area, title: p.title, desc: p.note, addr: p.addr || '', addrText: '', facts: p.hasFacts || !!p.pub, hours: p.hours, price: p.price, factsCls: p.factsCls, src: !!p.src, checked: p.checked || '', needs: '', genre: '', dur: p.dur, replace: true, idea: false, toDay: toDay || 'В воскресенье', eve: false };
+  }
+  pizza(n, eve) { return { n: n, cls: 'item', kicker: 'Занятие · дома', title: 'Римская пицца: тесто 48–72 ч в холодильнике', desc: '', addr: '', addrText: '', facts: false, src: false, needs: 'Мука, Вода комнатной температуры, Оливковое масло extra virgin и ещё 5', genre: '', dur: 'Около 3 ч', replace: false, idea: true, toDay: 'В воскресенье', eve: !!eve }; }
+  film(n) { return { n: n, cls: 'item', kicker: 'Занятие · дома', title: 'Киновечер дома', desc: '', addr: '', addrText: '', facts: false, src: false, needs: 'Экран, Фильм по выбору в пределах слота', genre: 'Уютное кино · Ешь,Молись,Люби', dur: 'Около 2 ч', replace: false, idea: true, toDay: 'В воскресенье', eve: false }; }
+  renderVals() {
+    var m = !!this.props.mobile, st = this.props.state || 'mixed', c = WS.common(m, 1);
+    var prepMissed = 'Срок подготовки прошёл. Если заготовки нет, выберите дату позже воскресенья, 15 ноября';
+    var cityText = 'Проверьте часы и стоимость на дату визита. Адреса открываются в Яндекс Картах.', homeText = 'Проверьте, что всё нужное есть дома.';
+    var days = [];
+    if (st === 'home' || st === 'outdated') {
+      days = [{ n: '01', num: '1', title: 'Суббота, 14 ноября', start: false, bannerText: homeText, prep: prepMissed, items: [this.pizza('01'), this.film('02')] }];
+    } else if (st === 'mixed') {
+      var zr = { n: '01', cls: 'item', kicker: 'Занятие · в городе', title: 'Погулять по парку «Зарядье»', desc: '', addr: 'ул. Варварка, 6, стр. 1', addrText: '', facts: false, src: false, needs: 'Одежда по погоде, Проверьте условия доступа перед выходом', genre: '', dur: 'Около 55 мин', replace: false, idea: true, toDay: 'В воскресенье', eve: false };
+      days = [{ n: '01', num: '1', title: 'Суббота, 14 ноября', start: true, bannerText: cityText, prep: prepMissed, items: [zr, this.pizza('02', true)] }];
+    } else if (st === 'two') {
+      days = [
+        { n: '01', num: '1', title: 'Суббота, 14 ноября', start: true, bannerText: cityText, prep: '', items: [this.placeItem('patriarch', '01', true, 'В воскресенье'), this.placeItem('impression', '02'), this.placeItem('hermitage', '03')] },
+        { n: '02', num: '2', title: 'Воскресенье, 15 ноября', start: true, bannerText: cityText, prep: '', items: [this.placeItem('tretyakov', '01', false, 'В субботу'), this.placeItem('muzeon', '02', false, 'В субботу'), this.placeItem('gorky', '03', false, 'В субботу')] }
+      ];
+      days[1].items.forEach(function (i) { i.toDay = 'В субботу'; });
+    } else if (st === 'limit') {
+      var cust = { n: '06', cls: 'item', kicker: 'Свой пункт', title: 'Кофе с собой', desc: '', addr: '', addrText: 'Тверская ул., 9', facts: false, src: false, needs: '', genre: '', dur: 'Около 20 мин', replace: false, idea: false, toDay: 'В воскресенье', eve: false };
+      days = [{ n: '01', num: '1', title: 'Суббота, 14 ноября', start: true, bannerText: cityText, prep: '', items: [this.placeItem('zaryadye', '01'), this.placeItem('hermitage', '02'), this.placeItem('ermolova', '03'), this.placeItem('patriarch', '04'), this.placeItem('mates', '05'), cust] }];
+    }
+    var cnt = days.reduce(function (a, d) { return a + d.items.length; }, 0);
+    c.days = days;
+    c.isEmpty = st === 'empty'; c.hasPlan = st !== 'empty';
+    c.outdated = st === 'outdated'; c.twoDays = st === 'two'; c.refineOpen = st === 'two'; c.refineShut = st !== 'two';
+    c.showForm = st === 'home'; c.showToast = st === 'limit';
+    c.summary = (st === 'two' ? '2 дня · 6 пунктов' : '1 день · ' + (cnt === 2 ? '2 пункта' : '6 пунктов'));
+    return c;
+  }
+}
+</script>
+</body>
+</html>

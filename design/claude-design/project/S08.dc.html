@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>S08 Диалоги и уведомления — Weekend Search</title>
+<script src="./support.js"></script>
+<link rel="stylesheet" href="./ws.css">
+<script src="./ws.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700&amp;family=Onest:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>body{margin:0}.fo{outline:2px solid #3932bd;outline-offset:2px}.cap{font-size:13px;font-weight:600;color:#3932bd}</style>
+</helmet>
+<div class="pg" style="width: 1280px; padding: 64px; display: flex; flex-direction: column; gap: 36px">
+  <div style="display: flex; flex-direction: column; gap: 12px">
+    <span class="rub">Окна и уведомления</span>
+    <h1 class="h1" style="font-size: 56px">Диалоги и уведомления<span class="st"></span></h1>
+    <p class="lead">Окна открываются поверх затемнения. Фокус при открытии стоит на «Отмена», у разрушающих кнопок рамка и текст красные. Здесь они показаны рядом, без затемнения.</p>
+  </div>
+
+  <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px; align-items: start">
+    <div style="display: flex; flex-direction: column; gap: 10px"><span class="cap">Отправка пожелания, когда план не пуст</span>
+      <div class="dlg" role="dialog" aria-modal="true" aria-labelledby="d1" style="position: static"><h2 id="d1">В плане уже есть пункты</h2>
+        <div class="acts" style="flex-direction: column; align-items: stretch"><button class="b1" style="width: 100%">Заменить план</button><button class="b2" style="width: 100%">Добавить в субботу</button><button class="sm fo" style="width: 100%">Отмена</button></div>
+      </div>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 10px"><span class="cap">Очистить план</span>
+      <div class="dlg" role="dialog" aria-modal="true" aria-labelledby="d2" style="position: static"><h2 id="d2">Очистить план?</h2><p>Все пункты будут удалены. Отменить это нельзя.</p>
+        <div class="acts"><button class="sm stop" style="min-height: 44px">Очистить</button><button class="sm fo">Отмена</button></div>
+      </div>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 10px"><span class="cap">Загрузка файла, план не пуст</span>
+      <div class="dlg" role="dialog" aria-modal="true" aria-labelledby="d3" style="position: static"><h2 id="d3">Заменить текущий план планом из файла?</h2>
+        <div class="acts"><button class="b1" style="height: 44px; font-size: 14px">Заменить план</button><button class="sm fo">Отмена</button></div>
+      </div>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 10px"><span class="cap">Убрать второй день</span>
+      <div class="dlg" role="dialog" aria-modal="true" aria-labelledby="d4" style="position: static"><h2 id="d4">Во втором дне есть пункты</h2>
+        <div class="acts" style="flex-direction: column; align-items: stretch"><button class="b1" style="width: 100%">Перенести в первый день</button><button class="sm stop" style="width: 100%">Удалить пункты</button><button class="sm fo" style="width: 100%">Отмена</button></div>
+      </div>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 10px"><span class="cap">Убрать второй день, в первом нет места</span>
+      <div class="dlg" role="dialog" aria-modal="true" aria-labelledby="d5" style="position: static"><h2 id="d5">Во втором дне есть пункты</h2><p>В первом дне не хватает места</p>
+        <div class="acts"><button class="b1 disabled" disabled style="height: 44px; font-size: 14px">Перенести в первый день</button><button class="sm stop" style="min-height: 44px">Удалить пункты</button><button class="sm fo">Отмена</button></div>
+      </div>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 10px"><span class="cap">Заменить место</span>
+      <div class="dlg" role="dialog" aria-modal="true" aria-labelledby="d6" style="position: static"><h2 id="d6">Другое место</h2>
+        <label class="fld">Найти место<input class="inp" type="search" placeholder="Найти место"></label>
+        <div style="display: flex; flex-direction: column; gap: 6px"><div class="film"><b>Сад «Эрмитаж»</b><span class="small">Тверской</span></div><div class="film"><b>Парк «Зарядье»</b><span class="small">Тверской</span></div><div class="film"><b>Музеон</b><span class="small">Якиманка</span></div></div>
+        <button class="sm fo">Отмена</button>
+      </div>
+    </div>
+  </div>
+
+  <div style="display: flex; flex-direction: column; gap: 14px; max-width: 760px">
+    <span class="rub">Уведомления</span>
+    <div class="toast" role="status"><span>Добавлено в субботу</span><button>Отменить</button></div>
+    <div class="toast" role="status"><span>Добавлено 2 из 3, остальные уже в плане</span><button>Отменить</button></div>
+    <div class="toast" role="status"><span>Уже в плане: суббота</span><a href="#">Открыть план</a></div>
+    <div class="toast" role="status"><span>В субботе не хватает места: в дне не больше 6 пунктов</span><a href="#">Добавить в воскресенье</a></div>
+    <div class="toast" role="status"><span>Убрано</span><button class="fo">Отменить</button></div>
+    <div class="toast" role="status"><span>Перенесено в воскресенье</span></div>
+    <div class="toast" role="alert" style="background: #b3261e; box-shadow: 4px 4px 0 #191821"><span>Не удалось прочитать план</span></div>
+    <span class="small">Одна область на экран, над нижней панелью. Исчезает через 8 секунд, таймер стоит, пока на уведомлении фокус или курсор.</span>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":1700}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

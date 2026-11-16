@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>S05 Маршрут — Weekend Search</title>
+<script src="./support.js"></script>
+<link rel="stylesheet" href="./ws.css">
+<script src="./ws.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700&amp;family=Onest:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>body{margin:0}</style>
+</helmet>
+<div class="{{cls}}" style="width: {{w}}px">
+  <div class="tw" style="width: {{w}}px; height: {{vh}}px">
+    <sc-for list="{{layers}}" as="l" hint-placeholder-count="1"><svg width="{{w}}" height="{{vh}}" viewBox="0 0 {{w}} {{vh}}" fill="none" aria-hidden="true"><path d="{{l.d}}" stroke="{{l.c}}" stroke-width="{{l.w}}" stroke-linecap="{{l.cap}}"></path></svg></sc-for>
+  </div>
+
+  <header class="hdr">
+    <a class="logo" href="#" aria-label="Weekend Search — главная"><svg width="34" height="34" viewBox="-23 -23 46 46" fill="none" aria-hidden="true"><path d="{{logo.ink}}" stroke="#191821" stroke-width=".5"></path><path d="{{logo.acc}}" stroke="#3932bd" stroke-width=".55"></path><path d="{{logo.ring}}" stroke="#191821" stroke-width=".7"></path><circle r="2.4" fill="#ffcd00" stroke="#191821" stroke-width=".5"></circle></svg>weekend<span>search</span></a>
+    <nav class="nav" aria-label="Основная навигация"><a href="#">Идеи для дня</a><a class="on" href="#" aria-current="page">Маршруты</a><a href="#">Места</a><a href="#">Мой план</a></nav>
+    <div class="pal" role="group" aria-label="Цвет сайта"><sc-for list="{{pal}}" as="s" hint-placeholder-count="9"><button aria-label="Цвет сайта" aria-pressed="{{s.on}}"><i style="background: {{s.c}}; height: {{s.h}}"></i></button></sc-for></div>
+  </header>
+
+  <main class="z wrap" style="padding-top: 24px">
+    <a class="back" href="#">← Маршруты</a>
+    <div style="display: flex; flex-direction: column; gap: 18px; margin-top: 12px; max-width: 760px">
+      <span class="rub">Маршрут · Два дня</span>
+      <h1 class="h1" style="font-size: {{h1s}}px">Большие выходные<span class="st"></span></h1>
+      <p class="lead">Два разных настроения за два дня</p>
+      <p class="meta" style="font-size: 14px">Разные районы · 6 мест · 2 дня</p>
+      <div style="display: flex; gap: 12px; align-items: center; flex-wrap: wrap"><a class="b1 w" href="#">Сделать план на два дня</a><span class="small">В плане сейчас один день</span></div>
+    </div>
+
+    <div class="g3" style="margin-top: 40px">
+      <sc-for list="{{day1}}" as="p" hint-placeholder-count="3">
+        <article class="card"><div class="cb">
+          <div class="nh"><span class="num" style="font-size: 24px">{{p.n}}</span><span class="meta">{{p.kind}} · {{p.area}}</span></div>
+          <h3 class="ttl">{{p.title}}</h3>
+          <p class="dsc">{{p.note}}</p>
+          <sc-if value="{{p.addr}}" hint-placeholder-val="{{ true }}"><a class="lk big" href="#">{{p.addr}} ↗</a></sc-if>
+          <sc-if value="{{p.pub}}" hint-placeholder-val="{{ false }}"><a class="lk" href="#">Найти на карте ↗</a></sc-if>
+          <div class="{{p.factsCls}}">
+            <div class="fc"><span class="fl">Часы</span><span class="fv">{{p.hours}}</span></div>
+            <sc-if value="{{p.price}}" hint-placeholder-val="{{ true }}"><div class="fc"><span class="fl">Стоимость</span><span class="fv">{{p.price}}</span></div></sc-if>
+          </div>
+          <sc-if value="{{p.src}}" hint-placeholder-val="{{ true }}"><div class="links"><a class="lk" href="#">Источник ↗</a><span class="meta">{{p.checked}}</span></div></sc-if>
+          <span class="meta">{{p.dur}}</span>
+        </div></article>
+      </sc-for>
+    </div>
+
+    <div class="eve" style="margin-top: 36px"><span>День 2</span></div>
+
+    <div class="g3" style="margin-top: 20px">
+      <sc-for list="{{day2}}" as="p" hint-placeholder-count="3">
+        <article class="card"><div class="cb">
+          <div class="nh"><span class="num" style="font-size: 24px">{{p.n}}</span><span class="meta">{{p.kind}} · {{p.area}}</span></div>
+          <h3 class="ttl">{{p.title}}</h3>
+          <p class="dsc">{{p.note}}</p>
+          <sc-if value="{{p.addr}}" hint-placeholder-val="{{ true }}"><a class="lk big" href="#">{{p.addr}} ↗</a></sc-if>
+          <div class="{{p.factsCls}}">
+            <div class="fc"><span class="fl">Часы</span><span class="fv">{{p.hours}}</span></div>
+            <sc-if value="{{p.price}}" hint-placeholder-val="{{ true }}"><div class="fc"><span class="fl">Стоимость</span><span class="fv">{{p.price}}</span></div></sc-if>
+          </div>
+          <sc-if value="{{p.src}}" hint-placeholder-val="{{ true }}"><div class="links"><a class="lk" href="#">Источник ↗</a><span class="meta">{{p.checked}}</span></div></sc-if>
+          <span class="meta">{{p.dur}}</span>
+        </div></article>
+      </sc-for>
+    </div>
+
+    <div style="margin-top: 32px"><a class="b1 w" href="#">Сделать план на два дня</a></div>
+  </main>
+
+  <footer class="foot"><span>Идеи, маршруты и места на выходные</span><div class="pal" role="group" aria-label="Цвет сайта"><sc-for list="{{pal}}" as="s" hint-placeholder-count="9"><button aria-label="Цвет сайта" aria-pressed="{{s.on}}"><i style="background: {{s.c}}; height: {{s.h}}"></i></button></sc-for></div></footer>
+
+  <sc-if value="{{mobile}}" hint-placeholder-val="{{ false }}"><nav class="bbar" aria-label="Основная навигация"><a href="#">Идеи для дня</a><a class="on" href="#" aria-current="page">Маршруты</a><a href="#">Места</a><a href="#">Мой план</a></nav></sc-if>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"mobile":{"editor":null,"default":""},"$preview":{"width":1280,"height":2300}}'>
+class Component extends DCLogic {
+  renderVals() {
+    var m = !!this.props.mobile, c = WS.common(m, 0.5);
+    c.h1s = m ? 44 : 72;
+    c.day1 = WS.list(['patriarch', 'impression', 'hermitage'], 1);
+    c.day2 = WS.list(['tretyakov', 'muzeon', 'gorky'], 4);
+    return c;
+  }
+}
+</script>
+</body>
+</html>

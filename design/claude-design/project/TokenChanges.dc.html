@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Изменения токенов — Weekend Search</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700&amp;family=Onest:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.rub{display:inline-flex;align-items:center;gap:8px;font-weight:600;font-size:14px;color:#3932bd;margin:0}
+table{border-collapse:collapse;width:100%;font-size:13.5px;line-height:1.4}
+th{text-align:left;font-size:13px;font-weight:700;padding:0 14px 9px 0;border-bottom:1.5px solid #191821}
+td{padding:8px 14px 8px 0;border-bottom:1px solid #191821;vertical-align:top}
+td:first-child{font-weight:700;width:180px}
+td:nth-child(2){width:270px}
+td:nth-child(3){width:290px;font-weight:500}
+.dot{display:inline-block;width:11px;height:11px;border-radius:2px;vertical-align:-1px;margin-right:6px;box-shadow:inset 0 0 0 1px #191821}
+</style>
+</helmet>
+<div style="width:1280px;min-height:1000px;box-sizing:border-box;padding:56px 64px;background:#f5f4f1;font-family:Onest,Arial,sans-serif;color:#191821;display:flex;flex-direction:column;gap:20px">
+  <div style="display:flex;flex-direction:column;gap:10px">
+    <p class="rub"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" aria-hidden="true"><path d="M12 2v20M2 12h20M4.9 4.9l14.2 14.2M19.1 4.9 4.9 19.1"></path></svg>Изменения токенов</p>
+    <h2 style="margin:0;font-family:'Inter Tight',Arial,sans-serif;font-weight:700;font-size:44px;line-height:1;letter-spacing:-.03em">Было, стало и почему</h2>
+  </div>
+  <table>
+    <thead><tr><th>Токен</th><th>Было</th><th>Стало</th><th>Почему</th></tr></thead>
+    <tbody>
+      <tr><td>Второстепенный текст</td><td><span class="dot" style="background:#595663"></span>#595663</td><td><span class="dot" style="background:#191821"></span>Чернила, кегль и вес меньше</td><td>Серый убран по правке заказчика</td></tr>
+      <tr><td>Линии</td><td><span class="dot" style="background:#d7d3dc"></span>#D7D3DC</td><td>Чернила, 1 px</td><td>Серый убран; линия стала чёткой</td></tr>
+      <tr><td>Рамка поля</td><td>Серая, контраст 1,34</td><td>Чернила, 1,5 px, контраст 15,99</td><td>WCAG 1.4.11 требует 3 : 1</td></tr>
+      <tr><td>Карточка</td><td>Полупрозрачная, размытая тень</td><td>Белая, рамка чернилами, подложка акцентом при наведении</td><td>Карточки «висели в воздухе»</td></tr>
+      <tr><td>Радиусы</td><td>9, 11, 5 и 999 px</td><td>4, 2 и 0 px</td><td>Крупные скругления и пилюли убраны по правке</td></tr>
+      <tr><td>Заголовки</td><td>Arial 800, трекинг −0,075</td><td>Inter Tight 700, −0,035</td><td>Arial был грубым; OFL, кириллица</td></tr>
+      <tr><td>Текст и кнопки</td><td>Manrope 400–800</td><td>Onest 400–700</td><td>Одна пара без спора «грубое и мягкое»</td></tr>
+      <tr><td>Номера</td><td>Georgia, курсив</td><td>Inter Tight 700, прямой</td><td>Фигурный курсив убран по правке</td></tr>
+      <tr><td>Рубрики</td><td>Consolas, заглавные, «01 / Подборки»</td><td>Onest 600 строчными, перед текстом звезда</td><td>Косая черта и моноширинные заглавные убраны; знак логотипа получил работу</td></tr>
+      <tr><td>Главная кнопка</td><td>Градиент, тень</td><td>Сплошной акцент</td><td>Градиент не работает с акцентом на выбор</td></tr>
+      <tr><td>Акцент</td><td><span class="dot" style="background:#3932bd"></span>Только #3932BD</td><td>9 ярких цветов по Pantone, по умолчанию прежний</td><td>Пользователь выбирает свой цвет</td></tr>
+      <tr><td>Старая зелёная тема</td><td><span class="dot" style="background:rgb(66,84,71)"></span>Пять зелёных, два бежевых</td><td>Чернила и белый</td><td>Наследие прежней темы</td></tr>
+      <tr><td>«Убрать»</td><td><span class="dot" style="background:rgb(248,233,223)"></span>Бежевая плашка</td><td><span class="dot" style="background:#b3261e"></span>Белая, рамка и текст #B3261E</td><td>Бежевый выбивался; контраст 6,56</td></tr>
+      <tr><td>Кнопки пункта, чипы</td><td>33 px, кегль 11–12</td><td>44 px, кегль 13</td><td>Область нажатия, читаемость</td></tr>
+      <tr><td>Мелкие подписи</td><td>9–10 px заглавными</td><td>13 px строчными</td><td>Читаемость на телефоне</td></tr>
+      <tr><td>Заголовок дня</td><td>capitalize</td><td>Как написано: «Суббота, 14 ноября»</td><td>Аудит, П3.1</td></tr>
+      <tr><td>Новые</td><td>—</td><td>Чернильная плашка статуса, кольцо фокуса, пунктир неактивного</td><td>Не хватало статуса подготовки и состояний</td></tr>
+    </tbody>
+  </table>
+  <p style="margin:0;font-size:13.5px;line-height:1.5;max-width:1000px"><b style="font-weight:700">Нужно согласие владелицы.</b> Шрифты, карточки и радиусы выходят за рамку ADR-005 «развить, а не перерисовать». Рубрики без «01 /» и шапка без «МОСКВА / WEEKEND GUIDE» меняют семь строк в microcopy.md.</p>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":1000}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

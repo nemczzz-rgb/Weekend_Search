@@ -240,7 +240,8 @@
 - Результат:
   - `docs/design-system/tokens.md` и `apps/web/src/styles/tokens.css`;
   - `docs/design-system/components.md` со спецификацией и состояниями;
-  - снимки макетов в `docs/design-system/mockups/` (PNG ≤ 300 КБ);
+  - `docs/design-system/mockups.md` — индекс макетов, сверка с чек-листом G3 и открытые вопросы; исходники холста в `design/claude-design/`; решение — `docs/decisions/ADR-006-visual-refresh.md`;
+  - снимки экранов в `docs/design-system/mockups/` (WebP, ≤ 1 МБ каждый) делаются **с собранных экранов** в TASK-048–050, а не с холста (решение Alex071004 16.11.2026: полный рендер холста не нужен, экраны будут собраны в коде);
   - `docs/design-system/illustrations.md` — список иллюстраций для Codex: id, сцена, размер, alt-текст.
 - Расхождения возвращаются в TASK-041 с перечнем.
 - Готово: G3.

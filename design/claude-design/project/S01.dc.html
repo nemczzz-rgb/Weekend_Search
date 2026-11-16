@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>S01 Главная — Weekend Search</title>
+<script src="./support.js"></script>
+<link rel="stylesheet" href="./ws.css">
+<script src="./ws.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700&amp;family=Onest:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>body{margin:0}</style>
+</helmet>
+<div class="{{cls}}" style="width: {{w}}px">
+  <div class="tw" style="width: {{w}}px; height: {{vh}}px">
+    <sc-for list="{{layers}}" as="l" hint-placeholder-count="1"><svg width="{{w}}" height="{{vh}}" viewBox="0 0 {{w}} {{vh}}" fill="none" aria-hidden="true"><path d="{{l.d}}" stroke="{{l.c}}" stroke-width="{{l.w}}" stroke-linecap="{{l.cap}}"></path></svg></sc-for>
+    <sc-if value="{{lampOn}}" hint-placeholder-val="{{ true }}"><svg width="{{w}}" height="{{vh}}" viewBox="0 0 {{w}} {{vh}}" fill="none" aria-hidden="true"><defs><radialGradient id="wsLamp"><stop offset="0" stop-color="#ffcd00" stop-opacity=".85"></stop><stop offset="1" stop-color="#ffcd00" stop-opacity="0"></stop></radialGradient></defs><circle cx="{{lampX}}" cy="{{lampY}}" r="{{lampR}}" fill="url(#wsLamp)"></circle><circle cx="{{lampX}}" cy="{{lampY}}" r="{{lampR2}}" fill="#ffcd00" stroke="#191821" stroke-width="1.2"></circle></svg></sc-if>
+  </div>
+
+  <header class="hdr">
+    <a class="logo" href="#" aria-label="Weekend Search — главная"><svg width="34" height="34" viewBox="-23 -23 46 46" fill="none" aria-hidden="true"><path d="{{logo.ink}}" stroke="#191821" stroke-width=".5"></path><path d="{{logo.acc}}" stroke="#3932bd" stroke-width=".55"></path><path d="{{logo.ring}}" stroke="#191821" stroke-width=".7"></path><circle r="2.4" fill="#ffcd00" stroke="#191821" stroke-width=".5"></circle></svg>weekend<span>search</span></a>
+    <nav class="nav" aria-label="Основная навигация"><a href="#">Идеи для дня</a><a href="#">Маршруты</a><a href="#">Места</a><a href="#">Мой план</a></nav>
+    <div class="pal" role="group" aria-label="Цвет сайта"><sc-for list="{{pal}}" as="s" hint-placeholder-count="9"><button aria-label="Цвет сайта" aria-pressed="{{s.on}}"><i style="background: {{s.c}}; height: {{s.h}}"></i></button></sc-for></div>
+  </header>
+
+  <main class="z">
+    <section class="wrap" style="padding-top: {{heroTop}}px; min-height: {{heroH}}px">
+      <div style="max-width: 640px; display: flex; flex-direction: column; gap: 22px">
+        <span class="rub">Москва</span>
+        <h1 class="poster">Выходные<br><span class="acc">в Москве</span></h1>
+        <p class="lead">Идеи для дня дома и в городе, маршруты и места. Соберите свой день.</p>
+        <div style="display: flex; gap: 10px; flex-wrap: wrap">
+          <a class="b1 w" href="#">Идеи для дня →</a>
+          <a class="b2 w" href="#">Найти место →</a>
+        </div>
+        <div class="wish" style="margin-top: 10px">
+          <label class="fld" for="wish">Что хочется?</label>
+          <div class="row"><input class="inp" id="wish" type="text" placeholder="Например: парк и спа-вечер"><a class="go off" href="#" aria-label="Подобрать по пожеланию">→</a></div>
+          <div class="chips"><a class="sm" href="#">музей, а вечером дома фильм</a><a class="sm" href="#">парк и спа-вечер</a><a class="sm" href="#">хочу весь день дома</a><a class="sm" href="#">пицца и кино</a></div>
+          <span class="small">Подбор работает по словам и темам.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap sec">
+      <div class="sech">
+        <div style="display: flex; flex-direction: column; gap: 10px"><span class="rub">Идеи для дня</span><h2 class="h2">Чем заняться</h2></div>
+        <a class="b2" href="#">Все идеи для дня (4) →</a>
+      </div>
+      <div class="g3">
+        <sc-for list="{{ideas3}}" as="c" hint-placeholder-count="3">
+          <a class="card" href="#"><div class="cb">
+            <span class="rub">{{c.kind}}</span>
+            <h3 class="ttl">{{c.title}}</h3>
+            <p class="dsc">{{c.summary}}</p>
+            <span class="meta">{{c.time}}</span>
+            <span class="meta">Понадобится: {{c.needs}}</span>
+            <sc-if value="{{c.lead}}" hint-placeholder-val="{{ true }}"><div class="status s-lead"><span>Начать за 2–3 дня<small>{{c.reason}}</small></span></div></sc-if>
+            <sc-if value="{{c.ok}}" hint-placeholder-val="{{ false }}"><div class="status s-ok"><span>Можно сегодня</span></div></sc-if>
+            <span class="open">Открыть →</span>
+          </div></a>
+        </sc-for>
+      </div>
+    </section>
+
+    <section class="wrap sec">
+      <div class="sech">
+        <div style="display: flex; flex-direction: column; gap: 10px"><span class="rub">Маршруты</span><h2 class="h2">По городу</h2></div>
+        <a class="b2" href="#">Все маршруты (34) →</a>
+      </div>
+      <div class="g3">
+        <sc-for list="{{routes3}}" as="r" hint-placeholder-count="3">
+          <a class="card" href="#"><div class="cb">
+            <span class="rub">{{r.theme}} · {{r.days}}</span>
+            <h3 class="ttl">{{r.title}}</h3>
+            <p class="dsc">{{r.sub}}</p>
+            <span style="font-size: 15px; font-weight: 600; line-height: 1.4">{{r.places}}</span>
+            <span class="meta">{{r.meta}}</span>
+            <span class="open">Открыть маршрут →</span>
+          </div></a>
+        </sc-for>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot"><span>Идеи, маршруты и места на выходные</span><div class="pal" role="group" aria-label="Цвет сайта"><sc-for list="{{pal}}" as="s" hint-placeholder-count="9"><button aria-label="Цвет сайта" aria-pressed="{{s.on}}"><i style="background: {{s.c}}; height: {{s.h}}"></i></button></sc-for></div></footer>
+
+  <sc-if value="{{mobile}}" hint-placeholder-val="{{ false }}"><nav class="bbar" aria-label="Основная навигация"><a href="#">Идеи для дня</a><a href="#">Маршруты</a><a href="#">Места</a><a href="#">Мой план</a></nav></sc-if>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"mobile":{"editor":null,"default":""},"$preview":{"width":1280,"height":2050}}'>
+class Component extends DCLogic {
+  renderVals() {
+    var m = !!this.props.mobile;
+    var c = WS.common(m, 0);
+    c.ideas3 = [WS.ideas[0], WS.ideas[2], WS.ideas[1]];
+    c.routes3 = WS.routes.slice(0, 3);
+    c.heroTop = m ? 40 : 96;
+    c.heroH = m ? 700 : 640;
+    return c;
+  }
+}
+</script>
+</body>
+</html>

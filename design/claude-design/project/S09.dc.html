@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>S09 Не найдено — Weekend Search</title>
+<script src="./support.js"></script>
+<link rel="stylesheet" href="./ws.css">
+<script src="./ws.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700&amp;family=Onest:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>body{margin:0}</style>
+</helmet>
+<div class="{{cls}}" style="width: {{w}}px; height: {{vh}}px">
+  <div class="tw" style="width: {{w}}px; height: {{vh}}px">
+    <sc-for list="{{layers}}" as="l" hint-placeholder-count="1"><svg width="{{w}}" height="{{vh}}" viewBox="0 0 {{w}} {{vh}}" fill="none" aria-hidden="true"><path d="{{l.d}}" stroke="{{l.c}}" stroke-width="{{l.w}}" stroke-linecap="{{l.cap}}"></path></svg></sc-for>
+  </div>
+
+  <header class="hdr">
+    <a class="logo" href="#" aria-label="Weekend Search — главная"><svg width="34" height="34" viewBox="-23 -23 46 46" fill="none" aria-hidden="true"><path d="{{logo.ink}}" stroke="#191821" stroke-width=".5"></path><path d="{{logo.acc}}" stroke="#3932bd" stroke-width=".55"></path><path d="{{logo.ring}}" stroke="#191821" stroke-width=".7"></path><circle r="2.4" fill="#ffcd00" stroke="#191821" stroke-width=".5"></circle></svg>weekend<span>search</span></a>
+    <nav class="nav" aria-label="Основная навигация"><a href="#">Идеи для дня</a><a href="#">Маршруты</a><a href="#">Места</a><a href="#">Мой план</a></nav>
+    <div class="pal" role="group" aria-label="Цвет сайта"><sc-for list="{{pal}}" as="s" hint-placeholder-count="9"><button aria-label="Цвет сайта" aria-pressed="{{s.on}}"><i style="background: {{s.c}}; height: {{s.h}}"></i></button></sc-for></div>
+  </header>
+
+  <main class="z wrap" style="padding-top: 56px">
+    <div style="display: flex; flex-direction: column; gap: 22px; max-width: 640px">
+      <a class="back" href="#">{{back}}</a>
+      <h1 class="h1">{{title}}<span class="st"></span></h1>
+      <div><a class="b1 w" href="#">{{cta}}</a></div>
+    </div>
+  </main>
+
+  <sc-if value="{{mobile}}" hint-placeholder-val="{{ false }}"><nav class="bbar" aria-label="Основная навигация"><a href="#">Идеи для дня</a><a href="#">Маршруты</a><a href="#">Места</a><a href="#">Мой план</a></nav></sc-if>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"mobile":{"editor":null,"default":""},"state":{"editor":null,"default":"idea"},"$preview":{"width":1280,"height":820}}'>
+class Component extends DCLogic {
+  renderVals() {
+    var m = !!this.props.mobile, route = this.props.state === 'route', c = WS.common(m, 0.4);
+    c.title = route ? 'Такого маршрута нет' : 'Такой идеи нет';
+    c.cta = route ? 'Ко всем маршрутам →' : 'Ко всем идеям для дня →';
+    c.back = route ? '← Маршруты' : '← Идеи для дня';
+    return c;
+  }
+}
+</script>
+</body>
+</html>

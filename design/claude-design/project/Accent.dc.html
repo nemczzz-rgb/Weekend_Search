@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Свой цвет — Weekend Search</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700&amp;family=Onest:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+button{font-family:Onest,Arial,sans-serif;cursor:pointer;margin:0}
+.seg{width:26px;height:44px;padding:0;border:0;background:none;display:flex;align-items:center}
+.seg i{width:calc(100% - 3px);margin:0 auto;display:block;border-radius:3px}
+.seg:focus-visible{outline:2px solid #191821;outline-offset:-6px}
+table{border-collapse:collapse;font-size:13.5px;line-height:1.4;width:100%}
+td,th{text-align:left;padding:7px 14px 7px 0;border-bottom:1px solid #191821}
+th{font-weight:700;border-bottom-width:1.5px}
+.dot{display:inline-block;width:12px;height:12px;border-radius:2px;vertical-align:-1px;margin-right:8px}
+</style>
+</helmet>
+<div style="width:1280px;min-height:1000px;box-sizing:border-box;padding:64px;background:#f5f4f1;font-family:Onest,Arial,sans-serif;color:#191821;display:flex;flex-direction:column;gap:28px">
+  <div style="display:flex;flex-direction:column;gap:12px">
+    <p style="font-weight:600;font-size:14px;margin:0;color:{{text}}">Свой цвет</p>
+    <p style="margin:0;max-width:880px;font-size:17px;line-height:1.5">Палитра стала узкой полоской без рамки. Она стоит в шапке на месте надписи «МОСКВА / WEEKEND GUIDE» и повторяется в подвале. Нажмите на цвет в Play: страница ниже перекрасится.</p>
+  </div>
+
+  <div style="display:flex;flex-direction:column;background:#fff;border:1.5px solid #191821;border-radius:4px;overflow:hidden">
+    <div style="display:flex;align-items:center;justify-content:space-between;height:72px;padding:0 28px;border-bottom:1px solid #191821">
+      <span style="font-family:'Inter Tight',Arial,sans-serif;font-size:22px;letter-spacing:-.03em;font-weight:700">weekend<span style="font-weight:500">search</span></span>
+      <span style="display:flex;gap:26px;font-size:14px;font-weight:600"><span>Идеи для дня</span><span>Маршруты</span><span>Места</span><span style="border-bottom:2px solid {{accent}};padding-bottom:2px">Мой план</span></span>
+      <div role="group" aria-label="Цвет сайта" style="display:flex">
+        <sc-for list="{{swatches}}" as="s" hint-placeholder-count="9">
+          <button class="seg" aria-label="{{s.name}}" aria-pressed="{{s.on}}" onClick="{{s.pick}}"><i style="background:{{s.hex}};height:{{s.h}}"></i></button>
+        </sc-for>
+      </div>
+    </div>
+
+    <div style="display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:28px;padding:32px 28px">
+      <div style="display:flex;flex-direction:column;gap:20px">
+        <h2 style="margin:0;font-family:'Inter Tight',Arial,sans-serif;font-weight:700;font-size:68px;line-height:.98;letter-spacing:-.035em">Выходные <span style="color:{{big}}">в Москве</span></h2>
+        <p style="margin:0;font-size:16px;line-height:1.5;max-width:440px">Идеи для дня дома и в городе, маршруты и места. Соберите свой день.</p>
+        <div style="display:flex;gap:10px;flex-wrap:wrap">
+          <button style="height:50px;padding:0 20px;border-radius:4px;border:1.5px solid {{accent}};background:{{accent}};color:{{on}};font-weight:600;font-size:16px">Идеи для дня →</button>
+          <button style="height:50px;padding:0 20px;border-radius:4px;border:1.5px solid #191821;background:#fff;color:#191821;font-weight:600;font-size:16px;box-shadow:4px 4px 0 {{accent}};transform:translate(-2px,-2px)">Найти место →</button>
+        </div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="display:flex;flex-direction:column;gap:8px;padding:16px 18px;background:{{tint}};border:2px solid {{accent}};border-radius:4px">
+          <div style="display:flex;align-items:baseline;gap:12px"><span style="font-family:'Inter Tight',Arial,sans-serif;font-weight:700;font-size:24px;color:{{big}}">01</span><span style="font-size:13px;font-weight:500">Сад · Тверской</span></div>
+          <span style="font-family:'Inter Tight',Arial,sans-serif;font-weight:600;font-size:26px;letter-spacing:-.025em">Сад «Эрмитаж»</span>
+          <a href="#" style="font-size:15px;font-weight:600;color:{{text}};text-decoration:underline;text-decoration-color:{{accent}};text-decoration-thickness:2px;text-underline-offset:4px">ул. Каретный Ряд, 3 ↗</a>
+        </div>
+        <div style="display:flex;gap:8px;flex-wrap:wrap">
+          <button style="height:44px;padding:0 14px;border-radius:4px;border:1.5px solid #191821;background:#fff;color:#191821;font-weight:600;font-size:13px">Все</button>
+          <button aria-pressed="true" style="height:44px;padding:0 14px;border-radius:4px;border:2px solid {{accent}};background:{{tint}};color:{{text}};font-weight:700;font-size:13px">✓ Дома</button>
+          <button style="height:44px;padding:0 14px;border-radius:4px;border:1.5px solid #191821;background:#fff;color:#191821;font-weight:600;font-size:13px">В городе</button>
+        </div>
+      </div>
+    </div>
+
+    <div style="display:flex;align-items:center;justify-content:space-between;height:60px;padding:0 28px;border-top:1px solid #191821;font-size:14px">
+      <span>Идеи, маршруты и места на выходные</span>
+      <div role="group" aria-label="Цвет сайта" style="display:flex">
+        <sc-for list="{{swatches}}" as="s" hint-placeholder-count="9">
+          <button class="seg" aria-label="{{s.name}}" aria-pressed="{{s.on}}" onClick="{{s.pick}}"><i style="background:{{s.hex}};height:{{s.h}}"></i></button>
+        </sc-for>
+      </div>
+    </div>
+  </div>
+
+  <div style="display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:40px;align-items:start">
+    <table>
+      <thead><tr><th>Цвет</th><th>Pantone</th><th>На экране</th><th>Текст на кнопке</th></tr></thead>
+      <tbody>
+        <tr><td><span class="dot" style="background:#3932bd"></span>Фиолетовый</td><td>фирменный, как на сайте</td><td>#3932BD</td><td>белый</td></tr>
+        <tr><td><span class="dot" style="background:#0047bb"></span>Синий</td><td>2728 C</td><td>#0047BB</td><td>белый</td></tr>
+        <tr><td><span class="dot" style="background:#0072ce"></span>Голубой</td><td>285 C</td><td>#0072CE</td><td>белый</td></tr>
+        <tr><td><span class="dot" style="background:#00b140"></span>Зелёный</td><td>354 C</td><td>#00B140</td><td>чернила</td></tr>
+        <tr><td><span class="dot" style="background:#fe5000"></span>Оранжевый</td><td>Orange 021 C</td><td>#FE5000</td><td>чернила</td></tr>
+        <tr><td><span class="dot" style="background:#e4002b"></span>Красный</td><td>185 C *</td><td>#E4002B</td><td>белый</td></tr>
+        <tr><td><span class="dot" style="background:#da1884"></span>Розовый</td><td>219 C *</td><td>#DA1884</td><td>белый</td></tr>
+        <tr><td><span class="dot" style="background:#753bbd"></span>Сиреневый</td><td>266 C *</td><td>#753BBD</td><td>белый</td></tr>
+        <tr><td><span class="dot" style="background:#191821"></span>Чернила</td><td>без цвета</td><td>#191821</td><td>белый</td></tr>
+      </tbody>
+    </table>
+    <div style="display:flex;flex-direction:column;gap:12px;font-size:14px;line-height:1.5">
+      <span><b style="font-weight:700">Сейчас выбран {{name}}.</b> Контраст текста на кнопке {{ratio}} : 1.</span>
+      <span>Жёлтый остался только у фонарика: на башне и в логотипе. В палитре его нет, статус «Начать за 2–3 дня» стал чернильной плашкой с белым текстом.</span>
+      <span>У ярких цветов есть правило. Если цвет на бумаге читается хуже 4,5 : 1, мелкий текст и ссылки остаются чернильными, а цвет уходит в заливки, рамки и подчёркивание. Так работают зелёный, оранжевый, красный, розовый и голубой.</span>
+      <span>* Экранные значения этих трёх номеров я взял по памяти и в интернете подтвердить не смог. Их нужно сверить с веером Pantone Solid Coated. Четыре остальных сверены по открытым таблицам.</span>
+    </div>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":1000}}'>
+class Component extends DCLogic {
+  renderVals() {
+    var list = [
+      ['Фиолетовый', '#3932bd'], ['Синий', '#0047bb'], ['Голубой', '#0072ce'], ['Зелёный', '#00b140'], ['Оранжевый', '#fe5000'],
+      ['Красный', '#e4002b'], ['Розовый', '#da1884'], ['Сиреневый', '#753bbd'], ['Чернила', '#191821']
+    ];
+    var accent = (this.state && this.state.accent) || '#3932bd';
+    var self = this, INK = '#191821';
+    function rgb(hex) { return [1, 3, 5].map(function (i) { return parseInt(hex.slice(i, i + 2), 16); }); }
+    function lum(hex) {
+      var c = rgb(hex).map(function (v) { v = v / 255; return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4); });
+      return 0.2126 * c[0] + 0.7152 * c[1] + 0.0722 * c[2];
+    }
+    function ratio(a, b) { var x = lum(a), y = lum(b); return (Math.max(x, y) + 0.05) / (Math.min(x, y) + 0.05); }
+    var onWhite = ratio('#ffffff', accent), onInk = ratio(INK, accent);
+    var on = onWhite >= 4.5 || onWhite > onInk ? '#ffffff' : INK;
+    var onPaper = ratio(accent, '#f5f4f1');
+    var tint = 'rgb(' + rgb(accent).map(function (v) { return Math.round(v * 0.1 + 255 * 0.9); }).join(',') + ')';
+    var name = 'фиолетовый';
+    var swatches = list.map(function (s) {
+      var sel = s[1] === accent;
+      if (sel) name = s[0].toLowerCase();
+      return { name: s[0], hex: s[1], on: sel ? 'true' : 'false', h: sel ? '22px' : '8px', pick: function () { self.setState({ accent: s[1] }); } };
+    });
+    return {
+      accent: accent, tint: tint, name: name, swatches: swatches, on: on,
+      text: onPaper >= 4.5 ? accent : INK,
+      big: onPaper >= 3 ? accent : INK,
+      ratio: (on === '#ffffff' ? onWhite : onInk).toFixed(1).replace('.', ',')
+    };
+  }
+}
+</script>
+</body>
+</html>
