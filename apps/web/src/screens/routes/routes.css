@@ -1,0 +1,10 @@
+/* S04 «Маршруты», S05 «Маршрут». */
+.ws-routes-tools { display:flex; flex-wrap:wrap; gap:16px 24px; align-items:end; padding:24px 0; }
+.ws-routes-tools .ws-field { min-width:240px; }
+.ws-routes-tools select { min-height:44px; padding:0 12px; border:var(--ws-border); border-radius:4px; background:var(--ws-white); }
+.ws-routes-results { display:flex; flex-wrap:wrap; align-items:center; gap:12px; margin-bottom:16px; }
+.ws-routes-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:24px; }
+.ws-route-add { margin:24px 0; }
+.ws-route-places { list-style:none; margin:0; padding:0; display:grid; gap:16px; max-width:860px; }
+@media (max-width:1023px) { .ws-routes-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+@media (max-width:767px) { .ws-routes-grid { grid-template-columns:1fr; } }

@@ -13,7 +13,8 @@ import { draftFromWish } from '../../plan/wish.ts'
 import { Banner, Button, Dialog, EmptyState, EveningDivider, Field, LoadError, PageHeading, PlanDayCard, PlanItemCard, Segmented, Skeleton, SourceFacts, StorageBar, TextLink, WishInput } from '../../ui/components.tsx'
 import { capitalize, dayLabel, daysWord, eventDates, formatMinutes, inDay, itemsWord, notLaterThan, toDay } from '../../app/format.ts'
 import { Notice, useNotice } from '../../app/Notice.tsx'
-import { planStore, usePlanState } from '../../app/plan-state.ts'
+import { planStore, setActiveDay, usePlanState } from '../../app/plan-state.ts'
+import { eventOn, placeAddressText, placeFacts, placeMapHref as mapHref } from '../../app/places.ts'
 import { useResource } from '../../app/resource.ts'
 import { viewHref } from '../../app/routing.ts'
 import { takePendingWish } from '../../app/wish-intent.ts'
@@ -32,7 +33,7 @@ async function loadData(source: ContentSource): Promise<Data> {
   return { places, events, activities, ideas, routes, films }
 }
 
-const eventFits = (event: Event | undefined, date: string) => Boolean(event && event.dateStart <= date && date <= (event.dateEnd ?? event.dateStart))
+const eventFits = eventOn
 
 export function PlanScreen({ store = planStore, source = getContentSource(), now = () => new Date() }: { store?: PlanStore; source?: ContentSource; now?: () => Date }) {
   const resource = useResource(() => loadData(source), [source])
@@ -67,6 +68,7 @@ function LoadedPlan({ data, store, now }: { data: Data; store: PlanStore; now: D
   const save = (next: Plan | null) => { void store.set(next) }
   const selectDay = (index: number) => {
     setDayParam(index)
+    setActiveDay(index)
     const query = new URLSearchParams(location.search)
     if (index === 0) query.delete('day'); else query.set('day', String(index + 1))
     history.replaceState(history.state, '', `${location.pathname}${query.toString() ? `?${query}` : ''}`)
@@ -242,20 +244,14 @@ function kindLabel(item: PlanItem, activity: Map<string, Activity>, place: Map<s
   }
 }
 
-function mapHref(p: Place): string {
-  if (p.address && p.mapLink && p.address.value === p.mapLink.address) return p.mapLink.url
-  if (p.address) return `https://yandex.ru/maps/?text=${encodeURIComponent(`Москва, ${p.address.value}`)}`
-  if (p.mapLink) return p.mapLink.url
-  return `https://yandex.ru/maps/?text=${encodeURIComponent(`${p.area === 'Подмосковье' ? 'Московская область' : 'Москва'}, ${p.title}`)}`
-}
 
 function PlaceFacts({ p }: { p: Place }) {
   return <>
     <p>{p.note}</p>
-    <TextLink href={mapHref(p)} external>{p.address?.value ?? p.hints?.address ?? p.mapLink?.address ?? 'Найти на карте'}</TextLink>
+    <TextLink href={mapHref(p)} external>{placeAddressText(p) ?? 'Найти на карте'}</TextLink>
     {p.publicSpace
       ? <p className="ws-caption">Городское пространство; возможны ограничения. Прогулка без билета.</p>
-      : <SourceFacts facts={[{ label: 'Часы', fact: p.hours, unknown: p.hints?.hours ?? 'Уточнить перед визитом' }, { label: 'Стоимость', fact: p.price, unknown: p.hints?.price ?? 'Нет подтверждённой цены' }]} linkedFacts={p.address ? [{ label: 'Адрес', fact: p.address }] : []} />}
+      : <SourceFacts facts={placeFacts(p)} linkedFacts={p.address ? [{ label: 'Адрес', fact: p.address }] : []} />}
   </>
 }
 
