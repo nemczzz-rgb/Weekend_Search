@@ -21,7 +21,19 @@ export default defineConfig(({ mode }) => {
   return {
     // GitHub Pages serves the site from /Weekend_Search/; local dev and Sites use the root.
     base: process.env.PAGES_BASE ?? '/',
-    plugins: [react()],
+    plugins: [
+      // Node 24 tests need JSON attributes; Vite serves dynamic JSON as JS modules.
+      // Remove only those options in this one adapter for browser dev/build (strict MIME).
+      {
+        name: 'browser-json-imports',
+        enforce: 'pre' as const,
+        transform(code: string, id: string) {
+          if (!id.replaceAll('\\', '/').endsWith('/content/static-source.ts')) return
+          return { code: code.replace(/,\s*\{\s*with:\s*\{\s*type:\s*['"]json['"]\s*\}\s*\}/g, ''), map: null }
+        },
+      },
+      react(),
+    ],
     server: { https, strictPort: true },
     preview: { https, strictPort: true },
   }

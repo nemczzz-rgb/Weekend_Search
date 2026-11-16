@@ -19,6 +19,8 @@ node tests/web/plan-store.test.mjs
 node tests/web/plan-today.test.mjs
 node tests/web/plan-wish.test.mjs
 node tests/web/portability.test.mjs
+node tests/web/ui-components.test.mjs
+node tests/web/day-ideas.test.mjs
 python -I -m unittest discover -s tests -v
 ```
 
