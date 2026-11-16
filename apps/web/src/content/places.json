@@ -14,17 +14,12 @@
     "address": {
       "value": "Московский просп., 2 · главный вход",
       "source": "https://www.izmailovsky-park.ru/adres",
-      "checkedAt": "2026-11-10"
+      "checkedAt": "2026-11-13"
     },
     "hours": {
-      "value": "Территория круглосуточно",
+      "value": "Территория парка открыта круглосуточно",
       "source": "https://www.izmailovsky-park.ru/adres",
-      "checkedAt": "2026-11-10"
-    },
-    "price": {
-      "value": "Вход свободный; аттракционы отдельно",
-      "source": "https://www.izmailovsky-park.ru/adres",
-      "checkedAt": "2026-11-10"
+      "checkedAt": "2026-11-13"
     },
     "mapLink": {
       "url": "https://yandex.ru/maps/-/CXCbaYMS",
@@ -44,19 +39,19 @@
       "свидание"
     ],
     "hours": {
-      "value": "По сеансам · ТЦ указывает 09:00–02:00",
-      "source": "https://colibricinema.ru/",
-      "checkedAt": "2026-11-10"
+      "value": "Ежедневно 09:00–02:00 по карточке кинотеатра у ТЦ",
+      "source": "https://www.kapitoliy.ru/ru/malls/kapitoliy-sevastopolsky/shopping/kinoteatr-kolibri",
+      "checkedAt": "2026-11-13"
     },
     "price": {
-      "value": "450–800 ₽ по проверенной афише",
-      "source": "https://colibricinema.ru/",
-      "checkedAt": "2026-11-10"
+      "value": "На сеансы 14 ноября 2026: 500–850 ₽",
+      "source": "https://colibricinema.ru/?date=2026%2F11%2F14&facility=b57ea270-eda1-4ae4-b1a4-df9eb088f8df",
+      "checkedAt": "2026-11-13"
     },
     "address": {
       "value": "Севастопольский просп., 11Е",
-      "source": "owner",
-      "checkedAt": "2026-11-10"
+      "source": "https://colibricinema.ru/",
+      "checkedAt": "2026-11-13"
     },
     "extraSources": [
       "https://www.kapitoliy.ru/ru/malls/kapitoliy-sevastopolsky/shopping/kinoteatr-kolibri"
@@ -81,17 +76,12 @@
     "address": {
       "value": "Воробьёвская наб., 37",
       "source": "https://moscow.parkalpak.ru/",
-      "checkedAt": "2026-11-10"
-    },
-    "hours": {
-      "value": "10:00–20:00 по главному блоку; на сайте есть другой график",
-      "source": "https://moscow.parkalpak.ru/",
-      "checkedAt": "2026-11-10"
+      "checkedAt": "2026-11-13"
     },
     "price": {
-      "value": "1 400 ₽ взрослый · 1 200 ₽ детский",
+      "value": "Взрослый — 1 400 ₽; детский — 1 200 ₽",
       "source": "https://moscow.parkalpak.ru/",
-      "checkedAt": "2026-11-10"
+      "checkedAt": "2026-11-13"
     },
     "mapLink": {
       "url": "https://yandex.ru/maps/org/park_alpak_simba/74506249230",
@@ -111,19 +101,19 @@
       "спокойно"
     ],
     "hours": {
-      "value": "По расписанию занятий",
+      "value": "Занятия по расписанию выбранной практики",
       "source": "https://ashram.pro/schedule/schedule-regular/",
-      "checkedAt": "2026-11-10"
+      "checkedAt": "2026-11-13"
     },
     "price": {
-      "value": "3 300 ₽ за ряд очных занятий",
+      "value": "Очная групповая хатха-йога — 3 300 ₽; другие практики по тарифам",
       "source": "https://ashram.pro/schedule/schedule-regular/",
-      "checkedAt": "2026-11-10"
+      "checkedAt": "2026-11-13"
     },
     "address": {
       "value": "Малая Никитская ул., 20, стр. 1",
-      "source": "owner",
-      "checkedAt": "2026-11-10"
+      "source": "https://ashram.pro/contacts/",
+      "checkedAt": "2026-11-13"
     },
     "mapLink": {
       "url": "https://yandex.ru/maps/org/ashram/62896534639",
@@ -144,19 +134,19 @@
       "друзья"
     ],
     "hours": {
-      "value": "Бронирование корта 07:00–00:00",
+      "value": "Аренда по опубликованной тарифной сетке: 07:00–00:00",
       "source": "https://malevich.cooltennis.ru/",
-      "checkedAt": "2026-11-10"
+      "checkedAt": "2026-11-13"
     },
     "price": {
-      "value": "Теннис 2 300–2 900 ₽/ч; сб–вс 2 500 ₽/ч",
+      "value": "Теннис: 2 300–2 900 ₽/ч; в субботу и воскресенье — 2 500 ₽/ч",
       "source": "https://malevich.cooltennis.ru/",
-      "checkedAt": "2026-11-10"
+      "checkedAt": "2026-11-13"
     },
     "address": {
-      "value": "Московская область, Одинцовский городской округ, парк Малевича",
-      "source": "owner",
-      "checkedAt": "2026-11-10"
+      "value": "Парк Малевича, Рублёво-Успенское шоссе",
+      "source": "https://malevich.cooltennis.ru/",
+      "checkedAt": "2026-11-13"
     },
     "mapLink": {
       "url": "https://yandex.ru/maps/org/cooltennis/194155465381",
@@ -178,17 +168,17 @@
     "hours": {
       "value": "Пн–пт 09:00–22:00; сб–вс 10:00–23:00",
       "source": "https://mates-group.ru/pizza/khamovniki",
-      "checkedAt": "2026-11-10"
+      "checkedAt": "2026-11-13"
     },
     "price": {
-      "value": "Без входного билета, заказ по меню",
-      "source": "https://mates-group.ru/pizza/khamovniki",
-      "checkedAt": "2026-11-10"
+      "value": "Пицца «Маргарита» — 650 ₽ по опубликованному меню",
+      "source": "https://mates-group.ru/pizza/khamovniki/menu",
+      "checkedAt": "2026-11-13"
     },
     "address": {
       "value": "Усачёва ул., 11А",
-      "source": "owner",
-      "checkedAt": "2026-11-10"
+      "source": "https://mates-group.ru/pizza/khamovniki",
+      "checkedAt": "2026-11-13"
     },
     "mapLink": {
       "url": "https://yandex.ru/maps/org/m_tes_pitstsa/81083329919",
@@ -207,20 +197,15 @@
       "высота",
       "канатная дорога"
     ],
-    "hours": {
-      "value": "График меняется, проверьте дату поездки",
-      "source": "https://srkvg.ru/kanatnaya-doroga/tarify/",
-      "checkedAt": "2026-11-10"
-    },
     "price": {
-      "value": "700 ₽ в одну сторону · 1 000 ₽ туда и обратно",
+      "value": "Взрослый (14+): 700 ₽ в одну сторону; 1 000 ₽ туда и обратно",
       "source": "https://srkvg.ru/kanatnaya-doroga/tarify/",
-      "checkedAt": "2026-11-10"
+      "checkedAt": "2026-11-13"
     },
     "address": {
       "value": "ул. Лужники, 24, стр. 59",
-      "source": "owner",
-      "checkedAt": "2026-11-10"
+      "source": "https://srkvg.ru/kanatnaya-doroga/kak-dobratsya/",
+      "checkedAt": "2026-11-13"
     },
     "extraSources": [
       "https://srkvg.ru/kanatnaya-doroga/grafik-raboty/"
@@ -244,19 +229,19 @@
       "тихо"
     ],
     "address": {
-      "value": "Новодевичий проезд · парк у прудов",
+      "value": "Москва, парк Новодевичьи пруды",
       "source": "https://kudamoscow.ru/place/park-novodevichji-prudy/",
-      "checkedAt": "2026-11-10"
+      "checkedAt": "2026-11-13"
     },
     "hours": {
-      "value": "Круглосуточно по справочнику",
+      "value": "Ежедневно круглосуточно по КудаМосква",
       "source": "https://kudamoscow.ru/place/park-novodevichji-prudy/",
-      "checkedAt": "2026-11-10"
+      "checkedAt": "2026-11-13"
     },
     "price": {
-      "value": "Прогулка без билета",
+      "value": "Бесплатно по карточке КудаМосква",
       "source": "https://kudamoscow.ru/place/park-novodevichji-prudy/",
-      "checkedAt": "2026-11-10"
+      "checkedAt": "2026-11-13"
     },
     "mapLink": {
       "url": "https://yandex.ru/maps/org/park_novodevichyi_prudy/90645137331",
@@ -277,19 +262,19 @@
       "18+"
     ],
     "hours": {
-      "value": "Вт–ср и вс 18:00–00:00; чт до 03:00; пт–сб до 04:30",
+      "value": "Вт–ср, вс 18:00–00:00; чт 18:00–03:00; пт–сб 18:00–04:30 по Restoran.ru",
       "source": "https://www.restoran.ru/msk/detailed/restaurants/dvoyka/",
-      "checkedAt": "2026-11-10"
+      "checkedAt": "2026-11-13"
     },
     "price": {
-      "value": "Средний чек 1 000–1 500 ₽ по Restoran.ru",
+      "value": "Средний счёт 1 000–1 500 ₽ по Restoran.ru",
       "source": "https://www.restoran.ru/msk/detailed/restaurants/dvoyka/",
-      "checkedAt": "2026-11-10"
+      "checkedAt": "2026-11-13"
     },
     "address": {
       "value": "ул. Солянка, 1/2с2",
-      "source": "owner",
-      "checkedAt": "2026-11-10"
+      "source": "https://www.restoran.ru/msk/detailed/restaurants/dvoyka/",
+      "checkedAt": "2026-11-13"
     },
     "mapLink": {
       "url": "https://yandex.ru/maps/org/shotoshnaya_dvoyka_na_solyanke/55653196374",
@@ -310,19 +295,19 @@
       "друзья"
     ],
     "hours": {
-      "value": "По афише, время зависит от концерта",
-      "source": "https://standuppatriki.com/1411si",
-      "checkedAt": "2026-11-10"
+      "value": "Время выбранного концерта указано в афише",
+      "source": "https://standuppatriki.com/afisha",
+      "checkedAt": "2026-11-13"
     },
     "price": {
-      "value": "Например, 2 000 ₽ за шоу 14 ноября",
+      "value": "Шоу «Самые известные комики» 14 ноября 2026 — 2 000 ₽",
       "source": "https://standuppatriki.com/1411si",
-      "checkedAt": "2026-11-10"
+      "checkedAt": "2026-11-13"
     },
     "address": {
       "value": "Садовая-Кудринская ул., 20",
-      "source": "owner",
-      "checkedAt": "2026-11-10"
+      "source": "https://standuppatriki.com/afisha",
+      "checkedAt": "2026-11-13"
     },
     "extraSources": [
       "https://standuppatriki.com/afisha"

@@ -41,7 +41,7 @@ function PlaceDetails({ place }: { place: Place }) {
     {visit.source && <div className="visit-source">
       <a href={visit.source} target="_blank" rel="noopener noreferrer">Источник ↗</a>
       {visit.secondarySource && <a href={visit.secondarySource} target="_blank" rel="noopener noreferrer">Подробнее ↗</a>}
-      <span>Проверено 10.11.2026</span>
+      {visit.checkedAt && <span>Проверено {visit.checkedAt.split('-').reverse().join('.')}</span>}
     </div>}
   </div>
 }

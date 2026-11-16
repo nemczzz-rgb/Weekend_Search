@@ -7,6 +7,7 @@ type Visit = {
   price?: string
   source?: string
   secondarySource?: string
+  checkedAt?: string
 }
 
 // Visit facts come from content/places.json; each fact carries its own source and check date.
@@ -28,6 +29,7 @@ export function getVisit(place: Place): Visit {
     price: record.price?.value ?? record.hints?.price,
     source: facts.find(fact => fact.source !== 'owner')?.source,
     secondarySource: record.extraSources?.[0],
+    checkedAt: facts.map(fact => fact.checkedAt).sort()[0],
   }
   return Object.fromEntries(Object.entries(visit).filter(([, value]) => value !== undefined)) as Visit
 }
