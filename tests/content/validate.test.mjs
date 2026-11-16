@@ -84,7 +84,19 @@ function expectError(name, mutate, pattern, options = {}) {
   data.routes[0].placeIds = ['park', 'square']
   assert.ok(run(data, { release: true }).errors.some(e => e.includes('routes (2–6 places) 1/50')))
   data.routes = data.routes.map(r => ({ ...r, placeIds: ['park', 'square'] }))
-  assert.ok(!run(data, { release: true }).errors.some(e => e.includes('routes (2–6 places)')))
+  const duplicates = run(data, { release: true })
+  assert.ok(duplicates.errors.some(e => e.includes('same set of places')))
+  assert.ok(duplicates.errors.some(e => e.includes('routes (2–6 places) 1/50')))
+  data.routes[1].placeIds = ['square', 'park']
+  assert.ok(run(data, { release: true }).errors.some(e => e.includes('routes (2–6 places) 1/50')))
+  data.routes = data.routes.map((r, i) => {
+    const id = 'point-' + i
+    data.places.push({ ...data.places[1], id })
+    return { ...r, placeIds: ['park', id] }
+  })
+  const unique = run(data, { release: true })
+  assert.ok(!unique.errors.some(e => e.includes('same set of places')))
+  assert.ok(!unique.errors.some(e => e.includes('routes (2–6 places)')))
 }
 
 // Existing films without posters and new films with verified local posters both pass.
