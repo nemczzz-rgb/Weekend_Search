@@ -4,10 +4,12 @@ import { useEffect, useRef, useState, type ReactNode } from 'react'
 import { DayIdeasScreen } from '../screens/day-ideas/index.ts'
 import { PlanScreen } from '../screens/plan/PlanScreen.tsx'
 import { HomeScreen } from '../screens/home/HomeScreen.tsx'
-import { TowerBackground } from '../TowerBackground.tsx'
-import { BottomNav, Footer, Header, PageHeading, type Accent } from '../ui/components.tsx'
+import { PlacesScreen } from '../screens/places/PlacesScreen.tsx'
+import { RoutesScreen } from '../screens/routes/RoutesScreen.tsx'
+import { BottomNav, Footer, Header, type Accent } from '../ui/components.tsx'
 import { planStore } from './plan-state.ts'
 import { interceptLinks, useShellRoute, viewHref, type View } from './routing.ts'
+import { TowerScene } from './tower/TowerScene.tsx'
 import '../ui/ui.css'
 import './app.css'
 
@@ -35,12 +37,12 @@ export function AppShell() {
   }, [route.serial, route.view, route.action])
 
   return <div className="ws-ui ws-app" data-accent={accent} data-view={route.view} onClick={event => interceptLinks(event, navigate)}>
-    <TowerBackground />
+    <TowerScene view={route.view} accent={accent} />
     <Header items={items} current={route.view} accent={accent} onAccentChange={setAccent} homeHref={viewHref('home')} />
     <div ref={main} className="ws-app-main">
       {route.view === 'day-ideas'
         ? <DayIdeasScreen key={route.serial} store={planStore} />
-        : <main id="main" className="ws-app-screen"><Screen view={route.view} navigate={navigate} /></main>}
+        : <main key={route.serial} id="main" className="ws-app-screen"><Screen view={route.view} navigate={navigate} /></main>}
     </div>
     <Footer accent={accent} onAccentChange={setAccent} />
     <BottomNav items={items} current={route.view} />
@@ -50,8 +52,8 @@ export function AppShell() {
 function Screen({ view, navigate }: { view: View; navigate: (href: string) => void }): ReactNode {
   switch (view) {
     case 'home': return <HomeScreen navigate={navigate} />
-    case 'routes': return <Pending title="Маршруты по городу" eyebrow="Маршруты" />
-    case 'places': return <Pending title="Места Москвы" eyebrow="Места" />
+    case 'routes': return <RoutesScreen />
+    case 'places': return <PlacesScreen />
     case 'plan': return <PlanScreen />
     default: return null
   }
@@ -59,9 +61,3 @@ function Screen({ view, navigate }: { view: View; navigate: (href: string) => vo
 
 
 
-function Pending({ title, eyebrow }: { title: string; eyebrow: string }) {
-  return <>
-    <PageHeading eyebrow={eyebrow}>{title}</PageHeading>
-    <p className="ws-caption">Экран собирается в TASK-050.</p>
-  </>
-}

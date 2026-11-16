@@ -1,0 +1,10 @@
+/* S06 «Места». */
+.ws-events { display:grid; gap:16px; padding:24px 0 40px; border-bottom:var(--ws-line); }
+.ws-events-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; }
+.ws-event-card h3 { margin:4px 0 8px; }
+.ws-places-tools { padding:24px 0 8px; max-width:520px; }
+.ws-places-count { margin-bottom:16px; }
+.ws-places-list { list-style:none; margin:0; padding:0; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; }
+.ws-place-highlight > .ws-card { outline:3px solid var(--ws-accent); outline-offset:2px; }
+@media (max-width:1023px) { .ws-events-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+@media (max-width:767px) { .ws-events-grid, .ws-places-list { grid-template-columns:1fr; } }

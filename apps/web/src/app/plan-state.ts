@@ -12,3 +12,8 @@ export function usePlanState(store: PlanStore = planStore): { plan: Plan | null;
   useEffect(() => store.subscribe(plan => setState({ plan, storageAvailable: store.storageAvailable })), [store])
   return state
 }
+
+/** R-ADD-2: «В план +» in catalogs adds to the day last opened on the plan screen (first by default). */
+let activeDay = 0
+export const getActiveDay = (plan: Plan | null) => (plan && activeDay < plan.days.length ? activeDay : 0)
+export const setActiveDay = (index: number) => { activeDay = index }

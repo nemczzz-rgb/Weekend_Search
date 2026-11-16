@@ -55,7 +55,7 @@
 | TASK-047 | Логика и хранилище плана | Готово | Alex071004/claude-repo | apps/web/src/plan/, apps/web/src/planner.ts, tests/web/plan-* | В main, после G3 и минимума KB · [#19](https://github.com/nemczzz-rgb/Weekend_Search/issues/19) |
 | TASK-048 | Токены и базовые компоненты | Готово | Alex071004/codex | apps/web/src/ui/, apps/web/src/styles/, apps/web/public/fonts/ | В main за dev-флагом · [#20](https://github.com/nemczzz-rgb/Weekend_Search/issues/20) |
 | TASK-049 | Экраны «Идеи для дня» | Готово | Alex071004/codex | apps/web/src/screens/day-ideas/ | В main за dev-флагом · [#21](https://github.com/nemczzz-rgb/Weekend_Search/issues/21) |
-| TASK-050 | Главная, места, маршруты, план, пожелание | В работе | Alex071004/claude-repo | apps/web/src/screens/, apps/web/src/App.tsx | В main за dev-флагом · [#22](https://github.com/nemczzz-rgb/Weekend_Search/issues/22) |
+| TASK-050 | Главная, места, маршруты, план, пожелание | На проверке | Alex071004/claude-repo | apps/web/src/screens/, apps/web/src/App.tsx | В main за dev-флагом · [#22](https://github.com/nemczzz-rgb/Weekend_Search/issues/22) |
 | TASK-051 | Иллюстрации | На проверке | Alex071004/codex | apps/web/public/images/ideas/ | После G3 · [#23](https://github.com/nemczzz-rgb/Weekend_Search/issues/23) |
 | TASK-052 | QA фичи и редизайна | Запланировано | Alex071004/claude-repo | docs/testing/day-ideas-report.md | Ворота G4 · [#24](https://github.com/nemczzz-rgb/Weekend_Search/issues/24) |
 | TASK-053 | Выпуск: включение новых экранов на сайте | Запланировано | Alex071004/claude-repo | PR, docs/project/public-sharing.md, memory/ | Ворота G5 · [#25](https://github.com/nemczzz-rgb/Weekend_Search/issues/25) |
@@ -68,6 +68,7 @@
 
 | TASK-058 | Сохранить утверждённый дизайн | На проверке | nemczzz-rgb/codex | design/approved/, design/iterations/, memory/ | Снимок текущего фронтенда в отдельной папке, будущие варианты отдельно |
 | TASK-059 | Правило авторства коммитов | На проверке | Alex071004/claude-repo | AGENTS.md, docs/project/codex-onboarding.md, memory/ | Без строк соавторства агентов: правило main блокировало PR #36 |
+| TASK-061 | Новая башня: этажи разделов, заставка, Кремль и Сити | На проверке | Alex071004/claude-repo | apps/web/src/app/tower/, apps/web/src/app/AppShell.tsx, apps/web/src/app/app.css, tests/web/tower-scene.test.mjs | В main за `?app=next`, после #74; по tokens.md «Башня и фон» и TowerNext |
 
 ## TASK-043 — пачка 1, 2026-11-13
 
@@ -372,3 +373,7 @@
 - places.json: четыре факта трёх существующих мест и две ссылки extraSources; events.json: три датированные программы. Старые 102 места (кроме названных полей), шесть событий и все 37 рабочих маршрутов сохранены. Бюджет еды/выставки ГЭС-2 и часы/бронь «Стрелки» неизвестны; её вариант не готов к переносу. AZ до 19 ноября на реэкспозиции, первый переход от прудов около 15 минут.
 - Исправлен обнаруженный отказ валидатора после московской полуночи: checkedAt сравнивается с Europe/Moscow, а не UTC; регрессия до/после полуночи и запрет действительно будущих дат проходят. Даты источников не подменены.
 - Весь tests/README.md прошёл; 18 unittest успешны. Проверена сохранность коллекций и совместимость трёх предложений с контрактом. Edge 390/1280: три изменённые карточки показывают факты и нужные ссылки, без горизонтальной прокрутки/ошибок браузера. --release ожидаемо отклоняется только из-за 27/50 многоточечных подборок; предложения не считаются выполнением минимума. Merge новой пачки и перенос предложений ещё не разрешены.
+
+- Перед PR включён свежий main f394b03 с #74/75 (маршруты/места Claude и башня). Конфликты только в CURRENT/LOG разрешены сохранением обоих разделов; обновлённые статусы TASKS и чужой код сохранены. Перед merge-коммитом повторяется весь актуальный tests/README.md, включая новый tower-scene. Собственные исходники экранов не добавляются.
+
+- Объединённая ветка с main f394b03 прошла весь обновлённый tests/README.md, включая tower-scene и 18 unittest; повторная проверка сохранности данных успешна. Конфликтных маркеров нет, записи Claude сохранены.
