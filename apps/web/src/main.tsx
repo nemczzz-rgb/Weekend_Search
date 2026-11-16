@@ -1,20 +1,11 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App'
-import './style.css'
-import './style-refresh.css'
-import './weekend-poster.css'
+// Since TASK-053 the site is the new app (app/). Design previews stay development-only (D11).
+import { start } from './app/entry.tsx'
 
-if (import.meta.env.DEV && new URLSearchParams(location.search).get('app') === 'next') {
-  void import('./app/dev-entry.tsx')
-} else if (import.meta.env.DEV && new URLSearchParams(location.search).get('ideas-preview') === '1') {
+const query = new URLSearchParams(location.search)
+if (import.meta.env.DEV && query.get('ideas-preview') === '1') {
   void import('./screens/day-ideas/dev-preview')
-} else if (import.meta.env.DEV && new URLSearchParams(location.search).get('ui') === '1') {
+} else if (import.meta.env.DEV && query.get('ui') === '1') {
   void import('./ui/preview')
 } else {
-  ReactDOM.createRoot(document.getElementById('root')!).render(
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>,
-  )
+  start(document.getElementById('root')!)
 }

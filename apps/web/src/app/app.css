@@ -1,3 +1,9 @@
+/* Page base for the site (TASK-053): the former global style.css is no longer loaded.
+   Kept from it on purpose: border-box sizing and links without underline (screens were checked that way). */
+*, *::before, *::after { box-sizing:border-box; }
+body { margin:0; min-width:320px; color:var(--ws-ink); background:var(--ws-paper); font-family:var(--ws-font-text); }
+a { color:inherit; text-decoration:none; }
+.ws-app .ws-footer { background:var(--ws-paper); }
 /* Host layout (TASK-050). Screen styles live with their screens; tokens in styles/tokens.css. */
 .ws-app { display:flex; flex-direction:column; }
 .ws-app-main { flex:1; }
