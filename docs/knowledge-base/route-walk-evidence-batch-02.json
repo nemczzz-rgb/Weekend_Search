@@ -1,0 +1,188 @@
+{
+  "checkedAt": "2026-11-16",
+  "attribution": "© OpenStreetMap contributors, ODbL 1.0; расчёт: FOSSGIS OSRM foot. Маркер «Четверга»: Яндекс Карты, только координата публичного заведения.",
+  "source": "https://routing.openstreetmap.de/about.html",
+  "policy": "https://operations.osmfoundation.org/policies/nominatim/",
+  "mapFeedback": "https://www.openstreetmap.org/fixthemap",
+  "method": "Разовые последовательные запросы с кэшем и паузой не менее 1 секунды. Все шесть ответов code=Ok и все шаги walking. Время алгоритмическое: без очередей, пауз, погоды и осмотра закрытий. Координата центра/маркера не считается дверью.",
+  "legs": [
+    {
+      "id": "ermolova--severyane",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.5992232,55.7581095;37.6064197,55.7564903?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "from": {
+        "id": "ermolova",
+        "lon": 37.5992232,
+        "lat": 55.7581095,
+        "source": "https://www.openstreetmap.org/way/1347996136",
+        "kind": "osm-marker",
+        "note": "Южный участок бульвара у Никитских Ворот; это точка дорожной линии, не вход и не полный обход бульвара."
+      },
+      "to": {
+        "id": "severyane",
+        "lon": 37.6064197,
+        "lat": 55.7564903,
+        "source": "https://www.openstreetmap.org/node/4027973852",
+        "kind": "osm-marker"
+      },
+      "distanceMetres": 552.2,
+      "durationSeconds": 441.8,
+      "waypointSnapMetres": [
+        5.112220955,
+        3.536721584
+      ],
+      "modes": [
+        "walking"
+      ]
+    },
+    {
+      "id": "severyane--architecture-museum",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.6064197,55.7564903;37.6069349,55.7525928?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "from": {
+        "id": "severyane",
+        "lon": 37.6064197,
+        "lat": 55.7564903,
+        "source": "https://www.openstreetmap.org/node/4027973852",
+        "kind": "osm-marker"
+      },
+      "to": {
+        "id": "architecture-museum",
+        "lon": 37.6069349,
+        "lat": 55.7525928,
+        "source": "https://www.openstreetmap.org/node/6178085159",
+        "kind": "osm-main-entrance"
+      },
+      "distanceMetres": 631,
+      "durationSeconds": 505,
+      "waypointSnapMetres": [
+        3.536721584,
+        1.120429254
+      ],
+      "modes": [
+        "walking"
+      ]
+    },
+    {
+      "id": "krymsky--strelka-bar",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.6054793,55.7364667;37.6092454,55.7425598?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "from": {
+        "id": "krymsky",
+        "lon": 37.6054793,
+        "lat": 55.7364667,
+        "source": "https://www.openstreetmap.org/way/160191346",
+        "kind": "osm-marker"
+      },
+      "to": {
+        "id": "strelka-bar",
+        "lon": 37.6092454,
+        "lat": 55.7425598,
+        "source": "https://www.openstreetmap.org/relation/9904144",
+        "kind": "osm-building-centre",
+        "note": "Центр строения 14с5, соответствующего адресу оператора; entrance=main у здания не доказывает вход именно в бар, поэтому не принят за дверь бара."
+      },
+      "distanceMetres": 953.9,
+      "durationSeconds": 763.3,
+      "waypointSnapMetres": [
+        0,
+        7.661606142
+      ],
+      "modes": [
+        "walking"
+      ]
+    },
+    {
+      "id": "strelka-bar--ges-two",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.6092454,55.7425598;37.6131296,55.7425648?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "from": {
+        "id": "strelka-bar",
+        "lon": 37.6092454,
+        "lat": 55.7425598,
+        "source": "https://www.openstreetmap.org/relation/9904144",
+        "kind": "osm-building-centre",
+        "note": "Центр строения 14с5, соответствующего адресу оператора; entrance=main у здания не доказывает вход именно в бар, поэтому не принят за дверь бара."
+      },
+      "to": {
+        "id": "ges-two",
+        "lon": 37.6131296,
+        "lat": 55.7425648,
+        "source": "https://www.openstreetmap.org/node/11627930911",
+        "kind": "osm-main-entrance"
+      },
+      "distanceMetres": 392.5,
+      "durationSeconds": 314,
+      "waypointSnapMetres": [
+        7.661606142,
+        0
+      ],
+      "modes": [
+        "walking"
+      ]
+    },
+    {
+      "id": "patriarch--chetverg",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.5918749,55.7643481;37.5945,55.771824?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "from": {
+        "id": "patriarch",
+        "lon": 37.5918749,
+        "lat": 55.7643481,
+        "source": "https://www.openstreetmap.org/relation/6897180",
+        "kind": "osm-marker"
+      },
+      "to": {
+        "id": "chetverg",
+        "lon": 37.5945,
+        "lat": 55.771824,
+        "source": "https://yandex.ru/maps/org/chetverg/145539923127/",
+        "kind": "yandex-venue-marker"
+      },
+      "distanceMetres": 1119.2,
+      "durationSeconds": 895.3,
+      "waypointSnapMetres": [
+        11.69902178,
+        1.509982647
+      ],
+      "modes": [
+        "walking"
+      ]
+    },
+    {
+      "id": "chetverg--az-museum",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.5945,55.771824;37.5938887,55.7722158?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "from": {
+        "id": "chetverg",
+        "lon": 37.5945,
+        "lat": 55.771824,
+        "source": "https://yandex.ru/maps/org/chetverg/145539923127/",
+        "kind": "yandex-venue-marker"
+      },
+      "to": {
+        "id": "az-museum",
+        "lon": 37.5938887,
+        "lat": 55.7722158,
+        "source": "https://www.openstreetmap.org/node/3554560005",
+        "kind": "osm-marker",
+        "note": "Маркер музея; публичный вход здания не установлен."
+      },
+      "distanceMetres": 58,
+      "durationSeconds": 46.5,
+      "waypointSnapMetres": [
+        1.509982647,
+        3.720106469
+      ],
+      "modes": [
+        "walking"
+      ]
+    }
+  ]
+}
