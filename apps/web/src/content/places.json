@@ -616,6 +616,11 @@
     "scheme": {
       "x": 55,
       "y": 67
+    },
+    "price": {
+      "value": "Взрослый билет в историческое здание — 700 ₽; специальные события проверяйте отдельно",
+      "source": "https://www.tretyakovgallery.ru/for-visitors/museums/istoricheskoe-zdanie/",
+      "checkedAt": "2026-11-16"
     }
   },
   {
@@ -1195,6 +1200,11 @@
     "hours": {
       "value": "Вт–вс 12:00–21:00; пн выходной",
       "source": "https://mmoma.ru/know/building/petrovka",
+      "checkedAt": "2026-11-16"
+    },
+    "price": {
+      "value": "Стандартный билет — 500 ₽; условия льгот и специальных событий уточняйте у музея",
+      "source": "https://mmoma.ru/know/aboutmuseum/tickets",
       "checkedAt": "2026-11-16"
     }
   },
