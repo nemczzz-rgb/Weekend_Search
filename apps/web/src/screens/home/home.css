@@ -1,0 +1,13 @@
+/* S01 «Главная». */
+.ws-home-poster { display:grid; gap:20px; max-width:760px; padding:24px 0 48px; }
+.ws-home-poster h1 { display:grid; font-size:clamp(48px, 8vw, 104px); line-height:.95; }
+.ws-home-accent { color:var(--ws-accent-text); }
+.ws-home-lead { font-size:18px; max-width:560px; }
+.ws-home-actions { display:flex; flex-wrap:wrap; gap:16px 24px; font-weight:600; }
+.ws-home-wish { display:grid; gap:12px; max-width:640px; }
+.ws-home-examples { display:flex; flex-wrap:wrap; gap:8px; }
+.ws-home-section { padding:40px 0; border-top:var(--ws-line); }
+.ws-home-section-head { display:flex; flex-wrap:wrap; justify-content:space-between; align-items:end; gap:16px; margin-bottom:24px; }
+.ws-home-grid { display:grid; grid-template-columns:repeat(3, minmax(0, 1fr)); gap:24px; }
+@media (max-width:1023px) { .ws-home-grid { grid-template-columns:repeat(2, minmax(0, 1fr)); } }
+@media (max-width:767px) { .ws-home-grid { grid-template-columns:1fr; } .ws-home-lead { font-size:16px; } }

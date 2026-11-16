@@ -16,6 +16,7 @@ import { Notice, useNotice } from '../../app/Notice.tsx'
 import { planStore, usePlanState } from '../../app/plan-state.ts'
 import { useResource } from '../../app/resource.ts'
 import { viewHref } from '../../app/routing.ts'
+import { takePendingWish } from '../../app/wish-intent.ts'
 import './plan.css'
 
 const AREAS = ['Тверской', 'Пресненский', 'Арбат', 'Хамовники', 'Басманный', 'Мещанский', 'Якиманка', 'Замоскворечье', 'Останкинский', 'Бутырский']
@@ -82,6 +83,8 @@ function LoadedPlan({ data, store, now }: { data: Data; store: PlanStore; now: D
     pendingFocus.current = undefined
     if (element) { if (element.tagName === 'H3') element.tabIndex = -1; element.focus() }
   }, [plan, dayParam])
+  // A wish sent from the home screen (S01) is applied here, with the same dialog when the plan is not empty.
+  useEffect(() => { const text = takePendingWish(); if (text) submitWish(text) }, []) // eslint-disable-line react-hooks/exhaustive-deps
   // A removed second day must not stay in the address (R-DAYS-2).
   useEffect(() => { if (plan && dayParam >= plan.days.length) selectDay(0) })
 
