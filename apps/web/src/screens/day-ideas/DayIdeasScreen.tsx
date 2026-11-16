@@ -66,7 +66,7 @@ function IdeaDetail(props: DetailProps) {
   const { id, source, onLoaded } = props, resource = useResource(() => loadIdea(source, id), [source, id])
   useEffect(() => { if (resource.data || resource.error) onLoaded() }, [resource.data, resource.error, onLoaded])
   if (!resource.data) return <><PageHeading eyebrow="Идеи для дня">Идея для дня</PageHeading>{resource.error ? <LoadError onRetry={resource.retry} /> : <Skeleton />}</>
-  if (!resource.data.idea) return <><PageHeading eyebrow="Идеи для дня">Идея не найдена</PageHeading><TextLink href={makeHref({ view: 'day-ideas', idea: undefined, genre: undefined })}>Идеи для дня</TextLink></>
+  if (!resource.data.idea) return <><PageHeading eyebrow="Идеи для дня">Такой идеи нет</PageHeading><TextLink href={makeHref({ view: 'day-ideas', idea: undefined, genre: undefined })}>Ко всем идеям для дня</TextLink></>
   return <LoadedIdea {...props} data={resource.data as IdeaData & { idea: DayIdea }} />
 }
 function LoadedIdea({ data, store, now, query, replace, source, notify }: DetailProps & { data: IdeaData & { idea: DayIdea } }) {

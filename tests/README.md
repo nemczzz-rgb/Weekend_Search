@@ -16,6 +16,7 @@ pnpm --dir apps/web build
 node tests/web/tower-background.test.mjs
 node tests/web/tower-scene.test.mjs
 node tests/web/visit-facts.test.mjs
+node tests/web/events-dates.test.mjs
 node tests/web/plan-store.test.mjs
 node tests/web/plan-today.test.mjs
 node tests/web/plan-wish.test.mjs
