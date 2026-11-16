@@ -58,3 +58,4 @@ a.ws-card:hover { transform:translate(-2px,-2px); box-shadow:var(--ws-lift); }.w
 .ws-film.ws-selected { border:var(--ws-border-selected); background:var(--ws-tint); box-shadow:var(--ws-lift); transform:translate(-2px,-2px); }
 
 .ws-dialog-actions button:focus { outline:var(--ws-focus); outline-offset:var(--ws-focus-offset); }
+.ws-film>img { height:auto; object-fit:contain; }

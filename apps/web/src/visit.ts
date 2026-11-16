@@ -1,5 +1,5 @@
-import { placeRecordById, type Place } from './data'
-import type { Fact } from './content/types'
+import { placeRecordById, type Place } from './data.ts'
+import type { Fact } from './content/types.ts'
 
 type Visit = {
   address?: string
