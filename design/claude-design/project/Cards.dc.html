@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Карточки — Weekend Search</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700&amp;family=Onest:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.rub{display:inline-flex;align-items:center;gap:8px;font-weight:600;font-size:14px;color:#3932bd;margin:0}
+.card{display:flex;flex-direction:column;border-radius:4px;background:#fff;border:1.5px solid #191821;overflow:hidden;color:#191821;text-decoration:none}
+.ill{aspect-ratio:3/2;background:repeating-linear-gradient(135deg,#efedf8 0 10px,#fff 10px 20px);border-bottom:1.5px solid #191821;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:600}
+.body{display:flex;flex-direction:column;gap:10px;padding:16px 18px 18px}
+.ttl{margin:0;font-family:'Inter Tight',Arial,sans-serif;font-weight:600;font-size:26px;line-height:1.08;letter-spacing:-.025em}
+.dsc{margin:0;font-size:14px;line-height:1.5}
+.meta{font-size:13px;font-weight:500;line-height:1.45}
+.st{display:flex;align-items:flex-start;gap:8px;padding:8px 10px;border-radius:2px;font-size:13px;font-weight:700;line-height:1.35}
+.st small{display:block;font-weight:500;font-size:13px}
+.ok{background:#efedf8}
+.later{background:#fff;box-shadow:inset 0 0 0 1.5px #191821}
+.lead{background:#191821;color:#fff}
+.open{font-weight:600;font-size:14px;color:#3932bd;margin-top:2px}
+.facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;padding:12px;border-radius:2px;background:#efedf8}
+.fl{font-size:13px}
+.fv{font-size:15px;font-weight:600;line-height:1.35}
+.lk{font-size:14px;font-weight:600;color:#3932bd}
+.num{font-family:'Inter Tight',Arial,sans-serif;font-weight:700;font-size:24px;color:#3932bd;line-height:1}
+.sec{display:flex;flex-direction:column;gap:18px;padding-top:26px;border-top:1px solid #191821}
+.add{height:44px;border-radius:4px;border:1.5px solid #3932bd;background:#3932bd;color:#fff;font-family:Onest,Arial,sans-serif;font-weight:600;font-size:14px;cursor:pointer}
+</style>
+</helmet>
+<div style="width:1280px;min-height:1500px;box-sizing:border-box;padding:64px;background:#f5f4f1;font-family:Onest,Arial,sans-serif;color:#191821;display:flex;flex-direction:column;gap:26px">
+  <div style="display:flex;flex-direction:column;gap:12px">
+    <p class="rub"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" aria-hidden="true"><path d="M12 2v20M2 12h20M4.9 4.9l14.2 14.2M19.1 4.9 4.9 19.1"></path></svg>Карточки</p>
+    <p style="margin:0;max-width:780px;font-size:17px;line-height:1.5">Данные взяты из базы знаний без изменений. На месте иллюстраций пока заглушки 3 : 2. Первая карточка показана в состоянии наведения.</p>
+  </div>
+
+  <div style="display:flex;flex-direction:column;gap:16px">
+    <p class="rub">Идея для дня</p>
+    <div style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px;align-items:start">
+      <a class="card" href="#" style="transform:translate(-2px,-2px);box-shadow:4px 4px 0 #3932bd">
+        <div class="ill">Иллюстрация 3 : 2</div>
+        <div class="body">
+          <span class="rub">Дома</span>
+          <h3 class="ttl">Римская пицца под киновечер</h3>
+          <p class="dsc">Готовим пиццу и выбираем фильм. Тесто выдерживается 48–72 часа: этот вечер нужно запланировать заранее.</p>
+          <span class="meta">Около 5 ч</span>
+          <div class="st lead"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true" style="flex:none;margin-top:1px"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg><span>Начать за 2–3 дня<small>Тесто 48–72 ч в холодильнике</small></span></div>
+          <span class="open">Открыть →</span>
+        </div>
+      </a>
+      <a class="card" href="#">
+        <div class="ill">Иллюстрация 3 : 2</div>
+        <div class="body">
+          <span class="rub">Вместе</span>
+          <h3 class="ttl">«Зарядье» и римская пицца дома</h3>
+          <p class="dsc">Сначала гуляем в парке, затем готовим пиццу дома. Тесто требует 48–72 часов в холодильнике заранее.</p>
+          <span class="meta">Около 3 ч 55 мин</span>
+          <div class="st lead"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true" style="flex:none;margin-top:1px"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg><span>Начать за 2–3 дня<small>Тесто 48–72 ч в холодильнике</small></span></div>
+          <span class="open">Открыть →</span>
+        </div>
+      </a>
+      <a class="card" href="#">
+        <div class="ill">Иллюстрация 3 : 2</div>
+        <div class="body">
+          <span class="rub">В городе</span>
+          <h3 class="ttl">Сад, бульвар и пруды</h3>
+          <p class="dsc">Соединяем сад «Эрмитаж», Тверской бульвар и Патриаршие пруды в спокойный городской день.</p>
+          <span class="meta">Около 2 ч 5 мин</span>
+          <div class="st ok"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#3932bd" stroke-width="2.8" aria-hidden="true" style="flex:none;margin-top:1px"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg><span>Можно сегодня</span></div>
+          <span class="open">Открыть →</span>
+        </div>
+      </a>
+      <a class="card" href="#">
+        <div class="body">
+          <span class="rub">Дома</span>
+          <h3 class="ttl">Фруктовый салат и история в картинках</h3>
+          <p class="dsc">Готовим лёгкое угощение и рисуем свою короткую историю, поодиночке или вместе.</p>
+          <span class="meta">Около 1 ч 15 мин</span>
+          <div class="st ok"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#3932bd" stroke-width="2.8" aria-hidden="true" style="flex:none;margin-top:1px"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg><span>Можно сегодня</span></div>
+          <span class="open">Открыть →</span>
+        </div>
+      </a>
+    </div>
+    <span class="meta">Слева направо: с причиной подготовки, смешанная, городская, без иллюстрации с самым длинным заголовком.</span>
+  </div>
+
+  <div class="sec">
+    <p class="rub">Статус «сегодня»</p>
+    <div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;align-items:start">
+      <div class="st ok" style="font-size:14px;padding:12px"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#3932bd" stroke-width="2.8" aria-hidden="true" style="flex:none"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg><span>Можно сегодня</span></div>
+      <div class="st later" style="font-size:14px;padding:12px"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true" style="flex:none"><rect x="4" y="5.5" width="16" height="14" rx="1"></rect><path d="M4 10h16M8.5 3.5v4M15.5 3.5v4"></path></svg><span>Лучше в другой день</span></div>
+      <div class="st lead" style="font-size:14px;padding:12px"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true" style="flex:none"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg><span>Начать за 2–3 дня<small>Тесто 48–72 ч в холодильнике</small></span></div>
+    </div>
+    <span class="meta">У каждого значения свой значок, свой текст и свой фон: акцент 10 %, белый с рамкой, чернильная плашка.</span>
+  </div>
+
+  <div class="sec">
+    <p class="rub">Маршрут и место</p>
+    <div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;align-items:start">
+      <a class="card" href="#">
+        <div class="body">
+          <span class="rub">Маршрут · С друзьями</span>
+          <h3 class="ttl">Пицца и прогулка у прудов</h3>
+          <p class="dsc">Пообедать в Mátes и выбрать время для Новодевичьих прудов</p>
+          <span class="meta">Москва · 2 места · 1 день</span>
+          <span style="font-size:15px;font-weight:600;line-height:1.4">Mátes Пицца · Парк Новодевичьи Пруды</span>
+          <span class="open">Открыть маршрут →</span>
+        </div>
+      </a>
+      <article class="card">
+        <div class="body">
+          <div style="display:flex;gap:12px;align-items:baseline"><span class="num">01</span><span class="meta">Сад · Тверской</span></div>
+          <h3 class="ttl">Сад «Эрмитаж»</h3>
+          <p class="dsc">Пауза среди деревьев</p>
+          <a class="lk" href="#">ул. Каретный Ряд, 3 ↗</a>
+          <div class="facts">
+            <div style="display:flex;flex-direction:column;gap:3px"><span class="fl">Часы</span><span class="fv">Круглосуточно</span></div>
+            <div style="display:flex;flex-direction:column;gap:3px"><span class="fl">Стоимость</span><span class="fv">Вход в сад свободный; события отдельно</span></div>
+          </div>
+          <div style="display:flex;flex-wrap:wrap;gap:6px 16px;align-items:center"><a class="lk" href="#">Источник ↗</a><span class="meta">Проверено 10 ноября 2026</span></div>
+          <span class="meta">Около 45 мин</span>
+          <button class="add" aria-label="Добавить Сад «Эрмитаж» в план">В план +</button>
+        </div>
+      </article>
+      <article class="card">
+        <div class="body">
+          <div style="display:flex;gap:12px;align-items:baseline"><span class="num">02</span><span class="meta">Бульвар · Тверской</span></div>
+          <h3 class="ttl">Тверской бульвар</h3>
+          <p class="dsc">Зелёный путь по центру</p>
+          <div class="facts" style="grid-template-columns:minmax(0,1fr)">
+            <div style="display:flex;flex-direction:column;gap:3px"><span class="fl">Часы</span><span class="fv">Уточнить перед визитом</span></div>
+          </div>
+          <a class="lk" href="#">Найти на карте ↗</a>
+          <span class="meta">Около 35 мин</span>
+          <button class="add" aria-label="Добавить Тверской бульвар в план">В план +</button>
+        </div>
+      </article>
+    </div>
+    <span class="meta">Справа — городское пространство без подтверждённых фактов.</span>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":1500}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

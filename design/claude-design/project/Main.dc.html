@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Цвет — Weekend Search</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700&amp;family=Onest:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.rub{display:inline-flex;align-items:center;gap:8px;font-weight:600;font-size:14px;color:#3932bd;margin:0}
+.sw{display:flex;flex-direction:column;border-radius:4px;overflow:hidden;background:#fff;border:1.5px solid #191821}
+.chip{height:88px;display:flex;align-items:flex-end;padding:12px;box-sizing:border-box;font-size:14px;font-weight:600;border-bottom:1.5px solid #191821}
+.meta{padding:12px 14px 14px;display:flex;flex-direction:column;gap:3px}
+.name{font-weight:700;font-size:15px}
+.val{font-size:13px;font-weight:500;font-variant-numeric:tabular-nums}
+.use{font-size:13px;line-height:1.4}
+.pair{display:flex;align-items:center;gap:12px;padding:12px 14px;border-radius:4px;font-size:14px;font-weight:500;border:1.5px solid #191821}
+.ratio{margin-left:auto;font-weight:700;font-variant-numeric:tabular-nums}
+.gone{display:flex;align-items:center;gap:10px;font-size:13px;text-decoration:line-through;text-decoration-thickness:1.5px}
+.gone i{width:22px;height:22px;border-radius:2px;display:block;flex:none}
+</style>
+</helmet>
+<div style="width:1280px;min-height:1180px;box-sizing:border-box;padding:64px;background:#f5f4f1;font-family:Onest,Arial,sans-serif;color:#191821;display:flex;flex-direction:column;gap:36px">
+  <div style="display:flex;flex-direction:column;gap:14px">
+    <p class="rub"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" aria-hidden="true"><path d="M12 2v20M2 12h20M4.9 4.9l14.2 14.2M19.1 4.9 4.9 19.1"></path></svg>Цвет</p>
+    <h1 style="margin:0;font-family:'Inter Tight',Arial,sans-serif;font-weight:700;font-size:68px;line-height:1;letter-spacing:-.035em">Бумага, чернила <span style="color:#3932bd">и один яркий цвет</span></h1>
+    <p style="margin:0;max-width:760px;font-size:17px;line-height:1.5">Серого в палитре больше нет. Второстепенный текст набран теми же чернилами, только мельче и тоньше. Линии и рамки — чернила или акцент.</p>
+  </div>
+
+  <div style="display:flex;flex-direction:column;gap:14px">
+    <p class="rub">Основа</p>
+    <div style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px">
+      <div class="sw"><div class="chip" style="background:#f5f4f1">Aa</div><div class="meta"><span class="name">Бумага</span><span class="val">#F5F4F1</span><span class="use">Фон страницы</span></div></div>
+      <div class="sw"><div class="chip" style="background:#ffffff">Aa</div><div class="meta"><span class="name">Белый</span><span class="val">#FFFFFF</span><span class="use">Карточки, поля</span></div></div>
+      <div class="sw"><div class="chip" style="background:#191821;color:#fff">Aa</div><div class="meta"><span class="name">Чернила</span><span class="val">#191821</span><span class="use">Весь текст, линии, рамки</span></div></div>
+      <div class="sw"><div class="chip" style="background:rgb(243,237,223)">Aa</div><div class="meta"><span class="name">Тёплая бумага</span><span class="val">#F3EDDF</span><span class="use">Фон под башней</span></div></div>
+    </div>
+  </div>
+
+  <div style="display:flex;flex-direction:column;gap:14px">
+    <p class="rub">Акцент и сигналы</p>
+    <div style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px">
+      <div class="sw"><div class="chip" style="background:#3932bd;color:#fff">Aa</div><div class="meta"><span class="name">Акцент</span><span class="val">#3932BD · меняется</span><span class="use">Кнопки, ссылки, рубрики, номера. Пользователь выбирает свой</span></div></div>
+      <div class="sw"><div class="chip" style="background:#efedf8;color:#3932bd">Aa</div><div class="meta"><span class="name">Акцент, 10 %</span><span class="val">#EFEDF8</span><span class="use">Выбранный пункт, плашка фактов. Считается от акцента</span></div></div>
+      <div class="sw"><div class="chip" style="background:#191821;color:#fff">Aa</div><div class="meta"><span class="name">Чернильная плашка</span><span class="val">#191821, текст белый</span><span class="use">«Начать за 2–3 дня», строка подготовки. Жёлтый #FFCD00 — только фонарик</span></div></div>
+      <div class="sw"><div class="chip" style="background:#fff;color:#b3261e">Aa</div><div class="meta"><span class="name">Стоп</span><span class="val">#B3261E</span><span class="use">«Убрать», ошибка в поле</span></div></div>
+    </div>
+  </div>
+
+  <div style="display:flex;flex-direction:column;gap:14px">
+    <p class="rub">Контраст, WCAG 2.2</p>
+    <div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px">
+      <div class="pair" style="background:#f5f4f1">Чернила на бумаге<span class="ratio">15,99</span></div>
+      <div class="pair" style="background:#f5f4f1;color:#3932bd">Акцент на бумаге<span class="ratio">8,07</span></div>
+      <div class="pair" style="background:#3932bd;color:#fff;border-color:#3932bd">Белый на акценте<span class="ratio">8,88</span></div>
+      <div class="pair" style="background:#efedf8">Чернила на акценте 10 %<span class="ratio">14,9</span></div>
+      <div class="pair" style="background:#191821;color:#fff">Белый на чернилах<span class="ratio">17,6</span></div>
+      <div class="pair" style="background:#fff;color:#b3261e;border-color:#b3261e">Стоп на белом<span class="ratio">6,56</span></div>
+    </div>
+    <p style="margin:0;font-size:14px;line-height:1.5">Рамка поля теперь чернильная, 1,5 px: её контраст с бумагой 15,99 вместо прежних 1,34.</p>
+  </div>
+
+  <div style="display:flex;flex-direction:column;gap:14px;padding-top:24px;border-top:1px solid #191821">
+    <p class="rub">Убрано</p>
+    <div style="display:flex;flex-wrap:wrap;gap:14px 36px">
+      <span class="gone"><i style="background:#595663"></i>Приглушённый текст #595663</span>
+      <span class="gone"><i style="background:#d7d3dc"></i>Серая линия #D7D3DC</span>
+      <span class="gone"><i style="background:#8a8696"></i>Серая рамка поля #8A8696</span>
+      <span class="gone"><i style="background:rgb(196,196,213)"></i>Рамка второй кнопки</span>
+      <span class="gone"><i style="background:rgb(66,84,71)"></i>Зелёные оттенки старой темы</span>
+      <span class="gone"><i style="background:rgb(248,233,223)"></i>Бежевая плашка «Убрать»</span>
+    </div>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":1180}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

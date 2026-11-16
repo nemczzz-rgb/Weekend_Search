@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>S04 Маршруты — Weekend Search</title>
+<script src="./support.js"></script>
+<link rel="stylesheet" href="./ws.css">
+<script src="./ws.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700&amp;family=Onest:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>body{margin:0}</style>
+</helmet>
+<div class="{{cls}}" style="width: {{w}}px">
+  <div class="tw" style="width: {{w}}px; height: {{vh}}px">
+    <sc-for list="{{layers}}" as="l" hint-placeholder-count="1"><svg width="{{w}}" height="{{vh}}" viewBox="0 0 {{w}} {{vh}}" fill="none" aria-hidden="true"><path d="{{l.d}}" stroke="{{l.c}}" stroke-width="{{l.w}}" stroke-linecap="{{l.cap}}"></path></svg></sc-for>
+  </div>
+
+  <header class="hdr">
+    <a class="logo" href="#" aria-label="Weekend Search — главная"><svg width="34" height="34" viewBox="-23 -23 46 46" fill="none" aria-hidden="true"><path d="{{logo.ink}}" stroke="#191821" stroke-width=".5"></path><path d="{{logo.acc}}" stroke="#3932bd" stroke-width=".55"></path><path d="{{logo.ring}}" stroke="#191821" stroke-width=".7"></path><circle r="2.4" fill="#ffcd00" stroke="#191821" stroke-width=".5"></circle></svg>weekend<span>search</span></a>
+    <nav class="nav" aria-label="Основная навигация"><a href="#">Идеи для дня</a><a class="on" href="#" aria-current="page">Маршруты</a><a href="#">Места</a><a href="#">Мой план</a></nav>
+    <div class="pal" role="group" aria-label="Цвет сайта"><sc-for list="{{pal}}" as="s" hint-placeholder-count="9"><button aria-label="Цвет сайта" aria-pressed="{{s.on}}"><i style="background: {{s.c}}; height: {{s.h}}"></i></button></sc-for></div>
+  </header>
+
+  <main class="z wrap">
+    <div class="pgh">
+      <span class="rub">Маршруты</span>
+      <h1 class="h1">Маршруты по городу<span class="st"></span></h1>
+      <p class="lead">Готовые подборки мест, которые можно добавить в свой день.</p>
+    </div>
+
+    <div style="display: grid; grid-template-columns: {{filterCols}}; gap: 12px; margin-top: 36px; max-width: 820px">
+      <label class="fld" for="q">Поиск<input class="inp" id="q" type="search" placeholder="Поиск: музей, парк, Арбат…" value="{{q}}"></label>
+      <label class="fld" for="th">Тема<select class="inp" id="th"><option>Тема: Все темы</option></select></label>
+    </div>
+    <div class="tools" style="margin-top: 16px"><span style="font-weight: 600" role="status">{{foundText}}</span><sc-if value="{{hasQuery}}" hint-placeholder-val="{{ false }}"><button class="bt">Сбросить ×</button></sc-if></div>
+
+    <sc-if value="{{showList}}" hint-placeholder-val="{{ true }}">
+      <div class="g3" style="margin-top: 20px">
+        <sc-for list="{{routes}}" as="r" hint-placeholder-count="6">
+          <a class="card" href="#"><div class="cb">
+            <span class="rub">{{r.theme}} · {{r.days}}</span>
+            <h3 class="ttl">{{r.title}}</h3>
+            <p class="dsc">{{r.sub}}</p>
+            <span style="font-size: 15px; font-weight: 600; line-height: 1.4">{{r.places}}</span>
+            <span class="meta">{{r.meta}}</span>
+            <span class="open">Открыть маршрут →</span>
+          </div></a>
+        </sc-for>
+      </div>
+    </sc-if>
+    <sc-if value="{{showEmpty}}" hint-placeholder-val="{{ false }}">
+      <div class="empty" style="margin-top: 20px; max-width: 620px"><span style="font-weight: 600; font-size: 18px; line-height: 1.4">По этому запросу маршрутов нет. Попробуйте другое слово или откройте «Места»</span><div style="display: flex; gap: 10px; flex-wrap: wrap"><a class="b2" href="#">Сбросить фильтры</a><a class="b1" href="#">Места →</a></div></div>
+    </sc-if>
+  </main>
+
+  <footer class="foot"><span>Идеи, маршруты и места на выходные</span><div class="pal" role="group" aria-label="Цвет сайта"><sc-for list="{{pal}}" as="s" hint-placeholder-count="9"><button aria-label="Цвет сайта" aria-pressed="{{s.on}}"><i style="background: {{s.c}}; height: {{s.h}}"></i></button></sc-for></div></footer>
+
+  <sc-if value="{{mobile}}" hint-placeholder-val="{{ false }}"><nav class="bbar" aria-label="Основная навигация"><a href="#">Идеи для дня</a><a class="on" href="#" aria-current="page">Маршруты</a><a href="#">Места</a><a href="#">Мой план</a></nav></sc-if>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"mobile":{"editor":null,"default":""},"state":{"editor":null,"default":""},"$preview":{"width":1280,"height":1700}}'>
+class Component extends DCLogic {
+  renderVals() {
+    var m = !!this.props.mobile, empty = this.props.state === 'empty', c = WS.common(m, 0.5);
+    c.filterCols = m ? 'minmax(0,1fr)' : 'minmax(0,1.4fr) minmax(0,1fr)';
+    c.showList = !empty; c.showEmpty = empty; c.hasQuery = empty;
+    c.q = empty ? 'аквапарк' : '';
+    c.foundText = empty ? 'Найдено 0' : 'Найдено 34';
+    return c;
+  }
+}
+</script>
+</body>
+</html>

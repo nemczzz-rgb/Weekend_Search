@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Логотип — Weekend Search</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700&amp;family=Onest:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.rub{font-weight:600;font-size:14px;color:#3932bd;margin:0}
+.v{display:flex;flex-direction:column;gap:12px;padding:22px;border-radius:4px;background:#fff;border:1.5px solid #191821;min-width:0}
+.v b{font-size:15px;font-weight:700}
+.v p{margin:0;font-size:13px;line-height:1.45}
+.lock{display:flex;align-items:center;gap:10px;font-family:'Inter Tight',Arial,sans-serif;font-size:22px;letter-spacing:-.03em;font-weight:700;padding-top:12px;border-top:1px solid #191821}
+.lock span{font-weight:500}
+.t{display:flex;flex-direction:column;gap:10px;min-width:0}
+.box{height:92px;border-radius:4px;background:#fff;border:1.5px solid #191821;display:flex;align-items:center;justify-content:center;gap:8px;padding:0 12px;box-sizing:border-box}
+.cap{font-size:13px;line-height:1.4}
+@keyframes ws-spin{to{transform:rotate(360deg)}}
+.spin{animation:ws-spin 6s linear infinite}
+@media (prefers-reduced-motion:reduce){.spin{animation:none}}
+</style>
+</helmet>
+<div style="width:1280px;min-height:1140px;box-sizing:border-box;padding:64px;background:#f5f4f1;font-family:Onest,Arial,sans-serif;color:#191821;display:flex;flex-direction:column;gap:26px">
+  <div style="display:flex;flex-direction:column;gap:12px">
+    <p class="rub">Логотип</p>
+    <p style="margin:0;max-width:880px;font-size:17px;line-height:1.5">Знак — Шуховская башня сверху, в центре горит огонь на мачте. Стержни построены по той же модели, что башня на сайте: шесть ярусов, 24 ноги в каждую сторону у четырёх нижних и 12 у двух верхних. Отличаются варианты числом ярусов.</p>
+  </div>
+
+  <div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px">
+    <div class="v">
+      <svg width="200" height="200" viewBox="-23 -23 46 46" fill="none" role="img" aria-label="Вариант А: все шесть ярусов"><defs><radialGradient id="lgA"><stop offset="0" stop-color="#ffcd00" stop-opacity=".6"></stop><stop offset="1" stop-color="#ffcd00" stop-opacity="0"></stop></radialGradient></defs><path d="{{a.ink}}" stroke="#191821" stroke-width=".2"></path><path d="{{a.acc}}" stroke="#3932bd" stroke-width=".22"></path><path d="{{a.ring}}" stroke="#191821" stroke-width=".34"></path><circle r="5.5" fill="url(#lgA)"></circle><circle r="1.5" fill="#ffcd00" stroke="#191821" stroke-width=".4"></circle><circle r=".5" fill="#fff"></circle></svg>
+      <b>А · Все шесть ярусов</b>
+      <p>Вся башня целиком: 240 стержней и семь колец. Работает от 64 px: в шапке на компьютере, на заставке, на обложках.</p>
+      <div class="lock"><svg width="40" height="40" viewBox="-23 -23 46 46" fill="none" aria-hidden="true"><path d="{{b.ink}}" stroke="#191821" stroke-width=".5"></path><path d="{{b.acc}}" stroke="#3932bd" stroke-width=".55"></path><path d="{{b.ring}}" stroke="#191821" stroke-width=".7"></path><circle r="2.4" fill="#ffcd00" stroke="#191821" stroke-width=".4"></circle></svg>weekend<span>search</span></div>
+    </div>
+    <div class="v">
+      <svg width="200" height="200" viewBox="-23 -23 46 46" fill="none" role="img" aria-label="Вариант Б: три яруса"><defs><radialGradient id="lgB"><stop offset="0" stop-color="#ffcd00" stop-opacity=".6"></stop><stop offset="1" stop-color="#ffcd00" stop-opacity="0"></stop></radialGradient></defs><path d="{{b.ink}}" stroke="#191821" stroke-width=".3"></path><path d="{{b.acc}}" stroke="#3932bd" stroke-width=".32"></path><path d="{{b.ring}}" stroke="#191821" stroke-width=".42"></path><circle r="6" fill="url(#lgB)"></circle><circle r="1.8" fill="#ffcd00" stroke="#191821" stroke-width=".4"></circle><circle r=".6" fill="#fff"></circle></svg>
+      <b style="color:#3932bd">Б · Три яруса через один · выбран</b>
+      <p>Первый, третий и пятый ярусы, между ними воздух. Стержней стало вдвое меньше: 60 вместо 120. В центре жёлтый фонарик.</p>
+      <div class="lock"><svg width="40" height="40" viewBox="-23 -23 46 46" fill="none" aria-hidden="true"><path d="{{b.ink}}" stroke="#191821" stroke-width=".5"></path><path d="{{b.acc}}" stroke="#3932bd" stroke-width=".55"></path><path d="{{b.ring}}" stroke="#191821" stroke-width=".7"></path><circle r="2.4" fill="#ffcd00" stroke="#191821" stroke-width=".4"></circle></svg>weekend<span>search</span></div>
+    </div>
+    <div class="v">
+      <svg width="200" height="200" viewBox="-23 -23 46 46" fill="none" role="img" aria-label="Вариант В: два нижних яруса"><defs><radialGradient id="lgC"><stop offset="0" stop-color="#ffcd00" stop-opacity=".6"></stop><stop offset="1" stop-color="#ffcd00" stop-opacity="0"></stop></radialGradient></defs><path d="{{c.ink}}" stroke="#191821" stroke-width=".3"></path><path d="{{c.acc}}" stroke="#3932bd" stroke-width=".32"></path><path d="{{c.ring}}" stroke="#191821" stroke-width=".42"></path><circle r="9" fill="url(#lgC)"></circle><circle r="2.2" fill="#ffcd00" stroke="#191821" stroke-width=".4"></circle><circle r=".7" fill="#fff"></circle></svg>
+      <b>В · Два нижних яруса</b>
+      <p>Плетёное кольцо основания и огонь в пустом центре. Самый простой, похож на венок: связь с башней слабее.</p>
+      <div class="lock"><svg width="40" height="40" viewBox="-23 -23 46 46" fill="none" aria-hidden="true"><path d="{{c.ink}}" stroke="#191821" stroke-width=".5"></path><path d="{{c.acc}}" stroke="#3932bd" stroke-width=".55"></path><path d="{{c.ring}}" stroke="#191821" stroke-width=".7"></path><circle r="2.6" fill="#ffcd00" stroke="#191821" stroke-width=".4"></circle></svg>weekend<span>search</span></div>
+    </div>
+  </div>
+
+  <div style="display:flex;flex-direction:column;gap:14px;padding-top:24px;border-top:1px solid #191821">
+    <p class="rub">Один знак, четыре размера</p>
+    <div style="display:flex;align-items:flex-end;gap:44px">
+      <div class="t" style="align-items:flex-start"><svg width="112" height="112" viewBox="-23 -23 46 46" fill="none" aria-hidden="true"><path d="{{a.ink}}" stroke="#191821" stroke-width=".24"></path><path d="{{a.acc}}" stroke="#3932bd" stroke-width=".26"></path><path d="{{a.ring}}" stroke="#191821" stroke-width=".4"></path><circle r="1.6" fill="#ffcd00" stroke="#191821" stroke-width=".4"></circle></svg><span class="cap">От 64 px: все ярусы</span></div>
+      <div class="t" style="align-items:flex-start"><svg width="44" height="44" viewBox="-23 -23 46 46" fill="none" aria-hidden="true"><path d="{{b.ink}}" stroke="#191821" stroke-width=".5"></path><path d="{{b.acc}}" stroke="#3932bd" stroke-width=".55"></path><path d="{{b.ring}}" stroke="#191821" stroke-width=".7"></path><circle r="2.4" fill="#ffcd00" stroke="#191821" stroke-width=".4"></circle></svg><span class="cap">32–63 px: три яруса</span></div>
+      <div class="t" style="align-items:flex-start"><svg width="24" height="24" viewBox="-23 -23 46 46" fill="none" aria-hidden="true"><path d="{{s.ink}}" stroke="#191821" stroke-width="1.7"></path><path d="{{s.acc}}" stroke="#3932bd" stroke-width="1.7"></path><circle r="4" fill="#ffcd00" stroke="#191821" stroke-width=".4"></circle></svg><span class="cap">20–31 px: 12 стержней</span></div>
+      <div class="t" style="align-items:flex-start"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#3932bd" stroke-width="2.6" aria-hidden="true"><path d="M12 2v20M2 12h20M4.9 4.9l14.2 14.2M19.1 4.9 4.9 19.1"></path></svg><span class="cap">До 20 px: прежняя звезда, четыре стержня</span></div>
+    </div>
+  </div>
+
+  <div style="display:flex;flex-direction:column;gap:14px;padding-top:24px;border-top:1px solid #191821">
+    <p class="rub">Где знак появляется на сайте</p>
+    <div style="display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:16px">
+      <div class="t"><div class="box"><div style="width:48px;height:48px;background:#3932bd;display:flex;align-items:center;justify-content:center"><svg width="38" height="38" viewBox="-23 -23 46 46" fill="none" aria-hidden="true"><path d="{{s.ink}}" stroke="#fff" stroke-width="1.6"></path><path d="{{s.acc}}" stroke="#fff" stroke-width="1.6"></path><circle r="4" fill="#fff"></circle></svg></div></div><span class="cap">Вкладка браузера и значок на телефоне</span></div>
+      <div class="t"><div class="box"><span class="rub" style="display:inline-flex;align-items:center;gap:8px"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" aria-hidden="true"><path d="M12 2v20M2 12h20M4.9 4.9l14.2 14.2M19.1 4.9 4.9 19.1"></path></svg>Маршруты</span></div><span class="cap">Рубрика раздела</span></div>
+      <div class="t"><div class="box"><svg class="spin" width="52" height="52" viewBox="-23 -23 46 46" fill="none" aria-hidden="true"><path d="{{b.ink}}" stroke="#191821" stroke-width=".5"></path><path d="{{b.acc}}" stroke="#3932bd" stroke-width=".55"></path><path d="{{b.ring}}" stroke="#191821" stroke-width=".7"></path><circle r="2.4" fill="#ffcd00" stroke="#191821" stroke-width=".4"></circle></svg></div><span class="cap">Загрузка: решётка медленно вращается</span></div>
+      <div class="t"><div class="box" style="flex-direction:column;gap:4px;font-size:13px;font-weight:600;color:#3932bd"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M12 2v20M2 12h20M4.9 4.9l14.2 14.2M19.1 4.9 4.9 19.1"></path></svg>Мой план</div><span class="cap">Активный пункт нижней панели</span></div>
+      <div class="t"><div class="box" style="flex-direction:column;align-items:flex-start;justify-content:center;gap:6px;font-size:14px"><span style="display:flex;align-items:center;gap:8px"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#3932bd" stroke-width="3.2" aria-hidden="true"><path d="M12 2v20M2 12h20M4.9 4.9l14.2 14.2M19.1 4.9 4.9 19.1"></path></svg>Мука — 600 г</span><span style="display:flex;align-items:center;gap:8px"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#3932bd" stroke-width="3.2" aria-hidden="true"><path d="M12 2v20M2 12h20M4.9 4.9l14.2 14.2M19.1 4.9 4.9 19.1"></path></svg>Соль — 15 г</span></div><span class="cap">Маркер в списках рецепта</span></div>
+    </div>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":1140}}'>
+class Component extends DCLogic {
+  top(list, div) {
+    var DEG = Math.PI / 180;
+    var SEC = [[20.25, 16.25, 24, 37.5], [16.25, 12.5, 24, 37.5], [12.5, 9, 24, 45], [9, 6, 24, 45], [6, 3.75, 12, 45], [3.75, 2.5, 12, 45]];
+    function circle(r) { return 'M' + r + ' 0A' + r + ' ' + r + ' 0 1 0 ' + (-r) + ' 0A' + r + ' ' + r + ' 0 1 0 ' + r + ' 0'; }
+    function p(r, a) { return (r * Math.cos(a * DEG)).toFixed(2) + ' ' + (r * Math.sin(a * DEG)).toFixed(2); }
+    var ink = '', acc = '', ring = circle(20.25), phase = 0;
+    SEC.forEach(function (s, ix) {
+      if (list.indexOf(ix) >= 0) {
+        var cnt = s[2] / (div || 1), step = 360 / cnt;
+        for (var i = 0; i < cnt; i++) {
+          var a0 = phase + i * step;
+          acc += 'M' + p(s[0], a0) + 'L' + p(s[1], a0 + s[3]);
+          ink += 'M' + p(s[0], a0) + 'L' + p(s[1], a0 - s[3]);
+        }
+        ring += circle(s[0]) + circle(s[1]);
+      }
+      phase += s[3];
+    });
+    return { ink: ink, acc: acc, ring: ring };
+  }
+  small() {
+    var DEG = Math.PI / 180, ink = '', acc = '';
+    function p(r, a) { return (r * Math.cos(a * DEG)).toFixed(2) + ' ' + (r * Math.sin(a * DEG)).toFixed(2); }
+    for (var i = 0; i < 6; i++) {
+      acc += 'M' + p(21, i * 60) + 'L' + p(8, i * 60 + 70);
+      ink += 'M' + p(21, i * 60 + 30) + 'L' + p(8, i * 60 + 30 - 70);
+    }
+    return { ink: ink, acc: acc };
+  }
+  renderVals() {
+    if (!this._v) this._v = { a: this.top([0, 1, 2, 3, 4, 5]), b: this.top([0, 2, 4], 2), c: this.top([0, 1]), s: this.small() };
+    return this._v;
+  }
+}
+</script>
+</body>
+</html>

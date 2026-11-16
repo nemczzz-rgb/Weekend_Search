@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Башня и заставка — Weekend Search</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700&amp;family=Onest:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+button{font-family:Onest,Arial,sans-serif;cursor:pointer;margin:0}
+.note{font-size:14px;line-height:1.5}
+.note b{display:block;font-size:15px;font-weight:700;margin-bottom:4px}
+.tw svg{position:absolute;left:0;top:0}
+@keyframes rideA{from{transform:translateY(-500px)}to{transform:none}}
+@keyframes rideB{from{transform:translateY(-500px)}to{transform:none}}
+@keyframes lampA{from{opacity:0;transform:scale(.2)}to{opacity:1;transform:none}}
+@keyframes lampB{from{opacity:0;transform:scale(.2)}to{opacity:1;transform:none}}
+@keyframes copyA{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@keyframes copyB{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.runA .tw{animation:rideA 2.4s cubic-bezier(.3,.1,.2,1) both}
+.runB .tw{animation:rideB 2.4s cubic-bezier(.3,.1,.2,1) both}
+.lamp{transform-box:fill-box;transform-origin:center}
+.runA .lamp{animation:lampA .5s cubic-bezier(.2,.75,.25,1) 2.3s both}
+.runB .lamp{animation:lampB .5s cubic-bezier(.2,.75,.25,1) 2.3s both}
+.runA .copy{animation:copyA .6s cubic-bezier(.2,.75,.25,1) 2.1s both}
+.runB .copy{animation:copyB .6s cubic-bezier(.2,.75,.25,1) 2.1s both}
+@media (prefers-reduced-motion:reduce){.tw,.lamp,.copy{animation:none!important}}
+</style>
+</helmet>
+<div style="width:1280px;min-height:900px;box-sizing:border-box;background:#f5f4f1;font-family:Onest,Arial,sans-serif;color:#191821;display:flex;flex-direction:column">
+  <div class="{{run}}" style="position:relative;height:640px;overflow:hidden;border-bottom:1.5px solid #191821">
+    <div class="tw" style="position:absolute;right:90px;top:60px;width:420px;height:1080px">
+      <sc-for list="{{layers}}" as="l" hint-placeholder-count="1">
+        <svg width="420" height="1080" viewBox="0 0 420 1080" fill="none" aria-hidden="true"><path d="{{l.d}}" stroke="{{l.c}}" stroke-width="{{l.w}}" stroke-linecap="{{l.cap}}"></path></svg>
+      </sc-for>
+      <svg width="420" height="1080" viewBox="0 0 420 1080" fill="none" role="img" aria-label="Огонь на вершине Шуховской башни">
+        <defs><radialGradient id="wsLamp"><stop offset="0" stop-color="#ffcd00" stop-opacity=".85"></stop><stop offset="1" stop-color="#ffcd00" stop-opacity="0"></stop></radialGradient></defs>
+        <g class="lamp"><circle cx="210" cy="{{lampY}}" r="54" fill="url(#wsLamp)"></circle><circle cx="210" cy="{{lampY}}" r="5" fill="#ffcd00" stroke="#191821" stroke-width="1.2"></circle></g>
+      </svg>
+    </div>
+
+    <div style="position:absolute;left:0;right:0;top:0;height:72px;display:flex;align-items:center;justify-content:space-between;padding:0 64px;background:rgba(245,244,241,.92);border-bottom:1px solid #191821">
+      <span style="font-family:'Inter Tight',Arial,sans-serif;font-size:22px;letter-spacing:-.03em;font-weight:700">weekend<span style="font-weight:500">search</span></span>
+      <span style="display:flex;gap:28px;font-size:14px;font-weight:600"><span>Идеи для дня</span><span>Маршруты</span><span>Места</span><span>Мой план</span></span>
+    </div>
+
+    <div class="copy" style="position:absolute;left:64px;top:170px;width:660px;display:flex;flex-direction:column;gap:22px">
+      <span style="font-weight:600;font-size:14px;color:#3932bd">Москва</span>
+      <h1 style="margin:0;font-family:'Inter Tight',Arial,sans-serif;font-weight:700;font-size:104px;line-height:.94;letter-spacing:-.04em">Выходные<br><span style="color:#3932bd">в Москве</span></h1>
+      <p style="margin:0;font-size:17px;line-height:1.5;max-width:440px">Идеи для дня дома и в городе, маршруты и места. Соберите свой день.</p>
+      <div style="display:flex;gap:10px">
+        <button style="height:50px;padding:0 20px;border-radius:4px;border:1.5px solid #3932bd;background:#3932bd;color:#fff;font-weight:600;font-size:16px">Идеи для дня →</button>
+        <button style="height:50px;padding:0 20px;border-radius:4px;border:1.5px solid #191821;background:#fff;color:#191821;font-weight:600;font-size:16px">Найти место →</button>
+      </div>
+    </div>
+  </div>
+
+  <div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr)) auto;gap:32px;padding:32px 64px 40px;align-items:start">
+    <div class="note"><b>Модель та же, что на сайте</b>Геометрия взята из shukhov-background.js без изменений: шесть секций по 25 м, 24 и 12 ног, мачта с двумя траверсами и флагштоком до 160 м.</div>
+    <div class="note"><b>Что упрощено</b>Задняя сторона решётки бледнее, промежуточные кольца тоньше. Синие ноги перекрашиваются в выбранный акцент. Жёлтый фонарик стоит на мачте, без нарисованных лучей.</div>
+    <div class="note"><b>Заставка</b>Камера за 2,4 секунды поднимается от земли к вершине, потом на мачте загорается огонь. На сайте это тот же параметр travel, что уже работает при прокрутке.</div>
+    <button onClick="{{replay}}" style="height:44px;padding:0 16px;border-radius:4px;border:1.5px solid #191821;background:#fff;color:#191821;font-weight:600;font-size:14px;white-space:nowrap">Показать ещё раз</button>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":900}}'>
+class Component extends DCLogic {
+  build(SUB, RMAX) {
+    var DEG = Math.PI / 180;
+    var SECTIONS = [
+      { y0: 0, h: 25, rb: 20.25, rt: 16.25, n: 24, phi: 37.5, rings: 4, w: 0.21 },
+      { y0: 25, h: 25, rb: 16.25, rt: 12.5, n: 24, phi: 37.5, rings: 4, w: 0.21 },
+      { y0: 50, h: 25, rb: 12.5, rt: 9.0, n: 24, phi: 45, rings: 7, w: 0.17 },
+      { y0: 75, h: 25, rb: 9.0, rt: 6.0, n: 24, phi: 45, rings: 9, w: 0.15 },
+      { y0: 100, h: 25, rb: 6.0, rt: 3.75, n: 12, phi: 45, rings: 9, w: 0.14 },
+      { y0: 125, h: 20, rb: 3.75, rt: 2.5, n: 12, phi: 45, rings: 9, w: 0.13 }
+    ];
+    var S = [], L = [];
+    function seg(a, b, w, layer) { S.push(a[0], a[1], a[2], b[0], b[1], b[2], w); L.push(layer); }
+    function pt(r, aDeg, y) { return [r * Math.cos(aDeg * DEG), y, r * Math.sin(aDeg * DEG)]; }
+    function ring(y, r, w, layer, n) { n = Math.min(n, RMAX); for (var i = 0; i < n; i++) seg(pt(r, 360 * i / n, y), pt(r, 360 * (i + 1) / n, y), w, layer); }
+    ring(0, 20.25, 0.36, 3, 120);
+    var phase = 0;
+    SECTIONS.forEach(function (s) {
+      var step = 360 / s.n, i, k, d;
+      for (i = 0; i < s.n; i++) {
+        for (d = 1; d >= -1; d -= 2) {
+          var off = d > 0 ? -0.1 : 0.1;
+          var a0 = phase + i * step, a1 = a0 + d * s.phi;
+          var p0 = pt(s.rb + off, a0, s.y0), p1 = pt(s.rt + off, a1, s.y0 + s.h);
+          for (k = 0; k < SUB; k++) {
+            var t0 = k / SUB, t1 = (k + 1) / SUB;
+            seg([p0[0] + (p1[0] - p0[0]) * t0, p0[1] + (p1[1] - p0[1]) * t0, p0[2] + (p1[2] - p0[2]) * t0],
+                [p0[0] + (p1[0] - p0[0]) * t1, p0[1] + (p1[1] - p0[1]) * t1, p0[2] + (p1[2] - p0[2]) * t1], s.w, d > 0 ? 1 : 2);
+          }
+        }
+      }
+      var q0 = pt(s.rb, 0, 0), q1 = pt(s.rt, s.phi, 0);
+      for (k = 1; k <= s.rings; k++) {
+        var t = k / (s.rings + 1);
+        var r = Math.hypot(q0[0] + (q1[0] - q0[0]) * t, q0[2] + (q1[2] - q0[2]) * t);
+        ring(s.y0 + s.h * t, r - 0.2, 0.11, 0, s.rb > 8 ? 120 : 60);
+      }
+      var yt = s.y0 + s.h;
+      ring(yt - 0.5, s.rt + 0.2, 0.24, 3, s.rt > 8 ? 120 : 60);
+      ring(yt, s.rt + 0.2, 0.28, 3, s.rt > 8 ? 120 : 60);
+      phase += s.phi;
+    });
+    [[125, 3.75], [145, 2.5]].forEach(function (d) {
+      ring(d[0], d[1] * 0.45, 0.07, 0, 36);
+      for (var i = 0; i < 12; i++) seg(pt(d[1] * 0.45, i * 30, d[0]), pt(d[1], i * 30, d[0]), 0.07, 0);
+      ring(d[0] + 1.1, d[1] - 0.25, 0.06, 0, 48);
+      for (i = 0; i < 24; i++) seg(pt(d[1] - 0.25, i * 15, d[0]), pt(d[1] - 0.25, i * 15, d[0] + 1.1), 0.05, 0);
+    });
+    var m = 0.5, yb = 145, ym = 151.5, c = [[m, m], [m, -m], [-m, -m], [-m, m]], yy;
+    for (var j = 0; j < 4; j++) {
+      var u = c[j], v = c[(j + 1) % 4];
+      seg([u[0], yb, u[1]], [u[0] * 0.5, ym, u[1] * 0.5], 0.10, 2);
+      for (yy = 0; yy < 4; yy++) {
+        var f0 = 1 - 0.5 * yy / 4, f1 = 1 - 0.5 * (yy + 1) / 4, ya = yb + (ym - yb) * yy / 4, yc = yb + (ym - yb) * (yy + 1) / 4;
+        seg([u[0] * f0, ya, u[1] * f0], [v[0] * f1, yc, v[1] * f1], 0.06, 2);
+        seg([u[0] * f1, yc, u[1] * f1], [v[0] * f1, yc, v[1] * f1], 0.06, 2);
+      }
+    }
+    function traverse(y, half, depth) {
+      var nn = Math.round(half * 2), x0, x1, q, PIECES = 8;
+      for (q = 0; q < PIECES; q++) seg([-half + 2 * half * q / PIECES, y, 0], [-half + 2 * half * (q + 1) / PIECES, y, 0], 0.11, 2);
+      seg([-half + 0.8, y + depth, 0], [0, y + depth, 0], 0.08, 2); seg([0, y + depth, 0], [half - 0.8, y + depth, 0], 0.08, 2);
+      seg([-half, y, 0], [-half + 0.8, y + depth, 0], 0.08, 2); seg([half, y, 0], [half - 0.8, y + depth, 0], 0.08, 2);
+      for (q = 1; q < nn - 1; q++) {
+        x0 = -half + 0.8 + (half * 2 - 1.6) * (q - 1) / (nn - 2); x1 = -half + 0.8 + (half * 2 - 1.6) * q / (nn - 2);
+        seg([x0, y + (q % 2 ? depth : 0), 0], [x1, y + (q % 2 ? 0 : depth), 0], 0.05, 2);
+      }
+      seg([-half, y, 0], [-half / 2, y + 1.6, 0], 0.04, 2); seg([-half / 2, y + 1.6, 0], [0, y + 3.2, 0], 0.04, 2);
+      seg([half, y, 0], [half / 2, y + 1.6, 0], 0.04, 2); seg([half / 2, y + 1.6, 0], [0, y + 3.2, 0], 0.04, 2);
+    }
+    traverse(146.9, 5.2, 0.55);
+    traverse(149.6, 3.6, 0.5);
+    seg([0, ym, 0], [0, 156, 0], 0.11, 2); seg([0, 156, 0], [0, 160, 0], 0.09, 2);
+    return { S: S, L: L };
+  }
+  paint(M, o) {
+    var PAPER = [245, 244, 241], INK = [25, 24, 33];
+    var COL = [INK, o.accent, INK, INK], GAIN = [0.62 * o.mid, 1, 1, 1];
+    var f = o.pxm * o.D, hy = o.baseY - o.pxm * o.camH, ca = Math.cos(o.angle), sa = Math.sin(o.angle);
+    var NF = 4, B = {}, S = M.S, n = M.L.length;
+    for (var i = 0; i < n; i++) {
+      var q = i * 7;
+      var x1 = S[q] * ca + S[q + 2] * sa, z1 = -S[q] * sa + S[q + 2] * ca;
+      var x2 = S[q + 3] * ca + S[q + 5] * sa, z2 = -S[q + 3] * sa + S[q + 5] * ca;
+      var s1 = f / (o.D - z1), s2 = f / (o.D - z2);
+      var X1 = o.cx + x1 * s1, Y1 = hy - (S[q + 1] - o.camH) * s1, X2 = o.cx + x2 * s2, Y2 = hy - (S[q + 4] - o.camH) * s2;
+      if ((Y1 < o.y0 && Y2 < o.y0) || (Y1 > o.y1 && Y2 > o.y1)) continue;
+      var xm = (x1 + x2) / 2, zm = (z1 + z2) / 2, rr = Math.hypot(xm, zm);
+      var nz = rr < 1.4 ? 0.6 : zm / rr, front = 0.5 + 0.5 * nz;
+      var fi = Math.min(NF - 1, (front * NF) | 0);
+      var w = S[q + 6];
+      if (o.coarse) w = w < 0.09 ? 0.06 : (w < 0.19 ? 0.14 : 0.27);
+      var key = fi + '|' + M.L[i] + '|' + w;
+      B[key] = (B[key] || '') + 'M' + X1.toFixed(1) + ' ' + Y1.toFixed(1) + 'L' + X2.toFixed(1) + ' ' + Y2.toFixed(1);
+    }
+    var out = [], keys = Object.keys(B);
+    for (var fi2 = 0; fi2 < NF; fi2++) {
+      var fr = (fi2 + 0.5) / NF, frontHalf = fr > 0.5, kk = 0.14 + 0.80 * Math.pow(fr, 1.5);
+      var order = frontHalf ? [0, 1, 2, 3] : [3, 2, 1, 0];
+      for (var oi = 0; oi < 4; oi++) {
+        var layer = order[oi];
+        for (var ki = 0; ki < keys.length; ki++) {
+          var p = keys[ki].split('|');
+          if (+p[0] !== fi2 || +p[1] !== layer) continue;
+          var a = Math.min(1, kk * GAIN[layer]) * (frontHalf ? 1 : o.back);
+          if (a < 0.03) continue;
+          var col = (!frontHalf && o.backAccent) ? o.accent : COL[layer];
+          var px = Math.max(+p[2] * o.pxm * 1.18, o.minW);
+          if (frontHalf) out.push({ d: B[keys[ki]], c: 'rgb(245,244,241)', w: (px + o.gap * 4 * (fr - 0.5)).toFixed(2), cap: 'butt' });
+          out.push({ d: B[keys[ki]], c: 'rgb(' + col.map(function (v, ix) { return Math.round(PAPER[ix] + (v - PAPER[ix]) * a); }).join(',') + ')', w: px.toFixed(2), cap: 'round' });
+        }
+      }
+    }
+    return out;
+  }
+  renderVals() {
+    var self = this;
+    if (!this._layers) {
+      var cam = { pxm: 6.2, cx: 210, D: 170, camH: 70, baseY: 1040, angle: 0.35, accent: [57, 50, 189], back: 0.55, mid: 0.6, backAccent: false, minW: 0.8, gap: 1.7, y0: -20, y1: 1100, coarse: false };
+      this._layers = this.paint(this.build(8, 48), cam);
+      this._lampY = (cam.baseY - cam.pxm * cam.camH - (157 - cam.camH) * cam.pxm).toFixed(1);
+    }
+    var run = (this.state && this.state.run) || 'runA';
+    return {
+      layers: this._layers, lampY: this._lampY, run: run,
+      replay: function () { self.setState({ run: run === 'runA' ? 'runB' : 'runA' }); }
+    };
+  }
+}
+</script>
+</body>
+</html>

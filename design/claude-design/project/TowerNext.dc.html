@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Башня: рисунок, основание, окружение — Weekend Search</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700&amp;family=Onest:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.rub{font-weight:600;font-size:14px;color:#3932bd;margin:0}
+.lead{margin:0;max-width:900px;font-size:17px;line-height:1.5}
+.fr{display:flex;flex-direction:column;gap:10px;min-width:0}
+.scr{position:relative;height:372px;border-radius:4px;border:1.5px solid #191821;overflow:hidden;background:#f5f4f1}
+.scr svg{position:absolute;left:0;top:0}
+.cap{font-size:13px;line-height:1.45}
+.cap strong{display:block;font-size:15px;font-weight:700}
+.o{display:flex;flex-direction:column;gap:8px;padding:18px;border-radius:4px;background:#fff;border:1.5px solid #191821;min-width:0;font-size:14px;line-height:1.5}
+.o b{font-size:16px;font-weight:700}
+.o i{font-style:normal;font-weight:600;font-size:13px}
+.zone{position:absolute;border:1.5px dashed #191821;border-radius:4px;display:flex;align-items:center;justify-content:center;text-align:center;font-size:13px;font-weight:600;line-height:1.4;padding:0 20px;box-sizing:border-box}
+.sec{display:flex;flex-direction:column;gap:14px;padding-top:26px;border-top:1px solid #191821}
+</style>
+</helmet>
+<div style="width:1280px;min-height:1840px;box-sizing:border-box;padding:64px;background:#f5f4f1;font-family:Onest,Arial,sans-serif;color:#191821;display:flex;flex-direction:column;gap:26px">
+  <div style="display:flex;flex-direction:column;gap:12px">
+    <p class="rub">Рисунок башни</p>
+    <p class="lead">Геометрия во всех четырёх вариантах одна, из модели сайта. Меняется только то, как нарисована задняя сторона решётки и промежуточные кольца.</p>
+  </div>
+
+  <div style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px">
+    <div class="fr"><div class="scr"><sc-for list="{{vA}}" as="l" hint-placeholder-count="1"><svg width="276" height="372" viewBox="0 0 276 372" fill="none" aria-hidden="true"><path d="{{l.d}}" stroke="{{l.c}}" stroke-width="{{l.w}}" stroke-linecap="{{l.cap}}"></path></svg></sc-for></div><span class="cap"><strong>А · Как сейчас на сайте</strong>Задняя сторона и все кольца видны в полную силу. Самый плотный рисунок.</span></div>
+    <div class="fr"><div class="scr" style="border-color:#3932bd;box-shadow:4px 4px 0 #3932bd"><sc-for list="{{vB}}" as="l" hint-placeholder-count="1"><svg width="276" height="372" viewBox="0 0 276 372" fill="none" aria-hidden="true"><path d="{{l.d}}" stroke="{{l.c}}" stroke-width="{{l.w}}" stroke-linecap="{{l.cap}}"></path></svg></sc-for></div><span class="cap"><strong style="color:#3932bd">Б · Чище · стоит на главной</strong>Задняя сторона вдвое бледнее, промежуточные кольца тоньше. Силуэт тот же, шума меньше.</span></div>
+    <div class="fr"><div class="scr"><sc-for list="{{vC}}" as="l" hint-placeholder-count="1"><svg width="276" height="372" viewBox="0 0 276 372" fill="none" aria-hidden="true"><path d="{{l.d}}" stroke="{{l.c}}" stroke-width="{{l.w}}" stroke-linecap="{{l.cap}}"></path></svg></sc-for></div><span class="cap"><strong>В · Тыл цветом</strong>Задняя сторона целиком в цвете акцента, передняя чернилами. Серых линий нет совсем.</span></div>
+    <div class="fr"><div class="scr"><sc-for list="{{vD}}" as="l" hint-placeholder-count="1"><svg width="276" height="372" viewBox="0 0 276 372" fill="none" aria-hidden="true"><path d="{{l.d}}" stroke="{{l.c}}" stroke-width="{{l.w}}" stroke-linecap="{{l.cap}}"></path></svg></sc-for></div><span class="cap"><strong>Г · Только передняя сторона</strong>Задней стороны нет. Самый лёгкий, но башня выглядит плоской.</span></div>
+  </div>
+
+  <div class="sec">
+    <p class="rub">Башня, Кремль и Сити</p>
+    <p class="lead">Башня стоит на переднем плане, город ушёл на горизонт за ней и стал в несколько раз меньше. Слева Кремль: стена с башнями, колокольня Ивана Великого, соборы и дворец. Справа одиннадцать башен Москва-Сити, у каждой свой силуэт. Они собраны из той же решётки, что башня: чернильные стержни в одну сторону, цветные в другую, поперёк кольца. Силуэты я нарисовал от руки по памяти: это эскиз композиции, масштаб условный, точные контуры нужно снять с настоящих данных.</p>
+    <div class="scr" style="height:540px">
+      <sc-for list="{{base}}" as="l" hint-placeholder-count="1"><svg width="1152" height="540" viewBox="0 0 1152 540" fill="none" aria-hidden="true"><path d="{{l.d}}" stroke="{{l.c}}" stroke-width="{{l.w}}" stroke-linecap="{{l.cap}}"></path></svg></sc-for>
+      <svg width="1152" height="540" viewBox="0 0 1152 540" fill="none" aria-hidden="true"><defs><radialGradient id="twGlow"><stop offset="0" stop-color="#ffcd00" stop-opacity=".85"></stop><stop offset="1" stop-color="#ffcd00" stop-opacity="0"></stop></radialGradient><pattern id="twLat" width="5" height="13" patternUnits="userSpaceOnUse"><rect width="5" height="13" fill="#f5f4f1"></rect><path d="M0 0 5 13" stroke="#3932bd" stroke-width=".6"></path><path d="M5 0 0 13" stroke="#191821" stroke-width=".5"></path><path d="M0 0H5" stroke="#191821" stroke-width=".7"></path></pattern></defs>
+        <path d="M0 470H496M656 470H1152" stroke="#191821" stroke-width="1"></path>
+        <g stroke="#191821" stroke-width="1" stroke-linejoin="round" fill="url(#twLat)">
+          <path d="M250 458V412h10v46M251.5 412v-14h7v14M251.5 398q-3-7 3.5-12q6.5 5 3.5 12"></path>
+          <path d="M266 458v-22h24v22M268 436q-1-6 4-9q5 3 4 9M280 436q-1-7 4-10q5 3 4 10"></path>
+          <path d="M300 458v-20h44v20"></path>
+          <path d="M80 470V458H400V470"></path>
+          <path d="M80 456H400" stroke-width="4" stroke-dasharray="3 3" fill="none"></path>
+          <path d="M88 470V440h14v30M90 440l5-22 5 22"></path>
+          <path d="M141 470V434h18v36M144 434v-12h12v12M146.5 422v-10h7v10M146.5 412 150 388l3.5 24"></path>
+          <path d="M194 470V448h12v22M196 448l4-14 4 14"></path>
+          <path d="M314 470V448h12v22M316 448l4-14 4 14"></path>
+          <path d="M352 470V430h16v40M355 430v-10h10v10M355 420l5-26 5 26"></path>
+          <path d="M800 470V390h22v80"></path>
+          <path d="M828 470V440h-3V410h3V379h20V410h3V440h-3V470"></path>
+          <path d="M852 470V393h16v77"></path>
+          <path d="M876 470Q870 433 880 396L894 398Q902 434 892 470"></path>
+          <path d="M900 470V408q11-14 22 0V470"></path>
+          <path d="M930 470V397q16 30 20 73"></path>
+          <path d="M954 470V358q22 50 26 112"></path>
+          <path d="M988 470V380l5-12h10l7 20v82"></path>
+          <path d="M1016 470V377h20v93"></path>
+          <path d="M1042 470V372l20-8v106"></path>
+          <path d="M1068 470V366h18v104M1090 470V379h16v91"></path>
+        </g>
+        <path d="M255 386v-7" stroke="#191821" stroke-width="1"></path>
+        <path transform="translate(150 383) scale(.6)" d="M0-7l2.2 5.6 6 .4-4.6 3.9 1.5 5.9-5.1-3.3-5.1 3.3 1.5-5.9-4.6-3.9 6-.4z" fill="#3932bd"></path>
+        <circle cx="576" cy="35" r="30" fill="url(#twGlow)"></circle><circle cx="576" cy="35" r="3.5" fill="#ffcd00" stroke="#191821" stroke-width="1"></circle></svg>
+      <span style="position:absolute;left:80px;top:480px;font-size:13px;font-weight:600">Кремль</span><span style="position:absolute;left:800px;top:480px;font-size:13px;font-weight:600">Москва-Сити</span>
+    </div>
+  </div>
+
+  <div class="sec">
+    <p class="rub">Прежние варианты окружения, для справки</p>
+    <div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;align-items:start">
+      <div class="o">
+        <b>1 · Квартал Шаболовки</b>
+        <span>Настоящие контуры и высоты домов в радиусе 300 м от башни из OpenStreetMap. Каждый дом вытягивается в объём и рисуется теми же линиями, что башня. Дома поворачиваются вместе с ней при прокрутке.</span>
+        <i>Данные бесплатные, лицензия ODbL. В подвале нужна строка «© участники OpenStreetMap».</i>
+      </div>
+      <div class="o" style="border-color:#3932bd;box-shadow:4px 4px 0 #3932bd">
+        <b style="color:#3932bd">2 · Панорама по сторонам света</b>
+        <span>Башня на сайте уже делает полный оборот, пока страница прокручивается. За ней встаёт горизонт, на котором ориентиры стоят на своих настоящих направлениях. Силуэты берутся из 3D-зданий OpenStreetMap.</span>
+        <svg viewBox="0 0 300 190" fill="none" role="img" aria-label="Направления от башни: Кремль и Останкино на севере, Москва-Сити на северо-западе, МГУ на западе-юго-западе" style="width:100%;height:auto">
+          <circle cx="150" cy="100" r="72" stroke="#191821" stroke-width="1.5"></circle>
+          <circle cx="150" cy="100" r="4" fill="#3932bd"></circle>
+          <path d="M150 100 158.8 28.5M150 100 93.3 55.7M150 100 81.2 121" stroke="#3932bd" stroke-width="1.5"></path>
+          <circle cx="158.8" cy="28.5" r="4" fill="#191821"></circle><circle cx="93.3" cy="55.7" r="4" fill="#191821"></circle><circle cx="81.2" cy="121" r="4" fill="#191821"></circle>
+          <text x="168" y="24" font-size="12" font-weight="600" fill="#191821">Кремль, 4 км · Останкино, 11 км</text>
+          <text x="6" y="46" font-size="12" font-weight="600" fill="#191821">Сити, 6 км</text>
+          <text x="6" y="140" font-size="12" font-weight="600" fill="#191821">МГУ, 5 км</text>
+          <text x="145" y="186" font-size="12" font-weight="600" fill="#191821">Ю</text><text x="228" y="104" font-size="12" font-weight="600" fill="#191821">В</text>
+        </svg>
+        <i>Расстояния посчитаны по координатам и округлены. Перед работой их нужно перепроверить по карте.</i>
+      </div>
+      <div class="o">
+        <b>3 · Только земля</b>
+        <span>Фундамент, линия земли и трамвайные пути улицы Шаболовка, тоже из OpenStreetMap. Никаких зданий. Самый спокойный вариант, башня остаётся одна.</span>
+        <i>Можно взять как первый шаг и добавить квартал или панораму позже.</i>
+      </div>
+    </div>
+    <p style="margin:0;font-size:14px;line-height:1.5;max-width:960px"><b style="font-weight:700">Что дальше с Кремлём и Сити.</b> Сервер OpenStreetMap с этого компьютера не отвечает, поэтому точных контуров пока нет. Когда композиция вас устроит, сниму настоящие очертания зданий и заменю эскиз.</p>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":1840}}'>
+class Component extends DCLogic {
+  build(SUB, RMAX, upto) {
+    var DEG = Math.PI / 180;
+    var SECTIONS = [
+      { y0: 0, h: 25, rb: 20.25, rt: 16.25, n: 24, phi: 37.5, rings: 4, w: 0.21 },
+      { y0: 25, h: 25, rb: 16.25, rt: 12.5, n: 24, phi: 37.5, rings: 4, w: 0.21 },
+      { y0: 50, h: 25, rb: 12.5, rt: 9.0, n: 24, phi: 45, rings: 7, w: 0.17 },
+      { y0: 75, h: 25, rb: 9.0, rt: 6.0, n: 24, phi: 45, rings: 9, w: 0.15 },
+      { y0: 100, h: 25, rb: 6.0, rt: 3.75, n: 12, phi: 45, rings: 9, w: 0.14 },
+      { y0: 125, h: 20, rb: 3.75, rt: 2.5, n: 12, phi: 45, rings: 9, w: 0.13 }
+    ];
+    var S = [], L = [];
+    function seg(a, b, w, layer) { S.push(a[0], a[1], a[2], b[0], b[1], b[2], w); L.push(layer); }
+    function pt(r, aDeg, y) { return [r * Math.cos(aDeg * DEG), y, r * Math.sin(aDeg * DEG)]; }
+    function ring(y, r, w, layer, n) { n = Math.min(n, RMAX); for (var i = 0; i < n; i++) seg(pt(r, 360 * i / n, y), pt(r, 360 * (i + 1) / n, y), w, layer); }
+    ring(0, 20.25, 0.36, 3, 120);
+    if (upto < 6) { ring(-1.4, 21.5, 0.5, 3, 120); ring(0, 21.5, 0.3, 3, 120); }
+    var phase = 0;
+    SECTIONS.slice(0, upto).forEach(function (s) {
+      var step = 360 / s.n, i, k, d;
+      for (i = 0; i < s.n; i++) {
+        for (d = 1; d >= -1; d -= 2) {
+          var off = d > 0 ? -0.1 : 0.1;
+          var a0 = phase + i * step, a1 = a0 + d * s.phi;
+          var p0 = pt(s.rb + off, a0, s.y0), p1 = pt(s.rt + off, a1, s.y0 + s.h);
+          for (k = 0; k < SUB; k++) {
+            var t0 = k / SUB, t1 = (k + 1) / SUB;
+            seg([p0[0] + (p1[0] - p0[0]) * t0, p0[1] + (p1[1] - p0[1]) * t0, p0[2] + (p1[2] - p0[2]) * t0],
+                [p0[0] + (p1[0] - p0[0]) * t1, p0[1] + (p1[1] - p0[1]) * t1, p0[2] + (p1[2] - p0[2]) * t1], s.w, d > 0 ? 1 : 2);
+          }
+        }
+      }
+      var q0 = pt(s.rb, 0, 0), q1 = pt(s.rt, s.phi, 0);
+      for (k = 1; k <= s.rings; k++) {
+        var t = k / (s.rings + 1);
+        var r = Math.hypot(q0[0] + (q1[0] - q0[0]) * t, q0[2] + (q1[2] - q0[2]) * t);
+        ring(s.y0 + s.h * t, r - 0.2, 0.11, 0, s.rb > 8 ? 120 : 60);
+      }
+      var yt = s.y0 + s.h;
+      ring(yt - 0.5, s.rt + 0.2, 0.24, 3, s.rt > 8 ? 120 : 60);
+      ring(yt, s.rt + 0.2, 0.28, 3, s.rt > 8 ? 120 : 60);
+      phase += s.phi;
+    });
+    if (upto < 6) return { S: S, L: L };
+    [[125, 3.75], [145, 2.5]].forEach(function (d) {
+      ring(d[0], d[1] * 0.45, 0.07, 0, 36);
+      for (var i = 0; i < 12; i++) seg(pt(d[1] * 0.45, i * 30, d[0]), pt(d[1], i * 30, d[0]), 0.07, 0);
+      ring(d[0] + 1.1, d[1] - 0.25, 0.06, 0, 48);
+    });
+    var m = 0.5, yb = 145, ym = 151.5, c = [[m, m], [m, -m], [-m, -m], [-m, m]];
+    for (var j = 0; j < 4; j++) { var u = c[j]; seg([u[0], yb, u[1]], [u[0] * 0.5, ym, u[1] * 0.5], 0.10, 2); }
+    function traverse(y, half, depth) {
+      seg([-half, y, 0], [half, y, 0], 0.11, 2);
+      seg([-half + 0.8, y + depth, 0], [half - 0.8, y + depth, 0], 0.08, 2);
+      seg([-half, y, 0], [-half + 0.8, y + depth, 0], 0.08, 2); seg([half, y, 0], [half - 0.8, y + depth, 0], 0.08, 2);
+      seg([-half, y, 0], [0, y + 3.2, 0], 0.04, 2); seg([half, y, 0], [0, y + 3.2, 0], 0.04, 2);
+    }
+    traverse(146.9, 5.2, 0.55);
+    traverse(149.6, 3.6, 0.5);
+    seg([0, ym, 0], [0, 160, 0], 0.11, 2);
+    return { S: S, L: L };
+  }
+  paint(M, o) {
+    var PAPER = [245, 244, 241], INK = [25, 24, 33];
+    var COL = [INK, o.accent, INK, INK], GAIN = [0.62 * o.mid, 1, 1, 1];
+    var f = o.pxm * o.D, hy = o.baseY - o.pxm * o.camH, ca = Math.cos(o.angle), sa = Math.sin(o.angle);
+    var NF = 4, B = {}, S = M.S, n = M.L.length;
+    for (var i = 0; i < n; i++) {
+      var q = i * 7;
+      var x1 = S[q] * ca + S[q + 2] * sa, z1 = -S[q] * sa + S[q + 2] * ca;
+      var x2 = S[q + 3] * ca + S[q + 5] * sa, z2 = -S[q + 3] * sa + S[q + 5] * ca;
+      var s1 = f / (o.D - z1), s2 = f / (o.D - z2);
+      var X1 = o.cx + x1 * s1, Y1 = hy - (S[q + 1] - o.camH) * s1, X2 = o.cx + x2 * s2, Y2 = hy - (S[q + 4] - o.camH) * s2;
+      if ((Y1 < o.y0 && Y2 < o.y0) || (Y1 > o.y1 && Y2 > o.y1)) continue;
+      var xm = (x1 + x2) / 2, zm = (z1 + z2) / 2, rr = Math.hypot(xm, zm);
+      var nz = rr < 1.4 ? 0.6 : zm / rr, front = 0.5 + 0.5 * nz;
+      var fi = Math.min(NF - 1, (front * NF) | 0);
+      var w = S[q + 6];
+      if (o.coarse) w = w < 0.09 ? 0.06 : (w < 0.19 ? 0.14 : 0.27);
+      var key = fi + '|' + M.L[i] + '|' + w;
+      B[key] = (B[key] || '') + 'M' + X1.toFixed(1) + ' ' + Y1.toFixed(1) + 'L' + X2.toFixed(1) + ' ' + Y2.toFixed(1);
+    }
+    var out = [], keys = Object.keys(B);
+    for (var fi2 = 0; fi2 < NF; fi2++) {
+      var fr = (fi2 + 0.5) / NF, frontHalf = fr > 0.5, kk = 0.14 + 0.80 * Math.pow(fr, 1.5);
+      var order = frontHalf ? [0, 1, 2, 3] : [3, 2, 1, 0];
+      for (var oi = 0; oi < 4; oi++) {
+        var layer = order[oi];
+        for (var ki = 0; ki < keys.length; ki++) {
+          var p = keys[ki].split('|');
+          if (+p[0] !== fi2 || +p[1] !== layer) continue;
+          var a = Math.min(1, kk * GAIN[layer]) * (frontHalf ? 1 : o.back);
+          if (a < 0.03) continue;
+          var col = (!frontHalf && o.backAccent) ? o.accent : COL[layer];
+          var px = Math.max(+p[2] * o.pxm * 1.18, o.minW);
+          if (frontHalf) out.push({ d: B[keys[ki]], c: 'rgb(245,244,241)', w: (px + o.gap * 4 * (fr - 0.5)).toFixed(2), cap: 'butt' });
+          out.push({ d: B[keys[ki]], c: 'rgb(' + col.map(function (v, ix) { return Math.round(PAPER[ix] + (v - PAPER[ix]) * a); }).join(',') + ')', w: px.toFixed(2), cap: 'round' });
+        }
+      }
+    }
+    return out;
+  }
+  renderVals() {
+    if (!this._v) {
+      var M = this.build(4, 36, 6), self = this;
+      var small = function (back, mid, backAccent) {
+        return self.paint(M, { pxm: 2.05, cx: 138, D: 170, camH: 70, baseY: 356, angle: 0.35, accent: [57, 50, 189], back: back, mid: mid, backAccent: backAccent, minW: 0.5, gap: 0.7, y0: -20, y1: 400, coarse: true });
+      };
+      this._v = {
+        vA: small(1, 1, false), vB: small(0.5, 0.55, false), vC: small(1.6, 0.5, true), vD: small(0, 0.6, false),
+        base: this.paint(M, { pxm: 2.9, cx: 576, D: 170, camH: 40, baseY: 490, angle: 0.35, accent: [57, 50, 189], back: 0.5, mid: 0.55, backAccent: false, minW: 0.6, gap: 1, y0: -20, y1: 560, coarse: true })
+      };
+    }
+    return this._v;
+  }
+}
+</script>
+</body>
+</html>

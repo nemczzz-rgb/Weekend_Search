@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>S08 Диалог и уведомление, телефон — Weekend Search</title>
+<script src="./support.js"></script>
+<link rel="stylesheet" href="./ws.css">
+<script src="./ws.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700&amp;family=Onest:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>body{margin:0}.fo{outline:2px solid #3932bd;outline-offset:2px}</style>
+</helmet>
+<div class="pg m" style="width: 390px; height: 844px">
+  <dc-import name="S07" mobile="1" state="mixed" hint-size="390px,844px"></dc-import>
+  <div class="scrim"></div>
+  <div class="dlg" role="dialog" aria-modal="true" aria-labelledby="dd" style="left: 16px; right: 16px; top: 250px"><h2 id="dd">Очистить план?</h2><p>Все пункты будут удалены. Отменить это нельзя.</p>
+    <div class="acts"><button class="sm stop" style="min-height: 44px">Очистить</button><button class="sm fo">Отмена</button></div>
+  </div>
+  <div class="toast" role="status" style="position: absolute; z-index: 8; left: 12px; right: 12px; top: 700px"><span>Убрано</span><button>Отменить</button></div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>
