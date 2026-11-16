@@ -1,6 +1,5 @@
 import { existsSync, readFileSync } from 'node:fs'
 import { join } from 'node:path'
-import { fileURLToPath } from 'node:url'
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
@@ -23,7 +22,6 @@ export default defineConfig(({ mode }) => {
     // GitHub Pages serves the site from /Weekend_Search/; local dev and Sites use the root.
     base: process.env.PAGES_BASE ?? '/',
     plugins: [react()],
-    build: { rollupOptions: { input: { main: fileURLToPath(new URL('./index.html', import.meta.url)), ui: fileURLToPath(new URL('./ui-preview.html', import.meta.url)) } } },
     server: { https, strictPort: true },
     preview: { https, strictPort: true },
   }
