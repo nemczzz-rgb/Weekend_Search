@@ -58,7 +58,7 @@
 | TASK-050 | Главная, места, маршруты, план, пожелание | На проверке | Alex071004/claude-repo | apps/web/src/screens/, apps/web/src/App.tsx | В main за dev-флагом · [#22](https://github.com/nemczzz-rgb/Weekend_Search/issues/22) |
 | TASK-051 | Иллюстрации | На проверке | Alex071004/codex | apps/web/public/images/ideas/ | После G3 · [#23](https://github.com/nemczzz-rgb/Weekend_Search/issues/23) |
 | TASK-052 | QA фичи и редизайна | На проверке | Alex071004/claude-repo | docs/testing/day-ideas-report.md | Ворота G4 · [#24](https://github.com/nemczzz-rgb/Weekend_Search/issues/24) |
-| TASK-053 | Выпуск: включение новых экранов на сайте | Запланировано | Alex071004/claude-repo | PR, docs/project/public-sharing.md, memory/ | Ворота G5 · [#25](https://github.com/nemczzz-rgb/Weekend_Search/issues/25) |
+| TASK-053 | Выпуск: включение новых экранов на сайте | На проверке | Alex071004/claude-repo | PR, docs/project/public-sharing.md, memory/ | Ворота G5 · [#25](https://github.com/nemczzz-rgb/Weekend_Search/issues/25) |
 | TASK-054 | База знаний: маршруты прогулок | В работе | chatgpt + Alex071004/codex | apps/web/src/content/routes.json | После 035 и 046 · [#18](https://github.com/nemczzz-rgb/Weekend_Search/issues/18) |
 | TASK-055 | Настройки репозитория владелицы | Готово | nemczzz-rgb | Настройки GitHub | Защита main, скрытие почты, уведомления · [#26](https://github.com/nemczzz-rgb/Weekend_Search/issues/26) |
 | TASK-056 | Экспорт и импорт плана | На проверке | Alex071004/claude-repo | apps/web/src/plan/ | В main за dev-флагом, после 047; перенос планов между браузерами и адресами · [#28](https://github.com/nemczzz-rgb/Weekend_Search/issues/28) |

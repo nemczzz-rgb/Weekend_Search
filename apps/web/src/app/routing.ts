@@ -13,18 +13,14 @@ export const FROM_LABEL: Record<View, string> = {
   plan: 'Мой план',
 }
 
-/** Development-only switches that must survive navigation (never present in production links). */
-const KEEP = ['app']
-
 export function readView(query: URLSearchParams): View {
   const value = query.get('view') ?? 'home'
   return (VIEWS as string[]).includes(value) ? value as View : 'home' // unknown view → home (S09)
 }
 
-/** Address of a screen: only its own parameters plus development switches. */
-export function viewHref(view: View, params: Record<string, string | undefined> = {}, current = new URLSearchParams(location.search)): string {
+/** Address of a screen: only its own parameters. */
+export function viewHref(view: View, params: Record<string, string | undefined> = {}): string {
   const next = new URLSearchParams()
-  for (const key of KEEP) { const value = current.get(key); if (value) next.set(key, value) }
   if (view !== 'home') next.set('view', view)
   for (const [key, value] of Object.entries(params)) if (value) next.set(key, value)
   const search = next.toString()
