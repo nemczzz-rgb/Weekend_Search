@@ -61,7 +61,7 @@
 | TASK-053 | Выпуск: включение новых экранов на сайте | Запланировано | Alex071004/claude-repo | PR, docs/project/public-sharing.md, memory/ | Ворота G5 · [#25](https://github.com/nemczzz-rgb/Weekend_Search/issues/25) |
 | TASK-054 | База знаний: маршруты прогулок | В работе | chatgpt + Alex071004/codex | apps/web/src/content/routes.json | После 035 и 046 · [#18](https://github.com/nemczzz-rgb/Weekend_Search/issues/18) |
 | TASK-055 | Настройки репозитория владелицы | Готово | nemczzz-rgb | Настройки GitHub | Защита main, скрытие почты, уведомления · [#26](https://github.com/nemczzz-rgb/Weekend_Search/issues/26) |
-| TASK-056 | Экспорт и импорт плана | Запланировано | Alex071004/claude-repo | apps/web/src/plan/ | В main за dev-флагом, после 047; перенос планов между браузерами и адресами · [#28](https://github.com/nemczzz-rgb/Weekend_Search/issues/28) |
+| TASK-056 | Экспорт и импорт плана | На проверке | Alex071004/claude-repo | apps/web/src/plan/ | В main за dev-флагом, после 047; перенос планов между браузерами и адресами · [#28](https://github.com/nemczzz-rgb/Weekend_Search/issues/28) |
 | TASK-057 | Инструкция переезда на свой сервер | Запланировано | Alex071004/claude-repo | docs/deployment/self-hosting.md | После 053; раздел 12 плана · [#29](https://github.com/nemczzz-rgb/Weekend_Search/issues/29) |
 
 Контрольная точка TASK-003 остаётся обязательной для живых интеграций и приёмки. TASK-014 — новое ограниченное поручение пользователя от 2026-11-08 на локальный интерфейс до её прохождения; оно не закрывает TASK-003 и не меняет статус TASK-004–013.

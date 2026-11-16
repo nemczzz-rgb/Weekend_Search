@@ -3,6 +3,7 @@ import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
 import { getContentSource, type ContentSource } from '../../content/load.ts'
 import { GENRES, type Activity, type DayIdea, type Event, type Film, type Place, type Route } from '../../content/types.ts'
 import { toIsoDate } from '../../plan/dates.ts'
+import { PLAN_FILE_MAX_BYTES, PLAN_FILE_NAME, planFromFile, planToFile, unavailableCount } from '../../plan/file.ts'
 import type { Plan, PlanDay, PlanItem } from '../../plan/model.ts'
 import {
   addItems, clearPlan, createPlan, findItem, isHomeDay, isOutdated, isPlanEmpty, moveItem, moveToNearestSaturday,
@@ -10,8 +11,8 @@ import {
 } from '../../plan/store.ts'
 import { prepLine } from '../../plan/today.ts'
 import { draftFromWish } from '../../plan/wish.ts'
-import { Banner, Button, Dialog, EmptyState, EveningDivider, Field, LoadError, PageHeading, PlanDayCard, PlanItemCard, Segmented, Skeleton, SourceFacts, StorageBar, TextLink, WishInput } from '../../ui/components.tsx'
-import { capitalize, dayLabel, daysWord, eventDates, formatMinutes, inDay, itemsWord, notLaterThan, toDay } from '../../app/format.ts'
+import { Banner, Button, Dialog, EmptyState, EveningDivider, Field, LoadError, PageHeading, PlanDayCard, PlanItemCard, Segmented, Skeleton, SourceFacts, TextLink, WishInput } from '../../ui/components.tsx'
+import { capitalize, dayLabel, daysWord, plural, eventDates, formatMinutes, inDay, itemsWord, notLaterThan, toDay } from '../../app/format.ts'
 import { Notice, useNotice } from '../../app/Notice.tsx'
 import { planStore, setActiveDay, usePlanState } from '../../app/plan-state.ts'
 import { eventOn, placeAddressText, placeFacts, placeMapHref as mapHref } from '../../app/places.ts'
@@ -63,6 +64,33 @@ function LoadedPlan({ data, store, now }: { data: Data; store: PlanStore; now: D
   const idea = useMemo(() => new Map(data.ideas.map(x => [x.id, x])), [data])
   const film = useMemo(() => new Map(data.films.map(x => [x.id, x])), [data])
   const location_ = (id: string) => activity.get(id)?.location
+
+  // ---------- plan file (R-SAVE-2, R-SAVE-3) ----------
+  const fileInput = useRef<HTMLInputElement>(null)
+  const [pendingImport, setPendingImport] = useState<Plan>()
+  const exportPlan = () => {
+    if (!plan) return
+    const url = URL.createObjectURL(new Blob([planToFile(plan)], { type: 'application/json' }))
+    const link = Object.assign(document.createElement('a'), { href: url, download: PLAN_FILE_NAME })
+    document.body.append(link); link.click(); link.remove()
+    setTimeout(() => URL.revokeObjectURL(url), 1000)
+  }
+  const readFile = async (file: File | undefined) => {
+    if (fileInput.current) fileInput.current.value = '' // the same file can be chosen again
+    if (!file) return
+    const next = file.size > PLAN_FILE_MAX_BYTES ? null : planFromFile(await file.text().catch(() => ''))
+    if (!next) { notify('Не удалось загрузить план. Выберите файл, сохранённый на этом сайте.', { error: true }); return }
+    if (plan && !isPlanEmpty(plan)) setPendingImport(next); else applyImport(next)
+  }
+  const applyImport = (next: Plan) => {
+    setPendingImport(undefined); setWrote(undefined); setFallback(false)
+    save(next)
+    selectDay(0)
+    const missing = unavailableCount(next, { places: new Set(place.keys()), events: new Set(event.keys()), activities: new Set(activity.keys()) })
+    notify(missing ? `План загружен. ${missing} ${plural(missing, 'пункт больше недоступен', 'пункта больше недоступны', 'пунктов больше недоступны')}` : 'План загружен')
+  }
+  const fileControl = <input ref={fileInput} type="file" accept=".json,application/json" hidden onChange={e => { void readFile(e.target.files?.[0]) }} />
+  const importButton = <Button variant="text" onClick={() => fileInput.current?.click()}>Загрузить из файла</Button>
 
   const activeDay = plan && dayParam < plan.days.length ? dayParam : 0
   const save = (next: Plan | null) => { void store.set(next) }
@@ -161,7 +189,8 @@ function LoadedPlan({ data, store, now }: { data: Data; store: PlanStore; now: D
       <WishBlock value={wish} onChange={setWish} onSubmit={submitWish} onExample={submitWish} wrote={wrote} fallback={fallback} />
       <EmptyState title="Здесь пока пусто" action={<p className="ws-app-links"><TextLink href={viewHref('day-ideas')}>Идеи для дня</TextLink><TextLink href={viewHref('routes')}>Маршруты</TextLink><TextLink href={viewHref('places')}>Места</TextLink></p>}>Напишите, чего хочется, или выберите идею, маршрут или место.</EmptyState>
       {plan && <Refine plan={plan} now={now} save={save} onTwoToOne={() => setDaysChoice(true)} />}
-      {!storageAvailable && <p role="status">План сохранится только до закрытия страницы.</p>}
+      <div className="ws-storage-bar"><p>{storageAvailable ? 'План хранится в этом браузере' : 'План сохранится только до закрытия страницы'}</p><div className="ws-plan-file">{importButton}</div></div>
+      {fileControl}
       {notice && <Notice notice={notice} dismiss={dismiss} onClosedWithFocus={restoreFocus} />}
     </>
   }
@@ -186,7 +215,15 @@ function LoadedPlan({ data, store, now }: { data: Data; store: PlanStore; now: D
     {!wishOpen && wrote && fallback && <p className="ws-caption">Не нашли точных слов — показали общий вариант.</p>}
 
     <Refine plan={plan} now={now} save={save} onTwoToOne={() => setDaysChoice(true)} />
-    <StorageBar onClear={() => setConfirmClear(true)}>{storageAvailable ? 'План хранится в этом браузере' : 'План сохранится только до закрытия страницы'}</StorageBar>
+    <div className="ws-storage-bar">
+      <p>{storageAvailable ? 'План хранится в этом браузере' : 'План сохранится только до закрытия страницы'}</p>
+      <div className="ws-plan-file">
+        <Button variant="text" onClick={exportPlan}>Сохранить в файл</Button>
+        {importButton}
+        <Button variant="text" className="ws-clear" onClick={() => setConfirmClear(true)}>Очистить план</Button>
+      </div>
+    </div>
+    {fileControl}
 
     <p className="ws-plan-summary">{plan.days.length} {daysWord(plan.days.length)} · {count} {itemsWord(count)}</p>
     {plan.days.length === 2 && <Segmented label="День плана" value={String(activeDay)} onChange={value => selectDay(Number(value))}
@@ -228,6 +265,8 @@ function LoadedPlan({ data, store, now }: { data: Data; store: PlanStore; now: D
       <p>Можно заменить план черновиком или добавить черновик {toDay(day.date)}.</p>
       <Button variant="secondary" onClick={() => pendingWish && applyDraft(pendingWish.text, pendingWish.draft, 'add')}>Добавить {toDay(day.date)}</Button>
     </Dialog>
+    <Dialog open={Boolean(pendingImport)} title="Заменить текущий план планом из файла?" confirmLabel="Заменить план" destructive onDismiss={() => setPendingImport(undefined)}
+      onConfirm={() => pendingImport && applyImport(pendingImport)}>Текущий план будет заменён.</Dialog>
     <DaysDialog open={daysChoice} plan={plan} save={save} close={() => setDaysChoice(false)} />
     <ReplaceDialog uid={replaceUid} plan={plan} places={data.places} save={save} close={() => setReplaceUid(undefined)} focusLater={focusLater} />
   </>
