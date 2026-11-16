@@ -15,7 +15,9 @@
       "дома",
       "готовить",
       "вдвоём"
-    ]
+    ],
+    "image": "images/ideas/roman-pizza-640.webp",
+    "imageAlt": "Домашний вечер: пицца на столе и экран с фильмом"
   },
   {
     "id": "clay-and-book",
@@ -248,7 +250,9 @@
       "семья",
       "творчество",
       "дома"
-    ]
+    ],
+    "image": "images/ideas/fruit-and-drawn-story-640.webp",
+    "imageAlt": "Миска с фруктами и рисунок в несколько кадров"
   },
   {
     "id": "shakshuka-and-playlist",
@@ -340,7 +344,9 @@
       "тихо",
       "прогулка",
       "город"
-    ]
+    ],
+    "image": "images/ideas/gardens-and-boulevard-640.webp",
+    "imageAlt": "Бульвар, сад и пруд в центре Москвы"
   },
   {
     "id": "space-and-pavilions",
@@ -647,7 +653,9 @@
       "готовить",
       "дома",
       "вместе"
-    ]
+    ],
+    "image": "images/ideas/zaryadye-and-pizza-640.webp",
+    "imageAlt": "Прогулка в парке и пицца дома"
   },
   {
     "id": "ponds-hot-chocolate-reading",

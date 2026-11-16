@@ -43,3 +43,7 @@
 - [План](../../docs/project/day-ideas-plan.md): TASK-046, D6, D14, AC-DI-11.
 - [Контракт контента](../../apps/web/src/content/README.md).
 - [Issue #17](https://github.com/nemczzz-rgb/Weekend_Search/issues/17).
+
+## Выполнено после передачи, 2026-11-16
+
+PR #43 слит по прямому поручению пользователя в a49514c; main 89a09b9 включён с сохранением утверждённых текстов и обеих версий памяти. Все обязательные проверки и CI повторены, deploy 43822204519 успешен, сайт HTTP 200. Worktree пачки 1 удалён; ожидание merge выше выполнено. Продолжение — task-046-place-facts-batch-02.

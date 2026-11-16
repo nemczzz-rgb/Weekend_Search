@@ -1,0 +1,68 @@
+{
+  "createdAt": "2026-11-16",
+  "status": "art-review",
+  "source": "Original SVG line drawings created for Weekend Search, Alex071004/codex; no third-party imagery",
+  "palette": {
+    "ink": "#191821",
+    "paper": "#f5f4f1",
+    "accent": "transparent background supplied by host"
+  },
+  "assets": [
+    {
+      "file": "fruit-and-drawn-story-1280.webp",
+      "width": 1280,
+      "height": 853,
+      "bytes": 44670,
+      "sha256": "6ea498f47d92c731376f286850d89fa7e4e1857657c832623b69e14be0d1caa7"
+    },
+    {
+      "file": "fruit-and-drawn-story-640.webp",
+      "width": 640,
+      "height": 427,
+      "bytes": 20850,
+      "sha256": "f5556f9e46c42ff4bd9c3342acb5e60164955830b7e96988fe3082b7f55d7126"
+    },
+    {
+      "file": "gardens-and-boulevard-1280.webp",
+      "width": 1280,
+      "height": 853,
+      "bytes": 48956,
+      "sha256": "2f23d181cff84f42fe98a660bfb63027264bbf0423d79443c5bf0ac0b6e415d5"
+    },
+    {
+      "file": "gardens-and-boulevard-640.webp",
+      "width": 640,
+      "height": 427,
+      "bytes": 24420,
+      "sha256": "0866279eeddfa6d7d76cc864cd370160a0609ac584836f94e8a8eae5457434ce"
+    },
+    {
+      "file": "roman-pizza-1280.webp",
+      "width": 1280,
+      "height": 853,
+      "bytes": 48640,
+      "sha256": "1dd4652325a0abb55d1b166adcb573547be2e7ab56d4e59a3dadad27a749c180"
+    },
+    {
+      "file": "roman-pizza-640.webp",
+      "width": 640,
+      "height": 427,
+      "bytes": 23322,
+      "sha256": "d37ef1daff91d745b8425f4a42d47546615a14017f053b99ca5b1e30bc6dd6e7"
+    },
+    {
+      "file": "zaryadye-and-pizza-1280.webp",
+      "width": 1280,
+      "height": 853,
+      "bytes": 44194,
+      "sha256": "c8e4da7d076af21dd2b13eddcd2c2ce0f8e8ff0bdbc2fe5b8613c6ad114ebf0e"
+    },
+    {
+      "file": "zaryadye-and-pizza-640.webp",
+      "width": 640,
+      "height": 427,
+      "bytes": 21456,
+      "sha256": "e9588e48cf7e03a47d141b6d399ab171e12cca9aa7f09bed84fbd70a4e6f349d"
+    }
+  ]
+}
