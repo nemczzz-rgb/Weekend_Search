@@ -1,9 +1,8 @@
-import placeRecords from './content/places.json'
-import routeRecords from './content/routes.json'
-import type { Place as PlaceRecord, Route as RouteRecord } from './content/types'
+import { legacyPlaces as placeRecords, legacyRoutes as routeRecords } from './content/static-source.ts'
+import type { Place as PlaceRecord, Route as RouteRecord } from './content/types.ts'
 
 // UI shapes used by App, planner and visit. The data itself lives in ./content (knowledge base, TASK-035).
-// Temporary adapter: TASK-047 replaces direct JSON imports with content/load.ts (plan section 12, P1).
+// Temporary adapter for the current demo screens; TASK-050 reads data through content/load.ts (plan section 12, P1).
 
 export type Place = {
   id: string
