@@ -1236,5 +1236,235 @@
       "x": 54,
       "y": 60
     }
+  },
+  {
+    "id": "tsvetaeva-museum",
+    "title": "Дом-музей Марины Цветаевой",
+    "kind": "Музей",
+    "area": "Арбат",
+    "durationMinutes": 75,
+    "note": "Поэзия и повседневная жизнь в арбатском переулке",
+    "tags": [
+      "литература",
+      "музей",
+      "история"
+    ],
+    "address": {
+      "value": "Борисоглебский пер., 6, стр. 1",
+      "source": "https://dommuseum.ru/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Вт–ср, пт–вс 12:00–19:00; чт 12:00–21:00; понедельник уточнить",
+      "source": "https://dommuseum.ru/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "scriabin-museum",
+    "title": "Мемориальный музей Скрябина",
+    "kind": "Музей",
+    "area": "Арбат",
+    "durationMinutes": 75,
+    "note": "Музыка и мир композитора в старом московском доме",
+    "tags": [
+      "музыка",
+      "музей",
+      "история"
+    ],
+    "address": {
+      "value": "Большой Николопесковский пер., 11",
+      "source": "https://scriabinmuseum.ru/contacts/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Ср, пт–вс 12:00–20:00; чт 13:00–21:00; пн выходной; вт уточнить. Последняя пт месяца санитарный день",
+      "source": "https://scriabinmuseum.ru/contacts/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "pushkin-literary",
+    "title": "Государственный музей Пушкина",
+    "kind": "Музей",
+    "area": "Хамовники",
+    "durationMinutes": 75,
+    "note": "Пушкинская эпоха в усадьбе на Пречистенке",
+    "tags": [
+      "литература",
+      "музей",
+      "история"
+    ],
+    "address": {
+      "value": "ул. Пречистенка, 12/2",
+      "source": "https://www.pushkinmuseum.ru/posetitelyam/rezhim-raboty-i-kontakty/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Вт–ср, пт–вс 10:00–18:00; чт 13:00–21:00; пн выходной",
+      "source": "https://www.pushkinmuseum.ru/posetitelyam/rezhim-raboty-i-kontakty/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "turgenev-house",
+    "title": "Дом-музей Тургенева",
+    "kind": "Музей",
+    "area": "Хамовники",
+    "durationMinutes": 60,
+    "note": "История писателя и его московского дома",
+    "tags": [
+      "литература",
+      "музей",
+      "история"
+    ],
+    "address": {
+      "value": "ул. Остоженка, 37/7, стр. 1",
+      "source": "https://www.pushkinmuseum.ru/posetitelyam/rezhim-raboty-i-kontakty/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Вт–ср, пт–вс 10:00–18:00; чт 13:00–21:00; пн выходной",
+      "source": "https://www.pushkinmuseum.ru/posetitelyam/rezhim-raboty-i-kontakty/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "pushkin-arbat",
+    "title": "Мемориальная квартира Пушкина",
+    "kind": "Музей",
+    "area": "Арбат",
+    "durationMinutes": 60,
+    "note": "Дом на Арбате и история молодой семьи поэта",
+    "tags": [
+      "литература",
+      "музей",
+      "Арбат"
+    ],
+    "address": {
+      "value": "ул. Арбат, 53, стр. 1",
+      "source": "https://www.pushkinmuseum.ru/posetitelyam/rezhim-raboty-i-kontakty/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Ср, пт–вс 10:00–18:00; чт 13:00–21:00; пн–вт выходные",
+      "source": "https://www.pushkinmuseum.ru/posetitelyam/rezhim-raboty-i-kontakty/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "andrei-bely-house",
+    "title": "Мемориальная квартира Андрея Белого",
+    "kind": "Музей",
+    "area": "Арбат",
+    "durationMinutes": 60,
+    "note": "Литературный Арбат глазами поэта Серебряного века",
+    "tags": [
+      "литература",
+      "музей",
+      "Арбат"
+    ],
+    "address": {
+      "value": "ул. Арбат, 55/32",
+      "source": "https://www.pushkinmuseum.ru/posetitelyam/rezhim-raboty-i-kontakty/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Ср, пт–вс 10:00–18:00; чт 13:00–21:00; пн–вт выходные",
+      "source": "https://www.pushkinmuseum.ru/posetitelyam/rezhim-raboty-i-kontakty/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "vasily-pushkin-house",
+    "title": "Дом-музей Василия Пушкина",
+    "kind": "Музей",
+    "area": "Басманный",
+    "durationMinutes": 60,
+    "note": "Литературный быт старой Басманной",
+    "tags": [
+      "литература",
+      "музей",
+      "история"
+    ],
+    "address": {
+      "value": "ул. Старая Басманная, 36",
+      "source": "https://www.pushkinmuseum.ru/posetitelyam/rezhim-raboty-i-kontakty/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Ср, пт–вс 10:00–18:00; чт 13:00–21:00; пн–вт выходные",
+      "source": "https://www.pushkinmuseum.ru/posetitelyam/rezhim-raboty-i-kontakty/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "esenin-house",
+    "title": "Дом-музей Есенина",
+    "kind": "Музей",
+    "area": "Замоскворечье",
+    "durationMinutes": 60,
+    "note": "Поэтическая Москва в небольшом доме-музее",
+    "tags": [
+      "литература",
+      "музей",
+      "история"
+    ],
+    "address": {
+      "value": "Большой Строченовский пер., 24, стр. 2",
+      "source": "https://esenin-museum.ru/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Вт–ср, пт 10:00–18:00; чт 13:00–21:00; сб–вс 12:00–20:00; пн выходной; касса закрывается за 30 минут",
+      "source": "https://esenin-museum.ru/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "zotov-centre",
+    "title": "Центр «Зотов»",
+    "kind": "Культурный центр",
+    "area": "Пресненский",
+    "durationMinutes": 90,
+    "note": "Конструктивизм и выставки в бывшем хлебозаводе",
+    "tags": [
+      "архитектура",
+      "искусство",
+      "дизайн"
+    ],
+    "address": {
+      "value": "ул. Ходынская, 2, стр. 1",
+      "source": "https://centrezotov.ru/visitors/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Вт–вс 11:00–22:00; пн выходной; кассы до 21:20, вход до 21:45",
+      "source": "https://centrezotov.ru/visitors/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "new-tretyakov",
+    "title": "Новая Третьяковка",
+    "kind": "Музей",
+    "area": "Якиманка",
+    "durationMinutes": 100,
+    "note": "Русское искусство нового времени на Крымском Валу",
+    "tags": [
+      "искусство",
+      "музей",
+      "выставка"
+    ],
+    "address": {
+      "value": "ул. Крымский Вал, 10",
+      "source": "https://www.tretyakovgallery.ru/for-visitors/museums/novaya-tretyakovka/",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Вт–вс 10:00–21:00; пн выходной; кассы и вход до 20:00",
+      "source": "https://www.tretyakovgallery.ru/for-visitors/museums/novaya-tretyakovka/",
+      "checkedAt": "2026-11-16"
+    }
   }
 ]
