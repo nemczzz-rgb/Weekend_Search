@@ -18,14 +18,36 @@
     },
     {
       "id": "nothing-mmoma",
-      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.6143748,55.7680733;37.6142183,55.7670218?overview=false&steps=true",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.6143748,55.7680733;37.6140195,55.7672382?overview=false&steps=true",
       "status": 200,
-      "distanceMetres": 172.4,
-      "durationSeconds": 138.1,
+      "distanceMetres": 166.3,
+      "durationSeconds": 133.2,
       "waypointSnapMetres": [
         3.02960788,
-        12.19216297
-      ]
+        0
+      ],
+      "modes": [
+        "walking"
+      ],
+      "destination": {
+        "lon": 37.6140195,
+        "lat": 55.7672382,
+        "kind": "osm-main-entrance",
+        "osmNode": 4763136674,
+        "source": "https://www.openstreetmap.org/node/4763136674"
+      },
+      "previousCalculation": {
+        "id": "nothing-mmoma",
+        "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.6143748,55.7680733;37.6142183,55.7670218?overview=false&steps=true",
+        "status": 200,
+        "distanceMetres": 172.4,
+        "durationSeconds": 138.1,
+        "waypointSnapMetres": [
+          3.02960788,
+          12.19216297
+        ]
+      },
+      "note": "Destination now uses OSM entrance=main. Origin remains a cafe marker, not a verified doorway."
     },
     {
       "id": "bolotnaya-sok",
@@ -40,14 +62,138 @@
     },
     {
       "id": "sok-tretyakov",
-      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.62164613003296,55.741575930613855;37.6202196,55.7413613?overview=false&steps=true",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.62164613003296,55.741575930613855;37.6207008,55.741463?overview=false&steps=true",
       "status": 200,
-      "distanceMetres": 287.2,
-      "durationSeconds": 229.8,
+      "distanceMetres": 111.4,
+      "durationSeconds": 89.1,
       "waypointSnapMetres": [
         12.07571461,
-        31.97391642
+        0
+      ],
+      "modes": [
+        "walking"
+      ],
+      "destination": {
+        "lon": 37.6207008,
+        "lat": 55.741463,
+        "kind": "osm-main-entrance",
+        "osmNode": 5060852337,
+        "source": "https://www.openstreetmap.org/node/5060852337"
+      },
+      "previousCalculation": {
+        "id": "sok-tretyakov",
+        "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.62164613003296,55.741575930613855;37.6202196,55.7413613?overview=false&steps=true",
+        "status": 200,
+        "distanceMetres": 287.2,
+        "durationSeconds": 229.8,
+        "waypointSnapMetres": [
+          12.07571461,
+          31.97391642
+        ]
+      },
+      "note": "Destination now uses OSM entrance=main. Origin remains a cafe marker, not a verified doorway."
+    },
+    {
+      "id": "zaryadye-to-masa-madre",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.6289346,55.7512173;37.638672,55.7541339?overview=false&steps=true",
+      "status": 200,
+      "distanceMetres": 852.3,
+      "durationSeconds": 681.9,
+      "waypointSnapMetres": [
+        16.02723576,
+        11.16309248
+      ],
+      "streets": [],
+      "modes": [
+        "walking"
       ]
+    },
+    {
+      "id": "masa-madre-to-solyanka-gallery",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.638672,55.7541339;37.638437,55.754648?overview=false&steps=true",
+      "status": 200,
+      "distanceMetres": 74,
+      "durationSeconds": 59.1,
+      "waypointSnapMetres": [
+        11.16309248,
+        6.827941764
+      ],
+      "streets": [],
+      "modes": [
+        "walking"
+      ]
+    }
+  ],
+  "markerPoints": [
+    {
+      "id": "zaryadye",
+      "lon": 37.6289346,
+      "lat": 55.7512173,
+      "kind": "park-centre",
+      "source": "https://nominatim.openstreetmap.org/search?format=jsonv2&limit=3&countrycodes=ru&q=%D0%9F%D0%B0%D1%80%D0%BA%20%D0%97%D0%B0%D1%80%D1%8F%D0%B4%D1%8C%D0%B5%2C%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0"
+    },
+    {
+      "id": "masa-madre",
+      "lon": 37.638672,
+      "lat": 55.7541339,
+      "kind": "osm-cafe-marker",
+      "osmType": "node",
+      "osmId": 11932841605,
+      "source": "https://www.openstreetmap.org/node/11932841605"
+    },
+    {
+      "id": "solyanka-gallery",
+      "lon": 37.638437,
+      "lat": 55.754648,
+      "kind": "official-map-marker",
+      "source": "https://solyanka.vzmoscow.ru/contacts"
+    }
+  ],
+  "unfinishedChecks": [
+    {
+      "source": "https://overpass-api.de/api/interpreter",
+      "purpose": "Entrances near Lavrushinsky and exact Solyanka POIs",
+      "checkedAt": "2026-11-16",
+      "result": "timeout / HTTP 502; no doorway or closure confirmation obtained"
+    }
+  ],
+  "fixMap": "https://www.openstreetmap.org/fixthemap",
+  "entranceChecks": [
+    {
+      "id": "mmoma-entrances",
+      "url": "https://api.openstreetmap.org/api/0.6/way/47138172/full.json",
+      "status": 200,
+      "points": [
+        {
+          "id": 4763136674,
+          "lat": 55.7672382,
+          "lon": 37.6140195,
+          "tags": {
+            "entrance": "main"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tretyakov-entrances",
+      "url": "https://api.openstreetmap.org/api/0.6/relation/1907261/full.json",
+      "status": 200,
+      "points": [
+        {
+          "id": 5060852337,
+          "lat": 55.741463,
+          "lon": 37.6207008,
+          "tags": {
+            "entrance": "main"
+          }
+        }
+      ]
+    },
+    {
+      "id": "solyanka-entrance",
+      "source": "https://api.openstreetmap.org/api/0.6/relation/450796/full.json",
+      "status": 200,
+      "result": "Building data contains residential staircase nodes; no labelled gallery doorway confirmed. Residential node details and contributor metadata omitted."
     }
   ]
 }

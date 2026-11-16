@@ -616,6 +616,11 @@
     "scheme": {
       "x": 55,
       "y": 67
+    },
+    "price": {
+      "value": "Взрослый билет в историческое здание — 700 ₽; специальные события проверяйте отдельно",
+      "source": "https://www.tretyakovgallery.ru/for-visitors/museums/istoricheskoe-zdanie/",
+      "checkedAt": "2026-11-16"
     }
   },
   {
@@ -1195,6 +1200,11 @@
     "hours": {
       "value": "Вт–вс 12:00–21:00; пн выходной",
       "source": "https://mmoma.ru/know/building/petrovka",
+      "checkedAt": "2026-11-16"
+    },
+    "price": {
+      "value": "Стандартный билет — 500 ₽; условия льгот и специальных событий уточняйте у музея",
+      "source": "https://mmoma.ru/know/aboutmuseum/tickets",
       "checkedAt": "2026-11-16"
     }
   },
@@ -2440,6 +2450,49 @@
     "hours": {
       "value": "Ср 10:00–18:00; чт 10:00–21:00; пт–вс 10:00–17:00; пн выходной; вт уточнить",
       "source": "https://scriabinmuseum.ru/contacts/",
+      "checkedAt": "2026-11-16"
+    }
+  },
+  {
+    "id": "bolotnaya-square",
+    "title": "Болотная площадь",
+    "kind": "Площадь",
+    "area": "Якиманка",
+    "durationMinutes": 45,
+    "note": "Прогулка по площади перед обедом в Лаврушинском переулке. Это отдельная точка, не Болотная набережная.",
+    "tags": [
+      "площадь",
+      "прогулка",
+      "центр"
+    ],
+    "publicSpace": true
+  },
+  {
+    "id": "solyanka-gallery",
+    "title": "Галерея «Солянка»",
+    "kind": "Галерея",
+    "area": "Китай-город",
+    "durationMinutes": 60,
+    "note": "Выставки и события у Китай-города; вход с улицы Забелина. Перед поездкой проверьте афишу и доступность посещения.",
+    "tags": [
+      "искусство",
+      "выставка",
+      "галерея",
+      "солянка"
+    ],
+    "address": {
+      "value": "ул. Солянка, 1/2, стр. 2; вход с улицы Забелина",
+      "source": "https://solyanka.vzmoscow.ru/contacts",
+      "checkedAt": "2026-11-16"
+    },
+    "hours": {
+      "value": "Общий режим: ежедневно 12:00–22:00; доступность конкретной выставки уточняйте по афише",
+      "source": "https://solyanka.vzmoscow.ru/contacts",
+      "checkedAt": "2026-11-16"
+    },
+    "price": {
+      "value": "Стандартный билет — 500 ₽; отдельные события могут иметь другой тариф",
+      "source": "https://solyanka.vzmoscow.ru/contacts",
       "checkedAt": "2026-11-16"
     }
   }
