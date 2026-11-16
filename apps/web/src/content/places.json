@@ -1135,17 +1135,12 @@
     "address": {
       "value": "Большая Новодмитровская ул., 36",
       "source": "https://design-zavod.ru/contacts",
-      "checkedAt": "2026-11-10"
+      "checkedAt": "2026-11-16"
     },
     "hours": {
-      "value": "Территория круглосуточно; магазины по графику",
+      "value": "Территория круглосуточно; магазины 10:00–22:00 по странице оператора",
       "source": "https://design-zavod.ru/contacts",
-      "checkedAt": "2026-11-10"
-    },
-    "price": {
-      "value": "Вход на территорию свободный; события отдельно",
-      "source": "https://design-zavod.ru/contacts",
-      "checkedAt": "2026-11-10"
+      "checkedAt": "2026-11-16"
     },
     "scheme": {
       "x": 54,
@@ -1167,17 +1162,17 @@
     "address": {
       "value": "Новодмитровская ул., 1",
       "source": "https://hlebozavod9.ru/contacts",
-      "checkedAt": "2026-11-10"
+      "checkedAt": "2026-11-16"
     },
     "hours": {
-      "value": "Заведения по своему графику",
-      "source": "https://hlebozavod9.ru/contacts",
-      "checkedAt": "2026-11-10"
+      "value": "Территория 24/7; возможны временные закрытия, заведения по своему графику",
+      "source": "https://hlebozavod9.ru/events/pravila-poseshchenija",
+      "checkedAt": "2026-11-16"
     },
     "price": {
-      "value": "Прогулка без билета; события отдельно",
-      "source": "https://hlebozavod9.ru/contacts",
-      "checkedAt": "2026-11-10"
+      "value": "Вход на территорию свободный; это не билет на мероприятия",
+      "source": "https://hlebozavod9.ru/events/pravila-poseshchenija",
+      "checkedAt": "2026-11-16"
     },
     "scheme": {
       "x": 58,
