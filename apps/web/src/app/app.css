@@ -5,3 +5,7 @@
 .ws-app-links { display:flex; flex-wrap:wrap; gap:16px; margin:24px 0; }
 @media (max-width:767px) { .ws-app-screen { padding:32px 16px 140px; } }
 .ws-app-notice { position:fixed; z-index:100; left:50%; bottom:88px; transform:translateX(-50%); width:min(650px,calc(100% - 32px)); }
+/* Tower background (shukhov-background.js, as on the current site); the new tower rendering from tokens.md is a separate task. */
+.ws-app { background:transparent; position:relative; isolation:isolate; }
+.ws-app .tower-background { background:var(--ws-paper); }
+.ws-app:not([data-view='home']) .tower-background canvas { opacity:.45; }
