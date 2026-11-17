@@ -1,5 +1,5 @@
 // Host of the new site (TASK-050): one navigation, one plan, shared header and footer.
-// Until the release switch (TASK-053) it is reachable only in development via ?app=next (D11).
+// Since the release switch (TASK-053) this is the site itself (app/entry.tsx).
 import { useEffect, useRef, useState, type ReactNode } from 'react'
 import { DayIdeasScreen } from '../screens/day-ideas/index.ts'
 import { PlanScreen } from '../screens/plan/PlanScreen.tsx'
