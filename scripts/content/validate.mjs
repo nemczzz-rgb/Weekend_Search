@@ -148,6 +148,7 @@ export function validateContent(dir, { release = false, today = new Date() } = {
   }
 
   // ---------- routes ----------
+  const routePlaceSets = new Map()
   for (const [r, where] of objects('routes')) {
     allowed(where, r, ['id', 'title', 'subtitle', 'theme', 'area', 'tone', 'days', 'placeIds', 'keywords', 'image', 'imageAlt'])
     for (const key of ['title', 'subtitle', 'theme', 'area']) str(where, r[key], key)
@@ -157,6 +158,11 @@ export function validateContent(dir, { release = false, today = new Date() } = {
     else {
       if (new Set(r.placeIds).size !== r.placeIds.length) errors.push(`${where}: "placeIds" has duplicates`)
       for (const id of r.placeIds) if (!ids.places.has(id)) errors.push(`${where}: unknown place "${id}"`)
+      if (r.placeIds.length >= 2 && r.placeIds.every(id => typeof id === 'string' && ids.places.has(id))) {
+        const key = [...r.placeIds].sort().join(',')
+        if (routePlaceSets.has(key)) errors.push(`${where}: same set of places as ${routePlaceSets.get(key)}`)
+        else routePlaceSets.set(key, where)
+      }
     }
     strList(where, r.keywords, 'keywords')
     image(where, r)
@@ -369,7 +375,7 @@ export function validateContent(dir, { release = false, today = new Date() } = {
   const below = []
   const m = RELEASE_MINIMUMS
   // TASK-054: legacy single-place ideas stay readable, but do not meet the route minimum.
-  const multiStopRoutes = data.routes.filter(r => Array.isArray(r?.placeIds) && r.placeIds.length >= 2 && r.placeIds.length <= 6 && new Set(r.placeIds).size === r.placeIds.length && r.placeIds.every(id => ids.places.has(id))).length
+  const multiStopRoutes = new Set(data.routes.filter(r => Array.isArray(r?.placeIds) && r.placeIds.length >= 2 && r.placeIds.length <= 6 && new Set(r.placeIds).size === r.placeIds.length && r.placeIds.every(id => ids.places.has(id))).map(r => [...r.placeIds].sort().join(','))).size
   for (const key of ['places', 'routes', 'recipes', 'dayIdeas']) {
     const count = key === 'routes' ? multiStopRoutes : counts[key]
     const label = key === 'routes' ? 'routes (2–6 places)' : key

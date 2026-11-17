@@ -1,0 +1,4220 @@
+{
+  "checkedAt": "2026-11-17",
+  "attribution": "© OpenStreetMap contributors, ODbL 1.0; FOSSGIS OSRM foot. Координаты маркеров альпак, CoolTennis и Четверга — публичные карточки Яндекс Карт.",
+  "source": "https://routing.openstreetmap.de/about.html",
+  "policy": "https://operations.osmfoundation.org/policies/nominatim/",
+  "method": "Разовые последовательные запросы с кэшем и User-Agent проекта, пауза не менее секунды. Время расчётное, между указанными точками карты; не физический осмотр дверей, ограждений, лестниц, очередей или гарантированное время. Между днями двухдневного варианта переход не считается. Публичные точки отобраны вручную; другие филиалы, остановки вместо парков и центры воды отклонены.",
+  "points": {
+    "nothing-fancy": {
+      "id": "nothing-fancy",
+      "lon": 37.6143748,
+      "lat": 55.7680733,
+      "source": "https://www.openstreetmap.org/node/12118333801",
+      "kind": "previous-verified-marker",
+      "note": "Точка сохранена из проверки первой тройки; кафе/галерея не считаются проверенными дверями."
+    },
+    "hermitage": {
+      "id": "hermitage",
+      "lon": 37.6090326,
+      "lat": 55.7707449,
+      "source": "https://www.openstreetmap.org/relation/6741551",
+      "kind": "previous-verified-marker",
+      "note": "Точка сохранена из проверки первой тройки; кафе/галерея не считаются проверенными дверями."
+    },
+    "beket-pond": {
+      "id": "beket-pond",
+      "lon": 37.6118759,
+      "lat": 55.6992289,
+      "kind": "osm-public-footpath-node",
+      "source": "https://www.openstreetmap.org/node/5225035865",
+      "parentWay": "https://www.openstreetmap.org/way/540035838",
+      "note": "Узел пешеходной дорожки у пруда; не центр воды и не остановка метро. Выбран ближайший путь к ориентиру пруда."
+    },
+    "kolibri": {
+      "id": "kolibri",
+      "lon": 37.6043406,
+      "lat": 55.6878202,
+      "source": "https://www.openstreetmap.org/way/30158914",
+      "kind": "osm-marker"
+    },
+    "alpaca": {
+      "id": "alpaca",
+      "lon": 37.546821,
+      "lat": 55.711321,
+      "source": "https://yandex.ru/maps/org/park_alpak_simba/74506249230/",
+      "kind": "yandex-venue-marker"
+    },
+    "vorobyovy": {
+      "id": "vorobyovy",
+      "lon": 37.5423321,
+      "lat": 55.709356,
+      "source": "https://www.openstreetmap.org/node/557264945",
+      "kind": "osm-viewpoint"
+    },
+    "ashram": {
+      "id": "ashram",
+      "lon": 37.5893055,
+      "lat": 55.7590052,
+      "source": "https://www.openstreetmap.org/way/46932084",
+      "kind": "osm-marker"
+    },
+    "patriarch": {
+      "id": "patriarch",
+      "lon": 37.5918749,
+      "lat": 55.7643481,
+      "source": "https://www.openstreetmap.org/relation/6897180",
+      "kind": "osm-marker"
+    },
+    "cooltennis": {
+      "id": "cooltennis",
+      "lon": 37.309466,
+      "lat": 55.737971,
+      "source": "https://yandex.ru/maps/org/cooltennis/194155465381/",
+      "kind": "yandex-venue-marker"
+    },
+    "malevich-park": {
+      "id": "malevich-park",
+      "lon": 37.298583,
+      "lat": 55.737177,
+      "source": "https://odinparki.ru/parks/?id=2992",
+      "kind": "official-map-marker",
+      "note": "Вход у Рублёвского проезда из ссылки оператора на карту; не центр всего леса."
+    },
+    "mates": {
+      "id": "mates",
+      "lon": 37.5718023,
+      "lat": 55.7280921,
+      "source": "https://www.openstreetmap.org/way/584904849",
+      "kind": "osm-marker"
+    },
+    "novodevichy-ponds": {
+      "id": "novodevichy-ponds",
+      "lon": 37.5513449,
+      "lat": 55.7265397,
+      "source": "https://www.openstreetmap.org/relation/1543095",
+      "kind": "osm-marker"
+    },
+    "cable-luzhniki": {
+      "id": "cable-luzhniki",
+      "lon": 37.547407,
+      "lat": 55.7112529,
+      "source": "https://www.openstreetmap.org/way/272262247",
+      "kind": "osm-marker"
+    },
+    "luzhnetskaya": {
+      "id": "luzhnetskaya",
+      "lon": 37.5650105,
+      "lat": 55.7117139,
+      "source": "https://www.openstreetmap.org/way/161143465",
+      "kind": "osm-marker"
+    },
+    "izmailovo": {
+      "id": "izmailovo",
+      "lon": 37.750955,
+      "lat": 55.786551,
+      "source": "https://www.izmailovsky-park.ru/adres",
+      "kind": "official-walking-route-endpoint",
+      "note": "Северный вход от Партизанской по пешеходной ссылке оператора. Переход к усадьбе считается после прогулки от этого выхода, не от центра всего леса."
+    },
+    "izmailovo-estate": {
+      "id": "izmailovo-estate",
+      "lon": 37.7629637,
+      "lat": 55.791518,
+      "source": "https://www.openstreetmap.org/relation/14412368",
+      "kind": "osm-marker"
+    },
+    "standup-patriki": {
+      "id": "standup-patriki",
+      "lon": 37.5875894,
+      "lat": 55.762405,
+      "source": "https://www.openstreetmap.org/node/7783837298",
+      "kind": "osm-marker"
+    },
+    "chetverg": {
+      "id": "chetverg",
+      "lon": 37.5945,
+      "lat": 55.771824,
+      "source": "https://yandex.ru/maps/org/chetverg/145539923127/",
+      "kind": "yandex-venue-marker"
+    },
+    "music-museum": {
+      "id": "music-museum",
+      "lon": 37.5997678,
+      "lat": 55.7744879,
+      "source": "https://www.openstreetmap.org/way/24776578",
+      "kind": "osm-marker"
+    },
+    "masa-madre": {
+      "id": "masa-madre",
+      "lon": 37.638672,
+      "lat": 55.7541339,
+      "source": "https://www.openstreetmap.org/?mlat=55.7541339&mlon=37.638672",
+      "kind": "previous-verified-marker",
+      "note": "Точка сохранена из проверки первой тройки; кафе/галерея не считаются проверенными дверями."
+    },
+    "kitay": {
+      "id": "kitay",
+      "lon": 37.6251632,
+      "lat": 55.7559536,
+      "source": "https://www.openstreetmap.org/relation/4045505",
+      "kind": "osm-marker"
+    },
+    "khitrovka": {
+      "id": "khitrovka",
+      "lon": 37.643299,
+      "lat": 55.7533399,
+      "source": "https://www.openstreetmap.org/way/37453471",
+      "kind": "osm-marker"
+    },
+    "dvoyka": {
+      "id": "dvoyka",
+      "lon": 37.638437,
+      "lat": 55.754648,
+      "source": "https://www.openstreetmap.org/relation/450796",
+      "kind": "osm-building-marker",
+      "note": "То же строение Солянка1/2с2, что галерея; вход именно в бар не подтверждён, маркер не дверь."
+    },
+    "nikolskaya": {
+      "id": "nikolskaya",
+      "lon": 37.6223868,
+      "lat": 55.7570884,
+      "source": "https://www.openstreetmap.org/way/22744522",
+      "kind": "osm-marker"
+    },
+    "pokrovka": {
+      "id": "pokrovka",
+      "lon": 37.6428647,
+      "lat": 55.7589971,
+      "source": "https://www.openstreetmap.org/way/300644939",
+      "kind": "osm-marker"
+    },
+    "pushkin": {
+      "id": "pushkin",
+      "lon": 37.6054233,
+      "lat": 55.747285,
+      "source": "https://www.openstreetmap.org/relation/2421978",
+      "kind": "osm-marker"
+    },
+    "tretyakov": {
+      "id": "tretyakov",
+      "lon": 37.6207008,
+      "lat": 55.741463,
+      "source": "https://www.openstreetmap.org/node/5060852337",
+      "kind": "osm-main-entrance",
+      "note": "Точка сохранена из проверки первой тройки; кафе/галерея не считаются проверенными дверями."
+    },
+    "muzeon": {
+      "id": "muzeon",
+      "lon": 37.6073423,
+      "lat": 55.7353919,
+      "source": "https://www.openstreetmap.org/relation/3224482",
+      "kind": "osm-marker"
+    },
+    "gorky": {
+      "id": "gorky",
+      "lon": 37.6002408,
+      "lat": 55.7270939,
+      "source": "https://www.openstreetmap.org/relation/2791365",
+      "kind": "osm-marker"
+    },
+    "neskuchny": {
+      "id": "neskuchny",
+      "lon": 37.5879908,
+      "lat": 55.7176027,
+      "source": "https://www.openstreetmap.org/relation/2791364",
+      "kind": "osm-marker"
+    },
+    "zaryadye": {
+      "id": "zaryadye",
+      "lon": 37.6289346,
+      "lat": 55.7512173,
+      "source": "https://www.openstreetmap.org/relation/1555621",
+      "kind": "previous-verified-marker",
+      "note": "Точка сохранена из проверки первой тройки; кафе/галерея не считаются проверенными дверями."
+    },
+    "bolotnaya": {
+      "id": "bolotnaya",
+      "lon": 37.618363,
+      "lat": 55.7448321,
+      "source": "https://www.openstreetmap.org/way/1017880356",
+      "kind": "osm-marker"
+    },
+    "krymsky": {
+      "id": "krymsky",
+      "lon": 37.6054793,
+      "lat": 55.7364667,
+      "source": "https://www.openstreetmap.org/way/160191346",
+      "kind": "osm-marker"
+    },
+    "arbat": {
+      "id": "arbat",
+      "lon": 37.5926913,
+      "lat": 55.7498123,
+      "source": "https://www.openstreetmap.org/way/18876101",
+      "kind": "osm-marker"
+    },
+    "vakhtangov": {
+      "id": "vakhtangov",
+      "lon": 37.5914168,
+      "lat": 55.7498333,
+      "source": "https://www.openstreetmap.org/way/224225490",
+      "kind": "osm-marker"
+    },
+    "preo": {
+      "id": "preo",
+      "lon": 37.591849,
+      "lat": 55.7408114,
+      "source": "https://www.openstreetmap.org/way/57919231",
+      "kind": "osm-marker"
+    },
+    "cosmos": {
+      "id": "cosmos",
+      "lon": 37.6397485,
+      "lat": 55.8227898,
+      "source": "https://www.openstreetmap.org/relation/18440666",
+      "kind": "osm-marker"
+    },
+    "vdnh": {
+      "id": "vdnh",
+      "lon": 37.6218032,
+      "lat": 55.8339464,
+      "source": "https://www.openstreetmap.org/relation/1250525",
+      "kind": "osm-marker"
+    },
+    "ostankino": {
+      "id": "ostankino",
+      "lon": 37.6103488,
+      "lat": 55.8293297,
+      "source": "https://www.openstreetmap.org/relation/1343768",
+      "kind": "osm-marker"
+    },
+    "jewish-museum": {
+      "id": "jewish-museum",
+      "lon": 37.6081055,
+      "lat": 55.7892592,
+      "source": "https://www.openstreetmap.org/node/6307571438",
+      "kind": "osm-marker"
+    },
+    "depot": {
+      "id": "depot",
+      "lon": 37.5929982,
+      "lat": 55.7801899,
+      "source": "https://www.openstreetmap.org/relation/9297088",
+      "kind": "osm-marker"
+    },
+    "ermolova": {
+      "id": "ermolova",
+      "lon": 37.5992232,
+      "lat": 55.7581095,
+      "source": "https://www.openstreetmap.org/way/1347996136",
+      "kind": "osm-marker",
+      "note": "Южный участок бульвара у Никитских Ворот; это точка дорожной линии, не вход и не полный обход бульвара."
+    },
+    "red-square": {
+      "id": "red-square",
+      "lon": 37.6215013,
+      "lat": 55.7535908,
+      "source": "https://www.openstreetmap.org/relation/1577673",
+      "kind": "osm-marker"
+    },
+    "mmoma-petrovka": {
+      "id": "mmoma-petrovka",
+      "lon": 37.6140195,
+      "lat": 55.7672382,
+      "source": "https://www.openstreetmap.org/node/4763136674",
+      "kind": "osm-main-entrance",
+      "note": "Точка сохранена из проверки первой тройки; кафе/галерея не считаются проверенными дверями."
+    },
+    "bolotnaya-square": {
+      "id": "bolotnaya-square",
+      "lon": 37.6182362,
+      "lat": 55.7449293,
+      "source": "https://www.openstreetmap.org/node/11252764023",
+      "kind": "previous-verified-marker",
+      "note": "Точка сохранена из проверки первой тройки; кафе/галерея не считаются проверенными дверями."
+    },
+    "sok-cafe": {
+      "id": "sok-cafe",
+      "lon": 37.62164613003296,
+      "lat": 55.741575930613855,
+      "source": "https://www.openstreetmap.org/?mlat=55.741575930613855&mlon=37.62164613003296",
+      "kind": "previous-verified-marker",
+      "note": "Точка сохранена из проверки первой тройки; кафе/галерея не считаются проверенными дверями."
+    },
+    "flacon": {
+      "id": "flacon",
+      "lon": 37.5855327,
+      "lat": 55.8050165,
+      "source": "https://www.openstreetmap.org/relation/3888544",
+      "kind": "osm-marker"
+    },
+    "hleb": {
+      "id": "hleb",
+      "lon": 37.5847513,
+      "lat": 55.8073414,
+      "source": "https://www.openstreetmap.org/relation/2192882",
+      "kind": "osm-marker"
+    },
+    "chistye": {
+      "id": "chistye",
+      "lon": 37.6456095,
+      "lat": 55.7607185,
+      "kind": "osm-public-footpath-node",
+      "source": "https://www.openstreetmap.org/node/6095570665",
+      "parentWay": "https://www.openstreetmap.org/way/358409732",
+      "note": "Узел пешеходной дорожки у пруда; не центр воды и не остановка метро. Выбран ближайший путь к ориентиру пруда."
+    },
+    "solyanka-gallery": {
+      "id": "solyanka-gallery",
+      "lon": 37.638437,
+      "lat": 55.754648,
+      "source": "https://www.openstreetmap.org/?mlat=55.754648&mlon=37.638437",
+      "kind": "previous-verified-marker",
+      "note": "Точка сохранена из проверки первой тройки; кафе/галерея не считаются проверенными дверями."
+    },
+    "severyane": {
+      "id": "severyane",
+      "lon": 37.6064197,
+      "lat": 55.7564903,
+      "source": "https://www.openstreetmap.org/node/4027973852",
+      "kind": "osm-marker"
+    },
+    "architecture-museum": {
+      "id": "architecture-museum",
+      "lon": 37.6069349,
+      "lat": 55.7525928,
+      "source": "https://www.openstreetmap.org/node/6178085159",
+      "kind": "osm-main-entrance"
+    },
+    "az-museum": {
+      "id": "az-museum",
+      "lon": 37.5938887,
+      "lat": 55.7722158,
+      "source": "https://www.openstreetmap.org/node/3554560005",
+      "kind": "osm-marker",
+      "note": "Маркер музея; публичный вход здания не установлен."
+    },
+    "book-house-arbat": {
+      "id": "book-house-arbat",
+      "lon": 37.5953577,
+      "lat": 55.7531324,
+      "source": "https://www.openstreetmap.org/way/35814576",
+      "kind": "osm-marker"
+    },
+    "tsvetaeva-museum": {
+      "id": "tsvetaeva-museum",
+      "lon": 37.590072,
+      "lat": 55.7541987,
+      "source": "https://www.openstreetmap.org/way/300426888",
+      "kind": "osm-marker"
+    },
+    "pushkin-literary": {
+      "id": "pushkin-literary",
+      "lon": 37.5968988,
+      "lat": 55.7440686,
+      "source": "https://www.openstreetmap.org/node/273355916",
+      "kind": "osm-marker"
+    },
+    "turgenev-house": {
+      "id": "turgenev-house",
+      "lon": 37.5961,
+      "lat": 55.7387186,
+      "source": "https://www.openstreetmap.org/way/76618921",
+      "kind": "osm-marker"
+    },
+    "pushkin-arbat": {
+      "id": "pushkin-arbat",
+      "lon": 37.5858371,
+      "lat": 55.7474998,
+      "source": "https://www.openstreetmap.org/way/47219542",
+      "kind": "osm-marker"
+    },
+    "andrei-bely-house": {
+      "id": "andrei-bely-house",
+      "lon": 37.5855988,
+      "lat": 55.74737,
+      "source": "https://www.openstreetmap.org/node/3500710699",
+      "kind": "osm-marker"
+    },
+    "bauman-garden": {
+      "id": "bauman-garden",
+      "lon": 37.6594063,
+      "lat": 55.7676448,
+      "source": "https://www.openstreetmap.org/relation/2377386",
+      "kind": "osm-marker"
+    },
+    "vasily-pushkin-house": {
+      "id": "vasily-pushkin-house",
+      "lon": 37.6688753,
+      "lat": 55.7690155,
+      "source": "https://www.openstreetmap.org/node/3390705964",
+      "kind": "osm-marker"
+    },
+    "mmoma-gogolevsky": {
+      "id": "mmoma-gogolevsky",
+      "lon": 37.6002885,
+      "lat": 55.7470341,
+      "source": "https://www.openstreetmap.org/node/3182704484",
+      "kind": "osm-marker"
+    },
+    "new-tretyakov": {
+      "id": "new-tretyakov",
+      "lon": 37.6062274,
+      "lat": 55.7348087,
+      "source": "https://www.openstreetmap.org/node/2468882311",
+      "kind": "osm-marker"
+    },
+    "decorative-art-museum": {
+      "id": "decorative-art-museum",
+      "lon": 37.610431,
+      "lat": 55.7742266962963,
+      "source": "https://www.openstreetmap.org/relation/12265556",
+      "kind": "osm-derived-building-centre",
+      "note": "Среднее координат внешних узлов музейного комплекса; не подтверждённая дверь."
+    },
+    "biblio-globus": {
+      "id": "biblio-globus",
+      "lon": 37.6302585,
+      "lat": 55.7599237,
+      "source": "https://www.openstreetmap.org/node/1106845050",
+      "kind": "osm-marker"
+    },
+    "zotov-centre": {
+      "id": "zotov-centre",
+      "lon": 37.5647879,
+      "lat": 55.7703197,
+      "source": "https://www.openstreetmap.org/node/10262107044",
+      "kind": "osm-marker"
+    },
+    "krasnaya-presnya": {
+      "id": "krasnaya-presnya",
+      "lon": 37.5520546,
+      "lat": 55.7536143,
+      "source": "https://www.openstreetmap.org/way/23619747",
+      "kind": "osm-marker"
+    },
+    "moscow-planetarium": {
+      "id": "moscow-planetarium",
+      "lon": 37.5838056,
+      "lat": 55.7613023,
+      "source": "https://www.openstreetmap.org/relation/18135199",
+      "kind": "osm-marker"
+    },
+    "chaikovsky-museum": {
+      "id": "chaikovsky-museum",
+      "lon": 37.5853551,
+      "lat": 55.7581396,
+      "source": "https://www.openstreetmap.org/node/3501044091",
+      "kind": "osm-marker"
+    },
+    "mirek-museum": {
+      "id": "mirek-museum",
+      "lon": 37.5945538,
+      "lat": 55.771822,
+      "source": "https://www.openstreetmap.org/node/3325191509",
+      "kind": "osm-marker"
+    }
+  },
+  "legs": [
+    {
+      "id": "nothing-fancy--hermitage",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.6143748,55.7680733;37.6090326,55.7707449?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 563.3,
+      "durationSeconds": 450.7,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        3.02960788,
+        28.02586645
+      ]
+    },
+    {
+      "id": "beket-pond--kolibri",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.6118759,55.6992289;37.6043406,55.6878202?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 1521.4,
+      "durationSeconds": 1219.1,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        0,
+        8.130066334
+      ]
+    },
+    {
+      "id": "alpaca--vorobyovy",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.546821,55.711321;37.5423321,55.709356?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 1025.8,
+      "durationSeconds": 844.3,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        0.1278441836,
+        3.174158771
+      ]
+    },
+    {
+      "id": "ashram--patriarch",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.5893055,55.7590052;37.5918749,55.7643481?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 852.3,
+      "durationSeconds": 682.1,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        11.17471738,
+        11.69902178
+      ]
+    },
+    {
+      "id": "cooltennis--malevich-park",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.309466,55.737971;37.298583,55.737177?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 768.6,
+      "durationSeconds": 614.5,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        31.56662015,
+        3.119279363
+      ]
+    },
+    {
+      "id": "mates--novodevichy-ponds",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.5718023,55.7280921;37.5513449,55.7265397?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 1596.2,
+      "durationSeconds": 1276.9,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        16.74356731,
+        16.17132934
+      ]
+    },
+    {
+      "id": "cable-luzhniki--luzhnetskaya",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.547407,55.7112529;37.5650105,55.7117139?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 1509.7,
+      "durationSeconds": 1207.7,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        9.668451904,
+        0
+      ]
+    },
+    {
+      "id": "izmailovo--izmailovo-estate",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.750955,55.786551;37.7629637,55.791518?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 1384.7,
+      "durationSeconds": 1107.7,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        2.644622209,
+        11.4244487
+      ]
+    },
+    {
+      "id": "patriarch--standup-patriki",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.5918749,55.7643481;37.5875894,55.762405?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 415.1,
+      "durationSeconds": 331.9,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        11.69902178,
+        8.283849669
+      ]
+    },
+    {
+      "id": "chetverg--music-museum",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.5945,55.771824;37.5997678,55.7744879?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 485.3,
+      "durationSeconds": 390.2,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        1.509982647,
+        16.15872284
+      ]
+    },
+    {
+      "id": "masa-madre--kitay",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.638672,55.7541339;37.6251632,55.7559536?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 1219.3,
+      "durationSeconds": 975.7,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        11.16309248,
+        14.84982341
+      ]
+    },
+    {
+      "id": "khitrovka--dvoyka",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.643299,55.7533399;37.638437,55.754648?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 528.1,
+      "durationSeconds": 422.3,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        0,
+        6.827941764
+      ]
+    },
+    {
+      "id": "nikolskaya--kitay",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.6223868,55.7570884;37.6251632,55.7559536?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 294,
+      "durationSeconds": 235,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        0.06275477113,
+        14.84982341
+      ]
+    },
+    {
+      "id": "kitay--khitrovka",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.6251632,55.7559536;37.643299,55.7533399?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 1553.5,
+      "durationSeconds": 1242.9,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        14.84982341,
+        0
+      ]
+    },
+    {
+      "id": "khitrovka--pokrovka",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.643299,55.7533399;37.6428647,55.7589971?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 932.5,
+      "durationSeconds": 748.2,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        0,
+        5.709383768
+      ]
+    },
+    {
+      "id": "pushkin--tretyakov",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.6054233,55.747285;37.6207008,55.741463?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 1742.9,
+      "durationSeconds": 1393.8,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        39.46934381,
+        0
+      ]
+    },
+    {
+      "id": "tretyakov--muzeon",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.6207008,55.741463;37.6073423,55.7353919?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 1430.1,
+      "durationSeconds": 1145.6,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        0,
+        16.58911578
+      ]
+    },
+    {
+      "id": "muzeon--gorky",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.6073423,55.7353919;37.6002408,55.7270939?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 1356.4,
+      "durationSeconds": 1085,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        16.58911578,
+        1.507898845
+      ]
+    },
+    {
+      "id": "gorky--neskuchny",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.6002408,55.7270939;37.5879908,55.7176027?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 1590.8,
+      "durationSeconds": 1272.7,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        1.507898845,
+        5.092900744
+      ]
+    },
+    {
+      "id": "neskuchny--vorobyovy",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.5879908,55.7176027;37.5423321,55.709356?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 3527.3,
+      "durationSeconds": 2822,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        5.092900744,
+        3.174158771
+      ]
+    },
+    {
+      "id": "zaryadye--bolotnaya",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.6289346,55.7512173;37.618363,55.7448321?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 1247.9,
+      "durationSeconds": 998,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        16.02723576,
+        7.375846058
+      ]
+    },
+    {
+      "id": "bolotnaya--krymsky",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.618363,55.7448321;37.6054793,55.7364667?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 1307.5,
+      "durationSeconds": 1046,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        7.375846058,
+        0
+      ]
+    },
+    {
+      "id": "krymsky--gorky",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.6054793,55.7364667;37.6002408,55.7270939?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 1407.5,
+      "durationSeconds": 1126,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        0,
+        1.507898845
+      ]
+    },
+    {
+      "id": "arbat--vakhtangov",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.5926913,55.7498123;37.5914168,55.7498333?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 146.1,
+      "durationSeconds": 116.7,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        0,
+        25.24613854
+      ]
+    },
+    {
+      "id": "vakhtangov--pushkin",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.5914168,55.7498333;37.6054233,55.747285?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 1389.3,
+      "durationSeconds": 1113.6,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        25.24613854,
+        39.46934381
+      ]
+    },
+    {
+      "id": "pushkin--preo",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.6054233,55.747285;37.591849,55.7408114?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 1230,
+      "durationSeconds": 984.1,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        39.46934381,
+        0
+      ]
+    },
+    {
+      "id": "cosmos--vdnh",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.6397485,55.8227898;37.6218032,55.8339464?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 1943.1,
+      "durationSeconds": 1554.8,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        23.63019906,
+        1.919962985
+      ]
+    },
+    {
+      "id": "vdnh--ostankino",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.6218032,55.8339464;37.6103488,55.8293297?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 1164.4,
+      "durationSeconds": 931.2,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        1.919962985,
+        10.92780579
+      ]
+    },
+    {
+      "id": "jewish-museum--depot",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.6081055,55.7892592;37.5929982,55.7801899?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 1772.7,
+      "durationSeconds": 1417.9,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        30.23927863,
+        0.8747858745
+      ]
+    },
+    {
+      "id": "depot--music-museum",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.5929982,55.7801899;37.5997678,55.7744879?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 956.8,
+      "durationSeconds": 767.1,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        0.8747858745,
+        16.15872284
+      ]
+    },
+    {
+      "id": "patriarch--ermolova",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.5918749,55.7643481;37.5992232,55.7581095?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 1072.7,
+      "durationSeconds": 860.3,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        11.69902178,
+        5.112220955
+      ]
+    },
+    {
+      "id": "ermolova--hermitage",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.5992232,55.7581095;37.6090326,55.7707449?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 1987.1,
+      "durationSeconds": 1590,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        5.112220955,
+        28.02586645
+      ]
+    },
+    {
+      "id": "red-square--nikolskaya",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.6215013,55.7535908;37.6223868,55.7570884?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 611.7,
+      "durationSeconds": 489.1,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        0.916556267,
+        0.06275477113
+      ]
+    },
+    {
+      "id": "nikolskaya--zaryadye",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.6223868,55.7570884;37.6289346,55.7512173?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 861.1,
+      "durationSeconds": 688.9,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        0.06275477113,
+        16.02723576
+      ]
+    },
+    {
+      "id": "hermitage--nothing-fancy",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.6090326,55.7707449;37.6143748,55.7680733?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 563.3,
+      "durationSeconds": 450.7,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        28.02586645,
+        3.02960788
+      ]
+    },
+    {
+      "id": "nothing-fancy--mmoma-petrovka",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.6143748,55.7680733;37.6140195,55.7672382?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 166.3,
+      "durationSeconds": 133.2,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        3.02960788,
+        0
+      ]
+    },
+    {
+      "id": "bolotnaya-square--sok-cafe",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.6182362,55.7449293;37.62164613003296,55.741575930613855?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 502.6,
+      "durationSeconds": 401.9,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        6.122366929,
+        12.07571461
+      ]
+    },
+    {
+      "id": "sok-cafe--tretyakov",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.62164613003296,55.741575930613855;37.6207008,55.741463?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 111.4,
+      "durationSeconds": 89.1,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        12.07571461,
+        0
+      ]
+    },
+    {
+      "id": "kitay--pokrovka",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.6251632,55.7559536;37.6428647,55.7589971?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 1361.7,
+      "durationSeconds": 1091.7,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        14.84982341,
+        5.709383768
+      ]
+    },
+    {
+      "id": "preo--pushkin",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.591849,55.7408114;37.6054233,55.747285?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 1230,
+      "durationSeconds": 986.1,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        0,
+        39.46934381
+      ]
+    },
+    {
+      "id": "krymsky--muzeon",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.6054793,55.7364667;37.6073423,55.7353919?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 365.1,
+      "durationSeconds": 292.1,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        0,
+        16.58911578
+      ]
+    },
+    {
+      "id": "flacon--hleb",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.5855327,55.8050165;37.5847513,55.8073414?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 350,
+      "durationSeconds": 279.9,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        9.511930081,
+        5.571239962
+      ]
+    },
+    {
+      "id": "hermitage--ermolova",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.6090326,55.7707449;37.5992232,55.7581095?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 1987.1,
+      "durationSeconds": 1592,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        28.02586645,
+        5.112220955
+      ]
+    },
+    {
+      "id": "preo--arbat",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.591849,55.7408114;37.5926913,55.7498123?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 1294.9,
+      "durationSeconds": 1038.1,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "red-square--zaryadye",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.6215013,55.7535908;37.6289346,55.7512173?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 645,
+      "durationSeconds": 516.1,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        0.916556267,
+        16.02723576
+      ]
+    },
+    {
+      "id": "chistye--pokrovka",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.6456095,55.7607185;37.6428647,55.7589971?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 359.9,
+      "durationSeconds": 289.9,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        0,
+        5.709383768
+      ]
+    },
+    {
+      "id": "zaryadye--masa-madre",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.6289346,55.7512173;37.638672,55.7541339?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 852.3,
+      "durationSeconds": 681.9,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        16.02723576,
+        11.16309248
+      ]
+    },
+    {
+      "id": "masa-madre--solyanka-gallery",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.638672,55.7541339;37.638437,55.754648?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 74,
+      "durationSeconds": 59.1,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        11.16309248,
+        6.827941764
+      ]
+    },
+    {
+      "id": "ermolova--severyane",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.5992232,55.7581095;37.6064197,55.7564903?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 552.2,
+      "durationSeconds": 441.8,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        5.112220955,
+        3.536721584
+      ]
+    },
+    {
+      "id": "severyane--architecture-museum",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.6064197,55.7564903;37.6069349,55.7525928?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 631,
+      "durationSeconds": 505,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        3.536721584,
+        1.120429254
+      ]
+    },
+    {
+      "id": "patriarch--chetverg",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.5918749,55.7643481;37.5945,55.771824?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 1119.2,
+      "durationSeconds": 895.3,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        11.69902178,
+        1.509982647
+      ]
+    },
+    {
+      "id": "chetverg--az-museum",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.5945,55.771824;37.5938887,55.7722158?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 58,
+      "durationSeconds": 46.5,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        1.509982647,
+        3.720106469
+      ]
+    },
+    {
+      "id": "arbat--book-house-arbat",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.5926913,55.7498123;37.5953577,55.7531324?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 730.3,
+      "durationSeconds": 584.4,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        0,
+        11.96657037
+      ]
+    },
+    {
+      "id": "book-house-arbat--tsvetaeva-museum",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.5953577,55.7531324;37.590072,55.7541987?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 397.1,
+      "durationSeconds": 317.8,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        11.96657037,
+        9.460226195
+      ]
+    },
+    {
+      "id": "preo--pushkin-literary",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.591849,55.7408114;37.5968988,55.7440686?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 559.7,
+      "durationSeconds": 447.6,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        0,
+        12.75122882
+      ]
+    },
+    {
+      "id": "pushkin-literary--turgenev-house",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.5968988,55.7440686;37.5961,55.7387186?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 804.5,
+      "durationSeconds": 643.5,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        12.75122882,
+        9.539064713
+      ]
+    },
+    {
+      "id": "arbat--pushkin-arbat",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.5926913,55.7498123;37.5858371,55.7474998?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 531.7,
+      "durationSeconds": 425.2,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        0,
+        13.13565276
+      ]
+    },
+    {
+      "id": "pushkin-arbat--andrei-bely-house",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.5858371,55.7474998;37.5855988,55.74737?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 5.6,
+      "durationSeconds": 4.4,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        13.13565276,
+        6.950205775
+      ]
+    },
+    {
+      "id": "bauman-garden--vasily-pushkin-house",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.6594063,55.7676448;37.6688753,55.7690155?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 881.3,
+      "durationSeconds": 704.9,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        15.28065178,
+        7.287823532
+      ]
+    },
+    {
+      "id": "preo--mmoma-gogolevsky",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.591849,55.7408114;37.6002885,55.7470341?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 1091.3,
+      "durationSeconds": 873,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        0,
+        5.432415326
+      ]
+    },
+    {
+      "id": "mmoma-gogolevsky--pushkin",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.6002885,55.7470341;37.6054233,55.747285?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 650.4,
+      "durationSeconds": 522.9,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        5.432415326,
+        39.46934381
+      ]
+    },
+    {
+      "id": "muzeon--new-tretyakov",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.6073423,55.7353919;37.6062274,55.7348087?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 161.9,
+      "durationSeconds": 129.4,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        16.58911578,
+        10.67671392
+      ]
+    },
+    {
+      "id": "music-museum--hermitage",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.5997678,55.7744879;37.6090326,55.7707449?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 1014.9,
+      "durationSeconds": 812,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        16.15872284,
+        28.02586645
+      ]
+    },
+    {
+      "id": "hermitage--decorative-art-museum",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.6090326,55.7707449;37.610431,55.7742266962963?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 546.6,
+      "durationSeconds": 443.3,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        28.02586645,
+        2.212705597
+      ]
+    },
+    {
+      "id": "chistye--biblio-globus",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.6456095,55.7607185;37.6302585,55.7599237?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 1355.6,
+      "durationSeconds": 1084.4,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        0,
+        4.85833645
+      ]
+    },
+    {
+      "id": "biblio-globus--nikolskaya",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.6302585,55.7599237;37.6223868,55.7570884?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 672.9,
+      "durationSeconds": 538.5,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        4.85833645,
+        0.06275477113
+      ]
+    },
+    {
+      "id": "zotov-centre--krasnaya-presnya",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.5647879,55.7703197;37.5520546,55.7536143?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 2533.8,
+      "durationSeconds": 2026.8,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        11.32859614,
+        6.997628346
+      ]
+    },
+    {
+      "id": "moscow-planetarium--chaikovsky-museum",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.5838056,55.7613023;37.5853551,55.7581396?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 514.3,
+      "durationSeconds": 411.9,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        17.91682519,
+        8.685116358
+      ]
+    },
+    {
+      "id": "mirek-museum--az-museum",
+      "url": "https://routing.openstreetmap.de/routed-foot/route/v1/foot/37.5945538,55.771822;37.5938887,55.7722158?overview=false&steps=true",
+      "status": 200,
+      "code": "Ok",
+      "distanceMetres": 60.6,
+      "durationSeconds": 48.4,
+      "modes": [
+        "walking"
+      ],
+      "waypointSnapMetres": [
+        3.842450837,
+        3.720106469
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "routeId": "breakfast",
+      "title": "Начать день с завтрака",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "nothing-fancy",
+            "hermitage"
+          ],
+          "legs": [
+            "nothing-fancy--hermitage"
+          ],
+          "walkingMetres": 563,
+          "walkingMinutes": 8,
+          "stopMinutes": 105
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "nothing-fancy",
+          "classification": "Кафе",
+          "price": {
+            "value": "Средний чек 1 000–3 000 ₽ по «Афише»",
+            "source": "https://www.afisha.ru/msk/restaurant/nothing-fancy-518796/",
+            "checkedAt": "2026-11-16"
+          },
+          "source": "https://nothingfancy.ru/about",
+          "hours": {
+            "value": "Ежедневно 08:30–21:00",
+            "source": "https://nothingfancy.ru/about",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Кафе с завтраками, боулами и смузи. Среди вариантов — яйца Бенедикт, омлеты, авокадо-тосты и каши."
+        },
+        {
+          "placeId": "hermitage",
+          "classification": "Сад",
+          "price": null,
+          "source": "https://www.mosgorsad.ru/garden/chasto-zadavaemy-voprosy/",
+          "hours": {
+            "value": "Круглосуточно",
+            "source": "https://www.mosgorsad.ru/garden/chasto-zadavaemy-voprosy/",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Пауза среди деревьев"
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    },
+    {
+      "routeId": "cinema",
+      "title": "Пруд и кино",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "beket-pond",
+            "kolibri"
+          ],
+          "legs": [
+            "beket-pond--kolibri"
+          ],
+          "walkingMetres": 1521,
+          "walkingMinutes": 21,
+          "stopMinutes": 150
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "beket-pond",
+          "classification": "public-space",
+          "price": null,
+          "source": "https://www.openstreetmap.org/way/20480972",
+          "hours": null,
+          "condition": "Прогулочная пауза у пруда на Загородном шоссе перед походом в кино."
+        },
+        {
+          "placeId": "kolibri",
+          "classification": "Кинотеатр",
+          "price": null,
+          "source": "https://colibricinema.ru/",
+          "hours": {
+            "value": "Ежедневно 09:00–02:00 по карточке кинотеатра у ТЦ",
+            "source": "https://www.kapitoliy.ru/ru/malls/kapitoliy-sevastopolsky/shopping/kinoteatr-kolibri",
+            "checkedAt": "2026-11-13"
+          },
+          "condition": "Кинотеатр с двумя форматами залов: с кроватями и с кожаными диванами. Идея для необычного похода в кино."
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    },
+    {
+      "routeId": "animals",
+      "title": "Альпаки и вид на реку",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "alpaca",
+            "vorobyovy"
+          ],
+          "legs": [
+            "alpaca--vorobyovy"
+          ],
+          "walkingMetres": 1026,
+          "walkingMinutes": 15,
+          "stopMinutes": 130
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "alpaca",
+          "classification": "Животные",
+          "price": {
+            "value": "Взрослый — 1 400 ₽; детский — 1 200 ₽",
+            "source": "https://moscow.parkalpak.ru/",
+            "checkedAt": "2026-11-13"
+          },
+          "source": "https://moscow.parkalpak.ru/",
+          "hours": null,
+          "condition": "Контактный зоопарк с альпаками, козами и кроликами. Вариант выходного для тех, кто хочет пообщаться с животными."
+        },
+        {
+          "placeId": "vorobyovy",
+          "classification": "Парк",
+          "price": null,
+          "source": "https://www.park-gorkogo.ru/faq/",
+          "hours": null,
+          "condition": "Панорама города"
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    },
+    {
+      "routeId": "yoga",
+      "title": "Практика и прогулка",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "ashram",
+            "patriarch"
+          ],
+          "legs": [
+            "ashram--patriarch"
+          ],
+          "walkingMetres": 852,
+          "walkingMinutes": 12,
+          "stopMinutes": 135
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "ashram",
+          "classification": "Йога",
+          "price": {
+            "value": "Очная групповая хатха-йога — 3 300 ₽; другие практики по тарифам",
+            "source": "https://ashram.pro/schedule/schedule-regular/",
+            "checkedAt": "2026-11-13"
+          },
+          "source": "https://ashram.pro/contacts/",
+          "hours": {
+            "value": "Занятия по расписанию выбранной практики",
+            "source": "https://ashram.pro/schedule/schedule-regular/",
+            "checkedAt": "2026-11-13"
+          },
+          "condition": "Студия с разными практиками: кундалини-йога, цигун, гонг-медитация, аштанга-йога. Можно выбрать занятие под своё настроение."
+        },
+        {
+          "placeId": "patriarch",
+          "classification": "public-space",
+          "price": null,
+          "source": null,
+          "hours": null,
+          "condition": "Пруд и переулки вокруг"
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    },
+    {
+      "routeId": "padel",
+      "title": "Лес и теннис · в сезон",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "cooltennis",
+            "malevich-park"
+          ],
+          "legs": [
+            "cooltennis--malevich-park"
+          ],
+          "walkingMetres": 769,
+          "walkingMinutes": 11,
+          "stopMinutes": 180
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "cooltennis",
+          "classification": "Спорт",
+          "price": {
+            "value": "Теннис: 2 300–2 900 ₽/ч; в субботу и воскресенье — 2 500 ₽/ч",
+            "source": "https://malevich.cooltennis.ru/",
+            "checkedAt": "2026-11-13"
+          },
+          "source": "https://malevich.cooltennis.ru/",
+          "hours": {
+            "value": "Аренда по опубликованной тарифной сетке: 07:00–00:00",
+            "source": "https://malevich.cooltennis.ru/",
+            "checkedAt": "2026-11-13"
+          },
+          "condition": "Открытые теннисные корты с грунтовым покрытием в парке Малевича. Сценарий для тёплого сезона: сезонную работу и свободный слот нужно подтвердить у клуба."
+        },
+        {
+          "placeId": "malevich-park",
+          "classification": "Арт-парк",
+          "price": null,
+          "source": "https://odinparki.ru/parks/?id=2992",
+          "hours": {
+            "value": "Территория круглосуточно; общий режим инфраструктуры 10:00–22:00, у отдельных объектов свой график",
+            "source": "https://odinparki.ru/parks/?id=2992",
+            "checkedAt": "2026-11-17"
+          },
+          "condition": "Лесные дорожки и арт-объекты у Рублёвского проезда. Корты, кафе и другие объекты имеют собственные условия и график."
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    },
+    {
+      "routeId": "pizza-ponds",
+      "title": "Пицца и прогулка у прудов",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "mates",
+            "novodevichy-ponds"
+          ],
+          "legs": [
+            "mates--novodevichy-ponds"
+          ],
+          "walkingMetres": 1596,
+          "walkingMinutes": 22,
+          "stopMinutes": 120
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "mates",
+          "classification": "Ресторан",
+          "price": {
+            "value": "Пицца «Маргарита» — 650 ₽ по опубликованному меню",
+            "source": "https://mates-group.ru/pizza/khamovniki/menu",
+            "checkedAt": "2026-11-13"
+          },
+          "source": "https://mates-group.ru/pizza/khamovniki",
+          "hours": {
+            "value": "Пн–пт 09:00–22:00; сб–вс 10:00–23:00",
+            "source": "https://mates-group.ru/pizza/khamovniki",
+            "checkedAt": "2026-11-13"
+          },
+          "condition": "Пицца, салаты, паста, мясные блюда и десерты. Можно собраться за общим столом и поделиться пиццей."
+        },
+        {
+          "placeId": "novodevichy-ponds",
+          "classification": "Парк",
+          "price": {
+            "value": "Бесплатно по карточке КудаМосква",
+            "source": "https://kudamoscow.ru/place/park-novodevichji-prudy/",
+            "checkedAt": "2026-11-13"
+          },
+          "source": "https://kudamoscow.ru/place/park-novodevichji-prudy/",
+          "hours": {
+            "value": "Ежедневно круглосуточно по КудаМосква",
+            "source": "https://kudamoscow.ru/place/park-novodevichji-prudy/",
+            "checkedAt": "2026-11-13"
+          },
+          "condition": "Парк рядом с Новодевичьим монастырём: аллеи, пруды и мостик из белого камня. Идея для неспешной прогулки."
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    },
+    {
+      "routeId": "height",
+      "title": "Канатка и набережная",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "cable-luzhniki",
+            "luzhnetskaya"
+          ],
+          "legs": [
+            "cable-luzhniki--luzhnetskaya"
+          ],
+          "walkingMetres": 1510,
+          "walkingMinutes": 21,
+          "stopMinutes": 90
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "cable-luzhniki",
+          "classification": "Виды",
+          "price": {
+            "value": "Взрослый (14+): 700 ₽ в одну сторону; 1 000 ₽ туда и обратно",
+            "source": "https://srkvg.ru/kanatnaya-doroga/tarify/",
+            "checkedAt": "2026-11-13"
+          },
+          "source": "https://srkvg.ru/kanatnaya-doroga/kak-dobratsya/",
+          "hours": null,
+          "condition": "Вариант посмотреть на Москву-реку, «Лужники» и город с высоты. Работу канатной дороги нужно уточнить перед поездкой."
+        },
+        {
+          "placeId": "luzhnetskaya",
+          "classification": "public-space",
+          "price": null,
+          "source": "https://www.openstreetmap.org/way/161143465",
+          "hours": null,
+          "condition": "Прогулка вдоль воды у «Лужников». Актуальные проходы во время благоустройства проверьте на месте."
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    },
+    {
+      "routeId": "forest",
+      "title": "Измайлово: лес и усадьба",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "izmailovo",
+            "izmailovo-estate"
+          ],
+          "legs": [
+            "izmailovo--izmailovo-estate"
+          ],
+          "walkingMetres": 1385,
+          "walkingMinutes": 19,
+          "stopMinutes": 195
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "izmailovo",
+          "classification": "Парк",
+          "price": null,
+          "source": "https://www.izmailovsky-park.ru/adres",
+          "hours": {
+            "value": "Территория парка открыта круглосуточно",
+            "source": "https://www.izmailovsky-park.ru/adres",
+            "checkedAt": "2026-11-13"
+          },
+          "condition": "Большой парк для прогулок на свежем воздухе. Можно устроить спокойный день среди деревьев или выбрать развлечения на месте."
+        },
+        {
+          "placeId": "izmailovo-estate",
+          "classification": "Усадьба",
+          "price": null,
+          "source": "https://www.mgomz.ru/ru/pages/contacts_izmailovo",
+          "hours": {
+            "value": "Октябрь–апрель: территория ежедневно 05:30–23:00; экспозиции вт–вс 10:00–18:00",
+            "source": "https://www.mgomz.ru/ru/pages/contacts_izmailovo",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Остров и историческая усадьба; отдельное место от ПКиО"
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    },
+    {
+      "routeId": "standup",
+      "title": "Пруды и стендап · 18+",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "patriarch",
+            "standup-patriki"
+          ],
+          "legs": [
+            "patriarch--standup-patriki"
+          ],
+          "walkingMetres": 415,
+          "walkingMinutes": 6,
+          "stopMinutes": 135
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "patriarch",
+          "classification": "public-space",
+          "price": null,
+          "source": null,
+          "hours": null,
+          "condition": "Пруд и переулки вокруг"
+        },
+        {
+          "placeId": "standup-patriki",
+          "classification": "Стендап",
+          "price": null,
+          "source": "https://standuppatriki.com/afisha",
+          "hours": {
+            "value": "Время выбранного концерта указано в афише",
+            "source": "https://standuppatriki.com/afisha",
+            "checkedAt": "2026-11-13"
+          },
+          "condition": "Концертный зал недалеко от метро «Баррикадная»: мини-сцена, столики, бар и закуски. Выступления и возрастные ограничения зависят от афиши."
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    },
+    {
+      "routeId": "coffee",
+      "title": "Кофе и музыка",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "chetverg",
+            "music-museum"
+          ],
+          "legs": [
+            "chetverg--music-museum"
+          ],
+          "walkingMetres": 485,
+          "walkingMinutes": 7,
+          "stopMinutes": 120
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "chetverg",
+          "classification": "Кофейня",
+          "price": null,
+          "source": "https://www.glazurmag.ru/mesta/item/chetverg-na-mayakovskoj",
+          "hours": {
+            "value": "Пн–пт 09:00–21:00; сб–вс 10:00–21:00 (филиал на 2-й Тверской-Ямской, 18)",
+            "source": "https://t.me/s/lovechetverg",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Кофейня с тёплым деревянным интерьером, необычными светильниками, скворечниками и выпечкой. Идея для уютной паузы."
+        },
+        {
+          "placeId": "music-museum",
+          "classification": "Музей",
+          "price": null,
+          "source": "https://music-museum.ru/about/contacts.html",
+          "hours": {
+            "value": "Вт–ср 11:00–19:00; чт–пт 12:00–21:00; сб 11:00–20:00; вс 11:00–18:00; вход заканчивается за час; пн уточнить",
+            "source": "https://music-museum.ru/about/contacts.html",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Музыкальные инструменты и истории звучащего мира"
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    },
+    {
+      "routeId": "bakery",
+      "title": "Выпечка и старые улицы",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "masa-madre",
+            "kitay"
+          ],
+          "legs": [
+            "masa-madre--kitay"
+          ],
+          "walkingMetres": 1219,
+          "walkingMinutes": 17,
+          "stopMinutes": 100
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "masa-madre",
+          "classification": "Пекарня",
+          "price": {
+            "value": "Классический баскский чизкейк — 650 ₽ по меню",
+            "source": "https://masamadre.ru/solyanka",
+            "checkedAt": "2026-11-16"
+          },
+          "source": "https://masamadre.ru/contacts",
+          "hours": {
+            "value": "Ежедневно 08:00–00:00",
+            "source": "https://masamadre.ru/contacts",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Пекарня со свежим хлебом, бриошами и десертами, в том числе лимонным и шоколадным чизкейками."
+        },
+        {
+          "placeId": "kitay",
+          "classification": "public-space",
+          "price": null,
+          "source": null,
+          "hours": null,
+          "condition": "Сеть старых улиц и переулков"
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    },
+    {
+      "routeId": "bar-evening",
+      "title": "Хитровка и вечер на Солянке · 18+",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "khitrovka",
+            "dvoyka"
+          ],
+          "legs": [
+            "khitrovka--dvoyka"
+          ],
+          "walkingMetres": 528,
+          "walkingMinutes": 8,
+          "stopMinutes": 130
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "khitrovka",
+          "classification": "public-space",
+          "price": null,
+          "source": null,
+          "hours": null,
+          "condition": "Небольшая площадь старого города"
+        },
+        {
+          "placeId": "dvoyka",
+          "classification": "Бар · 18+",
+          "price": {
+            "value": "Средний счёт 1 000–1 500 ₽ по Restoran.ru",
+            "source": "https://www.restoran.ru/msk/detailed/restaurants/dvoyka/",
+            "checkedAt": "2026-11-13"
+          },
+          "source": "https://www.restoran.ru/msk/detailed/restaurants/dvoyka/",
+          "hours": {
+            "value": "Вт–ср, вс 18:00–00:00; чт 18:00–03:00; пт–сб 18:00–04:30 по Restoran.ru",
+            "source": "https://www.restoran.ru/msk/detailed/restaurants/dvoyka/",
+            "checkedAt": "2026-11-13"
+          },
+          "condition": "Бар с шотами и авторскими коктейлями для вечерней встречи совершеннолетней компании."
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    },
+    {
+      "routeId": "old-city",
+      "title": "Старая Москва",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "nikolskaya",
+            "kitay",
+            "khitrovka",
+            "pokrovka"
+          ],
+          "legs": [
+            "nikolskaya--kitay",
+            "kitay--khitrovka",
+            "khitrovka--pokrovka"
+          ],
+          "walkingMetres": 2780,
+          "walkingMinutes": 38,
+          "stopMinutes": 175
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "nikolskaya",
+          "classification": "public-space",
+          "price": null,
+          "source": null,
+          "hours": null,
+          "condition": "Пешеходная улица в центре"
+        },
+        {
+          "placeId": "kitay",
+          "classification": "public-space",
+          "price": null,
+          "source": null,
+          "hours": null,
+          "condition": "Сеть старых улиц и переулков"
+        },
+        {
+          "placeId": "khitrovka",
+          "classification": "public-space",
+          "price": null,
+          "source": null,
+          "hours": null,
+          "condition": "Небольшая площадь старого города"
+        },
+        {
+          "placeId": "pokrovka",
+          "classification": "public-space",
+          "price": null,
+          "source": null,
+          "hours": null,
+          "condition": "Фасады и небольшие заведения"
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    },
+    {
+      "routeId": "art",
+      "title": "День с искусством",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "pushkin",
+            "tretyakov",
+            "muzeon"
+          ],
+          "legs": [
+            "pushkin--tretyakov",
+            "tretyakov--muzeon"
+          ],
+          "walkingMetres": 3173,
+          "walkingMinutes": 43,
+          "stopMinutes": 250
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "pushkin",
+          "classification": "Музей",
+          "price": {
+            "value": "Главное здание: полный билет 700 ₽; специальные выставки могут требовать отдельного билета",
+            "source": "https://pushkinmuseum.art/visitors/tickets/index.php?lang=ru",
+            "checkedAt": "2026-11-16"
+          },
+          "source": "https://pushkinmuseum.art/museum/buildings/main/",
+          "hours": {
+            "value": "Вт–ср 11:00–20:00; чт–пт 11:00–21:00; сб 10:00–21:00; вс 10:00–20:00; пн выходной. Вход заканчивается за час",
+            "source": "https://pushkinmuseum.art/museum/buildings/main/",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Искусство разных эпох"
+        },
+        {
+          "placeId": "tretyakov",
+          "classification": "Музей",
+          "price": {
+            "value": "Взрослый билет в историческое здание — 700 ₽; специальные события проверяйте отдельно",
+            "source": "https://www.tretyakovgallery.ru/for-visitors/museums/istoricheskoe-zdanie/",
+            "checkedAt": "2026-11-16"
+          },
+          "source": "https://www.tretyakovgallery.ru/for-visitors/museums/istoricheskoe-zdanie/",
+          "hours": {
+            "value": "Вт–вс 10:00–21:00; кассы и вход до 20:00; пн выходной",
+            "source": "https://www.tretyakovgallery.ru/for-visitors/museums/istoricheskoe-zdanie/",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Большая коллекция русского искусства"
+        },
+        {
+          "placeId": "muzeon",
+          "classification": "Парк",
+          "price": null,
+          "source": "https://parkgorkogo.ru/areas/muzeon/",
+          "hours": null,
+          "condition": "Скульптуры и дорожки у реки"
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    },
+    {
+      "routeId": "parks",
+      "title": "Большой парковый день",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "muzeon",
+            "gorky",
+            "neskuchny",
+            "vorobyovy"
+          ],
+          "legs": [
+            "muzeon--gorky",
+            "gorky--neskuchny",
+            "neskuchny--vorobyovy"
+          ],
+          "walkingMetres": 6475,
+          "walkingMinutes": 87,
+          "stopMinutes": 275
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "muzeon",
+          "classification": "Парк",
+          "price": null,
+          "source": "https://parkgorkogo.ru/areas/muzeon/",
+          "hours": null,
+          "condition": "Скульптуры и дорожки у реки"
+        },
+        {
+          "placeId": "gorky",
+          "classification": "Парк",
+          "price": null,
+          "source": "https://parkgorkogo.ru/contacts/",
+          "hours": {
+            "value": "Круглосуточно; часть Партера и главный вход временно перекрыты",
+            "source": "https://www.park-gorkogo.ru/faq/",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Набережная и пруд; главный вход и часть Партера перекрыты"
+        },
+        {
+          "placeId": "neskuchny",
+          "classification": "Сад",
+          "price": null,
+          "source": "https://parkgorkogo.ru/areas/neskuchny-garden/",
+          "hours": {
+            "value": "Круглосуточно; возможны временные ограничения территории парка",
+            "source": "https://www.park-gorkogo.ru/faq/",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Аллеи и спокойные тропы"
+        },
+        {
+          "placeId": "vorobyovy",
+          "classification": "Парк",
+          "price": null,
+          "source": "https://www.park-gorkogo.ru/faq/",
+          "hours": null,
+          "condition": "Панорама города"
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    },
+    {
+      "routeId": "water",
+      "title": "Город у воды",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "zaryadye",
+            "bolotnaya",
+            "krymsky",
+            "gorky"
+          ],
+          "legs": [
+            "zaryadye--bolotnaya",
+            "bolotnaya--krymsky",
+            "krymsky--gorky"
+          ],
+          "walkingMetres": 3963,
+          "walkingMinutes": 53,
+          "stopMinutes": 235
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "zaryadye",
+          "classification": "Парк",
+          "price": null,
+          "source": "https://welcome.zaryadyepark.ru/",
+          "hours": null,
+          "condition": "Виды на центр и реку"
+        },
+        {
+          "placeId": "bolotnaya",
+          "classification": "public-space",
+          "price": null,
+          "source": null,
+          "hours": null,
+          "condition": "Речной маршрут недалеко от центра"
+        },
+        {
+          "placeId": "krymsky",
+          "classification": "public-space",
+          "price": null,
+          "source": null,
+          "hours": null,
+          "condition": "Прогулка у воды"
+        },
+        {
+          "placeId": "gorky",
+          "classification": "Парк",
+          "price": null,
+          "source": "https://parkgorkogo.ru/contacts/",
+          "hours": {
+            "value": "Круглосуточно; часть Партера и главный вход временно перекрыты",
+            "source": "https://www.park-gorkogo.ru/faq/",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Набережная и пруд; главный вход и часть Партера перекрыты"
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    },
+    {
+      "routeId": "arbat",
+      "title": "Арбат и окрестности",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "arbat",
+            "vakhtangov",
+            "pushkin",
+            "preo"
+          ],
+          "legs": [
+            "arbat--vakhtangov",
+            "vakhtangov--pushkin",
+            "pushkin--preo"
+          ],
+          "walkingMetres": 2765,
+          "walkingMinutes": 37,
+          "stopMinutes": 210
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "arbat",
+          "classification": "public-space",
+          "price": null,
+          "source": null,
+          "hours": null,
+          "condition": "Пешеходная прогулка"
+        },
+        {
+          "placeId": "vakhtangov",
+          "classification": "Театр",
+          "price": null,
+          "source": "https://vakhtangov.ru/contacts/",
+          "hours": {
+            "value": "Касса в театральный сезон ежедневно 12:00–20:00; это не время спектакля",
+            "source": "https://vakhtangov.ru/contacts/",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Знаковое место улицы"
+        },
+        {
+          "placeId": "pushkin",
+          "classification": "Музей",
+          "price": {
+            "value": "Главное здание: полный билет 700 ₽; специальные выставки могут требовать отдельного билета",
+            "source": "https://pushkinmuseum.art/visitors/tickets/index.php?lang=ru",
+            "checkedAt": "2026-11-16"
+          },
+          "source": "https://pushkinmuseum.art/museum/buildings/main/",
+          "hours": {
+            "value": "Вт–ср 11:00–20:00; чт–пт 11:00–21:00; сб 10:00–21:00; вс 10:00–20:00; пн выходной. Вход заканчивается за час",
+            "source": "https://pushkinmuseum.art/museum/buildings/main/",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Искусство разных эпох"
+        },
+        {
+          "placeId": "preo",
+          "classification": "public-space",
+          "price": null,
+          "source": null,
+          "hours": null,
+          "condition": "Особняки и спокойный маршрут"
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    },
+    {
+      "routeId": "north",
+      "title": "Север города",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "cosmos",
+            "vdnh",
+            "ostankino"
+          ],
+          "legs": [
+            "cosmos--vdnh",
+            "vdnh--ostankino"
+          ],
+          "walkingMetres": 3108,
+          "walkingMinutes": 42,
+          "stopMinutes": 240
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "cosmos",
+          "classification": "Музей",
+          "price": {
+            "value": "Экспозиция с выставками: взрослый 500 ₽; дети 7–18 лет включительно 350 ₽; дополнительные услуги отдельно",
+            "source": "https://kosmo-museum.ru/uploads/ckeditor/attachments/7647/Прейскурант_от_13_ноября_2026г..pdf",
+            "checkedAt": "2026-11-16"
+          },
+          "source": "https://kosmo-museum.ru/contacts",
+          "hours": {
+            "value": "Вт–ср, пт, вс 10:00–19:00; чт, сб 10:00–21:00. Понедельник уточнить: разделы сайта расходятся",
+            "source": "https://kosmo-museum.ru/static_pages/stoimost-biletov",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "История освоения космоса"
+        },
+        {
+          "placeId": "vdnh",
+          "classification": "Парк",
+          "price": {
+            "value": "Вход на территорию свободный; выставки отдельно",
+            "source": "https://vdnh.ru/visitors/FAQ/",
+            "checkedAt": "2026-11-10"
+          },
+          "source": "https://vdnh.ru/visitors/FAQ/",
+          "hours": {
+            "value": "Территория круглосуточно; павильоны по графику",
+            "source": "https://vdnh.ru/visitors/FAQ/",
+            "checkedAt": "2026-11-10"
+          },
+          "condition": "Павильоны и широкие аллеи"
+        },
+        {
+          "placeId": "ostankino",
+          "classification": "Парк",
+          "price": {
+            "value": "Прогулка без билета",
+            "source": "https://vdnh.ru/places/vkhod-v-park-ostankino-so-storony-dvortsovogo-ostankinskogo-pruda/",
+            "checkedAt": "2026-11-10"
+          },
+          "source": "https://vdnh.ru/places/vkhod-v-park-ostankino-so-storony-dvortsovogo-ostankinskogo-pruda/",
+          "hours": null,
+          "condition": "Аллеи для спокойной прогулки"
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    },
+    {
+      "routeId": "creative",
+      "title": "Гараж, обед и музыка",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "jewish-museum",
+            "depot",
+            "music-museum"
+          ],
+          "legs": [
+            "jewish-museum--depot",
+            "depot--music-museum"
+          ],
+          "walkingMetres": 2730,
+          "walkingMinutes": 37,
+          "stopMinutes": 225
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "jewish-museum",
+          "classification": "Музей",
+          "price": null,
+          "source": "https://www.jewish-museum.ru/visitors/",
+          "hours": {
+            "value": "Пн–чт, вс 12:00–22:00; сб 18:00–23:00; пт и еврейские праздники выходные",
+            "source": "https://www.jewish-museum.ru/visitors/",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "История и культура в пространстве бывшего гаража"
+        },
+        {
+          "placeId": "depot",
+          "classification": "Еда",
+          "price": {
+            "value": "Без входного билета, заказ по меню",
+            "source": "https://depomoscow.ru/contacts/",
+            "checkedAt": "2026-11-10"
+          },
+          "source": "https://depomoscow.ru/contacts/",
+          "hours": {
+            "value": "Пн–чт и вс 10:00–23:00; пт–сб 10:00–02:00",
+            "source": "https://depomoscow.ru/contacts/",
+            "checkedAt": "2026-11-10"
+          },
+          "condition": "Остановка на обед"
+        },
+        {
+          "placeId": "music-museum",
+          "classification": "Музей",
+          "price": null,
+          "source": "https://music-museum.ru/about/contacts.html",
+          "hours": {
+            "value": "Вт–ср 11:00–19:00; чт–пт 12:00–21:00; сб 11:00–20:00; вс 11:00–18:00; вход заканчивается за час; пн уточнить",
+            "source": "https://music-museum.ru/about/contacts.html",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Музыкальные инструменты и истории звучащего мира"
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    },
+    {
+      "routeId": "quiet",
+      "title": "Медленный день",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "patriarch",
+            "ermolova",
+            "hermitage"
+          ],
+          "legs": [
+            "patriarch--ermolova",
+            "ermolova--hermitage"
+          ],
+          "walkingMetres": 3060,
+          "walkingMinutes": 41,
+          "stopMinutes": 125
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "patriarch",
+          "classification": "public-space",
+          "price": null,
+          "source": null,
+          "hours": null,
+          "condition": "Пруд и переулки вокруг"
+        },
+        {
+          "placeId": "ermolova",
+          "classification": "public-space",
+          "price": null,
+          "source": null,
+          "hours": null,
+          "condition": "Зелёный путь по центру"
+        },
+        {
+          "placeId": "hermitage",
+          "classification": "Сад",
+          "price": null,
+          "source": "https://www.mosgorsad.ru/garden/chasto-zadavaemy-voprosy/",
+          "hours": {
+            "value": "Круглосуточно",
+            "source": "https://www.mosgorsad.ru/garden/chasto-zadavaemy-voprosy/",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Пауза среди деревьев"
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    },
+    {
+      "routeId": "classics",
+      "title": "Впервые в Москве",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "red-square",
+            "nikolskaya",
+            "zaryadye",
+            "bolotnaya"
+          ],
+          "legs": [
+            "red-square--nikolskaya",
+            "nikolskaya--zaryadye",
+            "zaryadye--bolotnaya"
+          ],
+          "walkingMetres": 2721,
+          "walkingMinutes": 37,
+          "stopMinutes": 180
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "red-square",
+          "classification": "public-space",
+          "price": null,
+          "source": null,
+          "hours": null,
+          "condition": "Городская классика"
+        },
+        {
+          "placeId": "nikolskaya",
+          "classification": "public-space",
+          "price": null,
+          "source": null,
+          "hours": null,
+          "condition": "Пешеходная улица в центре"
+        },
+        {
+          "placeId": "zaryadye",
+          "classification": "Парк",
+          "price": null,
+          "source": "https://welcome.zaryadyepark.ru/",
+          "hours": null,
+          "condition": "Виды на центр и реку"
+        },
+        {
+          "placeId": "bolotnaya",
+          "classification": "public-space",
+          "price": null,
+          "source": null,
+          "hours": null,
+          "condition": "Речной маршрут недалеко от центра"
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    },
+    {
+      "routeId": "weekend",
+      "title": "Большие выходные",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "hermitage",
+            "nothing-fancy",
+            "mmoma-petrovka"
+          ],
+          "legs": [
+            "hermitage--nothing-fancy",
+            "nothing-fancy--mmoma-petrovka"
+          ],
+          "walkingMetres": 730,
+          "walkingMinutes": 10,
+          "stopMinutes": 195
+        },
+        {
+          "day": 2,
+          "placeIds": [
+            "bolotnaya-square",
+            "sok-cafe",
+            "tretyakov"
+          ],
+          "legs": [
+            "bolotnaya-square--sok-cafe",
+            "sok-cafe--tretyakov"
+          ],
+          "walkingMetres": 614,
+          "walkingMinutes": 9,
+          "stopMinutes": 205
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "hermitage",
+          "classification": "Сад",
+          "price": null,
+          "source": "https://www.mosgorsad.ru/garden/chasto-zadavaemy-voprosy/",
+          "hours": {
+            "value": "Круглосуточно",
+            "source": "https://www.mosgorsad.ru/garden/chasto-zadavaemy-voprosy/",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Пауза среди деревьев"
+        },
+        {
+          "placeId": "nothing-fancy",
+          "classification": "Кафе",
+          "price": {
+            "value": "Средний чек 1 000–3 000 ₽ по «Афише»",
+            "source": "https://www.afisha.ru/msk/restaurant/nothing-fancy-518796/",
+            "checkedAt": "2026-11-16"
+          },
+          "source": "https://nothingfancy.ru/about",
+          "hours": {
+            "value": "Ежедневно 08:30–21:00",
+            "source": "https://nothingfancy.ru/about",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Кафе с завтраками, боулами и смузи. Среди вариантов — яйца Бенедикт, омлеты, авокадо-тосты и каши."
+        },
+        {
+          "placeId": "mmoma-petrovka",
+          "classification": "Музей",
+          "price": {
+            "value": "Стандартный билет — 500 ₽; условия льгот и специальных событий уточняйте у музея",
+            "source": "https://mmoma.ru/know/aboutmuseum/tickets",
+            "checkedAt": "2026-11-16"
+          },
+          "source": "https://mmoma.ru/know/building/petrovka",
+          "hours": {
+            "value": "Вт–вс 12:00–21:00; пн выходной",
+            "source": "https://mmoma.ru/know/building/petrovka",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Современное искусство в старом особняке"
+        },
+        {
+          "placeId": "bolotnaya-square",
+          "classification": "public-space",
+          "price": null,
+          "source": null,
+          "hours": null,
+          "condition": "Прогулка по площади перед обедом в Лаврушинском переулке. Это отдельная точка, не Болотная набережная."
+        },
+        {
+          "placeId": "sok-cafe",
+          "classification": "Кафе",
+          "price": {
+            "value": "Средний чек 1 200 ₽ по сайту на ТоМесто; сб–вс 13:00–19:00 депозит 1 000 ₽ на человека",
+            "source": "https://sokcafe.ru/",
+            "checkedAt": "2026-11-16"
+          },
+          "source": "https://sokcafe.ru/",
+          "hours": {
+            "value": "Вт–вс 10:00–22:00 по таблице сайта; у пн нет времени",
+            "source": "https://sokcafe.ru/",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Обед и разговор об искусстве рядом с галереей"
+        },
+        {
+          "placeId": "tretyakov",
+          "classification": "Музей",
+          "price": {
+            "value": "Взрослый билет в историческое здание — 700 ₽; специальные события проверяйте отдельно",
+            "source": "https://www.tretyakovgallery.ru/for-visitors/museums/istoricheskoe-zdanie/",
+            "checkedAt": "2026-11-16"
+          },
+          "source": "https://www.tretyakovgallery.ru/for-visitors/museums/istoricheskoe-zdanie/",
+          "hours": {
+            "value": "Вт–вс 10:00–21:00; кассы и вход до 20:00; пн выходной",
+            "source": "https://www.tretyakovgallery.ru/for-visitors/museums/istoricheskoe-zdanie/",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Большая коллекция русского искусства"
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    },
+    {
+      "routeId": "photo",
+      "title": "Фотопрогулка по центру",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "nikolskaya",
+            "kitay",
+            "pokrovka"
+          ],
+          "legs": [
+            "nikolskaya--kitay",
+            "kitay--pokrovka"
+          ],
+          "walkingMetres": 1656,
+          "walkingMinutes": 23,
+          "stopMinutes": 135
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "nikolskaya",
+          "classification": "public-space",
+          "price": null,
+          "source": null,
+          "hours": null,
+          "condition": "Пешеходная улица в центре"
+        },
+        {
+          "placeId": "kitay",
+          "classification": "public-space",
+          "price": null,
+          "source": null,
+          "hours": null,
+          "condition": "Сеть старых улиц и переулков"
+        },
+        {
+          "placeId": "pokrovka",
+          "classification": "public-space",
+          "price": null,
+          "source": null,
+          "hours": null,
+          "condition": "Фасады и небольшие заведения"
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    },
+    {
+      "routeId": "date",
+      "title": "Свидание без спешки",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "patriarch",
+            "ermolova"
+          ],
+          "legs": [
+            "patriarch--ermolova"
+          ],
+          "walkingMetres": 1073,
+          "walkingMinutes": 15,
+          "stopMinutes": 80
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "patriarch",
+          "classification": "public-space",
+          "price": null,
+          "source": null,
+          "hours": null,
+          "condition": "Пруд и переулки вокруг"
+        },
+        {
+          "placeId": "ermolova",
+          "classification": "public-space",
+          "price": null,
+          "source": null,
+          "hours": null,
+          "condition": "Зелёный путь по центру"
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    },
+    {
+      "routeId": "sketch",
+      "title": "Город в скетчбуке",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "preo",
+            "pushkin"
+          ],
+          "legs": [
+            "preo--pushkin"
+          ],
+          "walkingMetres": 1230,
+          "walkingMinutes": 17,
+          "stopMinutes": 135
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "preo",
+          "classification": "public-space",
+          "price": null,
+          "source": null,
+          "hours": null,
+          "condition": "Особняки и спокойный маршрут"
+        },
+        {
+          "placeId": "pushkin",
+          "classification": "Музей",
+          "price": {
+            "value": "Главное здание: полный билет 700 ₽; специальные выставки могут требовать отдельного билета",
+            "source": "https://pushkinmuseum.art/visitors/tickets/index.php?lang=ru",
+            "checkedAt": "2026-11-16"
+          },
+          "source": "https://pushkinmuseum.art/museum/buildings/main/",
+          "hours": {
+            "value": "Вт–ср 11:00–20:00; чт–пт 11:00–21:00; сб 10:00–21:00; вс 10:00–20:00; пн выходной. Вход заканчивается за час",
+            "source": "https://pushkinmuseum.art/museum/buildings/main/",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Искусство разных эпох"
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    },
+    {
+      "routeId": "river-break",
+      "title": "Час у реки",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "krymsky",
+            "muzeon"
+          ],
+          "legs": [
+            "krymsky--muzeon"
+          ],
+          "walkingMetres": 365,
+          "walkingMinutes": 5,
+          "stopMinutes": 115
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "krymsky",
+          "classification": "public-space",
+          "price": null,
+          "source": null,
+          "hours": null,
+          "condition": "Прогулка у воды"
+        },
+        {
+          "placeId": "muzeon",
+          "classification": "Парк",
+          "price": null,
+          "source": "https://parkgorkogo.ru/areas/muzeon/",
+          "hours": null,
+          "condition": "Скульптуры и дорожки у реки"
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    },
+    {
+      "routeId": "friends",
+      "title": "Встретиться с друзьями",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "flacon",
+            "hleb"
+          ],
+          "legs": [
+            "flacon--hleb"
+          ],
+          "walkingMetres": 350,
+          "walkingMinutes": 5,
+          "stopMinutes": 130
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "flacon",
+          "classification": "Креативное пространство",
+          "price": null,
+          "source": "https://design-zavod.ru/contacts",
+          "hours": {
+            "value": "Территория круглосуточно; магазины 10:00–22:00 по странице оператора",
+            "source": "https://design-zavod.ru/contacts",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Дизайн, магазины и кафе"
+        },
+        {
+          "placeId": "hleb",
+          "classification": "Креативное пространство",
+          "price": {
+            "value": "Вход на территорию свободный; это не билет на мероприятия",
+            "source": "https://hlebozavod9.ru/events/pravila-poseshchenija",
+            "checkedAt": "2026-11-16"
+          },
+          "source": "https://hlebozavod9.ru/contacts",
+          "hours": {
+            "value": "Территория 24/7; возможны временные закрытия, заведения по своему графику",
+            "source": "https://hlebozavod9.ru/events/pravila-poseshchenija",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Городская среда и события"
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    },
+    {
+      "routeId": "solo",
+      "title": "День для себя",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "hermitage",
+            "ermolova"
+          ],
+          "legs": [
+            "hermitage--ermolova"
+          ],
+          "walkingMetres": 1987,
+          "walkingMinutes": 27,
+          "stopMinutes": 80
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "hermitage",
+          "classification": "Сад",
+          "price": null,
+          "source": "https://www.mosgorsad.ru/garden/chasto-zadavaemy-voprosy/",
+          "hours": {
+            "value": "Круглосуточно",
+            "source": "https://www.mosgorsad.ru/garden/chasto-zadavaemy-voprosy/",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Пауза среди деревьев"
+        },
+        {
+          "placeId": "ermolova",
+          "classification": "public-space",
+          "price": null,
+          "source": null,
+          "hours": null,
+          "condition": "Зелёный путь по центру"
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    },
+    {
+      "routeId": "architecture",
+      "title": "Охота за деталями",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "preo",
+            "arbat"
+          ],
+          "legs": [
+            "preo--arbat"
+          ],
+          "walkingMetres": 1295,
+          "walkingMinutes": 18,
+          "stopMinutes": 90
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "preo",
+          "classification": "public-space",
+          "price": null,
+          "source": null,
+          "hours": null,
+          "condition": "Особняки и спокойный маршрут"
+        },
+        {
+          "placeId": "arbat",
+          "classification": "public-space",
+          "price": null,
+          "source": null,
+          "hours": null,
+          "condition": "Пешеходная прогулка"
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    },
+    {
+      "routeId": "cosmic",
+      "title": "Космическое настроение",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "cosmos",
+            "vdnh"
+          ],
+          "legs": [
+            "cosmos--vdnh"
+          ],
+          "walkingMetres": 1943,
+          "walkingMinutes": 26,
+          "stopMinutes": 180
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "cosmos",
+          "classification": "Музей",
+          "price": {
+            "value": "Экспозиция с выставками: взрослый 500 ₽; дети 7–18 лет включительно 350 ₽; дополнительные услуги отдельно",
+            "source": "https://kosmo-museum.ru/uploads/ckeditor/attachments/7647/Прейскурант_от_13_ноября_2026г..pdf",
+            "checkedAt": "2026-11-16"
+          },
+          "source": "https://kosmo-museum.ru/contacts",
+          "hours": {
+            "value": "Вт–ср, пт, вс 10:00–19:00; чт, сб 10:00–21:00. Понедельник уточнить: разделы сайта расходятся",
+            "source": "https://kosmo-museum.ru/static_pages/stoimost-biletov",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "История освоения космоса"
+        },
+        {
+          "placeId": "vdnh",
+          "classification": "Парк",
+          "price": {
+            "value": "Вход на территорию свободный; выставки отдельно",
+            "source": "https://vdnh.ru/visitors/FAQ/",
+            "checkedAt": "2026-11-10"
+          },
+          "source": "https://vdnh.ru/visitors/FAQ/",
+          "hours": {
+            "value": "Территория круглосуточно; павильоны по графику",
+            "source": "https://vdnh.ru/visitors/FAQ/",
+            "checkedAt": "2026-11-10"
+          },
+          "condition": "Павильоны и широкие аллеи"
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    },
+    {
+      "routeId": "green-pause",
+      "title": "Пауза среди деревьев",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "gorky",
+            "neskuchny"
+          ],
+          "legs": [
+            "gorky--neskuchny"
+          ],
+          "walkingMetres": 1591,
+          "walkingMinutes": 22,
+          "stopMinutes": 145
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "gorky",
+          "classification": "Парк",
+          "price": null,
+          "source": "https://parkgorkogo.ru/contacts/",
+          "hours": {
+            "value": "Круглосуточно; часть Партера и главный вход временно перекрыты",
+            "source": "https://www.park-gorkogo.ru/faq/",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Набережная и пруд; главный вход и часть Партера перекрыты"
+        },
+        {
+          "placeId": "neskuchny",
+          "classification": "Сад",
+          "price": null,
+          "source": "https://parkgorkogo.ru/areas/neskuchny-garden/",
+          "hours": {
+            "value": "Круглосуточно; возможны временные ограничения территории парка",
+            "source": "https://www.park-gorkogo.ru/faq/",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Аллеи и спокойные тропы"
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    },
+    {
+      "routeId": "postcards",
+      "title": "Открытки из Москвы",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "red-square",
+            "zaryadye",
+            "bolotnaya"
+          ],
+          "legs": [
+            "red-square--zaryadye",
+            "zaryadye--bolotnaya"
+          ],
+          "walkingMetres": 1893,
+          "walkingMinutes": 26,
+          "stopMinutes": 145
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "red-square",
+          "classification": "public-space",
+          "price": null,
+          "source": null,
+          "hours": null,
+          "condition": "Городская классика"
+        },
+        {
+          "placeId": "zaryadye",
+          "classification": "Парк",
+          "price": null,
+          "source": "https://welcome.zaryadyepark.ru/",
+          "hours": null,
+          "condition": "Виды на центр и реку"
+        },
+        {
+          "placeId": "bolotnaya",
+          "classification": "public-space",
+          "price": null,
+          "source": null,
+          "hours": null,
+          "condition": "Речной маршрут недалеко от центра"
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    },
+    {
+      "routeId": "art-slow",
+      "title": "Обед и один музей",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "sok-cafe",
+            "tretyakov"
+          ],
+          "legs": [
+            "sok-cafe--tretyakov"
+          ],
+          "walkingMetres": 111,
+          "walkingMinutes": 2,
+          "stopMinutes": 160
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "sok-cafe",
+          "classification": "Кафе",
+          "price": {
+            "value": "Средний чек 1 200 ₽ по сайту на ТоМесто; сб–вс 13:00–19:00 депозит 1 000 ₽ на человека",
+            "source": "https://sokcafe.ru/",
+            "checkedAt": "2026-11-16"
+          },
+          "source": "https://sokcafe.ru/",
+          "hours": {
+            "value": "Вт–вс 10:00–22:00 по таблице сайта; у пн нет времени",
+            "source": "https://sokcafe.ru/",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Обед и разговор об искусстве рядом с галереей"
+        },
+        {
+          "placeId": "tretyakov",
+          "classification": "Музей",
+          "price": {
+            "value": "Взрослый билет в историческое здание — 700 ₽; специальные события проверяйте отдельно",
+            "source": "https://www.tretyakovgallery.ru/for-visitors/museums/istoricheskoe-zdanie/",
+            "checkedAt": "2026-11-16"
+          },
+          "source": "https://www.tretyakovgallery.ru/for-visitors/museums/istoricheskoe-zdanie/",
+          "hours": {
+            "value": "Вт–вс 10:00–21:00; кассы и вход до 20:00; пн выходной",
+            "source": "https://www.tretyakovgallery.ru/for-visitors/museums/istoricheskoe-zdanie/",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Большая коллекция русского искусства"
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    },
+    {
+      "routeId": "ponds",
+      "title": "Разговоры у пруда",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "chistye",
+            "pokrovka"
+          ],
+          "legs": [
+            "chistye--pokrovka"
+          ],
+          "walkingMetres": 360,
+          "walkingMinutes": 5,
+          "stopMinutes": 95
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "chistye",
+          "classification": "public-space",
+          "price": null,
+          "source": null,
+          "hours": null,
+          "condition": "Пруд и бульвар"
+        },
+        {
+          "placeId": "pokrovka",
+          "classification": "public-space",
+          "price": null,
+          "source": null,
+          "hours": null,
+          "condition": "Фасады и небольшие заведения"
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    },
+    {
+      "routeId": "hermitage-lunch-mmoma",
+      "title": "Сад, обед и современное искусство",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "hermitage",
+            "nothing-fancy",
+            "mmoma-petrovka"
+          ],
+          "legs": [
+            "hermitage--nothing-fancy",
+            "nothing-fancy--mmoma-petrovka"
+          ],
+          "walkingMetres": 730,
+          "walkingMinutes": 10,
+          "stopMinutes": 195
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "hermitage",
+          "classification": "Сад",
+          "price": null,
+          "source": "https://www.mosgorsad.ru/garden/chasto-zadavaemy-voprosy/",
+          "hours": {
+            "value": "Круглосуточно",
+            "source": "https://www.mosgorsad.ru/garden/chasto-zadavaemy-voprosy/",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Пауза среди деревьев"
+        },
+        {
+          "placeId": "nothing-fancy",
+          "classification": "Кафе",
+          "price": {
+            "value": "Средний чек 1 000–3 000 ₽ по «Афише»",
+            "source": "https://www.afisha.ru/msk/restaurant/nothing-fancy-518796/",
+            "checkedAt": "2026-11-16"
+          },
+          "source": "https://nothingfancy.ru/about",
+          "hours": {
+            "value": "Ежедневно 08:30–21:00",
+            "source": "https://nothingfancy.ru/about",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Кафе с завтраками, боулами и смузи. Среди вариантов — яйца Бенедикт, омлеты, авокадо-тосты и каши."
+        },
+        {
+          "placeId": "mmoma-petrovka",
+          "classification": "Музей",
+          "price": {
+            "value": "Стандартный билет — 500 ₽; условия льгот и специальных событий уточняйте у музея",
+            "source": "https://mmoma.ru/know/aboutmuseum/tickets",
+            "checkedAt": "2026-11-16"
+          },
+          "source": "https://mmoma.ru/know/building/petrovka",
+          "hours": {
+            "value": "Вт–вс 12:00–21:00; пн выходной",
+            "source": "https://mmoma.ru/know/building/petrovka",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Современное искусство в старом особняке"
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    },
+    {
+      "routeId": "bolotnaya-sok-tretyakov",
+      "title": "Площадь, обед и Третьяковка",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "bolotnaya-square",
+            "sok-cafe",
+            "tretyakov"
+          ],
+          "legs": [
+            "bolotnaya-square--sok-cafe",
+            "sok-cafe--tretyakov"
+          ],
+          "walkingMetres": 614,
+          "walkingMinutes": 9,
+          "stopMinutes": 205
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "bolotnaya-square",
+          "classification": "public-space",
+          "price": null,
+          "source": null,
+          "hours": null,
+          "condition": "Прогулка по площади перед обедом в Лаврушинском переулке. Это отдельная точка, не Болотная набережная."
+        },
+        {
+          "placeId": "sok-cafe",
+          "classification": "Кафе",
+          "price": {
+            "value": "Средний чек 1 200 ₽ по сайту на ТоМесто; сб–вс 13:00–19:00 депозит 1 000 ₽ на человека",
+            "source": "https://sokcafe.ru/",
+            "checkedAt": "2026-11-16"
+          },
+          "source": "https://sokcafe.ru/",
+          "hours": {
+            "value": "Вт–вс 10:00–22:00 по таблице сайта; у пн нет времени",
+            "source": "https://sokcafe.ru/",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Обед и разговор об искусстве рядом с галереей"
+        },
+        {
+          "placeId": "tretyakov",
+          "classification": "Музей",
+          "price": {
+            "value": "Взрослый билет в историческое здание — 700 ₽; специальные события проверяйте отдельно",
+            "source": "https://www.tretyakovgallery.ru/for-visitors/museums/istoricheskoe-zdanie/",
+            "checkedAt": "2026-11-16"
+          },
+          "source": "https://www.tretyakovgallery.ru/for-visitors/museums/istoricheskoe-zdanie/",
+          "hours": {
+            "value": "Вт–вс 10:00–21:00; кассы и вход до 20:00; пн выходной",
+            "source": "https://www.tretyakovgallery.ru/for-visitors/museums/istoricheskoe-zdanie/",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Большая коллекция русского искусства"
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    },
+    {
+      "routeId": "zaryadye-masa-solyanka",
+      "title": "Зарядье, пекарня и галерея",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "zaryadye",
+            "masa-madre",
+            "solyanka-gallery"
+          ],
+          "legs": [
+            "zaryadye--masa-madre",
+            "masa-madre--solyanka-gallery"
+          ],
+          "walkingMetres": 926,
+          "walkingMinutes": 13,
+          "stopMinutes": 160
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "zaryadye",
+          "classification": "Парк",
+          "price": null,
+          "source": "https://welcome.zaryadyepark.ru/",
+          "hours": null,
+          "condition": "Виды на центр и реку"
+        },
+        {
+          "placeId": "masa-madre",
+          "classification": "Пекарня",
+          "price": {
+            "value": "Классический баскский чизкейк — 650 ₽ по меню",
+            "source": "https://masamadre.ru/solyanka",
+            "checkedAt": "2026-11-16"
+          },
+          "source": "https://masamadre.ru/contacts",
+          "hours": {
+            "value": "Ежедневно 08:00–00:00",
+            "source": "https://masamadre.ru/contacts",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Пекарня со свежим хлебом, бриошами и десертами, в том числе лимонным и шоколадным чизкейками."
+        },
+        {
+          "placeId": "solyanka-gallery",
+          "classification": "Галерея",
+          "price": {
+            "value": "Стандартный билет — 500 ₽; отдельные события могут иметь другой тариф",
+            "source": "https://solyanka.vzmoscow.ru/contacts",
+            "checkedAt": "2026-11-16"
+          },
+          "source": "https://solyanka.vzmoscow.ru/contacts",
+          "hours": {
+            "value": "Общий режим: ежедневно 12:00–22:00; доступность конкретной выставки уточняйте по афише",
+            "source": "https://solyanka.vzmoscow.ru/contacts",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Выставки и события у Китай-города; вход с улицы Забелина. Перед поездкой проверьте афишу и доступность посещения."
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    },
+    {
+      "routeId": "tverskoy-severyane-architecture",
+      "title": "Бульвар, печь и архитектура",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "ermolova",
+            "severyane",
+            "architecture-museum"
+          ],
+          "legs": [
+            "ermolova--severyane",
+            "severyane--architecture-museum"
+          ],
+          "walkingMetres": 1183,
+          "walkingMinutes": 16,
+          "stopMinutes": 185
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "ermolova",
+          "classification": "public-space",
+          "price": null,
+          "source": null,
+          "hours": null,
+          "condition": "Зелёный путь по центру"
+        },
+        {
+          "placeId": "severyane",
+          "classification": "Ресторан",
+          "price": null,
+          "source": "https://severyane.moscow/",
+          "hours": {
+            "value": "09:00–00:00; на пт–вс бронирование через сообщение или звонок",
+            "source": "https://severyane.moscow/",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Печь, завтрак и пауза на Большой Никитской"
+        },
+        {
+          "placeId": "architecture-museum",
+          "classification": "Музей",
+          "price": {
+            "value": "Полный входной билет 550 ₽; включает открытые постоянные экспозиции и временные выставки. Экскурсии оплачиваются отдельно",
+            "source": "https://muar.ru/posetitelyam/bilety-rezhim-raboty/",
+            "checkedAt": "2026-11-16"
+          },
+          "source": "https://muar.ru/",
+          "hours": {
+            "value": "Вт, чт 13:00–21:00; ср, пт–вс 11:00–20:00; пн выходной; касса закрывается за 30 минут",
+            "source": "https://muar.ru/",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Здания, чертежи и идеи о том, как устроен город"
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    },
+    {
+      "routeId": "patriarch-chetverg-az",
+      "title": "Пруды, булочки и музей AZ",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "patriarch",
+            "chetverg",
+            "az-museum"
+          ],
+          "legs": [
+            "patriarch--chetverg",
+            "chetverg--az-museum"
+          ],
+          "walkingMetres": 1177,
+          "walkingMinutes": 16,
+          "stopMinutes": 180
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "patriarch",
+          "classification": "public-space",
+          "price": null,
+          "source": null,
+          "hours": null,
+          "condition": "Пруд и переулки вокруг"
+        },
+        {
+          "placeId": "chetverg",
+          "classification": "Кофейня",
+          "price": null,
+          "source": "https://www.glazurmag.ru/mesta/item/chetverg-na-mayakovskoj",
+          "hours": {
+            "value": "Пн–пт 09:00–21:00; сб–вс 10:00–21:00 (филиал на 2-й Тверской-Ямской, 18)",
+            "source": "https://t.me/s/lovechetverg",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Кофейня с тёплым деревянным интерьером, необычными светильниками, скворечниками и выпечкой. Идея для уютной паузы."
+        },
+        {
+          "placeId": "az-museum",
+          "classification": "Музей",
+          "price": {
+            "value": "Взрослый билет 400 ₽ по общему тарифу; по понедельникам вход бесплатный. До 19.11.2026 музей закрыт на реэкспозицию",
+            "source": "https://museum-az.com/visit/",
+            "checkedAt": "2026-11-16"
+          },
+          "source": "https://museum-az.com/visit/",
+          "hours": {
+            "value": "До 19.11.2026 закрыт на реэкспозицию; обычный режим 12:00–21:00, первый вт месяца технический день; касса до 20:30",
+            "source": "https://museum-az.com/",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Нонконформисты; до 19 ноября музей на реэкспозиции"
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    },
+    {
+      "routeId": "arbat-books-tsvetaeva",
+      "title": "Арбат, книги и Цветаева",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "arbat",
+            "book-house-arbat",
+            "tsvetaeva-museum"
+          ],
+          "legs": [
+            "arbat--book-house-arbat",
+            "book-house-arbat--tsvetaeva-museum"
+          ],
+          "walkingMetres": 1127,
+          "walkingMinutes": 16,
+          "stopMinutes": 165
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "arbat",
+          "classification": "public-space",
+          "price": null,
+          "source": null,
+          "hours": null,
+          "condition": "Пешеходная прогулка"
+        },
+        {
+          "placeId": "book-house-arbat",
+          "classification": "Книжный магазин",
+          "price": null,
+          "source": "https://mdk-arbat.ru/",
+          "hours": null,
+          "condition": "Выбрать книгу и посмотреть афишу литературных встреч"
+        },
+        {
+          "placeId": "tsvetaeva-museum",
+          "classification": "Музей",
+          "price": null,
+          "source": "https://dommuseum.ru/",
+          "hours": {
+            "value": "Вт–ср, пт–вс 12:00–19:00; чт 12:00–21:00; понедельник уточнить",
+            "source": "https://dommuseum.ru/",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Поэзия и повседневная жизнь в арбатском переулке"
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    },
+    {
+      "routeId": "prechistenka-writers",
+      "title": "По следам двух писателей",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "preo",
+            "pushkin-literary",
+            "turgenev-house"
+          ],
+          "legs": [
+            "preo--pushkin-literary",
+            "pushkin-literary--turgenev-house"
+          ],
+          "walkingMetres": 1364,
+          "walkingMinutes": 19,
+          "stopMinutes": 180
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "preo",
+          "classification": "public-space",
+          "price": null,
+          "source": null,
+          "hours": null,
+          "condition": "Особняки и спокойный маршрут"
+        },
+        {
+          "placeId": "pushkin-literary",
+          "classification": "Музей",
+          "price": null,
+          "source": "https://www.pushkinmuseum.ru/posetitelyam/rezhim-raboty-i-kontakty/",
+          "hours": {
+            "value": "Вт–ср, пт–вс 10:00–18:00; чт 13:00–21:00; пн выходной",
+            "source": "https://www.pushkinmuseum.ru/posetitelyam/rezhim-raboty-i-kontakty/",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Пушкинская эпоха в усадьбе на Пречистенке"
+        },
+        {
+          "placeId": "turgenev-house",
+          "classification": "Музей",
+          "price": null,
+          "source": "https://www.pushkinmuseum.ru/posetitelyam/rezhim-raboty-i-kontakty/",
+          "hours": {
+            "value": "Вт–ср, пт–вс 10:00–18:00; чт 13:00–21:00; пн выходной",
+            "source": "https://www.pushkinmuseum.ru/posetitelyam/rezhim-raboty-i-kontakty/",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "История писателя и его московского дома"
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    },
+    {
+      "routeId": "arbat-two-writers",
+      "title": "Два поэта на Арбате",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "arbat",
+            "pushkin-arbat",
+            "andrei-bely-house"
+          ],
+          "legs": [
+            "arbat--pushkin-arbat",
+            "pushkin-arbat--andrei-bely-house"
+          ],
+          "walkingMetres": 537,
+          "walkingMinutes": 8,
+          "stopMinutes": 165
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "arbat",
+          "classification": "public-space",
+          "price": null,
+          "source": null,
+          "hours": null,
+          "condition": "Пешеходная прогулка"
+        },
+        {
+          "placeId": "pushkin-arbat",
+          "classification": "Музей",
+          "price": null,
+          "source": "https://www.pushkinmuseum.ru/posetitelyam/rezhim-raboty-i-kontakty/",
+          "hours": {
+            "value": "Ср, пт–вс 10:00–18:00; чт 13:00–21:00; пн–вт выходные",
+            "source": "https://www.pushkinmuseum.ru/posetitelyam/rezhim-raboty-i-kontakty/",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Дом на Арбате и история молодой семьи поэта"
+        },
+        {
+          "placeId": "andrei-bely-house",
+          "classification": "Музей",
+          "price": null,
+          "source": "https://www.pushkinmuseum.ru/posetitelyam/rezhim-raboty-i-kontakty/",
+          "hours": {
+            "value": "Ср, пт–вс 10:00–18:00; чт 13:00–21:00; пн–вт выходные",
+            "source": "https://www.pushkinmuseum.ru/posetitelyam/rezhim-raboty-i-kontakty/",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Литературный Арбат глазами поэта Серебряного века"
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    },
+    {
+      "routeId": "basmannaya-literary",
+      "title": "Сад Баумана и дом Пушкина",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "bauman-garden",
+            "vasily-pushkin-house"
+          ],
+          "legs": [
+            "bauman-garden--vasily-pushkin-house"
+          ],
+          "walkingMetres": 881,
+          "walkingMinutes": 12,
+          "stopMinutes": 105
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "bauman-garden",
+          "classification": "Сад",
+          "price": null,
+          "source": "https://sadbaumana.ru/contacts/",
+          "hours": {
+            "value": "Ежедневно 06:00–24:00",
+            "source": "https://sadbaumana.ru/contacts/",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Небольшой сад для паузы между городскими делами"
+        },
+        {
+          "placeId": "vasily-pushkin-house",
+          "classification": "Музей",
+          "price": null,
+          "source": "https://www.pushkinmuseum.ru/posetitelyam/rezhim-raboty-i-kontakty/",
+          "hours": {
+            "value": "Ср, пт–вс 10:00–18:00; чт 13:00–21:00; пн–вт выходные",
+            "source": "https://www.pushkinmuseum.ru/posetitelyam/rezhim-raboty-i-kontakty/",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Литературный быт старой Басманной"
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    },
+    {
+      "routeId": "gogolevsky-art",
+      "title": "Бульвар и искусство",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "preo",
+            "mmoma-gogolevsky",
+            "pushkin"
+          ],
+          "legs": [
+            "preo--mmoma-gogolevsky",
+            "mmoma-gogolevsky--pushkin"
+          ],
+          "walkingMetres": 1742,
+          "walkingMinutes": 24,
+          "stopMinutes": 225
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "preo",
+          "classification": "public-space",
+          "price": null,
+          "source": null,
+          "hours": null,
+          "condition": "Особняки и спокойный маршрут"
+        },
+        {
+          "placeId": "mmoma-gogolevsky",
+          "classification": "Музей",
+          "price": null,
+          "source": "https://mmoma.ru/know/building/gogolevsky",
+          "hours": {
+            "value": "Вт–вс 12:00–21:00; пн выходной",
+            "source": "https://mmoma.ru/know/building/gogolevsky",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Искусство в усадьбе; флигель 10с2 временно закрыт"
+        },
+        {
+          "placeId": "pushkin",
+          "classification": "Музей",
+          "price": {
+            "value": "Главное здание: полный билет 700 ₽; специальные выставки могут требовать отдельного билета",
+            "source": "https://pushkinmuseum.art/visitors/tickets/index.php?lang=ru",
+            "checkedAt": "2026-11-16"
+          },
+          "source": "https://pushkinmuseum.art/museum/buildings/main/",
+          "hours": {
+            "value": "Вт–ср 11:00–20:00; чт–пт 11:00–21:00; сб 10:00–21:00; вс 10:00–20:00; пн выходной. Вход заканчивается за час",
+            "source": "https://pushkinmuseum.art/museum/buildings/main/",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Искусство разных эпох"
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    },
+    {
+      "routeId": "muzeon-new-tretyakov",
+      "title": "Скульптуры и живопись",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "muzeon",
+            "new-tretyakov"
+          ],
+          "legs": [
+            "muzeon--new-tretyakov"
+          ],
+          "walkingMetres": 162,
+          "walkingMinutes": 3,
+          "stopMinutes": 160
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "muzeon",
+          "classification": "Парк",
+          "price": null,
+          "source": "https://parkgorkogo.ru/areas/muzeon/",
+          "hours": null,
+          "condition": "Скульптуры и дорожки у реки"
+        },
+        {
+          "placeId": "new-tretyakov",
+          "classification": "Музей",
+          "price": null,
+          "source": "https://www.tretyakovgallery.ru/for-visitors/museums/novaya-tretyakovka/",
+          "hours": {
+            "value": "Вт–вс 10:00–21:00; пн выходной; кассы и вход до 20:00",
+            "source": "https://www.tretyakovgallery.ru/for-visitors/museums/novaya-tretyakovka/",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Русское искусство нового времени на Крымском Валу"
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    },
+    {
+      "routeId": "music-garden-crafts",
+      "title": "Музыка, сад и ремёсла",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "music-museum",
+            "hermitage",
+            "decorative-art-museum"
+          ],
+          "legs": [
+            "music-museum--hermitage",
+            "hermitage--decorative-art-museum"
+          ],
+          "walkingMetres": 1562,
+          "walkingMinutes": 21,
+          "stopMinutes": 195
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "music-museum",
+          "classification": "Музей",
+          "price": null,
+          "source": "https://music-museum.ru/about/contacts.html",
+          "hours": {
+            "value": "Вт–ср 11:00–19:00; чт–пт 12:00–21:00; сб 11:00–20:00; вс 11:00–18:00; вход заканчивается за час; пн уточнить",
+            "source": "https://music-museum.ru/about/contacts.html",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Музыкальные инструменты и истории звучащего мира"
+        },
+        {
+          "placeId": "hermitage",
+          "classification": "Сад",
+          "price": null,
+          "source": "https://www.mosgorsad.ru/garden/chasto-zadavaemy-voprosy/",
+          "hours": {
+            "value": "Круглосуточно",
+            "source": "https://www.mosgorsad.ru/garden/chasto-zadavaemy-voprosy/",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Пауза среди деревьев"
+        },
+        {
+          "placeId": "decorative-art-museum",
+          "classification": "Музей",
+          "price": null,
+          "source": "https://damuseum.ru/contact/",
+          "hours": {
+            "value": "Вт–ср 11:00–19:00; чт 11:00–21:00; пт 11:00–20:00; сб–вс 12:00–20:00; пн выходной. Касса закрывается за 45 минут",
+            "source": "https://damuseum.ru/contact/",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Предметы быта как искусство: материалы, формы и детали"
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    },
+    {
+      "routeId": "chistye-books-nikolskaya",
+      "title": "Пруды и книжные полки",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "chistye",
+            "biblio-globus",
+            "nikolskaya"
+          ],
+          "legs": [
+            "chistye--biblio-globus",
+            "biblio-globus--nikolskaya"
+          ],
+          "walkingMetres": 2029,
+          "walkingMinutes": 28,
+          "stopMinutes": 130
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "chistye",
+          "classification": "public-space",
+          "price": null,
+          "source": null,
+          "hours": null,
+          "condition": "Пруд и бульвар"
+        },
+        {
+          "placeId": "biblio-globus",
+          "classification": "Книжный магазин",
+          "price": null,
+          "source": "https://www.biblio-globus.ru/",
+          "hours": null,
+          "condition": "Книжные полки и повод найти нового автора"
+        },
+        {
+          "placeId": "nikolskaya",
+          "classification": "public-space",
+          "price": null,
+          "source": null,
+          "hours": null,
+          "condition": "Пешеходная улица в центре"
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    },
+    {
+      "routeId": "zotov-presnya",
+      "title": "От Зотова к парку",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "zotov-centre",
+            "krasnaya-presnya"
+          ],
+          "legs": [
+            "zotov-centre--krasnaya-presnya"
+          ],
+          "walkingMetres": 2534,
+          "walkingMinutes": 34,
+          "stopMinutes": 150
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "zotov-centre",
+          "classification": "Культурный центр",
+          "price": null,
+          "source": "https://centrezotov.ru/visitors/",
+          "hours": {
+            "value": "Вт–вс 11:00–22:00; пн выходной; кассы до 21:20, вход до 21:45",
+            "source": "https://centrezotov.ru/visitors/",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Конструктивизм и выставки в бывшем хлебозаводе"
+        },
+        {
+          "placeId": "krasnaya-presnya",
+          "classification": "Парк",
+          "price": null,
+          "source": "https://p-kp.ru/about/",
+          "hours": null,
+          "condition": "Островки, мостики и тихие аллеи рядом с деловым городом"
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    },
+    {
+      "routeId": "planetarium-chaikovsky",
+      "title": "Звёзды и музыка",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "moscow-planetarium",
+            "chaikovsky-museum"
+          ],
+          "legs": [
+            "moscow-planetarium--chaikovsky-museum"
+          ],
+          "walkingMetres": 514,
+          "walkingMinutes": 7,
+          "stopMinutes": 135
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "moscow-planetarium",
+          "classification": "Музей",
+          "price": null,
+          "source": "https://planetarium-moscow.ru/contacts",
+          "hours": {
+            "value": "Ежедневно кроме вт 10:00–21:00; вход в залы по сеансам",
+            "source": "https://planetarium-moscow.ru/contacts",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Звёздное небо в зале; «Парк неба» в 2026 году закрыт"
+        },
+        {
+          "placeId": "chaikovsky-museum",
+          "classification": "Музей",
+          "price": null,
+          "source": "https://music-museum.ru/about/contacts.html",
+          "hours": {
+            "value": "Ср 11:00–19:00; чт–пт 12:00–21:00; сб 11:00–19:00; вс 11:00–18:00. Вход заканчивается за час; пн–вт уточнить",
+            "source": "https://music-museum.ru/about/contacts.html",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Домашний мир музыки и история композитора"
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    },
+    {
+      "routeId": "harmonica-az",
+      "title": "Гармоника и музей AZ",
+      "days": [
+        {
+          "day": 1,
+          "placeIds": [
+            "mirek-museum",
+            "az-museum"
+          ],
+          "legs": [
+            "mirek-museum--az-museum"
+          ],
+          "walkingMetres": 61,
+          "walkingMinutes": 1,
+          "stopMinutes": 150
+        }
+      ],
+      "visits": [
+        {
+          "placeId": "mirek-museum",
+          "classification": "Музей",
+          "price": null,
+          "source": "https://mirekmuseum.ru/",
+          "hours": {
+            "value": "Ср 10:00–18:00; чт 10:00–21:00; пт–вс 10:00–17:00; пн выходной; вт уточнить",
+            "source": "https://scriabinmuseum.ru/contacts/",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "История инструмента и его звучания"
+        },
+        {
+          "placeId": "az-museum",
+          "classification": "Музей",
+          "price": {
+            "value": "Взрослый билет 400 ₽ по общему тарифу; по понедельникам вход бесплатный. До 19.11.2026 музей закрыт на реэкспозицию",
+            "source": "https://museum-az.com/visit/",
+            "checkedAt": "2026-11-16"
+          },
+          "source": "https://museum-az.com/visit/",
+          "hours": {
+            "value": "До 19.11.2026 закрыт на реэкспозицию; обычный режим 12:00–21:00, первый вт месяца технический день; касса до 20:30",
+            "source": "https://museum-az.com/",
+            "checkedAt": "2026-11-16"
+          },
+          "condition": "Нонконформисты; до 19 ноября музей на реэкспозиции"
+        }
+      ],
+      "budget": "Условия и цены отдельных мест приведены раздельно. Полный бюджет не гарантирован: билеты, заказ, бронь и доплаты уточняются у операторов. Нет цены — не значит бесплатно."
+    }
+  ],
+  "removedExpiredPrices": {
+    "kolibri": {
+      "value": "На сеансы 14 ноября 2026: 500–850 ₽",
+      "source": "https://colibricinema.ru/?date=2026%2F11%2F14&facility=b57ea270-eda1-4ae4-b1a4-df9eb088f8df",
+      "checkedAt": "2026-11-13"
+    },
+    "standup-patriki": {
+      "value": "Шоу «Самые известные комики» 14 ноября 2026 — 2 000 ₽",
+      "source": "https://standuppatriki.com/1411si",
+      "checkedAt": "2026-11-13"
+    }
+  }
+}
