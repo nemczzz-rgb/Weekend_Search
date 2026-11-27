@@ -4,7 +4,7 @@ import { AUDIENCES, readFilters, sharedAudience, matchesIdea, filmsForGenre, ide
 import { loadCatalog, loadIdea } from '../../apps/web/src/screens/day-ideas/load.ts'
 import { addItems, createPlan, presence, removeItems, setFilm, PlanStore } from '../../apps/web/src/plan/store.ts'
 const source = getContentSource(), catalog = await loadCatalog(source), pizza = await loadIdea(source, 'roman-pizza')
-assert.equal(catalog.ideas.length, 40)
+assert.ok(catalog.ideas.length >= 40) // D14 minimum; the base keeps growing
 assert.equal(pizza.recipes[0].ingredients[0].items.find(x => x.name.toLowerCase().includes('вод')).amount, 390)
 assert.equal(availability(pizza.activities, new Date(2026, 10, 16, 10)).kind, 'lead')
 assert.equal((await loadIdea(source, 'not-a-real-idea')).idea, undefined)

@@ -2568,5 +2568,106 @@
     "extraSources": [
       "https://welcome.mosreg.ru/parks/park-malevica"
     ]
+  },
+  {
+    "id": "gum-rink",
+    "title": "ГУМ-Каток",
+    "kind": "Каток",
+    "area": "Тверской",
+    "durationMinutes": 60,
+    "note": "Каток на Красной площади у ГУМа; рядом зимняя ГУМ-Ярмарка",
+    "tags": [
+      "каток",
+      "зима",
+      "коньки"
+    ],
+    "address": {
+      "value": "Красная площадь",
+      "source": "https://gum-katok.ru/",
+      "checkedAt": "2026-11-27"
+    },
+    "hours": {
+      "value": "Ежедневно 09:00–23:30, сеанс 1 час; сезон 29 ноября 2026 — 28 февраля 2027",
+      "source": "https://gum.ru/news/36010081/20.11.2026/",
+      "checkedAt": "2026-11-27"
+    },
+    "price": {
+      "value": "Взрослый билет: будни 900 ₽, выходные 1 000 ₽; прокат 700 ₽. С 26 декабря по 10 января цены другие",
+      "source": "https://gum.ru/news/36010081/20.11.2026/",
+      "checkedAt": "2026-11-27"
+    }
+  },
+  {
+    "id": "north-river-rink",
+    "title": "Каток на Северном речном вокзале",
+    "kind": "Каток",
+    "area": "Левобережный",
+    "durationMinutes": 90,
+    "note": "Лёд на аллеях парка у вокзала, тёплые павильоны и прокат",
+    "tags": [
+      "каток",
+      "зима",
+      "коньки",
+      "парки"
+    ],
+    "hours": {
+      "value": "Вт–вс 10:00–15:00 и 17:00–22:00, в пт–вс вечером до 23:00; пн — выходной",
+      "source": "https://rg.ru/2026/11/18/reg-cfo/v-piatnicu-na-severnom-rechnom-vokzale-otkroetsia-pervyj-stolichnyj-katok.html",
+      "checkedAt": "2026-11-27"
+    },
+    "price": {
+      "value": "Бесплатно по брони на сайте",
+      "source": "https://rg.ru/2026/11/18/reg-cfo/v-piatnicu-na-severnom-rechnom-vokzale-otkroetsia-pervyj-stolichnyj-katok.html",
+      "checkedAt": "2026-11-27"
+    }
+  },
+  {
+    "id": "prime-park-rink",
+    "title": "Лесной каток «Прайм Парк»",
+    "kind": "Каток",
+    "area": "Подмосковье",
+    "durationMinutes": 90,
+    "note": "Каток среди деревьев у озера в Раменском, вечером с подсветкой",
+    "tags": [
+      "каток",
+      "зима",
+      "лес",
+      "коньки"
+    ],
+    "address": {
+      "value": "г. Раменское, ул. Десантная",
+      "source": "https://xn--80aa0afipdef.xn--p1ai/services/snegokat/",
+      "checkedAt": "2026-11-27"
+    },
+    "hours": {
+      "value": "Ежедневно 11:00–22:00",
+      "source": "https://xn--80aa0afipdef.xn--p1ai/services/snegokat/",
+      "checkedAt": "2026-11-27"
+    },
+    "price": {
+      "value": "Вход: будни 200 ₽, выходные 250 ₽; прокат от 200 ₽",
+      "source": "https://xn--80aa0afipdef.xn--p1ai/services/snegokat/",
+      "checkedAt": "2026-11-27"
+    }
+  },
+  {
+    "id": "mytishchi-forest-rink",
+    "title": "Каток в Мытищинском лесопарке",
+    "kind": "Каток",
+    "area": "Подмосковье",
+    "durationMinutes": 90,
+    "note": "Всепогодный каток среди елей со стороны Пироговского шоссе",
+    "tags": [
+      "каток",
+      "зима",
+      "лес",
+      "коньки"
+    ],
+    "hints": {
+      "address": "Мытищинский лесопарк · со стороны Пироговского шоссе"
+    },
+    "extraSources": [
+      "https://regions.ru/mytischi/sport/stalo-izvestno-kogda-otkrojut-samyj-zhivopisnyj-katok-v-lesoparke-mytisch"
+    ]
   }
 ]

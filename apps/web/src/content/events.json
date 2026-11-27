@@ -86,5 +86,49 @@
     "placeId": "ges-two",
     "source": "https://ges-2.org/projects/still-life-portrait-landscape-after-genre",
     "checkedAt": "2026-11-17"
+  },
+  {
+    "id": "gorky-rink-opening-2026-12-04",
+    "title": "Открытие «Театрального катка» в Парке Горького",
+    "dateStart": "2026-12-04",
+    "time": "Бал-маскарад 19:00–22:00, вход с 18:00",
+    "placeId": "gorky",
+    "source": "https://www.mos.ru/news/item/178593073/",
+    "checkedAt": "2026-11-27"
+  },
+  {
+    "id": "mytishchi-forest-rink-opening-2026-12-01",
+    "title": "Открытие катка в Мытищинском лесопарке",
+    "dateStart": "2026-12-01",
+    "placeId": "mytishchi-forest-rink",
+    "source": "https://regions.ru/mytischi/sport/stalo-izvestno-kogda-otkrojut-samyj-zhivopisnyj-katok-v-lesoparke-mytisch",
+    "checkedAt": "2026-11-27"
+  },
+  {
+    "id": "planetarium-jazz-stars-2026-12-09",
+    "title": "Музыка в планетарии: Jazz & Stars",
+    "dateStart": "2026-12-09",
+    "time": "20:00, концерт 1 час",
+    "placeId": "moscow-planetarium",
+    "source": "https://afisha.yandex.ru/moscow/concert/muzyka-v-planetarii-jazz-stars",
+    "checkedAt": "2026-11-27"
+  },
+  {
+    "id": "planetarium-jazz-stars-2026-12-16",
+    "title": "Музыка в планетарии: Jazz & Stars",
+    "dateStart": "2026-12-16",
+    "time": "20:00, концерт 1 час",
+    "placeId": "moscow-planetarium",
+    "source": "https://afisha.yandex.ru/moscow/concert/muzyka-v-planetarii-jazz-stars",
+    "checkedAt": "2026-11-27"
+  },
+  {
+    "id": "planetarium-jazz-stars-2026-12-26",
+    "title": "Музыка в планетарии: Jazz & Stars",
+    "dateStart": "2026-12-26",
+    "time": "20:00, концерт 1 час",
+    "placeId": "moscow-planetarium",
+    "source": "https://afisha.yandex.ru/moscow/concert/muzyka-v-planetarii-jazz-stars",
+    "checkedAt": "2026-11-27"
   }
 ]
